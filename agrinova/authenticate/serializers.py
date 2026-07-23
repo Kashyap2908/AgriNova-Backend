@@ -78,11 +78,9 @@ class LoginSerializer(serializers.Serializer):
         # Find the user by username or email
         user = None
         if '@' in username_or_email:
-            try:
-                user_obj = User.objects.get(email__iexact=username_or_email)
+            user_obj = User.objects.filter(email__iexact=username_or_email).first()
+            if user_obj:
                 username_or_email = user_obj.username
-            except User.DoesNotExist:
-                pass
 
         # Authenticate using standard backend
         user = authenticate(username=username_or_email, password=password)
