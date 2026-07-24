@@ -97,8 +97,14 @@ class LoginSerializer(serializers.Serializer):
 
 class UserProfileSerializer(serializers.ModelSerializer):
     """
-    Serializer to represent standard user details.
+    Serializer to represent standard user details along with FarmerProfile details.
     """
+    profile_completed = serializers.SerializerMethodField()
+    full_name = serializers.SerializerMethodField()
+    phone = serializers.SerializerMethodField()
+    language = serializers.SerializerMethodField()
+    avatar = serializers.SerializerMethodField()
+
     class Meta:
         model = User
         fields = [
@@ -107,7 +113,40 @@ class UserProfileSerializer(serializers.ModelSerializer):
             'first_name', 
             'last_name', 
             'email', 
-            'date_joined'
+            'date_joined',
+            'profile_completed',
+            'full_name',
+            'phone',
+            'language',
+            'avatar'
         ]
         read_only_fields = fields
+
+    def get_profile_completed(self, obj):
+        if hasattr(obj, 'profile'):
+            return obj.profile.profile_completed
+        return False
+
+    def get_full_name(self, obj):
+        if hasattr(obj, 'profile'):
+            return obj.profile.full_name
+        return ""
+
+    def get_phone(self, obj):
+        if hasattr(obj, 'profile'):
+            return obj.profile.phone_number
+        return ""
+
+    def get_language(self, obj):
+        if hasattr(obj, 'profile'):
+            return obj.profile.preferred_language
+        return "English"
+
+    def get_avatar(self, obj):
+        if hasattr(obj, 'profile') and obj.profile.profile_photo:
+            request = self.context.get('request')
+            if request:
+                return request.build_absolute_uri(obj.profile.profile_photo.url)
+            return obj.profile.profile_photo.url
+        return None
 
