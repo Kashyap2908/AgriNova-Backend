@@ -1,6 +1,7 @@
 from rest_framework.views import APIView
 from rest_framework import viewsets, status
 from rest_framework.permissions import IsAuthenticated
+from rest_framework.parsers import MultiPartParser, FormParser, JSONParser
 from rest_framework.response import Response
 from django.db import transaction
 from authenticate.services import success_response
@@ -19,6 +20,7 @@ class ProfileAPIView(APIView):
     POST / PUT / PATCH /api/profile/
     """
     permission_classes = [IsAuthenticated]
+    parser_classes = [MultiPartParser, FormParser, JSONParser]
 
     def get(self, request):
         profile, created = FarmerProfile.objects.get_or_create(user=request.user)

@@ -9,6 +9,10 @@ class FarmerProfileSerializer(serializers.ModelSerializer):
     Accepts both standard snake_case and frontend camelCase field aliases.
     Automatically flags profile_completed = True upon valid save.
     """
+    username = serializers.ReadOnlyField(source='user.username')
+    email = serializers.ReadOnlyField(source='user.email')
+    user_id = serializers.ReadOnlyField(source='user.id')
+
     fullName = serializers.CharField(write_only=True, required=False)
     phone = serializers.CharField(write_only=True, required=False)
     language = serializers.CharField(write_only=True, required=False)
@@ -17,6 +21,9 @@ class FarmerProfileSerializer(serializers.ModelSerializer):
         model = FarmerProfile
         fields = [
             'id',
+            'user_id',
+            'username',
+            'email',
             'full_name',
             'phone_number',
             'preferred_language',
@@ -29,7 +36,7 @@ class FarmerProfileSerializer(serializers.ModelSerializer):
             'phone',
             'language'
         ]
-        read_only_fields = ['id', 'profile_completed', 'created_at', 'updated_at']
+        read_only_fields = ['id', 'user_id', 'username', 'email', 'profile_completed', 'created_at', 'updated_at']
 
     def to_internal_value(self, data):
         # Map frontend camelCase fields to backend model fields
