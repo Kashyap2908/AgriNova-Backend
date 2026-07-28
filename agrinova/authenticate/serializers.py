@@ -150,3 +150,55 @@ class UserProfileSerializer(serializers.ModelSerializer):
             return obj.profile.profile_photo.url
         return None
 
+
+from django.contrib.auth.password_validation import validate_password
+from django.core.exceptions import ValidationError as DjangoValidationError
+
+class ForgotPasswordSerializer(serializers.Serializer):
+    email = serializers.EmailField(required=True)
+
+    def validate_email(self, value):
+        user = User.objects.filter(email__iexact=value).first()
+        if not user:
+            raise serializers.ValidationError("No account found with this email address.")
+        return value.lower()
+
+
+class VerifyOTPSerializer(serializers.Serializer):
+    email = serializers.EmailField(required=True)
+    otp = serializers.CharField(required=True, min_length=6, max_length=6)
+
+    def validate_otp(self, value):
+        if not value.isdigit():
+            raise serializers.ValidationError("OTP must consist of 6 numerical digits.")
+        return value
+
+
+class ResetPasswordSerializer(serializers.Serializer):
+    email = serializers.EmailField(required=True)
+    otp = serializers.CharField(required=True, min_length=6, max_length=6)
+    password = serializers.CharField(required=True, write_only=True, style={'input_type': 'password'})
+    confirm_password = serializers.CharField(required=True, write_only=True, style={'input_type': 'password'})
+
+    def validate(self, data):
+        email = data.get('email')
+        password = data.get('password')
+        confirm_password = data.get('confirm_password')
+
+        if password != confirm_password:
+            raise serializers.ValidationError({"confirm_password": "Passwords do not match."})
+
+        user = User.objects.filter(email__iexact=email).first()
+        if not user:
+            raise serializers.ValidationError({"email": "No account found with this email address."})
+
+        # Validate password using Django built-in validators
+        try:
+            validate_password(password, user=user)
+        except DjangoValidationError as e:
+            raise serializers.ValidationError({"password": list(e.messages)})
+
+        data['user'] = user
+        return data
+
+

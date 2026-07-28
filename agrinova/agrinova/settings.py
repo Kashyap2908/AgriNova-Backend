@@ -28,6 +28,8 @@ DEBUG = os.getenv('DEBUG', 'True') == 'True'
 
 ALLOWED_HOSTS = ['*']
 
+NODE_MAIL_SERVICE_URL = os.getenv('NODE_MAIL_SERVICE_URL', 'http://localhost:5001/send-otp')
+
 
 # Application definition
 
