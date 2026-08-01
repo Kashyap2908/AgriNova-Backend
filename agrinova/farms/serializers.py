@@ -114,6 +114,13 @@ class FarmSerializer(serializers.ModelSerializer):
             'irrigation_type',
             'water_availability',
             'is_active',
+            'nitrogen',
+            'phosphorus',
+            'potassium',
+            'soil_ph',
+            'organic_carbon',
+            'electrical_conductivity',
+            'last_soil_test_date',
             'created_at',
             'updated_at',
             # Field Aliases

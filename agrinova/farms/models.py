@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.core.validators import MinValueValidator, MaxValueValidator
 
 class FarmerProfile(models.Model):
     """
@@ -39,6 +40,38 @@ class Farm(models.Model):
     irrigation_type = models.CharField(max_length=100)
     water_availability = models.CharField(max_length=100)
     is_active = models.BooleanField(default=False)
+    
+    # Soil testing properties
+    nitrogen = models.FloatField(
+        null=True, blank=True, 
+        validators=[MinValueValidator(0.0), MaxValueValidator(200.0)],
+        help_text="Nitrogen (N) content in kg/ha"
+    )
+    phosphorus = models.FloatField(
+        null=True, blank=True,
+        validators=[MinValueValidator(0.0), MaxValueValidator(200.0)],
+        help_text="Phosphorus (P) content in kg/ha"
+    )
+    potassium = models.FloatField(
+        null=True, blank=True,
+        validators=[MinValueValidator(0.0), MaxValueValidator(300.0)],
+        help_text="Potassium (K) content in kg/ha"
+    )
+    soil_ph = models.FloatField(
+        null=True, blank=True,
+        validators=[MinValueValidator(0.0), MaxValueValidator(14.0)],
+        help_text="Soil pH value"
+    )
+    organic_carbon = models.FloatField(
+        null=True, blank=True,
+        help_text="Organic Carbon percentage"
+    )
+    electrical_conductivity = models.FloatField(
+        null=True, blank=True,
+        help_text="Electrical Conductivity in dS/m"
+    )
+    last_soil_test_date = models.DateField(null=True, blank=True)
+
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
