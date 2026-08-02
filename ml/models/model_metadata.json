@@ -1,0 +1,20 @@
+{
+    "model_version": "2.0.0",
+    "algorithm": "XGBoost",
+    "last_trained_date": "2026-08-02 14:44:07",
+    "training_timestamp": 1785662047.0489385,
+    "dataset_name": "Crop_recommendation_extended.csv",
+    "dataset_hash": "c26836f27d09d5247b3797cdde214fd6",
+    "dataset_modified_date": "2026-08-02T01:45:56.059602",
+    "dataset_modified_timestamp": 1785615356.059602,
+    "total_samples": 29300,
+    "crop_classifier_train_accuracy": 1.0,
+    "crop_classifier_accuracy": 0.5802,
+    "yield_regressor_train_r2": 0.9836,
+    "yield_regressor_r2": 0.9367,
+    "yield_regressor_mae": 2631.73,
+    "crop_classifier_training_time_sec": 85.82,
+    "yield_regressor_training_time_sec": 0.87,
+    "crop_model_size_mb": 26.23,
+    "yield_model_size_mb": 0.75
+}

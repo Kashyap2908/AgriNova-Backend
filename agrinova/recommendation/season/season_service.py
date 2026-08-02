@@ -2,11 +2,10 @@ import datetime
 
 def determine_season() -> str:
     """
-    Determines the current agricultural season based on the month.
-    Mapping:
-    - June to September: Kharif
-    - October to March: Rabi
-    - April to May: Zaid
+    Determines current agricultural season automatically based on month.
+    - Kharif: June to September (Months 6-9)
+    - Rabi: October to March (Months 10-12, 1-3)
+    - Zaid: April to May (Months 4-5)
     """
     current_month = datetime.datetime.now().month
 
@@ -17,4 +16,4 @@ def determine_season() -> str:
     elif 4 <= current_month <= 5:
         return "Zaid"
     
-    return "Unknown"
+    return "Kharif"

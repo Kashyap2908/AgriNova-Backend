@@ -1,0 +1,7 @@
+xgboost>=2.0.0
+scikit-learn
+pandas
+numpy
+joblib
+Django
+djangorestframework

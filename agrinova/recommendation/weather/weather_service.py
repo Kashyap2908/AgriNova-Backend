@@ -4,7 +4,6 @@ from django.core.cache import cache
 
 logger = logging.getLogger(__name__)
 
-# Weather code descriptions mapping based on WMO Weather interpretation codes
 WEATHER_CODES = {
     0: 'Clear sky',
     1: 'Mainly clear', 2: 'Partly cloudy', 3: 'Overcast',
@@ -16,17 +15,27 @@ WEATHER_CODES = {
 }
 
 def get_weather_description(code):
-    return WEATHER_CODES.get(code, 'Unknown weather')
+    return WEATHER_CODES.get(code, 'Partly cloudy')
 
 def fetch_current_weather(latitude: float, longitude: float) -> dict:
     """
-    Fetches weather data from Open-Meteo API.
-    Caches the response for 30 minutes to reduce API requests.
+    Fetches 7-day weather data from Open-Meteo API.
+    Calculates:
+    - 7-day average Temperature (°C)
+    - 7-day average Humidity (%)
+    - 7-day cumulative Rainfall (mm)
+    Caches the response for 60 minutes to optimize performance.
     """
-    if not latitude or not longitude:
-        return {}
+    if latitude is None or longitude is None:
+        return {
+            "temperature": 26.5,
+            "humidity": 65.0,
+            "rainfall": 120.0,
+            "description": "Default regional climate",
+            "is_fallback": True
+        }
 
-    cache_key = f"weather_{round(latitude, 2)}_{round(longitude, 2)}"
+    cache_key = f"weather_7day_{round(float(latitude), 2)}_{round(float(longitude), 2)}"
     cached_data = cache.get(cache_key)
     
     if cached_data:
@@ -36,39 +45,61 @@ def fetch_current_weather(latitude: float, longitude: float) -> dict:
     params = {
         "latitude": latitude,
         "longitude": longitude,
-        "current": ["temperature_2m", "relative_humidity_2m", "precipitation", 
-                    "surface_pressure", "wind_speed_10m", "cloud_cover", "weather_code"]
+        "past_days": 3,
+        "forecast_days": 4,
+        "daily": ["temperature_2m_max", "temperature_2m_min", "relative_humidity_2m_mean", "precipitation_sum", "weather_code"]
     }
 
     try:
-        response = requests.get(url, params=params, timeout=10)
+        response = requests.get(url, params=params, timeout=8)
         response.raise_for_status()
         data = response.json()
         
-        current = data.get("current", {})
+        daily = data.get("daily", {})
         
+        temps_max = daily.get("temperature_2m_max", [])
+        temps_min = daily.get("temperature_2m_min", [])
+        humidities = daily.get("relative_humidity_2m_mean", [])
+        precip = daily.get("precipitation_sum", [])
+        codes = daily.get("weather_code", [])
+
+        # Compute 7-day average temperature
+        daily_temps = []
+        for t_max, t_min in zip(temps_max, temps_min):
+            if t_max is not None and t_min is not None:
+                daily_temps.append((t_max + t_min) / 2.0)
+
+        avg_temp = sum(daily_temps) / len(daily_temps) if daily_temps else 26.5
+
+        # Compute 7-day average humidity
+        valid_humi = [h for h in humidities if h is not None]
+        avg_humidity = sum(valid_humi) / len(valid_humi) if valid_humi else 65.0
+
+        # Compute 7-day cumulative rainfall
+        valid_precip = [p for p in precip if p is not None]
+        cum_rainfall = sum(valid_precip) if valid_precip else 0.0
+
+        latest_code = codes[-1] if codes else 0
+
         weather_data = {
-            "temperature": current.get("temperature_2m"),
-            "humidity": current.get("relative_humidity_2m"),
-            "rainfall": current.get("precipitation"),
-            "wind_speed": current.get("wind_speed_10m"),
-            "pressure": current.get("surface_pressure"),
-            "cloud_cover": current.get("cloud_cover"),
-            "description": get_weather_description(current.get("weather_code", -1))
+            "temperature": round(float(avg_temp), 1),
+            "humidity": round(float(avg_humidity), 1),
+            "rainfall": round(float(cum_rainfall), 1),
+            "description": get_weather_description(latest_code),
+            "is_7day_summary": True,
+            "period": "7-day window (3 past + 4 forecast)"
         }
         
-        # Cache for 30 minutes (1800 seconds)
-        cache.set(cache_key, weather_data, timeout=1800)
+        # Cache for 60 minutes (3600 seconds)
+        cache.set(cache_key, weather_data, timeout=3600)
         return weather_data
         
-    except requests.RequestException as e:
-        logger.error(f"Failed to fetch weather data: {e}")
+    except Exception as e:
+        logger.error(f"Failed to fetch 7-day weather data from Open-Meteo: {e}")
         return {
-            "temperature": None,
-            "humidity": None,
-            "rainfall": None,
-            "wind_speed": None,
-            "pressure": None,
-            "cloud_cover": None,
-            "description": "Weather data unavailable"
+            "temperature": 26.5,
+            "humidity": 65.0,
+            "rainfall": 120.0,
+            "description": "Estimated regional climate",
+            "is_fallback": True
         }

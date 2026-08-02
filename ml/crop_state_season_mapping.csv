@@ -1,0 +1,6610 @@
+Crop_Name,Suitable_Season,State
+rice,Kharif,West Bengal
+rice,Kharif,Punjab
+rice,Kharif,Uttar Pradesh
+rice,Kharif,Andhra Pradesh
+rice,Kharif,Telangana
+rice,Kharif,Tamil Nadu
+rice,Kharif,Odisha
+rice,Kharif,Bihar
+rice,Kharif,Assam
+rice,Kharif,Chhattisgarh
+rice,Kharif,Haryana
+rice,Kharif,Kerala
+rice,Kharif,Karnataka
+rice,Kharif,Maharashtra
+rice,Kharif,Tripura
+rice,Kharif,Jharkhand
+rice,Kharif,Meghalaya
+rice,Kharif,Manipur
+rice,Kharif,Nagaland
+rice,Kharif,Mizoram
+rice,Kharif,Arunachal Pradesh
+rice,Kharif,Goa
+rice,Kharif,Puducherry
+rice,Kharif,Gujarat
+wheat,Rabi,Uttar Pradesh
+wheat,Rabi,Madhya Pradesh
+wheat,Rabi,Punjab
+wheat,Rabi,Haryana
+wheat,Rabi,Rajasthan
+wheat,Rabi,Bihar
+wheat,Rabi,Gujarat
+wheat,Rabi,Maharashtra
+wheat,Rabi,Uttarakhand
+wheat,Rabi,Himachal Pradesh
+wheat,Rabi,Jammu and Kashmir
+wheat,Rabi,Jharkhand
+wheat,Rabi,West Bengal
+maize,Kharif,Karnataka
+maize,Kharif,Madhya Pradesh
+maize,Kharif,Maharashtra
+maize,Kharif,Bihar
+maize,Kharif,Rajasthan
+maize,Kharif,Uttar Pradesh
+maize,Kharif,Gujarat
+maize,Kharif,Telangana
+maize,Kharif,Andhra Pradesh
+maize,Kharif,Tamil Nadu
+maize,Kharif,Himachal Pradesh
+maize,Kharif,Punjab
+maize,Rabi,Bihar
+maize,Rabi,Andhra Pradesh
+maize,Rabi,Telangana
+maize,Rabi,Tamil Nadu
+maize,Rabi,Maharashtra
+maize,Rabi,Karnataka
+maize,Rabi,West Bengal
+mungbean,Kharif,Rajasthan
+mungbean,Kharif,Madhya Pradesh
+mungbean,Kharif,Maharashtra
+mungbean,Kharif,Karnataka
+mungbean,Kharif,Gujarat
+mungbean,Kharif,Bihar
+mungbean,Kharif,Uttar Pradesh
+mungbean,Kharif,Odisha
+mungbean,Zaid,Punjab
+mungbean,Zaid,Haryana
+mungbean,Zaid,Uttar Pradesh
+mungbean,Zaid,Bihar
+mungbean,Zaid,West Bengal
+mungbean,Zaid,Andhra Pradesh
+mungbean,Zaid,Telangana
+mungbean,Zaid,Karnataka
+onion,Kharif,Maharashtra
+onion,Kharif,Karnataka
+onion,Kharif,Gujarat
+onion,Kharif,Madhya Pradesh
+onion,Kharif,Rajasthan
+onion,Rabi,Maharashtra
+onion,Rabi,Karnataka
+onion,Rabi,Gujarat
+onion,Rabi,Madhya Pradesh
+onion,Rabi,Rajasthan
+onion,Rabi,Uttar Pradesh
+onion,Rabi,Bihar
+onion,Rabi,Tamil Nadu
+onion,Rabi,Haryana
+onion,Rabi,Punjab
+onion,Zaid,Maharashtra
+onion,Zaid,Karnataka
+onion,Zaid,Gujarat
+onion,Zaid,Tamil Nadu
+onion,Zaid,Andhra Pradesh
+potato,Kharif,Karnataka
+potato,Kharif,Himachal Pradesh
+potato,Kharif,Meghalaya
+potato,Rabi,Gujarat
+potato,Rabi,Punjab
+potato,Rabi,Haryana
+potato,Rabi,Uttar Pradesh
+potato,Rabi,Rajasthan
+potato,Rabi,West Bengal
+potato,Rabi,Bihar
+potato,Rabi,Madhya Pradesh
+potato,Rabi,Assam
+barley,Rabi,Punjab
+barley,Rabi,Haryana
+barley,Rabi,Uttar Pradesh
+barley,Rabi,Madhya Pradesh
+barley,Rabi,Rajasthan
+barley,Rabi,Bihar
+barley,Rabi,Himachal Pradesh
+barley,Rabi,Uttarakhand
+oats,Rabi,Punjab
+oats,Rabi,Haryana
+oats,Rabi,Uttar Pradesh
+oats,Rabi,Madhya Pradesh
+oats,Rabi,Rajasthan
+oats,Rabi,Bihar
+oats,Rabi,Himachal Pradesh
+oats,Rabi,Uttarakhand
+oats fodder,Rabi,Punjab
+oats fodder,Rabi,Haryana
+oats fodder,Rabi,Uttar Pradesh
+oats fodder,Rabi,Madhya Pradesh
+oats fodder,Rabi,Rajasthan
+oats fodder,Rabi,Bihar
+oats fodder,Rabi,Himachal Pradesh
+oats fodder,Rabi,Uttarakhand
+quinoa,Rabi,Punjab
+quinoa,Rabi,Haryana
+quinoa,Rabi,Uttar Pradesh
+quinoa,Rabi,Madhya Pradesh
+quinoa,Rabi,Rajasthan
+quinoa,Rabi,Bihar
+quinoa,Rabi,Himachal Pradesh
+quinoa,Rabi,Uttarakhand
+rye,Rabi,Punjab
+rye,Rabi,Haryana
+rye,Rabi,Uttar Pradesh
+rye,Rabi,Madhya Pradesh
+rye,Rabi,Rajasthan
+rye,Rabi,Bihar
+rye,Rabi,Himachal Pradesh
+rye,Rabi,Uttarakhand
+triticale,Rabi,Punjab
+triticale,Rabi,Haryana
+triticale,Rabi,Uttar Pradesh
+triticale,Rabi,Madhya Pradesh
+triticale,Rabi,Rajasthan
+triticale,Rabi,Bihar
+triticale,Rabi,Himachal Pradesh
+triticale,Rabi,Uttarakhand
+sorghum (jowar),Kharif,Maharashtra
+sorghum (jowar),Kharif,Karnataka
+sorghum (jowar),Kharif,Madhya Pradesh
+sorghum (jowar),Kharif,Rajasthan
+sorghum (jowar),Kharif,Andhra Pradesh
+sorghum (jowar),Kharif,Telangana
+sorghum (jowar),Kharif,Tamil Nadu
+sorghum (jowar),Kharif,Gujarat
+sorghum (jowar),Rabi,Maharashtra
+sorghum (jowar),Rabi,Karnataka
+sorghum (jowar),Rabi,Andhra Pradesh
+sorghum (jowar),Rabi,Telangana
+pearl millet (bajra),Kharif,Rajasthan
+pearl millet (bajra),Kharif,Uttar Pradesh
+pearl millet (bajra),Kharif,Gujarat
+pearl millet (bajra),Kharif,Haryana
+pearl millet (bajra),Kharif,Maharashtra
+pearl millet (bajra),Kharif,Madhya Pradesh
+pearl millet (bajra),Kharif,Karnataka
+pearl millet (bajra),Kharif,Tamil Nadu
+pearl millet (bajra),Zaid,Gujarat
+pearl millet (bajra),Zaid,Rajasthan
+pearl millet (bajra),Zaid,Uttar Pradesh
+pearl millet (bajra),Zaid,Haryana
+finger millet (ragi),Kharif,Karnataka
+finger millet (ragi),Kharif,Tamil Nadu
+finger millet (ragi),Kharif,Andhra Pradesh
+finger millet (ragi),Kharif,Telangana
+finger millet (ragi),Kharif,Madhya Pradesh
+finger millet (ragi),Kharif,Maharashtra
+finger millet (ragi),Kharif,Uttarakhand
+finger millet (ragi),Kharif,Odisha
+finger millet (ragi),Kharif,Chhattisgarh
+foxtail millet,Kharif,Karnataka
+foxtail millet,Kharif,Tamil Nadu
+foxtail millet,Kharif,Andhra Pradesh
+foxtail millet,Kharif,Telangana
+foxtail millet,Kharif,Madhya Pradesh
+foxtail millet,Kharif,Maharashtra
+foxtail millet,Kharif,Uttarakhand
+foxtail millet,Kharif,Odisha
+foxtail millet,Kharif,Chhattisgarh
+kodo millet,Kharif,Karnataka
+kodo millet,Kharif,Tamil Nadu
+kodo millet,Kharif,Andhra Pradesh
+kodo millet,Kharif,Telangana
+kodo millet,Kharif,Madhya Pradesh
+kodo millet,Kharif,Maharashtra
+kodo millet,Kharif,Uttarakhand
+kodo millet,Kharif,Odisha
+kodo millet,Kharif,Chhattisgarh
+little millet,Kharif,Karnataka
+little millet,Kharif,Tamil Nadu
+little millet,Kharif,Andhra Pradesh
+little millet,Kharif,Telangana
+little millet,Kharif,Madhya Pradesh
+little millet,Kharif,Maharashtra
+little millet,Kharif,Uttarakhand
+little millet,Kharif,Odisha
+little millet,Kharif,Chhattisgarh
+barnyard millet,Kharif,Karnataka
+barnyard millet,Kharif,Tamil Nadu
+barnyard millet,Kharif,Andhra Pradesh
+barnyard millet,Kharif,Telangana
+barnyard millet,Kharif,Madhya Pradesh
+barnyard millet,Kharif,Maharashtra
+barnyard millet,Kharif,Uttarakhand
+barnyard millet,Kharif,Odisha
+barnyard millet,Kharif,Chhattisgarh
+proso millet,Kharif,Karnataka
+proso millet,Kharif,Tamil Nadu
+proso millet,Kharif,Andhra Pradesh
+proso millet,Kharif,Telangana
+proso millet,Kharif,Madhya Pradesh
+proso millet,Kharif,Maharashtra
+proso millet,Kharif,Uttarakhand
+proso millet,Kharif,Odisha
+proso millet,Kharif,Chhattisgarh
+browntop millet,Kharif,Karnataka
+browntop millet,Kharif,Tamil Nadu
+browntop millet,Kharif,Andhra Pradesh
+browntop millet,Kharif,Telangana
+browntop millet,Kharif,Madhya Pradesh
+browntop millet,Kharif,Maharashtra
+browntop millet,Kharif,Uttarakhand
+browntop millet,Kharif,Odisha
+browntop millet,Kharif,Chhattisgarh
+buckwheat,Kharif,Himachal Pradesh
+buckwheat,Kharif,Uttarakhand
+buckwheat,Kharif,Gujarat
+buckwheat,Kharif,Jammu and Kashmir
+buckwheat,Kharif,Sikkim
+buckwheat,Rabi,Gujarat
+buckwheat,Rabi,Maharashtra
+buckwheat,Rabi,Rajasthan
+buckwheat,Rabi,West Bengal
+buckwheat,Rabi,Assam
+amaranth (rajgira),Kharif,Himachal Pradesh
+amaranth (rajgira),Kharif,Uttarakhand
+amaranth (rajgira),Kharif,Gujarat
+amaranth (rajgira),Kharif,Jammu and Kashmir
+amaranth (rajgira),Kharif,Sikkim
+amaranth (rajgira),Rabi,Gujarat
+amaranth (rajgira),Rabi,Maharashtra
+amaranth (rajgira),Rabi,Rajasthan
+amaranth (rajgira),Rabi,West Bengal
+amaranth (rajgira),Rabi,Assam
+wild rice,Kharif,Assam
+wild rice,Kharif,Meghalaya
+wild rice,Kharif,Nagaland
+wild rice,Kharif,Manipur
+wild rice,Kharif,Karnataka
+wild rice,Kharif,Tamil Nadu
+wild rice,Kharif,Maharashtra
+tef,Kharif,Assam
+tef,Kharif,Meghalaya
+tef,Kharif,Nagaland
+tef,Kharif,Manipur
+tef,Kharif,Karnataka
+tef,Kharif,Tamil Nadu
+tef,Kharif,Maharashtra
+fonio,Kharif,Assam
+fonio,Kharif,Meghalaya
+fonio,Kharif,Nagaland
+fonio,Kharif,Manipur
+fonio,Kharif,Karnataka
+fonio,Kharif,Tamil Nadu
+fonio,Kharif,Maharashtra
+job's tears,Kharif,Assam
+job's tears,Kharif,Meghalaya
+job's tears,Kharif,Nagaland
+job's tears,Kharif,Manipur
+job's tears,Kharif,Karnataka
+job's tears,Kharif,Tamil Nadu
+job's tears,Kharif,Maharashtra
+canary grass,Kharif,Assam
+canary grass,Kharif,Meghalaya
+canary grass,Kharif,Nagaland
+canary grass,Kharif,Manipur
+canary grass,Kharif,Karnataka
+canary grass,Kharif,Tamil Nadu
+canary grass,Kharif,Maharashtra
+chia,Kharif,Assam
+chia,Kharif,Meghalaya
+chia,Kharif,Nagaland
+chia,Kharif,Manipur
+chia,Kharif,Karnataka
+chia,Kharif,Tamil Nadu
+chia,Kharif,Maharashtra
+chickpea,Rabi,Madhya Pradesh
+chickpea,Rabi,Maharashtra
+chickpea,Rabi,Rajasthan
+chickpea,Rabi,Uttar Pradesh
+chickpea,Rabi,Karnataka
+chickpea,Rabi,Andhra Pradesh
+chickpea,Rabi,Gujarat
+chickpea,Rabi,Telangana
+chickpea,Rabi,Bihar
+chickpea,Rabi,Chhattisgarh
+kidneybeans,Kharif,Himachal Pradesh
+kidneybeans,Kharif,Jammu and Kashmir
+kidneybeans,Kharif,Uttarakhand
+kidneybeans,Rabi,Maharashtra
+kidneybeans,Rabi,Andhra Pradesh
+kidneybeans,Rabi,Karnataka
+kidneybeans,Rabi,Bihar
+pigeonpeas,Kharif,Maharashtra
+pigeonpeas,Kharif,Madhya Pradesh
+pigeonpeas,Kharif,Karnataka
+pigeonpeas,Kharif,Uttar Pradesh
+pigeonpeas,Kharif,Gujarat
+pigeonpeas,Kharif,Telangana
+pigeonpeas,Kharif,Jharkhand
+pigeonpeas,Kharif,Bihar
+pigeonpeas,Kharif,Odisha
+mothbeans,Kharif,Rajasthan
+mothbeans,Kharif,Gujarat
+mothbeans,Kharif,Haryana
+mothbeans,Kharif,Maharashtra
+blackgram,Kharif,Madhya Pradesh
+blackgram,Kharif,Uttar Pradesh
+blackgram,Kharif,Andhra Pradesh
+blackgram,Kharif,Maharashtra
+blackgram,Kharif,Tamil Nadu
+blackgram,Kharif,Rajasthan
+blackgram,Rabi,Andhra Pradesh
+blackgram,Rabi,Tamil Nadu
+blackgram,Rabi,Odisha
+blackgram,Rabi,West Bengal
+lentil,Rabi,Madhya Pradesh
+lentil,Rabi,Uttar Pradesh
+lentil,Rabi,Bihar
+lentil,Rabi,West Bengal
+lentil,Rabi,Rajasthan
+lentil,Rabi,Assam
+lentil,Rabi,Uttarakhand
+horse gram (kulthi),Kharif,Karnataka
+horse gram (kulthi),Kharif,Andhra Pradesh
+horse gram (kulthi),Kharif,Tamil Nadu
+horse gram (kulthi),Kharif,Odisha
+horse gram (kulthi),Kharif,Jharkhand
+horse gram (kulthi),Rabi,Maharashtra
+horse gram (kulthi),Rabi,Chhattisgarh
+cowpea (lobia),Kharif,Rajasthan
+cowpea (lobia),Kharif,Uttar Pradesh
+cowpea (lobia),Kharif,Gujarat
+cowpea (lobia),Kharif,Karnataka
+cowpea (lobia),Kharif,Tamil Nadu
+cowpea (lobia),Zaid,Punjab
+cowpea (lobia),Zaid,Haryana
+cowpea (lobia),Zaid,Uttar Pradesh
+cowpea (lobia),Zaid,Bihar
+cowpea pods,Kharif,Rajasthan
+cowpea pods,Kharif,Uttar Pradesh
+cowpea pods,Kharif,Gujarat
+cowpea pods,Kharif,Karnataka
+cowpea pods,Kharif,Tamil Nadu
+cowpea pods,Zaid,Punjab
+cowpea pods,Zaid,Haryana
+cowpea pods,Zaid,Uttar Pradesh
+cowpea pods,Zaid,Bihar
+field pea (matar),Rabi,Uttar Pradesh
+field pea (matar),Rabi,Madhya Pradesh
+field pea (matar),Rabi,Bihar
+field pea (matar),Rabi,Punjab
+field pea (matar),Rabi,Haryana
+field pea (matar),Rabi,Rajasthan
+peas,Rabi,Uttar Pradesh
+peas,Rabi,Madhya Pradesh
+peas,Rabi,Bihar
+peas,Rabi,Punjab
+peas,Rabi,Haryana
+peas,Rabi,Rajasthan
+peas,Rabi,Himachal Pradesh
+grass pea (khesari),Rabi,Chhattisgarh
+grass pea (khesari),Rabi,Bihar
+grass pea (khesari),Rabi,West Bengal
+grass pea (khesari),Rabi,Madhya Pradesh
+grass pea (khesari),Rabi,Assam
+cluster bean (guar),Kharif,Rajasthan
+cluster bean (guar),Kharif,Haryana
+cluster bean (guar),Kharif,Gujarat
+cluster bean (guar),Kharif,Punjab
+cluster bean (guar),Kharif,Madhya Pradesh
+soybeans,Kharif,Madhya Pradesh
+soybeans,Kharif,Maharashtra
+soybeans,Kharif,Rajasthan
+soybeans,Kharif,Karnataka
+soybeans,Kharif,Telangana
+soybeans,Kharif,Gujarat
+soybeans,Kharif,Chhattisgarh
+broad bean (faba bean),Rabi,Uttar Pradesh
+broad bean (faba bean),Rabi,Bihar
+broad bean (faba bean),Rabi,Madhya Pradesh
+broad bean (faba bean),Rabi,Punjab
+broad bean (faba bean),Rabi,Haryana
+broad beans,Rabi,Uttar Pradesh
+broad beans,Rabi,Bihar
+broad beans,Rabi,Madhya Pradesh
+broad beans,Rabi,Punjab
+broad beans,Rabi,Haryana
+bambara groundnut,Kharif,Assam
+bambara groundnut,Kharif,Meghalaya
+bambara groundnut,Kharif,Nagaland
+bambara groundnut,Kharif,Manipur
+bambara groundnut,Kharif,Karnataka
+bambara groundnut,Kharif,Kerala
+bambara groundnut,Kharif,Odisha
+winged bean,Kharif,Assam
+winged bean,Kharif,Meghalaya
+winged bean,Kharif,Nagaland
+winged bean,Kharif,Manipur
+winged bean,Kharif,Karnataka
+winged bean,Kharif,Kerala
+winged bean,Kharif,Odisha
+ricebean,Kharif,Assam
+ricebean,Kharif,Meghalaya
+ricebean,Kharif,Nagaland
+ricebean,Kharif,Manipur
+ricebean,Kharif,Karnataka
+ricebean,Kharif,Kerala
+ricebean,Kharif,Odisha
+adzuki bean,Kharif,Assam
+adzuki bean,Kharif,Meghalaya
+adzuki bean,Kharif,Nagaland
+adzuki bean,Kharif,Manipur
+adzuki bean,Kharif,Karnataka
+adzuki bean,Kharif,Kerala
+adzuki bean,Kharif,Odisha
+sword bean,Kharif,Assam
+sword bean,Kharif,Meghalaya
+sword bean,Kharif,Nagaland
+sword bean,Kharif,Manipur
+sword bean,Kharif,Karnataka
+sword bean,Kharif,Kerala
+sword bean,Kharif,Odisha
+velvet bean,Kharif,Assam
+velvet bean,Kharif,Meghalaya
+velvet bean,Kharif,Nagaland
+velvet bean,Kharif,Manipur
+velvet bean,Kharif,Karnataka
+velvet bean,Kharif,Kerala
+velvet bean,Kharif,Odisha
+tepary bean,Kharif,Assam
+tepary bean,Kharif,Meghalaya
+tepary bean,Kharif,Nagaland
+tepary bean,Kharif,Manipur
+tepary bean,Kharif,Karnataka
+tepary bean,Kharif,Kerala
+tepary bean,Kharif,Odisha
+lima bean,Kharif,Assam
+lima bean,Kharif,Meghalaya
+lima bean,Kharif,Nagaland
+lima bean,Kharif,Manipur
+lima bean,Kharif,Karnataka
+lima bean,Kharif,Kerala
+lima bean,Kharif,Odisha
+groundnut,Kharif,Gujarat
+groundnut,Kharif,Rajasthan
+groundnut,Kharif,Tamil Nadu
+groundnut,Kharif,Andhra Pradesh
+groundnut,Kharif,Karnataka
+groundnut,Kharif,Madhya Pradesh
+groundnut,Kharif,Maharashtra
+groundnut,Rabi,Tamil Nadu
+groundnut,Rabi,Andhra Pradesh
+groundnut,Rabi,Telangana
+groundnut,Rabi,Odisha
+groundnut,Rabi,Karnataka
+groundnut,Zaid,Gujarat
+groundnut,Zaid,Maharashtra
+groundnut,Zaid,West Bengal
+mustard (sarson),Rabi,Rajasthan
+mustard (sarson),Rabi,Madhya Pradesh
+mustard (sarson),Rabi,Haryana
+mustard (sarson),Rabi,Uttar Pradesh
+mustard (sarson),Rabi,West Bengal
+mustard (sarson),Rabi,Gujarat
+mustard (sarson),Rabi,Assam
+mustard (sarson),Rabi,Bihar
+mustard (sarson),Rabi,Punjab
+mustard (sarson),Rabi,Maharashtra
+mustard (sarson),Rabi,Karnataka
+mustard (sarson),Rabi,Telangana
+taramira,Rabi,Rajasthan
+taramira,Rabi,Madhya Pradesh
+taramira,Rabi,Haryana
+taramira,Rabi,Uttar Pradesh
+taramira,Rabi,West Bengal
+taramira,Rabi,Gujarat
+taramira,Rabi,Assam
+taramira,Rabi,Bihar
+taramira,Rabi,Punjab
+taramira,Rabi,Maharashtra
+taramira,Rabi,Karnataka
+taramira,Rabi,Telangana
+linseed (flax),Rabi,Rajasthan
+linseed (flax),Rabi,Madhya Pradesh
+linseed (flax),Rabi,Haryana
+linseed (flax),Rabi,Uttar Pradesh
+linseed (flax),Rabi,West Bengal
+linseed (flax),Rabi,Gujarat
+linseed (flax),Rabi,Assam
+linseed (flax),Rabi,Bihar
+linseed (flax),Rabi,Punjab
+linseed (flax),Rabi,Maharashtra
+linseed (flax),Rabi,Karnataka
+linseed (flax),Rabi,Telangana
+safflower,Rabi,Rajasthan
+safflower,Rabi,Madhya Pradesh
+safflower,Rabi,Haryana
+safflower,Rabi,Uttar Pradesh
+safflower,Rabi,West Bengal
+safflower,Rabi,Gujarat
+safflower,Rabi,Assam
+safflower,Rabi,Bihar
+safflower,Rabi,Punjab
+safflower,Rabi,Maharashtra
+safflower,Rabi,Karnataka
+safflower,Rabi,Telangana
+sesame (til),Kharif,West Bengal
+sesame (til),Kharif,Madhya Pradesh
+sesame (til),Kharif,Rajasthan
+sesame (til),Kharif,Gujarat
+sesame (til),Kharif,Uttar Pradesh
+sesame (til),Kharif,Tamil Nadu
+sesame (til),Zaid,West Bengal
+sesame (til),Zaid,Gujarat
+sesame (til),Zaid,Andhra Pradesh
+sesame (til),Zaid,Tamil Nadu
+sunflower,Kharif,Karnataka
+sunflower,Kharif,Maharashtra
+sunflower,Kharif,Andhra Pradesh
+sunflower,Rabi,Karnataka
+sunflower,Rabi,Andhra Pradesh
+sunflower,Rabi,Telangana
+sunflower,Rabi,Tamil Nadu
+sunflower,Zaid,Punjab
+sunflower,Zaid,Haryana
+sunflower,Zaid,West Bengal
+castor,Kharif,Gujarat
+castor,Kharif,Rajasthan
+castor,Kharif,Andhra Pradesh
+castor,Kharif,Telangana
+castor,Kharif,Karnataka
+niger seed,Kharif,Madhya Pradesh
+niger seed,Kharif,Chhattisgarh
+niger seed,Kharif,Odisha
+niger seed,Kharif,Maharashtra
+niger seed,Kharif,Karnataka
+oil palm,Kharif,Andhra Pradesh
+oil palm,Kharif,Telangana
+oil palm,Kharif,Karnataka
+oil palm,Kharif,Odisha
+oil palm,Kharif,Kerala
+oil palm,Kharif,Tamil Nadu
+oil palm,Kharif,Chhattisgarh
+oil palm,Kharif,Madhya Pradesh
+oil palm,Kharif,Gujarat
+oil palm,Kharif,Maharashtra
+oil palm,Rabi,Andhra Pradesh
+oil palm,Rabi,Telangana
+oil palm,Rabi,Karnataka
+oil palm,Rabi,Odisha
+oil palm,Rabi,Kerala
+oil palm,Rabi,Tamil Nadu
+oil palm,Rabi,Chhattisgarh
+oil palm,Rabi,Madhya Pradesh
+oil palm,Rabi,Gujarat
+oil palm,Rabi,Maharashtra
+oil palm,Zaid,Andhra Pradesh
+oil palm,Zaid,Telangana
+oil palm,Zaid,Karnataka
+oil palm,Zaid,Odisha
+oil palm,Zaid,Kerala
+oil palm,Zaid,Tamil Nadu
+oil palm,Zaid,Chhattisgarh
+oil palm,Zaid,Madhya Pradesh
+oil palm,Zaid,Gujarat
+oil palm,Zaid,Maharashtra
+cottonseed,Kharif,Andhra Pradesh
+cottonseed,Kharif,Telangana
+cottonseed,Kharif,Karnataka
+cottonseed,Kharif,Odisha
+cottonseed,Kharif,Kerala
+cottonseed,Kharif,Tamil Nadu
+cottonseed,Kharif,Chhattisgarh
+cottonseed,Kharif,Madhya Pradesh
+cottonseed,Kharif,Gujarat
+cottonseed,Kharif,Maharashtra
+cottonseed,Rabi,Andhra Pradesh
+cottonseed,Rabi,Telangana
+cottonseed,Rabi,Karnataka
+cottonseed,Rabi,Odisha
+cottonseed,Rabi,Kerala
+cottonseed,Rabi,Tamil Nadu
+cottonseed,Rabi,Chhattisgarh
+cottonseed,Rabi,Madhya Pradesh
+cottonseed,Rabi,Gujarat
+cottonseed,Rabi,Maharashtra
+cottonseed,Zaid,Andhra Pradesh
+cottonseed,Zaid,Telangana
+cottonseed,Zaid,Karnataka
+cottonseed,Zaid,Odisha
+cottonseed,Zaid,Kerala
+cottonseed,Zaid,Tamil Nadu
+cottonseed,Zaid,Chhattisgarh
+cottonseed,Zaid,Madhya Pradesh
+cottonseed,Zaid,Gujarat
+cottonseed,Zaid,Maharashtra
+mahua,Kharif,Andhra Pradesh
+mahua,Kharif,Telangana
+mahua,Kharif,Karnataka
+mahua,Kharif,Odisha
+mahua,Kharif,Kerala
+mahua,Kharif,Tamil Nadu
+mahua,Kharif,Chhattisgarh
+mahua,Kharif,Madhya Pradesh
+mahua,Kharif,Gujarat
+mahua,Kharif,Maharashtra
+mahua,Rabi,Andhra Pradesh
+mahua,Rabi,Telangana
+mahua,Rabi,Karnataka
+mahua,Rabi,Odisha
+mahua,Rabi,Kerala
+mahua,Rabi,Tamil Nadu
+mahua,Rabi,Chhattisgarh
+mahua,Rabi,Madhya Pradesh
+mahua,Rabi,Gujarat
+mahua,Rabi,Maharashtra
+mahua,Zaid,Andhra Pradesh
+mahua,Zaid,Telangana
+mahua,Zaid,Karnataka
+mahua,Zaid,Odisha
+mahua,Zaid,Kerala
+mahua,Zaid,Tamil Nadu
+mahua,Zaid,Chhattisgarh
+mahua,Zaid,Madhya Pradesh
+mahua,Zaid,Gujarat
+mahua,Zaid,Maharashtra
+karanja,Kharif,Andhra Pradesh
+karanja,Kharif,Telangana
+karanja,Kharif,Karnataka
+karanja,Kharif,Odisha
+karanja,Kharif,Kerala
+karanja,Kharif,Tamil Nadu
+karanja,Kharif,Chhattisgarh
+karanja,Kharif,Madhya Pradesh
+karanja,Kharif,Gujarat
+karanja,Kharif,Maharashtra
+karanja,Rabi,Andhra Pradesh
+karanja,Rabi,Telangana
+karanja,Rabi,Karnataka
+karanja,Rabi,Odisha
+karanja,Rabi,Kerala
+karanja,Rabi,Tamil Nadu
+karanja,Rabi,Chhattisgarh
+karanja,Rabi,Madhya Pradesh
+karanja,Rabi,Gujarat
+karanja,Rabi,Maharashtra
+karanja,Zaid,Andhra Pradesh
+karanja,Zaid,Telangana
+karanja,Zaid,Karnataka
+karanja,Zaid,Odisha
+karanja,Zaid,Kerala
+karanja,Zaid,Tamil Nadu
+karanja,Zaid,Chhattisgarh
+karanja,Zaid,Madhya Pradesh
+karanja,Zaid,Gujarat
+karanja,Zaid,Maharashtra
+neem seed,Kharif,Andhra Pradesh
+neem seed,Kharif,Telangana
+neem seed,Kharif,Karnataka
+neem seed,Kharif,Odisha
+neem seed,Kharif,Kerala
+neem seed,Kharif,Tamil Nadu
+neem seed,Kharif,Chhattisgarh
+neem seed,Kharif,Madhya Pradesh
+neem seed,Kharif,Gujarat
+neem seed,Kharif,Maharashtra
+neem seed,Rabi,Andhra Pradesh
+neem seed,Rabi,Telangana
+neem seed,Rabi,Karnataka
+neem seed,Rabi,Odisha
+neem seed,Rabi,Kerala
+neem seed,Rabi,Tamil Nadu
+neem seed,Rabi,Chhattisgarh
+neem seed,Rabi,Madhya Pradesh
+neem seed,Rabi,Gujarat
+neem seed,Rabi,Maharashtra
+neem seed,Zaid,Andhra Pradesh
+neem seed,Zaid,Telangana
+neem seed,Zaid,Karnataka
+neem seed,Zaid,Odisha
+neem seed,Zaid,Kerala
+neem seed,Zaid,Tamil Nadu
+neem seed,Zaid,Chhattisgarh
+neem seed,Zaid,Madhya Pradesh
+neem seed,Zaid,Gujarat
+neem seed,Zaid,Maharashtra
+kusum,Kharif,Andhra Pradesh
+kusum,Kharif,Telangana
+kusum,Kharif,Karnataka
+kusum,Kharif,Odisha
+kusum,Kharif,Kerala
+kusum,Kharif,Tamil Nadu
+kusum,Kharif,Chhattisgarh
+kusum,Kharif,Madhya Pradesh
+kusum,Kharif,Gujarat
+kusum,Kharif,Maharashtra
+kusum,Rabi,Andhra Pradesh
+kusum,Rabi,Telangana
+kusum,Rabi,Karnataka
+kusum,Rabi,Odisha
+kusum,Rabi,Kerala
+kusum,Rabi,Tamil Nadu
+kusum,Rabi,Chhattisgarh
+kusum,Rabi,Madhya Pradesh
+kusum,Rabi,Gujarat
+kusum,Rabi,Maharashtra
+kusum,Zaid,Andhra Pradesh
+kusum,Zaid,Telangana
+kusum,Zaid,Karnataka
+kusum,Zaid,Odisha
+kusum,Zaid,Kerala
+kusum,Zaid,Tamil Nadu
+kusum,Zaid,Chhattisgarh
+kusum,Zaid,Madhya Pradesh
+kusum,Zaid,Gujarat
+kusum,Zaid,Maharashtra
+sal,Kharif,Andhra Pradesh
+sal,Kharif,Telangana
+sal,Kharif,Karnataka
+sal,Kharif,Odisha
+sal,Kharif,Kerala
+sal,Kharif,Tamil Nadu
+sal,Kharif,Chhattisgarh
+sal,Kharif,Madhya Pradesh
+sal,Kharif,Gujarat
+sal,Kharif,Maharashtra
+sal,Rabi,Andhra Pradesh
+sal,Rabi,Telangana
+sal,Rabi,Karnataka
+sal,Rabi,Odisha
+sal,Rabi,Kerala
+sal,Rabi,Tamil Nadu
+sal,Rabi,Chhattisgarh
+sal,Rabi,Madhya Pradesh
+sal,Rabi,Gujarat
+sal,Rabi,Maharashtra
+sal,Zaid,Andhra Pradesh
+sal,Zaid,Telangana
+sal,Zaid,Karnataka
+sal,Zaid,Odisha
+sal,Zaid,Kerala
+sal,Zaid,Tamil Nadu
+sal,Zaid,Chhattisgarh
+sal,Zaid,Madhya Pradesh
+sal,Zaid,Gujarat
+sal,Zaid,Maharashtra
+calophyllum,Kharif,Andhra Pradesh
+calophyllum,Kharif,Telangana
+calophyllum,Kharif,Karnataka
+calophyllum,Kharif,Odisha
+calophyllum,Kharif,Kerala
+calophyllum,Kharif,Tamil Nadu
+calophyllum,Kharif,Chhattisgarh
+calophyllum,Kharif,Madhya Pradesh
+calophyllum,Kharif,Gujarat
+calophyllum,Kharif,Maharashtra
+calophyllum,Rabi,Andhra Pradesh
+calophyllum,Rabi,Telangana
+calophyllum,Rabi,Karnataka
+calophyllum,Rabi,Odisha
+calophyllum,Rabi,Kerala
+calophyllum,Rabi,Tamil Nadu
+calophyllum,Rabi,Chhattisgarh
+calophyllum,Rabi,Madhya Pradesh
+calophyllum,Rabi,Gujarat
+calophyllum,Rabi,Maharashtra
+calophyllum,Zaid,Andhra Pradesh
+calophyllum,Zaid,Telangana
+calophyllum,Zaid,Karnataka
+calophyllum,Zaid,Odisha
+calophyllum,Zaid,Kerala
+calophyllum,Zaid,Tamil Nadu
+calophyllum,Zaid,Chhattisgarh
+calophyllum,Zaid,Madhya Pradesh
+calophyllum,Zaid,Gujarat
+calophyllum,Zaid,Maharashtra
+jatropha,Kharif,Andhra Pradesh
+jatropha,Kharif,Telangana
+jatropha,Kharif,Karnataka
+jatropha,Kharif,Odisha
+jatropha,Kharif,Kerala
+jatropha,Kharif,Tamil Nadu
+jatropha,Kharif,Chhattisgarh
+jatropha,Kharif,Madhya Pradesh
+jatropha,Kharif,Gujarat
+jatropha,Kharif,Maharashtra
+jatropha,Rabi,Andhra Pradesh
+jatropha,Rabi,Telangana
+jatropha,Rabi,Karnataka
+jatropha,Rabi,Odisha
+jatropha,Rabi,Kerala
+jatropha,Rabi,Tamil Nadu
+jatropha,Rabi,Chhattisgarh
+jatropha,Rabi,Madhya Pradesh
+jatropha,Rabi,Gujarat
+jatropha,Rabi,Maharashtra
+jatropha,Zaid,Andhra Pradesh
+jatropha,Zaid,Telangana
+jatropha,Zaid,Karnataka
+jatropha,Zaid,Odisha
+jatropha,Zaid,Kerala
+jatropha,Zaid,Tamil Nadu
+jatropha,Zaid,Chhattisgarh
+jatropha,Zaid,Madhya Pradesh
+jatropha,Zaid,Gujarat
+jatropha,Zaid,Maharashtra
+tung nut,Kharif,Andhra Pradesh
+tung nut,Kharif,Telangana
+tung nut,Kharif,Karnataka
+tung nut,Kharif,Odisha
+tung nut,Kharif,Kerala
+tung nut,Kharif,Tamil Nadu
+tung nut,Kharif,Chhattisgarh
+tung nut,Kharif,Madhya Pradesh
+tung nut,Kharif,Gujarat
+tung nut,Kharif,Maharashtra
+tung nut,Rabi,Andhra Pradesh
+tung nut,Rabi,Telangana
+tung nut,Rabi,Karnataka
+tung nut,Rabi,Odisha
+tung nut,Rabi,Kerala
+tung nut,Rabi,Tamil Nadu
+tung nut,Rabi,Chhattisgarh
+tung nut,Rabi,Madhya Pradesh
+tung nut,Rabi,Gujarat
+tung nut,Rabi,Maharashtra
+tung nut,Zaid,Andhra Pradesh
+tung nut,Zaid,Telangana
+tung nut,Zaid,Karnataka
+tung nut,Zaid,Odisha
+tung nut,Zaid,Kerala
+tung nut,Zaid,Tamil Nadu
+tung nut,Zaid,Chhattisgarh
+tung nut,Zaid,Madhya Pradesh
+tung nut,Zaid,Gujarat
+tung nut,Zaid,Maharashtra
+sugarcane,Kharif,Uttar Pradesh
+sugarcane,Kharif,Maharashtra
+sugarcane,Kharif,Karnataka
+sugarcane,Kharif,Tamil Nadu
+sugarcane,Kharif,Gujarat
+sugarcane,Kharif,Bihar
+sugarcane,Kharif,Haryana
+sugarcane,Kharif,Punjab
+sugarcane,Kharif,Andhra Pradesh
+sugarcane,Kharif,Telangana
+sugarcane,Kharif,Uttarakhand
+sugarcane,Rabi,Uttar Pradesh
+sugarcane,Rabi,Maharashtra
+sugarcane,Rabi,Karnataka
+sugarcane,Rabi,Tamil Nadu
+sugarcane,Rabi,Gujarat
+sugarcane,Rabi,Bihar
+sugarcane,Rabi,Haryana
+sugarcane,Rabi,Punjab
+sugarcane,Rabi,Andhra Pradesh
+sugarcane,Rabi,Telangana
+sugarcane,Rabi,Uttarakhand
+sugarcane,Zaid,Uttar Pradesh
+sugarcane,Zaid,Maharashtra
+sugarcane,Zaid,Karnataka
+sugarcane,Zaid,Tamil Nadu
+sugarcane,Zaid,Gujarat
+sugarcane,Zaid,Bihar
+sugarcane,Zaid,Haryana
+sugarcane,Zaid,Punjab
+sugarcane,Zaid,Andhra Pradesh
+sugarcane,Zaid,Telangana
+sugarcane,Zaid,Uttarakhand
+sugarbeet,Rabi,Punjab
+sugarbeet,Rabi,Haryana
+sugarbeet,Rabi,Rajasthan
+cotton,Kharif,Gujarat
+cotton,Kharif,Maharashtra
+cotton,Kharif,Telangana
+cotton,Kharif,Andhra Pradesh
+cotton,Kharif,Rajasthan
+cotton,Kharif,Haryana
+cotton,Kharif,Punjab
+cotton,Kharif,Karnataka
+cotton,Kharif,Madhya Pradesh
+cotton,Kharif,Tamil Nadu
+jute,Kharif,West Bengal
+jute,Kharif,Bihar
+jute,Kharif,Assam
+jute,Kharif,Odisha
+jute,Kharif,Andhra Pradesh
+jute,Kharif,Meghalaya
+jute,Kharif,Tripura
+mesta,Kharif,West Bengal
+mesta,Kharif,Bihar
+mesta,Kharif,Assam
+mesta,Kharif,Odisha
+mesta,Kharif,Andhra Pradesh
+mesta,Kharif,Meghalaya
+mesta,Kharif,Tripura
+sunn hemp,Kharif,West Bengal
+sunn hemp,Kharif,Bihar
+sunn hemp,Kharif,Assam
+sunn hemp,Kharif,Odisha
+sunn hemp,Kharif,Andhra Pradesh
+sunn hemp,Kharif,Meghalaya
+sunn hemp,Kharif,Tripura
+tobacco,Kharif,Andhra Pradesh
+tobacco,Kharif,Gujarat
+tobacco,Kharif,Karnataka
+tobacco,Rabi,Andhra Pradesh
+tobacco,Rabi,Gujarat
+tobacco,Rabi,Uttar Pradesh
+tobacco,Rabi,Bihar
+tobacco,Rabi,Tamil Nadu
+tobacco,Rabi,West Bengal
+arecanut,Kharif,Karnataka
+arecanut,Kharif,Kerala
+arecanut,Kharif,Tamil Nadu
+arecanut,Kharif,Assam
+arecanut,Kharif,West Bengal
+arecanut,Kharif,Andhra Pradesh
+arecanut,Kharif,Tripura
+arecanut,Kharif,Meghalaya
+arecanut,Rabi,Karnataka
+arecanut,Rabi,Kerala
+arecanut,Rabi,Tamil Nadu
+arecanut,Rabi,Assam
+arecanut,Rabi,West Bengal
+arecanut,Rabi,Andhra Pradesh
+arecanut,Rabi,Tripura
+arecanut,Rabi,Meghalaya
+arecanut,Zaid,Karnataka
+arecanut,Zaid,Kerala
+arecanut,Zaid,Tamil Nadu
+arecanut,Zaid,Assam
+arecanut,Zaid,West Bengal
+arecanut,Zaid,Andhra Pradesh
+arecanut,Zaid,Tripura
+arecanut,Zaid,Meghalaya
+betel leaf,Kharif,Karnataka
+betel leaf,Kharif,Kerala
+betel leaf,Kharif,Tamil Nadu
+betel leaf,Kharif,Assam
+betel leaf,Kharif,West Bengal
+betel leaf,Kharif,Andhra Pradesh
+betel leaf,Kharif,Tripura
+betel leaf,Kharif,Meghalaya
+betel leaf,Rabi,Karnataka
+betel leaf,Rabi,Kerala
+betel leaf,Rabi,Tamil Nadu
+betel leaf,Rabi,Assam
+betel leaf,Rabi,West Bengal
+betel leaf,Rabi,Andhra Pradesh
+betel leaf,Rabi,Tripura
+betel leaf,Rabi,Meghalaya
+betel leaf,Zaid,Karnataka
+betel leaf,Zaid,Kerala
+betel leaf,Zaid,Tamil Nadu
+betel leaf,Zaid,Assam
+betel leaf,Zaid,West Bengal
+betel leaf,Zaid,Andhra Pradesh
+betel leaf,Zaid,Tripura
+betel leaf,Zaid,Meghalaya
+tea,Kharif,Karnataka
+tea,Kharif,Kerala
+tea,Kharif,Tamil Nadu
+tea,Kharif,Assam
+tea,Kharif,West Bengal
+tea,Kharif,Andhra Pradesh
+tea,Kharif,Tripura
+tea,Kharif,Meghalaya
+tea,Rabi,Karnataka
+tea,Rabi,Kerala
+tea,Rabi,Tamil Nadu
+tea,Rabi,Assam
+tea,Rabi,West Bengal
+tea,Rabi,Andhra Pradesh
+tea,Rabi,Tripura
+tea,Rabi,Meghalaya
+tea,Zaid,Karnataka
+tea,Zaid,Kerala
+tea,Zaid,Tamil Nadu
+tea,Zaid,Assam
+tea,Zaid,West Bengal
+tea,Zaid,Andhra Pradesh
+tea,Zaid,Tripura
+tea,Zaid,Meghalaya
+rubber,Kharif,Karnataka
+rubber,Kharif,Kerala
+rubber,Kharif,Tamil Nadu
+rubber,Kharif,Assam
+rubber,Kharif,West Bengal
+rubber,Kharif,Andhra Pradesh
+rubber,Kharif,Tripura
+rubber,Kharif,Meghalaya
+rubber,Rabi,Karnataka
+rubber,Rabi,Kerala
+rubber,Rabi,Tamil Nadu
+rubber,Rabi,Assam
+rubber,Rabi,West Bengal
+rubber,Rabi,Andhra Pradesh
+rubber,Rabi,Tripura
+rubber,Rabi,Meghalaya
+rubber,Zaid,Karnataka
+rubber,Zaid,Kerala
+rubber,Zaid,Tamil Nadu
+rubber,Zaid,Assam
+rubber,Zaid,West Bengal
+rubber,Zaid,Andhra Pradesh
+rubber,Zaid,Tripura
+rubber,Zaid,Meghalaya
+cocoa,Kharif,Karnataka
+cocoa,Kharif,Kerala
+cocoa,Kharif,Tamil Nadu
+cocoa,Kharif,Assam
+cocoa,Kharif,West Bengal
+cocoa,Kharif,Andhra Pradesh
+cocoa,Kharif,Tripura
+cocoa,Kharif,Meghalaya
+cocoa,Rabi,Karnataka
+cocoa,Rabi,Kerala
+cocoa,Rabi,Tamil Nadu
+cocoa,Rabi,Assam
+cocoa,Rabi,West Bengal
+cocoa,Rabi,Andhra Pradesh
+cocoa,Rabi,Tripura
+cocoa,Rabi,Meghalaya
+cocoa,Zaid,Karnataka
+cocoa,Zaid,Kerala
+cocoa,Zaid,Tamil Nadu
+cocoa,Zaid,Assam
+cocoa,Zaid,West Bengal
+cocoa,Zaid,Andhra Pradesh
+cocoa,Zaid,Tripura
+cocoa,Zaid,Meghalaya
+coffee,Kharif,Karnataka
+coffee,Kharif,Kerala
+coffee,Kharif,Tamil Nadu
+coffee,Kharif,Assam
+coffee,Kharif,West Bengal
+coffee,Kharif,Andhra Pradesh
+coffee,Kharif,Tripura
+coffee,Kharif,Meghalaya
+coffee,Rabi,Karnataka
+coffee,Rabi,Kerala
+coffee,Rabi,Tamil Nadu
+coffee,Rabi,Assam
+coffee,Rabi,West Bengal
+coffee,Rabi,Andhra Pradesh
+coffee,Rabi,Tripura
+coffee,Rabi,Meghalaya
+coffee,Zaid,Karnataka
+coffee,Zaid,Kerala
+coffee,Zaid,Tamil Nadu
+coffee,Zaid,Assam
+coffee,Zaid,West Bengal
+coffee,Zaid,Andhra Pradesh
+coffee,Zaid,Tripura
+coffee,Zaid,Meghalaya
+mulberry,Kharif,Karnataka
+mulberry,Kharif,Kerala
+mulberry,Kharif,Tamil Nadu
+mulberry,Kharif,Assam
+mulberry,Kharif,West Bengal
+mulberry,Kharif,Andhra Pradesh
+mulberry,Kharif,Tripura
+mulberry,Kharif,Meghalaya
+mulberry,Rabi,Karnataka
+mulberry,Rabi,Kerala
+mulberry,Rabi,Tamil Nadu
+mulberry,Rabi,Assam
+mulberry,Rabi,West Bengal
+mulberry,Rabi,Andhra Pradesh
+mulberry,Rabi,Tripura
+mulberry,Rabi,Meghalaya
+mulberry,Zaid,Karnataka
+mulberry,Zaid,Kerala
+mulberry,Zaid,Tamil Nadu
+mulberry,Zaid,Assam
+mulberry,Zaid,West Bengal
+mulberry,Zaid,Andhra Pradesh
+mulberry,Zaid,Tripura
+mulberry,Zaid,Meghalaya
+opium poppy,Rabi,Madhya Pradesh
+opium poppy,Rabi,Rajasthan
+opium poppy,Rabi,Uttar Pradesh
+chicory,Rabi,Gujarat
+chicory,Rabi,Uttar Pradesh
+chicory,Rabi,Punjab
+indigo,Kharif,Rajasthan
+indigo,Kharif,Tamil Nadu
+indigo,Kharif,Gujarat
+indigo,Kharif,Punjab
+indigo,Kharif,Karnataka
+indigo,Rabi,Rajasthan
+indigo,Rabi,Tamil Nadu
+indigo,Rabi,Gujarat
+indigo,Rabi,Punjab
+indigo,Rabi,Karnataka
+pyrethrum,Kharif,Rajasthan
+pyrethrum,Kharif,Tamil Nadu
+pyrethrum,Kharif,Gujarat
+pyrethrum,Kharif,Punjab
+pyrethrum,Kharif,Karnataka
+pyrethrum,Rabi,Rajasthan
+pyrethrum,Rabi,Tamil Nadu
+pyrethrum,Rabi,Gujarat
+pyrethrum,Rabi,Punjab
+pyrethrum,Rabi,Karnataka
+stevia,Kharif,Rajasthan
+stevia,Kharif,Tamil Nadu
+stevia,Kharif,Gujarat
+stevia,Kharif,Punjab
+stevia,Kharif,Karnataka
+stevia,Rabi,Rajasthan
+stevia,Rabi,Tamil Nadu
+stevia,Rabi,Gujarat
+stevia,Rabi,Punjab
+stevia,Rabi,Karnataka
+henna,Kharif,Rajasthan
+henna,Kharif,Tamil Nadu
+henna,Kharif,Gujarat
+henna,Kharif,Punjab
+henna,Kharif,Karnataka
+henna,Rabi,Rajasthan
+henna,Rabi,Tamil Nadu
+henna,Rabi,Gujarat
+henna,Rabi,Punjab
+henna,Rabi,Karnataka
+tomato,Kharif,Uttar Pradesh
+tomato,Kharif,Madhya Pradesh
+tomato,Kharif,Punjab
+tomato,Kharif,Haryana
+tomato,Kharif,Rajasthan
+tomato,Kharif,Bihar
+tomato,Kharif,Gujarat
+tomato,Kharif,Maharashtra
+tomato,Kharif,West Bengal
+tomato,Kharif,Andhra Pradesh
+tomato,Kharif,Telangana
+tomato,Kharif,Karnataka
+tomato,Kharif,Tamil Nadu
+tomato,Kharif,Odisha
+tomato,Kharif,Assam
+tomato,Kharif,Chhattisgarh
+tomato,Kharif,Jharkhand
+tomato,Kharif,Uttarakhand
+tomato,Kharif,Himachal Pradesh
+tomato,Rabi,Uttar Pradesh
+tomato,Rabi,Madhya Pradesh
+tomato,Rabi,Punjab
+tomato,Rabi,Haryana
+tomato,Rabi,Rajasthan
+tomato,Rabi,Bihar
+tomato,Rabi,Gujarat
+tomato,Rabi,Maharashtra
+tomato,Rabi,West Bengal
+tomato,Rabi,Andhra Pradesh
+tomato,Rabi,Telangana
+tomato,Rabi,Karnataka
+tomato,Rabi,Tamil Nadu
+tomato,Rabi,Odisha
+tomato,Rabi,Assam
+tomato,Rabi,Chhattisgarh
+tomato,Rabi,Jharkhand
+tomato,Rabi,Uttarakhand
+tomato,Rabi,Himachal Pradesh
+tomato,Zaid,Uttar Pradesh
+tomato,Zaid,Madhya Pradesh
+tomato,Zaid,Punjab
+tomato,Zaid,Haryana
+tomato,Zaid,Rajasthan
+tomato,Zaid,Bihar
+tomato,Zaid,Gujarat
+tomato,Zaid,Maharashtra
+tomato,Zaid,West Bengal
+tomato,Zaid,Andhra Pradesh
+tomato,Zaid,Telangana
+tomato,Zaid,Karnataka
+tomato,Zaid,Tamil Nadu
+tomato,Zaid,Odisha
+tomato,Zaid,Assam
+tomato,Zaid,Chhattisgarh
+tomato,Zaid,Jharkhand
+tomato,Zaid,Uttarakhand
+tomato,Zaid,Himachal Pradesh
+eggplant (brinjal),Kharif,Uttar Pradesh
+eggplant (brinjal),Kharif,Madhya Pradesh
+eggplant (brinjal),Kharif,Punjab
+eggplant (brinjal),Kharif,Haryana
+eggplant (brinjal),Kharif,Rajasthan
+eggplant (brinjal),Kharif,Bihar
+eggplant (brinjal),Kharif,Gujarat
+eggplant (brinjal),Kharif,Maharashtra
+eggplant (brinjal),Kharif,West Bengal
+eggplant (brinjal),Kharif,Andhra Pradesh
+eggplant (brinjal),Kharif,Telangana
+eggplant (brinjal),Kharif,Karnataka
+eggplant (brinjal),Kharif,Tamil Nadu
+eggplant (brinjal),Kharif,Odisha
+eggplant (brinjal),Kharif,Assam
+eggplant (brinjal),Kharif,Chhattisgarh
+eggplant (brinjal),Kharif,Jharkhand
+eggplant (brinjal),Kharif,Uttarakhand
+eggplant (brinjal),Kharif,Himachal Pradesh
+eggplant (brinjal),Rabi,Uttar Pradesh
+eggplant (brinjal),Rabi,Madhya Pradesh
+eggplant (brinjal),Rabi,Punjab
+eggplant (brinjal),Rabi,Haryana
+eggplant (brinjal),Rabi,Rajasthan
+eggplant (brinjal),Rabi,Bihar
+eggplant (brinjal),Rabi,Gujarat
+eggplant (brinjal),Rabi,Maharashtra
+eggplant (brinjal),Rabi,West Bengal
+eggplant (brinjal),Rabi,Andhra Pradesh
+eggplant (brinjal),Rabi,Telangana
+eggplant (brinjal),Rabi,Karnataka
+eggplant (brinjal),Rabi,Tamil Nadu
+eggplant (brinjal),Rabi,Odisha
+eggplant (brinjal),Rabi,Assam
+eggplant (brinjal),Rabi,Chhattisgarh
+eggplant (brinjal),Rabi,Jharkhand
+eggplant (brinjal),Rabi,Uttarakhand
+eggplant (brinjal),Rabi,Himachal Pradesh
+eggplant (brinjal),Zaid,Uttar Pradesh
+eggplant (brinjal),Zaid,Madhya Pradesh
+eggplant (brinjal),Zaid,Punjab
+eggplant (brinjal),Zaid,Haryana
+eggplant (brinjal),Zaid,Rajasthan
+eggplant (brinjal),Zaid,Bihar
+eggplant (brinjal),Zaid,Gujarat
+eggplant (brinjal),Zaid,Maharashtra
+eggplant (brinjal),Zaid,West Bengal
+eggplant (brinjal),Zaid,Andhra Pradesh
+eggplant (brinjal),Zaid,Telangana
+eggplant (brinjal),Zaid,Karnataka
+eggplant (brinjal),Zaid,Tamil Nadu
+eggplant (brinjal),Zaid,Odisha
+eggplant (brinjal),Zaid,Assam
+eggplant (brinjal),Zaid,Chhattisgarh
+eggplant (brinjal),Zaid,Jharkhand
+eggplant (brinjal),Zaid,Uttarakhand
+eggplant (brinjal),Zaid,Himachal Pradesh
+capsicum,Kharif,Uttar Pradesh
+capsicum,Kharif,Madhya Pradesh
+capsicum,Kharif,Punjab
+capsicum,Kharif,Haryana
+capsicum,Kharif,Rajasthan
+capsicum,Kharif,Bihar
+capsicum,Kharif,Gujarat
+capsicum,Kharif,Maharashtra
+capsicum,Kharif,West Bengal
+capsicum,Kharif,Andhra Pradesh
+capsicum,Kharif,Telangana
+capsicum,Kharif,Karnataka
+capsicum,Kharif,Tamil Nadu
+capsicum,Kharif,Odisha
+capsicum,Kharif,Assam
+capsicum,Kharif,Chhattisgarh
+capsicum,Kharif,Jharkhand
+capsicum,Kharif,Uttarakhand
+capsicum,Kharif,Himachal Pradesh
+capsicum,Rabi,Uttar Pradesh
+capsicum,Rabi,Madhya Pradesh
+capsicum,Rabi,Punjab
+capsicum,Rabi,Haryana
+capsicum,Rabi,Rajasthan
+capsicum,Rabi,Bihar
+capsicum,Rabi,Gujarat
+capsicum,Rabi,Maharashtra
+capsicum,Rabi,West Bengal
+capsicum,Rabi,Andhra Pradesh
+capsicum,Rabi,Telangana
+capsicum,Rabi,Karnataka
+capsicum,Rabi,Tamil Nadu
+capsicum,Rabi,Odisha
+capsicum,Rabi,Assam
+capsicum,Rabi,Chhattisgarh
+capsicum,Rabi,Jharkhand
+capsicum,Rabi,Uttarakhand
+capsicum,Rabi,Himachal Pradesh
+capsicum,Zaid,Uttar Pradesh
+capsicum,Zaid,Madhya Pradesh
+capsicum,Zaid,Punjab
+capsicum,Zaid,Haryana
+capsicum,Zaid,Rajasthan
+capsicum,Zaid,Bihar
+capsicum,Zaid,Gujarat
+capsicum,Zaid,Maharashtra
+capsicum,Zaid,West Bengal
+capsicum,Zaid,Andhra Pradesh
+capsicum,Zaid,Telangana
+capsicum,Zaid,Karnataka
+capsicum,Zaid,Tamil Nadu
+capsicum,Zaid,Odisha
+capsicum,Zaid,Assam
+capsicum,Zaid,Chhattisgarh
+capsicum,Zaid,Jharkhand
+capsicum,Zaid,Uttarakhand
+capsicum,Zaid,Himachal Pradesh
+green chili,Kharif,Uttar Pradesh
+green chili,Kharif,Madhya Pradesh
+green chili,Kharif,Punjab
+green chili,Kharif,Haryana
+green chili,Kharif,Rajasthan
+green chili,Kharif,Bihar
+green chili,Kharif,Gujarat
+green chili,Kharif,Maharashtra
+green chili,Kharif,West Bengal
+green chili,Kharif,Andhra Pradesh
+green chili,Kharif,Telangana
+green chili,Kharif,Karnataka
+green chili,Kharif,Tamil Nadu
+green chili,Kharif,Odisha
+green chili,Kharif,Assam
+green chili,Kharif,Chhattisgarh
+green chili,Kharif,Jharkhand
+green chili,Kharif,Uttarakhand
+green chili,Kharif,Himachal Pradesh
+green chili,Rabi,Uttar Pradesh
+green chili,Rabi,Madhya Pradesh
+green chili,Rabi,Punjab
+green chili,Rabi,Haryana
+green chili,Rabi,Rajasthan
+green chili,Rabi,Bihar
+green chili,Rabi,Gujarat
+green chili,Rabi,Maharashtra
+green chili,Rabi,West Bengal
+green chili,Rabi,Andhra Pradesh
+green chili,Rabi,Telangana
+green chili,Rabi,Karnataka
+green chili,Rabi,Tamil Nadu
+green chili,Rabi,Odisha
+green chili,Rabi,Assam
+green chili,Rabi,Chhattisgarh
+green chili,Rabi,Jharkhand
+green chili,Rabi,Uttarakhand
+green chili,Rabi,Himachal Pradesh
+green chili,Zaid,Uttar Pradesh
+green chili,Zaid,Madhya Pradesh
+green chili,Zaid,Punjab
+green chili,Zaid,Haryana
+green chili,Zaid,Rajasthan
+green chili,Zaid,Bihar
+green chili,Zaid,Gujarat
+green chili,Zaid,Maharashtra
+green chili,Zaid,West Bengal
+green chili,Zaid,Andhra Pradesh
+green chili,Zaid,Telangana
+green chili,Zaid,Karnataka
+green chili,Zaid,Tamil Nadu
+green chili,Zaid,Odisha
+green chili,Zaid,Assam
+green chili,Zaid,Chhattisgarh
+green chili,Zaid,Jharkhand
+green chili,Zaid,Uttarakhand
+green chili,Zaid,Himachal Pradesh
+red chili,Kharif,Uttar Pradesh
+red chili,Kharif,Madhya Pradesh
+red chili,Kharif,Punjab
+red chili,Kharif,Haryana
+red chili,Kharif,Rajasthan
+red chili,Kharif,Bihar
+red chili,Kharif,Gujarat
+red chili,Kharif,Maharashtra
+red chili,Kharif,West Bengal
+red chili,Kharif,Andhra Pradesh
+red chili,Kharif,Telangana
+red chili,Kharif,Karnataka
+red chili,Kharif,Tamil Nadu
+red chili,Kharif,Odisha
+red chili,Kharif,Assam
+red chili,Kharif,Chhattisgarh
+red chili,Kharif,Jharkhand
+red chili,Kharif,Uttarakhand
+red chili,Kharif,Himachal Pradesh
+red chili,Rabi,Uttar Pradesh
+red chili,Rabi,Madhya Pradesh
+red chili,Rabi,Punjab
+red chili,Rabi,Haryana
+red chili,Rabi,Rajasthan
+red chili,Rabi,Bihar
+red chili,Rabi,Gujarat
+red chili,Rabi,Maharashtra
+red chili,Rabi,West Bengal
+red chili,Rabi,Andhra Pradesh
+red chili,Rabi,Telangana
+red chili,Rabi,Karnataka
+red chili,Rabi,Tamil Nadu
+red chili,Rabi,Odisha
+red chili,Rabi,Assam
+red chili,Rabi,Chhattisgarh
+red chili,Rabi,Jharkhand
+red chili,Rabi,Uttarakhand
+red chili,Rabi,Himachal Pradesh
+red chili,Zaid,Uttar Pradesh
+red chili,Zaid,Madhya Pradesh
+red chili,Zaid,Punjab
+red chili,Zaid,Haryana
+red chili,Zaid,Rajasthan
+red chili,Zaid,Bihar
+red chili,Zaid,Gujarat
+red chili,Zaid,Maharashtra
+red chili,Zaid,West Bengal
+red chili,Zaid,Andhra Pradesh
+red chili,Zaid,Telangana
+red chili,Zaid,Karnataka
+red chili,Zaid,Tamil Nadu
+red chili,Zaid,Odisha
+red chili,Zaid,Assam
+red chili,Zaid,Chhattisgarh
+red chili,Zaid,Jharkhand
+red chili,Zaid,Uttarakhand
+red chili,Zaid,Himachal Pradesh
+okra,Kharif,Uttar Pradesh
+okra,Kharif,Madhya Pradesh
+okra,Kharif,Punjab
+okra,Kharif,Haryana
+okra,Kharif,Rajasthan
+okra,Kharif,Bihar
+okra,Kharif,Gujarat
+okra,Kharif,Maharashtra
+okra,Kharif,West Bengal
+okra,Kharif,Andhra Pradesh
+okra,Kharif,Telangana
+okra,Kharif,Karnataka
+okra,Kharif,Tamil Nadu
+okra,Kharif,Odisha
+okra,Kharif,Assam
+okra,Kharif,Chhattisgarh
+okra,Kharif,Jharkhand
+okra,Kharif,Uttarakhand
+okra,Kharif,Himachal Pradesh
+okra,Rabi,Uttar Pradesh
+okra,Rabi,Madhya Pradesh
+okra,Rabi,Punjab
+okra,Rabi,Haryana
+okra,Rabi,Rajasthan
+okra,Rabi,Bihar
+okra,Rabi,Gujarat
+okra,Rabi,Maharashtra
+okra,Rabi,West Bengal
+okra,Rabi,Andhra Pradesh
+okra,Rabi,Telangana
+okra,Rabi,Karnataka
+okra,Rabi,Tamil Nadu
+okra,Rabi,Odisha
+okra,Rabi,Assam
+okra,Rabi,Chhattisgarh
+okra,Rabi,Jharkhand
+okra,Rabi,Uttarakhand
+okra,Rabi,Himachal Pradesh
+okra,Zaid,Uttar Pradesh
+okra,Zaid,Madhya Pradesh
+okra,Zaid,Punjab
+okra,Zaid,Haryana
+okra,Zaid,Rajasthan
+okra,Zaid,Bihar
+okra,Zaid,Gujarat
+okra,Zaid,Maharashtra
+okra,Zaid,West Bengal
+okra,Zaid,Andhra Pradesh
+okra,Zaid,Telangana
+okra,Zaid,Karnataka
+okra,Zaid,Tamil Nadu
+okra,Zaid,Odisha
+okra,Zaid,Assam
+okra,Zaid,Chhattisgarh
+okra,Zaid,Jharkhand
+okra,Zaid,Uttarakhand
+okra,Zaid,Himachal Pradesh
+drumstick pods,Kharif,Uttar Pradesh
+drumstick pods,Kharif,Madhya Pradesh
+drumstick pods,Kharif,Punjab
+drumstick pods,Kharif,Haryana
+drumstick pods,Kharif,Rajasthan
+drumstick pods,Kharif,Bihar
+drumstick pods,Kharif,Gujarat
+drumstick pods,Kharif,Maharashtra
+drumstick pods,Kharif,West Bengal
+drumstick pods,Kharif,Andhra Pradesh
+drumstick pods,Kharif,Telangana
+drumstick pods,Kharif,Karnataka
+drumstick pods,Kharif,Tamil Nadu
+drumstick pods,Kharif,Odisha
+drumstick pods,Kharif,Assam
+drumstick pods,Kharif,Chhattisgarh
+drumstick pods,Kharif,Jharkhand
+drumstick pods,Kharif,Uttarakhand
+drumstick pods,Kharif,Himachal Pradesh
+drumstick pods,Rabi,Uttar Pradesh
+drumstick pods,Rabi,Madhya Pradesh
+drumstick pods,Rabi,Punjab
+drumstick pods,Rabi,Haryana
+drumstick pods,Rabi,Rajasthan
+drumstick pods,Rabi,Bihar
+drumstick pods,Rabi,Gujarat
+drumstick pods,Rabi,Maharashtra
+drumstick pods,Rabi,West Bengal
+drumstick pods,Rabi,Andhra Pradesh
+drumstick pods,Rabi,Telangana
+drumstick pods,Rabi,Karnataka
+drumstick pods,Rabi,Tamil Nadu
+drumstick pods,Rabi,Odisha
+drumstick pods,Rabi,Assam
+drumstick pods,Rabi,Chhattisgarh
+drumstick pods,Rabi,Jharkhand
+drumstick pods,Rabi,Uttarakhand
+drumstick pods,Rabi,Himachal Pradesh
+drumstick pods,Zaid,Uttar Pradesh
+drumstick pods,Zaid,Madhya Pradesh
+drumstick pods,Zaid,Punjab
+drumstick pods,Zaid,Haryana
+drumstick pods,Zaid,Rajasthan
+drumstick pods,Zaid,Bihar
+drumstick pods,Zaid,Gujarat
+drumstick pods,Zaid,Maharashtra
+drumstick pods,Zaid,West Bengal
+drumstick pods,Zaid,Andhra Pradesh
+drumstick pods,Zaid,Telangana
+drumstick pods,Zaid,Karnataka
+drumstick pods,Zaid,Tamil Nadu
+drumstick pods,Zaid,Odisha
+drumstick pods,Zaid,Assam
+drumstick pods,Zaid,Chhattisgarh
+drumstick pods,Zaid,Jharkhand
+drumstick pods,Zaid,Uttarakhand
+drumstick pods,Zaid,Himachal Pradesh
+baby corn,Kharif,Uttar Pradesh
+baby corn,Kharif,Madhya Pradesh
+baby corn,Kharif,Punjab
+baby corn,Kharif,Haryana
+baby corn,Kharif,Rajasthan
+baby corn,Kharif,Bihar
+baby corn,Kharif,Gujarat
+baby corn,Kharif,Maharashtra
+baby corn,Kharif,West Bengal
+baby corn,Kharif,Andhra Pradesh
+baby corn,Kharif,Telangana
+baby corn,Kharif,Karnataka
+baby corn,Kharif,Tamil Nadu
+baby corn,Kharif,Odisha
+baby corn,Kharif,Assam
+baby corn,Kharif,Chhattisgarh
+baby corn,Kharif,Jharkhand
+baby corn,Kharif,Uttarakhand
+baby corn,Kharif,Himachal Pradesh
+baby corn,Rabi,Uttar Pradesh
+baby corn,Rabi,Madhya Pradesh
+baby corn,Rabi,Punjab
+baby corn,Rabi,Haryana
+baby corn,Rabi,Rajasthan
+baby corn,Rabi,Bihar
+baby corn,Rabi,Gujarat
+baby corn,Rabi,Maharashtra
+baby corn,Rabi,West Bengal
+baby corn,Rabi,Andhra Pradesh
+baby corn,Rabi,Telangana
+baby corn,Rabi,Karnataka
+baby corn,Rabi,Tamil Nadu
+baby corn,Rabi,Odisha
+baby corn,Rabi,Assam
+baby corn,Rabi,Chhattisgarh
+baby corn,Rabi,Jharkhand
+baby corn,Rabi,Uttarakhand
+baby corn,Rabi,Himachal Pradesh
+baby corn,Zaid,Uttar Pradesh
+baby corn,Zaid,Madhya Pradesh
+baby corn,Zaid,Punjab
+baby corn,Zaid,Haryana
+baby corn,Zaid,Rajasthan
+baby corn,Zaid,Bihar
+baby corn,Zaid,Gujarat
+baby corn,Zaid,Maharashtra
+baby corn,Zaid,West Bengal
+baby corn,Zaid,Andhra Pradesh
+baby corn,Zaid,Telangana
+baby corn,Zaid,Karnataka
+baby corn,Zaid,Tamil Nadu
+baby corn,Zaid,Odisha
+baby corn,Zaid,Assam
+baby corn,Zaid,Chhattisgarh
+baby corn,Zaid,Jharkhand
+baby corn,Zaid,Uttarakhand
+baby corn,Zaid,Himachal Pradesh
+sweet corn,Kharif,Uttar Pradesh
+sweet corn,Kharif,Madhya Pradesh
+sweet corn,Kharif,Punjab
+sweet corn,Kharif,Haryana
+sweet corn,Kharif,Rajasthan
+sweet corn,Kharif,Bihar
+sweet corn,Kharif,Gujarat
+sweet corn,Kharif,Maharashtra
+sweet corn,Kharif,West Bengal
+sweet corn,Kharif,Andhra Pradesh
+sweet corn,Kharif,Telangana
+sweet corn,Kharif,Karnataka
+sweet corn,Kharif,Tamil Nadu
+sweet corn,Kharif,Odisha
+sweet corn,Kharif,Assam
+sweet corn,Kharif,Chhattisgarh
+sweet corn,Kharif,Jharkhand
+sweet corn,Kharif,Uttarakhand
+sweet corn,Kharif,Himachal Pradesh
+sweet corn,Rabi,Uttar Pradesh
+sweet corn,Rabi,Madhya Pradesh
+sweet corn,Rabi,Punjab
+sweet corn,Rabi,Haryana
+sweet corn,Rabi,Rajasthan
+sweet corn,Rabi,Bihar
+sweet corn,Rabi,Gujarat
+sweet corn,Rabi,Maharashtra
+sweet corn,Rabi,West Bengal
+sweet corn,Rabi,Andhra Pradesh
+sweet corn,Rabi,Telangana
+sweet corn,Rabi,Karnataka
+sweet corn,Rabi,Tamil Nadu
+sweet corn,Rabi,Odisha
+sweet corn,Rabi,Assam
+sweet corn,Rabi,Chhattisgarh
+sweet corn,Rabi,Jharkhand
+sweet corn,Rabi,Uttarakhand
+sweet corn,Rabi,Himachal Pradesh
+sweet corn,Zaid,Uttar Pradesh
+sweet corn,Zaid,Madhya Pradesh
+sweet corn,Zaid,Punjab
+sweet corn,Zaid,Haryana
+sweet corn,Zaid,Rajasthan
+sweet corn,Zaid,Bihar
+sweet corn,Zaid,Gujarat
+sweet corn,Zaid,Maharashtra
+sweet corn,Zaid,West Bengal
+sweet corn,Zaid,Andhra Pradesh
+sweet corn,Zaid,Telangana
+sweet corn,Zaid,Karnataka
+sweet corn,Zaid,Tamil Nadu
+sweet corn,Zaid,Odisha
+sweet corn,Zaid,Assam
+sweet corn,Zaid,Chhattisgarh
+sweet corn,Zaid,Jharkhand
+sweet corn,Zaid,Uttarakhand
+sweet corn,Zaid,Himachal Pradesh
+mushroom,Kharif,Uttar Pradesh
+mushroom,Kharif,Madhya Pradesh
+mushroom,Kharif,Punjab
+mushroom,Kharif,Haryana
+mushroom,Kharif,Rajasthan
+mushroom,Kharif,Bihar
+mushroom,Kharif,Gujarat
+mushroom,Kharif,Maharashtra
+mushroom,Kharif,West Bengal
+mushroom,Kharif,Andhra Pradesh
+mushroom,Kharif,Telangana
+mushroom,Kharif,Karnataka
+mushroom,Kharif,Tamil Nadu
+mushroom,Kharif,Odisha
+mushroom,Kharif,Assam
+mushroom,Kharif,Chhattisgarh
+mushroom,Kharif,Jharkhand
+mushroom,Kharif,Uttarakhand
+mushroom,Kharif,Himachal Pradesh
+mushroom,Rabi,Uttar Pradesh
+mushroom,Rabi,Madhya Pradesh
+mushroom,Rabi,Punjab
+mushroom,Rabi,Haryana
+mushroom,Rabi,Rajasthan
+mushroom,Rabi,Bihar
+mushroom,Rabi,Gujarat
+mushroom,Rabi,Maharashtra
+mushroom,Rabi,West Bengal
+mushroom,Rabi,Andhra Pradesh
+mushroom,Rabi,Telangana
+mushroom,Rabi,Karnataka
+mushroom,Rabi,Tamil Nadu
+mushroom,Rabi,Odisha
+mushroom,Rabi,Assam
+mushroom,Rabi,Chhattisgarh
+mushroom,Rabi,Jharkhand
+mushroom,Rabi,Uttarakhand
+mushroom,Rabi,Himachal Pradesh
+mushroom,Zaid,Uttar Pradesh
+mushroom,Zaid,Madhya Pradesh
+mushroom,Zaid,Punjab
+mushroom,Zaid,Haryana
+mushroom,Zaid,Rajasthan
+mushroom,Zaid,Bihar
+mushroom,Zaid,Gujarat
+mushroom,Zaid,Maharashtra
+mushroom,Zaid,West Bengal
+mushroom,Zaid,Andhra Pradesh
+mushroom,Zaid,Telangana
+mushroom,Zaid,Karnataka
+mushroom,Zaid,Tamil Nadu
+mushroom,Zaid,Odisha
+mushroom,Zaid,Assam
+mushroom,Zaid,Chhattisgarh
+mushroom,Zaid,Jharkhand
+mushroom,Zaid,Uttarakhand
+mushroom,Zaid,Himachal Pradesh
+red onion,Kharif,Maharashtra
+red onion,Kharif,Karnataka
+red onion,Kharif,Gujarat
+red onion,Kharif,Madhya Pradesh
+red onion,Kharif,Rajasthan
+red onion,Rabi,Maharashtra
+red onion,Rabi,Karnataka
+red onion,Rabi,Gujarat
+red onion,Rabi,Madhya Pradesh
+red onion,Rabi,Rajasthan
+red onion,Rabi,Uttar Pradesh
+red onion,Rabi,Bihar
+red onion,Rabi,Tamil Nadu
+red onion,Rabi,Haryana
+red onion,Rabi,Punjab
+red onion,Zaid,Maharashtra
+red onion,Zaid,Karnataka
+red onion,Zaid,Gujarat
+red onion,Zaid,Tamil Nadu
+red onion,Zaid,Andhra Pradesh
+white onion,Kharif,Maharashtra
+white onion,Kharif,Karnataka
+white onion,Kharif,Gujarat
+white onion,Kharif,Madhya Pradesh
+white onion,Kharif,Rajasthan
+white onion,Rabi,Maharashtra
+white onion,Rabi,Karnataka
+white onion,Rabi,Gujarat
+white onion,Rabi,Madhya Pradesh
+white onion,Rabi,Rajasthan
+white onion,Rabi,Uttar Pradesh
+white onion,Rabi,Bihar
+white onion,Rabi,Tamil Nadu
+white onion,Rabi,Haryana
+white onion,Rabi,Punjab
+white onion,Zaid,Maharashtra
+white onion,Zaid,Karnataka
+white onion,Zaid,Gujarat
+white onion,Zaid,Tamil Nadu
+white onion,Zaid,Andhra Pradesh
+shallot,Kharif,Maharashtra
+shallot,Kharif,Karnataka
+shallot,Kharif,Gujarat
+shallot,Kharif,Madhya Pradesh
+shallot,Kharif,Rajasthan
+shallot,Rabi,Maharashtra
+shallot,Rabi,Karnataka
+shallot,Rabi,Gujarat
+shallot,Rabi,Madhya Pradesh
+shallot,Rabi,Rajasthan
+shallot,Rabi,Uttar Pradesh
+shallot,Rabi,Bihar
+shallot,Rabi,Tamil Nadu
+shallot,Rabi,Haryana
+shallot,Rabi,Punjab
+shallot,Zaid,Maharashtra
+shallot,Zaid,Karnataka
+shallot,Zaid,Gujarat
+shallot,Zaid,Tamil Nadu
+shallot,Zaid,Andhra Pradesh
+sweet potato,Kharif,Kerala
+sweet potato,Kharif,Tamil Nadu
+sweet potato,Kharif,Andhra Pradesh
+sweet potato,Kharif,West Bengal
+sweet potato,Kharif,Odisha
+sweet potato,Kharif,Assam
+sweet potato,Kharif,Karnataka
+sweet potato,Kharif,Bihar
+sweet potato,Kharif,Uttar Pradesh
+sweet potato,Rabi,Kerala
+sweet potato,Rabi,Tamil Nadu
+sweet potato,Rabi,Andhra Pradesh
+sweet potato,Rabi,West Bengal
+sweet potato,Rabi,Odisha
+sweet potato,Rabi,Assam
+sweet potato,Rabi,Karnataka
+sweet potato,Rabi,Bihar
+sweet potato,Rabi,Uttar Pradesh
+cassava (tapioca),Kharif,Kerala
+cassava (tapioca),Kharif,Tamil Nadu
+cassava (tapioca),Kharif,Andhra Pradesh
+cassava (tapioca),Kharif,West Bengal
+cassava (tapioca),Kharif,Odisha
+cassava (tapioca),Kharif,Assam
+cassava (tapioca),Kharif,Karnataka
+cassava (tapioca),Kharif,Bihar
+cassava (tapioca),Kharif,Uttar Pradesh
+cassava (tapioca),Rabi,Kerala
+cassava (tapioca),Rabi,Tamil Nadu
+cassava (tapioca),Rabi,Andhra Pradesh
+cassava (tapioca),Rabi,West Bengal
+cassava (tapioca),Rabi,Odisha
+cassava (tapioca),Rabi,Assam
+cassava (tapioca),Rabi,Karnataka
+cassava (tapioca),Rabi,Bihar
+cassava (tapioca),Rabi,Uttar Pradesh
+elephant foot yam,Kharif,Kerala
+elephant foot yam,Kharif,Tamil Nadu
+elephant foot yam,Kharif,Andhra Pradesh
+elephant foot yam,Kharif,West Bengal
+elephant foot yam,Kharif,Odisha
+elephant foot yam,Kharif,Assam
+elephant foot yam,Kharif,Karnataka
+elephant foot yam,Kharif,Bihar
+elephant foot yam,Kharif,Uttar Pradesh
+elephant foot yam,Rabi,Kerala
+elephant foot yam,Rabi,Tamil Nadu
+elephant foot yam,Rabi,Andhra Pradesh
+elephant foot yam,Rabi,West Bengal
+elephant foot yam,Rabi,Odisha
+elephant foot yam,Rabi,Assam
+elephant foot yam,Rabi,Karnataka
+elephant foot yam,Rabi,Bihar
+elephant foot yam,Rabi,Uttar Pradesh
+yam,Kharif,Kerala
+yam,Kharif,Tamil Nadu
+yam,Kharif,Andhra Pradesh
+yam,Kharif,West Bengal
+yam,Kharif,Odisha
+yam,Kharif,Assam
+yam,Kharif,Karnataka
+yam,Kharif,Bihar
+yam,Kharif,Uttar Pradesh
+yam,Rabi,Kerala
+yam,Rabi,Tamil Nadu
+yam,Rabi,Andhra Pradesh
+yam,Rabi,West Bengal
+yam,Rabi,Odisha
+yam,Rabi,Assam
+yam,Rabi,Karnataka
+yam,Rabi,Bihar
+yam,Rabi,Uttar Pradesh
+taro (arvi),Kharif,Kerala
+taro (arvi),Kharif,Tamil Nadu
+taro (arvi),Kharif,Andhra Pradesh
+taro (arvi),Kharif,West Bengal
+taro (arvi),Kharif,Odisha
+taro (arvi),Kharif,Assam
+taro (arvi),Kharif,Karnataka
+taro (arvi),Kharif,Bihar
+taro (arvi),Kharif,Uttar Pradesh
+taro (arvi),Rabi,Kerala
+taro (arvi),Rabi,Tamil Nadu
+taro (arvi),Rabi,Andhra Pradesh
+taro (arvi),Rabi,West Bengal
+taro (arvi),Rabi,Odisha
+taro (arvi),Rabi,Assam
+taro (arvi),Rabi,Karnataka
+taro (arvi),Rabi,Bihar
+taro (arvi),Rabi,Uttar Pradesh
+chinese potato,Kharif,Kerala
+chinese potato,Kharif,Tamil Nadu
+chinese potato,Kharif,Andhra Pradesh
+chinese potato,Kharif,West Bengal
+chinese potato,Kharif,Odisha
+chinese potato,Kharif,Assam
+chinese potato,Kharif,Karnataka
+chinese potato,Kharif,Bihar
+chinese potato,Kharif,Uttar Pradesh
+chinese potato,Rabi,Kerala
+chinese potato,Rabi,Tamil Nadu
+chinese potato,Rabi,Andhra Pradesh
+chinese potato,Rabi,West Bengal
+chinese potato,Rabi,Odisha
+chinese potato,Rabi,Assam
+chinese potato,Rabi,Karnataka
+chinese potato,Rabi,Bihar
+chinese potato,Rabi,Uttar Pradesh
+arrowroot,Kharif,Kerala
+arrowroot,Kharif,Tamil Nadu
+arrowroot,Kharif,Andhra Pradesh
+arrowroot,Kharif,West Bengal
+arrowroot,Kharif,Odisha
+arrowroot,Kharif,Assam
+arrowroot,Kharif,Karnataka
+arrowroot,Kharif,Bihar
+arrowroot,Kharif,Uttar Pradesh
+arrowroot,Rabi,Kerala
+arrowroot,Rabi,Tamil Nadu
+arrowroot,Rabi,Andhra Pradesh
+arrowroot,Rabi,West Bengal
+arrowroot,Rabi,Odisha
+arrowroot,Rabi,Assam
+arrowroot,Rabi,Karnataka
+arrowroot,Rabi,Bihar
+arrowroot,Rabi,Uttar Pradesh
+jerusalem artichoke,Kharif,Kerala
+jerusalem artichoke,Kharif,Tamil Nadu
+jerusalem artichoke,Kharif,Andhra Pradesh
+jerusalem artichoke,Kharif,West Bengal
+jerusalem artichoke,Kharif,Odisha
+jerusalem artichoke,Kharif,Assam
+jerusalem artichoke,Kharif,Karnataka
+jerusalem artichoke,Kharif,Bihar
+jerusalem artichoke,Kharif,Uttar Pradesh
+jerusalem artichoke,Rabi,Kerala
+jerusalem artichoke,Rabi,Tamil Nadu
+jerusalem artichoke,Rabi,Andhra Pradesh
+jerusalem artichoke,Rabi,West Bengal
+jerusalem artichoke,Rabi,Odisha
+jerusalem artichoke,Rabi,Assam
+jerusalem artichoke,Rabi,Karnataka
+jerusalem artichoke,Rabi,Bihar
+jerusalem artichoke,Rabi,Uttar Pradesh
+water chestnut,Kharif,Bihar
+water chestnut,Kharif,West Bengal
+water chestnut,Kharif,Uttar Pradesh
+water chestnut,Kharif,Madhya Pradesh
+water chestnut,Kharif,Jammu and Kashmir
+water chestnut,Zaid,Bihar
+water chestnut,Zaid,West Bengal
+water chestnut,Zaid,Uttar Pradesh
+water chestnut,Zaid,Madhya Pradesh
+lotus root,Kharif,Bihar
+lotus root,Kharif,West Bengal
+lotus root,Kharif,Uttar Pradesh
+lotus root,Kharif,Madhya Pradesh
+lotus root,Kharif,Jammu and Kashmir
+lotus root,Zaid,Bihar
+lotus root,Zaid,West Bengal
+lotus root,Zaid,Uttar Pradesh
+lotus root,Zaid,Madhya Pradesh
+ivy gourd (tindora),Kharif,Uttar Pradesh
+ivy gourd (tindora),Kharif,Punjab
+ivy gourd (tindora),Kharif,Haryana
+ivy gourd (tindora),Kharif,Bihar
+ivy gourd (tindora),Kharif,West Bengal
+ivy gourd (tindora),Kharif,Rajasthan
+ivy gourd (tindora),Kharif,Gujarat
+ivy gourd (tindora),Kharif,Maharashtra
+ivy gourd (tindora),Kharif,Karnataka
+ivy gourd (tindora),Kharif,Andhra Pradesh
+ivy gourd (tindora),Kharif,Telangana
+ivy gourd (tindora),Kharif,Tamil Nadu
+ivy gourd (tindora),Kharif,Madhya Pradesh
+ivy gourd (tindora),Zaid,Uttar Pradesh
+ivy gourd (tindora),Zaid,Punjab
+ivy gourd (tindora),Zaid,Haryana
+ivy gourd (tindora),Zaid,Bihar
+ivy gourd (tindora),Zaid,West Bengal
+ivy gourd (tindora),Zaid,Rajasthan
+ivy gourd (tindora),Zaid,Gujarat
+ivy gourd (tindora),Zaid,Maharashtra
+ivy gourd (tindora),Zaid,Karnataka
+ivy gourd (tindora),Zaid,Andhra Pradesh
+ivy gourd (tindora),Zaid,Telangana
+ivy gourd (tindora),Zaid,Tamil Nadu
+ivy gourd (tindora),Zaid,Madhya Pradesh
+pointed gourd (parwal),Kharif,Uttar Pradesh
+pointed gourd (parwal),Kharif,Punjab
+pointed gourd (parwal),Kharif,Haryana
+pointed gourd (parwal),Kharif,Bihar
+pointed gourd (parwal),Kharif,West Bengal
+pointed gourd (parwal),Kharif,Rajasthan
+pointed gourd (parwal),Kharif,Gujarat
+pointed gourd (parwal),Kharif,Maharashtra
+pointed gourd (parwal),Kharif,Karnataka
+pointed gourd (parwal),Kharif,Andhra Pradesh
+pointed gourd (parwal),Kharif,Telangana
+pointed gourd (parwal),Kharif,Tamil Nadu
+pointed gourd (parwal),Kharif,Madhya Pradesh
+pointed gourd (parwal),Zaid,Uttar Pradesh
+pointed gourd (parwal),Zaid,Punjab
+pointed gourd (parwal),Zaid,Haryana
+pointed gourd (parwal),Zaid,Bihar
+pointed gourd (parwal),Zaid,West Bengal
+pointed gourd (parwal),Zaid,Rajasthan
+pointed gourd (parwal),Zaid,Gujarat
+pointed gourd (parwal),Zaid,Maharashtra
+pointed gourd (parwal),Zaid,Karnataka
+pointed gourd (parwal),Zaid,Andhra Pradesh
+pointed gourd (parwal),Zaid,Telangana
+pointed gourd (parwal),Zaid,Tamil Nadu
+pointed gourd (parwal),Zaid,Madhya Pradesh
+ash gourd,Kharif,Uttar Pradesh
+ash gourd,Kharif,Punjab
+ash gourd,Kharif,Haryana
+ash gourd,Kharif,Bihar
+ash gourd,Kharif,West Bengal
+ash gourd,Kharif,Rajasthan
+ash gourd,Kharif,Gujarat
+ash gourd,Kharif,Maharashtra
+ash gourd,Kharif,Karnataka
+ash gourd,Kharif,Andhra Pradesh
+ash gourd,Kharif,Telangana
+ash gourd,Kharif,Tamil Nadu
+ash gourd,Kharif,Madhya Pradesh
+ash gourd,Zaid,Uttar Pradesh
+ash gourd,Zaid,Punjab
+ash gourd,Zaid,Haryana
+ash gourd,Zaid,Bihar
+ash gourd,Zaid,West Bengal
+ash gourd,Zaid,Rajasthan
+ash gourd,Zaid,Gujarat
+ash gourd,Zaid,Maharashtra
+ash gourd,Zaid,Karnataka
+ash gourd,Zaid,Andhra Pradesh
+ash gourd,Zaid,Telangana
+ash gourd,Zaid,Tamil Nadu
+ash gourd,Zaid,Madhya Pradesh
+ridge gourd,Kharif,Uttar Pradesh
+ridge gourd,Kharif,Punjab
+ridge gourd,Kharif,Haryana
+ridge gourd,Kharif,Bihar
+ridge gourd,Kharif,West Bengal
+ridge gourd,Kharif,Rajasthan
+ridge gourd,Kharif,Gujarat
+ridge gourd,Kharif,Maharashtra
+ridge gourd,Kharif,Karnataka
+ridge gourd,Kharif,Andhra Pradesh
+ridge gourd,Kharif,Telangana
+ridge gourd,Kharif,Tamil Nadu
+ridge gourd,Kharif,Madhya Pradesh
+ridge gourd,Zaid,Uttar Pradesh
+ridge gourd,Zaid,Punjab
+ridge gourd,Zaid,Haryana
+ridge gourd,Zaid,Bihar
+ridge gourd,Zaid,West Bengal
+ridge gourd,Zaid,Rajasthan
+ridge gourd,Zaid,Gujarat
+ridge gourd,Zaid,Maharashtra
+ridge gourd,Zaid,Karnataka
+ridge gourd,Zaid,Andhra Pradesh
+ridge gourd,Zaid,Telangana
+ridge gourd,Zaid,Tamil Nadu
+ridge gourd,Zaid,Madhya Pradesh
+sponge gourd,Kharif,Uttar Pradesh
+sponge gourd,Kharif,Punjab
+sponge gourd,Kharif,Haryana
+sponge gourd,Kharif,Bihar
+sponge gourd,Kharif,West Bengal
+sponge gourd,Kharif,Rajasthan
+sponge gourd,Kharif,Gujarat
+sponge gourd,Kharif,Maharashtra
+sponge gourd,Kharif,Karnataka
+sponge gourd,Kharif,Andhra Pradesh
+sponge gourd,Kharif,Telangana
+sponge gourd,Kharif,Tamil Nadu
+sponge gourd,Kharif,Madhya Pradesh
+sponge gourd,Zaid,Uttar Pradesh
+sponge gourd,Zaid,Punjab
+sponge gourd,Zaid,Haryana
+sponge gourd,Zaid,Bihar
+sponge gourd,Zaid,West Bengal
+sponge gourd,Zaid,Rajasthan
+sponge gourd,Zaid,Gujarat
+sponge gourd,Zaid,Maharashtra
+sponge gourd,Zaid,Karnataka
+sponge gourd,Zaid,Andhra Pradesh
+sponge gourd,Zaid,Telangana
+sponge gourd,Zaid,Tamil Nadu
+sponge gourd,Zaid,Madhya Pradesh
+snake gourd,Kharif,Uttar Pradesh
+snake gourd,Kharif,Punjab
+snake gourd,Kharif,Haryana
+snake gourd,Kharif,Bihar
+snake gourd,Kharif,West Bengal
+snake gourd,Kharif,Rajasthan
+snake gourd,Kharif,Gujarat
+snake gourd,Kharif,Maharashtra
+snake gourd,Kharif,Karnataka
+snake gourd,Kharif,Andhra Pradesh
+snake gourd,Kharif,Telangana
+snake gourd,Kharif,Tamil Nadu
+snake gourd,Kharif,Madhya Pradesh
+snake gourd,Zaid,Uttar Pradesh
+snake gourd,Zaid,Punjab
+snake gourd,Zaid,Haryana
+snake gourd,Zaid,Bihar
+snake gourd,Zaid,West Bengal
+snake gourd,Zaid,Rajasthan
+snake gourd,Zaid,Gujarat
+snake gourd,Zaid,Maharashtra
+snake gourd,Zaid,Karnataka
+snake gourd,Zaid,Andhra Pradesh
+snake gourd,Zaid,Telangana
+snake gourd,Zaid,Tamil Nadu
+snake gourd,Zaid,Madhya Pradesh
+bitter gourd,Kharif,Uttar Pradesh
+bitter gourd,Kharif,Punjab
+bitter gourd,Kharif,Haryana
+bitter gourd,Kharif,Bihar
+bitter gourd,Kharif,West Bengal
+bitter gourd,Kharif,Rajasthan
+bitter gourd,Kharif,Gujarat
+bitter gourd,Kharif,Maharashtra
+bitter gourd,Kharif,Karnataka
+bitter gourd,Kharif,Andhra Pradesh
+bitter gourd,Kharif,Telangana
+bitter gourd,Kharif,Tamil Nadu
+bitter gourd,Kharif,Madhya Pradesh
+bitter gourd,Zaid,Uttar Pradesh
+bitter gourd,Zaid,Punjab
+bitter gourd,Zaid,Haryana
+bitter gourd,Zaid,Bihar
+bitter gourd,Zaid,West Bengal
+bitter gourd,Zaid,Rajasthan
+bitter gourd,Zaid,Gujarat
+bitter gourd,Zaid,Maharashtra
+bitter gourd,Zaid,Karnataka
+bitter gourd,Zaid,Andhra Pradesh
+bitter gourd,Zaid,Telangana
+bitter gourd,Zaid,Tamil Nadu
+bitter gourd,Zaid,Madhya Pradesh
+bottle gourd,Kharif,Uttar Pradesh
+bottle gourd,Kharif,Punjab
+bottle gourd,Kharif,Haryana
+bottle gourd,Kharif,Bihar
+bottle gourd,Kharif,West Bengal
+bottle gourd,Kharif,Rajasthan
+bottle gourd,Kharif,Gujarat
+bottle gourd,Kharif,Maharashtra
+bottle gourd,Kharif,Karnataka
+bottle gourd,Kharif,Andhra Pradesh
+bottle gourd,Kharif,Telangana
+bottle gourd,Kharif,Tamil Nadu
+bottle gourd,Kharif,Madhya Pradesh
+bottle gourd,Zaid,Uttar Pradesh
+bottle gourd,Zaid,Punjab
+bottle gourd,Zaid,Haryana
+bottle gourd,Zaid,Bihar
+bottle gourd,Zaid,West Bengal
+bottle gourd,Zaid,Rajasthan
+bottle gourd,Zaid,Gujarat
+bottle gourd,Zaid,Maharashtra
+bottle gourd,Zaid,Karnataka
+bottle gourd,Zaid,Andhra Pradesh
+bottle gourd,Zaid,Telangana
+bottle gourd,Zaid,Tamil Nadu
+bottle gourd,Zaid,Madhya Pradesh
+cucumber,Kharif,Uttar Pradesh
+cucumber,Kharif,Punjab
+cucumber,Kharif,Haryana
+cucumber,Kharif,Bihar
+cucumber,Kharif,West Bengal
+cucumber,Kharif,Rajasthan
+cucumber,Kharif,Gujarat
+cucumber,Kharif,Maharashtra
+cucumber,Kharif,Karnataka
+cucumber,Kharif,Andhra Pradesh
+cucumber,Kharif,Telangana
+cucumber,Kharif,Tamil Nadu
+cucumber,Kharif,Madhya Pradesh
+cucumber,Zaid,Uttar Pradesh
+cucumber,Zaid,Punjab
+cucumber,Zaid,Haryana
+cucumber,Zaid,Bihar
+cucumber,Zaid,West Bengal
+cucumber,Zaid,Rajasthan
+cucumber,Zaid,Gujarat
+cucumber,Zaid,Maharashtra
+cucumber,Zaid,Karnataka
+cucumber,Zaid,Andhra Pradesh
+cucumber,Zaid,Telangana
+cucumber,Zaid,Tamil Nadu
+cucumber,Zaid,Madhya Pradesh
+pumpkin,Kharif,Uttar Pradesh
+pumpkin,Kharif,Punjab
+pumpkin,Kharif,Haryana
+pumpkin,Kharif,Bihar
+pumpkin,Kharif,West Bengal
+pumpkin,Kharif,Rajasthan
+pumpkin,Kharif,Gujarat
+pumpkin,Kharif,Maharashtra
+pumpkin,Kharif,Karnataka
+pumpkin,Kharif,Andhra Pradesh
+pumpkin,Kharif,Telangana
+pumpkin,Kharif,Tamil Nadu
+pumpkin,Kharif,Madhya Pradesh
+pumpkin,Zaid,Uttar Pradesh
+pumpkin,Zaid,Punjab
+pumpkin,Zaid,Haryana
+pumpkin,Zaid,Bihar
+pumpkin,Zaid,West Bengal
+pumpkin,Zaid,Rajasthan
+pumpkin,Zaid,Gujarat
+pumpkin,Zaid,Maharashtra
+pumpkin,Zaid,Karnataka
+pumpkin,Zaid,Andhra Pradesh
+pumpkin,Zaid,Telangana
+pumpkin,Zaid,Tamil Nadu
+pumpkin,Zaid,Madhya Pradesh
+squash,Kharif,Uttar Pradesh
+squash,Kharif,Punjab
+squash,Kharif,Haryana
+squash,Kharif,Bihar
+squash,Kharif,West Bengal
+squash,Kharif,Rajasthan
+squash,Kharif,Gujarat
+squash,Kharif,Maharashtra
+squash,Kharif,Karnataka
+squash,Kharif,Andhra Pradesh
+squash,Kharif,Telangana
+squash,Kharif,Tamil Nadu
+squash,Kharif,Madhya Pradesh
+squash,Zaid,Uttar Pradesh
+squash,Zaid,Punjab
+squash,Zaid,Haryana
+squash,Zaid,Bihar
+squash,Zaid,West Bengal
+squash,Zaid,Rajasthan
+squash,Zaid,Gujarat
+squash,Zaid,Maharashtra
+squash,Zaid,Karnataka
+squash,Zaid,Andhra Pradesh
+squash,Zaid,Telangana
+squash,Zaid,Tamil Nadu
+squash,Zaid,Madhya Pradesh
+chow chow,Kharif,Uttar Pradesh
+chow chow,Kharif,Punjab
+chow chow,Kharif,Haryana
+chow chow,Kharif,Bihar
+chow chow,Kharif,West Bengal
+chow chow,Kharif,Rajasthan
+chow chow,Kharif,Gujarat
+chow chow,Kharif,Maharashtra
+chow chow,Kharif,Karnataka
+chow chow,Kharif,Andhra Pradesh
+chow chow,Kharif,Telangana
+chow chow,Kharif,Tamil Nadu
+chow chow,Kharif,Madhya Pradesh
+chow chow,Zaid,Uttar Pradesh
+chow chow,Zaid,Punjab
+chow chow,Zaid,Haryana
+chow chow,Zaid,Bihar
+chow chow,Zaid,West Bengal
+chow chow,Zaid,Rajasthan
+chow chow,Zaid,Gujarat
+chow chow,Zaid,Maharashtra
+chow chow,Zaid,Karnataka
+chow chow,Zaid,Andhra Pradesh
+chow chow,Zaid,Telangana
+chow chow,Zaid,Tamil Nadu
+chow chow,Zaid,Madhya Pradesh
+round gourd (tinda),Kharif,Uttar Pradesh
+round gourd (tinda),Kharif,Punjab
+round gourd (tinda),Kharif,Haryana
+round gourd (tinda),Kharif,Bihar
+round gourd (tinda),Kharif,West Bengal
+round gourd (tinda),Kharif,Rajasthan
+round gourd (tinda),Kharif,Gujarat
+round gourd (tinda),Kharif,Maharashtra
+round gourd (tinda),Kharif,Karnataka
+round gourd (tinda),Kharif,Andhra Pradesh
+round gourd (tinda),Kharif,Telangana
+round gourd (tinda),Kharif,Tamil Nadu
+round gourd (tinda),Kharif,Madhya Pradesh
+round gourd (tinda),Zaid,Uttar Pradesh
+round gourd (tinda),Zaid,Punjab
+round gourd (tinda),Zaid,Haryana
+round gourd (tinda),Zaid,Bihar
+round gourd (tinda),Zaid,West Bengal
+round gourd (tinda),Zaid,Rajasthan
+round gourd (tinda),Zaid,Gujarat
+round gourd (tinda),Zaid,Maharashtra
+round gourd (tinda),Zaid,Karnataka
+round gourd (tinda),Zaid,Andhra Pradesh
+round gourd (tinda),Zaid,Telangana
+round gourd (tinda),Zaid,Tamil Nadu
+round gourd (tinda),Zaid,Madhya Pradesh
+wax gourd,Kharif,Uttar Pradesh
+wax gourd,Kharif,Punjab
+wax gourd,Kharif,Haryana
+wax gourd,Kharif,Bihar
+wax gourd,Kharif,West Bengal
+wax gourd,Kharif,Rajasthan
+wax gourd,Kharif,Gujarat
+wax gourd,Kharif,Maharashtra
+wax gourd,Kharif,Karnataka
+wax gourd,Kharif,Andhra Pradesh
+wax gourd,Kharif,Telangana
+wax gourd,Kharif,Tamil Nadu
+wax gourd,Kharif,Madhya Pradesh
+wax gourd,Zaid,Uttar Pradesh
+wax gourd,Zaid,Punjab
+wax gourd,Zaid,Haryana
+wax gourd,Zaid,Bihar
+wax gourd,Zaid,West Bengal
+wax gourd,Zaid,Rajasthan
+wax gourd,Zaid,Gujarat
+wax gourd,Zaid,Maharashtra
+wax gourd,Zaid,Karnataka
+wax gourd,Zaid,Andhra Pradesh
+wax gourd,Zaid,Telangana
+wax gourd,Zaid,Tamil Nadu
+wax gourd,Zaid,Madhya Pradesh
+zucchini,Kharif,Uttar Pradesh
+zucchini,Kharif,Punjab
+zucchini,Kharif,Haryana
+zucchini,Kharif,Bihar
+zucchini,Kharif,West Bengal
+zucchini,Kharif,Rajasthan
+zucchini,Kharif,Gujarat
+zucchini,Kharif,Maharashtra
+zucchini,Kharif,Karnataka
+zucchini,Kharif,Andhra Pradesh
+zucchini,Kharif,Telangana
+zucchini,Kharif,Tamil Nadu
+zucchini,Kharif,Madhya Pradesh
+zucchini,Zaid,Uttar Pradesh
+zucchini,Zaid,Punjab
+zucchini,Zaid,Haryana
+zucchini,Zaid,Bihar
+zucchini,Zaid,West Bengal
+zucchini,Zaid,Rajasthan
+zucchini,Zaid,Gujarat
+zucchini,Zaid,Maharashtra
+zucchini,Zaid,Karnataka
+zucchini,Zaid,Andhra Pradesh
+zucchini,Zaid,Telangana
+zucchini,Zaid,Tamil Nadu
+zucchini,Zaid,Madhya Pradesh
+cantaloupe,Kharif,Uttar Pradesh
+cantaloupe,Kharif,Punjab
+cantaloupe,Kharif,Haryana
+cantaloupe,Kharif,Bihar
+cantaloupe,Kharif,West Bengal
+cantaloupe,Kharif,Rajasthan
+cantaloupe,Kharif,Gujarat
+cantaloupe,Kharif,Maharashtra
+cantaloupe,Kharif,Karnataka
+cantaloupe,Kharif,Andhra Pradesh
+cantaloupe,Kharif,Telangana
+cantaloupe,Kharif,Tamil Nadu
+cantaloupe,Kharif,Madhya Pradesh
+cantaloupe,Zaid,Uttar Pradesh
+cantaloupe,Zaid,Punjab
+cantaloupe,Zaid,Haryana
+cantaloupe,Zaid,Bihar
+cantaloupe,Zaid,West Bengal
+cantaloupe,Zaid,Rajasthan
+cantaloupe,Zaid,Gujarat
+cantaloupe,Zaid,Maharashtra
+cantaloupe,Zaid,Karnataka
+cantaloupe,Zaid,Andhra Pradesh
+cantaloupe,Zaid,Telangana
+cantaloupe,Zaid,Tamil Nadu
+cantaloupe,Zaid,Madhya Pradesh
+long melon (kakri),Kharif,Uttar Pradesh
+long melon (kakri),Kharif,Punjab
+long melon (kakri),Kharif,Haryana
+long melon (kakri),Kharif,Bihar
+long melon (kakri),Kharif,West Bengal
+long melon (kakri),Kharif,Rajasthan
+long melon (kakri),Kharif,Gujarat
+long melon (kakri),Kharif,Maharashtra
+long melon (kakri),Kharif,Karnataka
+long melon (kakri),Kharif,Andhra Pradesh
+long melon (kakri),Kharif,Telangana
+long melon (kakri),Kharif,Tamil Nadu
+long melon (kakri),Kharif,Madhya Pradesh
+long melon (kakri),Zaid,Uttar Pradesh
+long melon (kakri),Zaid,Punjab
+long melon (kakri),Zaid,Haryana
+long melon (kakri),Zaid,Bihar
+long melon (kakri),Zaid,West Bengal
+long melon (kakri),Zaid,Rajasthan
+long melon (kakri),Zaid,Gujarat
+long melon (kakri),Zaid,Maharashtra
+long melon (kakri),Zaid,Karnataka
+long melon (kakri),Zaid,Andhra Pradesh
+long melon (kakri),Zaid,Telangana
+long melon (kakri),Zaid,Tamil Nadu
+long melon (kakri),Zaid,Madhya Pradesh
+snap melon,Kharif,Uttar Pradesh
+snap melon,Kharif,Punjab
+snap melon,Kharif,Haryana
+snap melon,Kharif,Bihar
+snap melon,Kharif,West Bengal
+snap melon,Kharif,Rajasthan
+snap melon,Kharif,Gujarat
+snap melon,Kharif,Maharashtra
+snap melon,Kharif,Karnataka
+snap melon,Kharif,Andhra Pradesh
+snap melon,Kharif,Telangana
+snap melon,Kharif,Tamil Nadu
+snap melon,Kharif,Madhya Pradesh
+snap melon,Zaid,Uttar Pradesh
+snap melon,Zaid,Punjab
+snap melon,Zaid,Haryana
+snap melon,Zaid,Bihar
+snap melon,Zaid,West Bengal
+snap melon,Zaid,Rajasthan
+snap melon,Zaid,Gujarat
+snap melon,Zaid,Maharashtra
+snap melon,Zaid,Karnataka
+snap melon,Zaid,Andhra Pradesh
+snap melon,Zaid,Telangana
+snap melon,Zaid,Tamil Nadu
+snap melon,Zaid,Madhya Pradesh
+gherkin,Kharif,Uttar Pradesh
+gherkin,Kharif,Punjab
+gherkin,Kharif,Haryana
+gherkin,Kharif,Bihar
+gherkin,Kharif,West Bengal
+gherkin,Kharif,Rajasthan
+gherkin,Kharif,Gujarat
+gherkin,Kharif,Maharashtra
+gherkin,Kharif,Karnataka
+gherkin,Kharif,Andhra Pradesh
+gherkin,Kharif,Telangana
+gherkin,Kharif,Tamil Nadu
+gherkin,Kharif,Madhya Pradesh
+gherkin,Zaid,Uttar Pradesh
+gherkin,Zaid,Punjab
+gherkin,Zaid,Haryana
+gherkin,Zaid,Bihar
+gherkin,Zaid,West Bengal
+gherkin,Zaid,Rajasthan
+gherkin,Zaid,Gujarat
+gherkin,Zaid,Maharashtra
+gherkin,Zaid,Karnataka
+gherkin,Zaid,Andhra Pradesh
+gherkin,Zaid,Telangana
+gherkin,Zaid,Tamil Nadu
+gherkin,Zaid,Madhya Pradesh
+teasel gourd (kakrol),Kharif,Uttar Pradesh
+teasel gourd (kakrol),Kharif,Punjab
+teasel gourd (kakrol),Kharif,Haryana
+teasel gourd (kakrol),Kharif,Bihar
+teasel gourd (kakrol),Kharif,West Bengal
+teasel gourd (kakrol),Kharif,Rajasthan
+teasel gourd (kakrol),Kharif,Gujarat
+teasel gourd (kakrol),Kharif,Maharashtra
+teasel gourd (kakrol),Kharif,Karnataka
+teasel gourd (kakrol),Kharif,Andhra Pradesh
+teasel gourd (kakrol),Kharif,Telangana
+teasel gourd (kakrol),Kharif,Tamil Nadu
+teasel gourd (kakrol),Kharif,Madhya Pradesh
+teasel gourd (kakrol),Zaid,Uttar Pradesh
+teasel gourd (kakrol),Zaid,Punjab
+teasel gourd (kakrol),Zaid,Haryana
+teasel gourd (kakrol),Zaid,Bihar
+teasel gourd (kakrol),Zaid,West Bengal
+teasel gourd (kakrol),Zaid,Rajasthan
+teasel gourd (kakrol),Zaid,Gujarat
+teasel gourd (kakrol),Zaid,Maharashtra
+teasel gourd (kakrol),Zaid,Karnataka
+teasel gourd (kakrol),Zaid,Andhra Pradesh
+teasel gourd (kakrol),Zaid,Telangana
+teasel gourd (kakrol),Zaid,Tamil Nadu
+teasel gourd (kakrol),Zaid,Madhya Pradesh
+spiny gourd,Kharif,Uttar Pradesh
+spiny gourd,Kharif,Punjab
+spiny gourd,Kharif,Haryana
+spiny gourd,Kharif,Bihar
+spiny gourd,Kharif,West Bengal
+spiny gourd,Kharif,Rajasthan
+spiny gourd,Kharif,Gujarat
+spiny gourd,Kharif,Maharashtra
+spiny gourd,Kharif,Karnataka
+spiny gourd,Kharif,Andhra Pradesh
+spiny gourd,Kharif,Telangana
+spiny gourd,Kharif,Tamil Nadu
+spiny gourd,Kharif,Madhya Pradesh
+spiny gourd,Zaid,Uttar Pradesh
+spiny gourd,Zaid,Punjab
+spiny gourd,Zaid,Haryana
+spiny gourd,Zaid,Bihar
+spiny gourd,Zaid,West Bengal
+spiny gourd,Zaid,Rajasthan
+spiny gourd,Zaid,Gujarat
+spiny gourd,Zaid,Maharashtra
+spiny gourd,Zaid,Karnataka
+spiny gourd,Zaid,Andhra Pradesh
+spiny gourd,Zaid,Telangana
+spiny gourd,Zaid,Tamil Nadu
+spiny gourd,Zaid,Madhya Pradesh
+garlic,Rabi,Madhya Pradesh
+garlic,Rabi,Rajasthan
+garlic,Rabi,Gujarat
+garlic,Rabi,Uttar Pradesh
+garlic,Rabi,Punjab
+garlic,Rabi,Haryana
+garlic,Rabi,Bihar
+garlic,Rabi,West Bengal
+garlic,Rabi,Himachal Pradesh
+garlic,Rabi,Jammu and Kashmir
+garlic,Rabi,Maharashtra
+garlic,Rabi,Karnataka
+leek,Rabi,Madhya Pradesh
+leek,Rabi,Rajasthan
+leek,Rabi,Gujarat
+leek,Rabi,Uttar Pradesh
+leek,Rabi,Punjab
+leek,Rabi,Haryana
+leek,Rabi,Bihar
+leek,Rabi,West Bengal
+leek,Rabi,Himachal Pradesh
+leek,Rabi,Jammu and Kashmir
+leek,Rabi,Maharashtra
+leek,Rabi,Karnataka
+carrot,Rabi,Madhya Pradesh
+carrot,Rabi,Rajasthan
+carrot,Rabi,Gujarat
+carrot,Rabi,Uttar Pradesh
+carrot,Rabi,Punjab
+carrot,Rabi,Haryana
+carrot,Rabi,Bihar
+carrot,Rabi,West Bengal
+carrot,Rabi,Himachal Pradesh
+carrot,Rabi,Jammu and Kashmir
+carrot,Rabi,Maharashtra
+carrot,Rabi,Karnataka
+radish,Rabi,Madhya Pradesh
+radish,Rabi,Rajasthan
+radish,Rabi,Gujarat
+radish,Rabi,Uttar Pradesh
+radish,Rabi,Punjab
+radish,Rabi,Haryana
+radish,Rabi,Bihar
+radish,Rabi,West Bengal
+radish,Rabi,Himachal Pradesh
+radish,Rabi,Jammu and Kashmir
+radish,Rabi,Maharashtra
+radish,Rabi,Karnataka
+beetroot,Rabi,Madhya Pradesh
+beetroot,Rabi,Rajasthan
+beetroot,Rabi,Gujarat
+beetroot,Rabi,Uttar Pradesh
+beetroot,Rabi,Punjab
+beetroot,Rabi,Haryana
+beetroot,Rabi,Bihar
+beetroot,Rabi,West Bengal
+beetroot,Rabi,Himachal Pradesh
+beetroot,Rabi,Jammu and Kashmir
+beetroot,Rabi,Maharashtra
+beetroot,Rabi,Karnataka
+turnip,Rabi,Madhya Pradesh
+turnip,Rabi,Rajasthan
+turnip,Rabi,Gujarat
+turnip,Rabi,Uttar Pradesh
+turnip,Rabi,Punjab
+turnip,Rabi,Haryana
+turnip,Rabi,Bihar
+turnip,Rabi,West Bengal
+turnip,Rabi,Himachal Pradesh
+turnip,Rabi,Jammu and Kashmir
+turnip,Rabi,Maharashtra
+turnip,Rabi,Karnataka
+knol khol,Rabi,Madhya Pradesh
+knol khol,Rabi,Rajasthan
+knol khol,Rabi,Gujarat
+knol khol,Rabi,Uttar Pradesh
+knol khol,Rabi,Punjab
+knol khol,Rabi,Haryana
+knol khol,Rabi,Bihar
+knol khol,Rabi,West Bengal
+knol khol,Rabi,Himachal Pradesh
+knol khol,Rabi,Jammu and Kashmir
+knol khol,Rabi,Maharashtra
+knol khol,Rabi,Karnataka
+parsnip,Rabi,Madhya Pradesh
+parsnip,Rabi,Rajasthan
+parsnip,Rabi,Gujarat
+parsnip,Rabi,Uttar Pradesh
+parsnip,Rabi,Punjab
+parsnip,Rabi,Haryana
+parsnip,Rabi,Bihar
+parsnip,Rabi,West Bengal
+parsnip,Rabi,Himachal Pradesh
+parsnip,Rabi,Jammu and Kashmir
+parsnip,Rabi,Maharashtra
+parsnip,Rabi,Karnataka
+horseradish,Rabi,Madhya Pradesh
+horseradish,Rabi,Rajasthan
+horseradish,Rabi,Gujarat
+horseradish,Rabi,Uttar Pradesh
+horseradish,Rabi,Punjab
+horseradish,Rabi,Haryana
+horseradish,Rabi,Bihar
+horseradish,Rabi,West Bengal
+horseradish,Rabi,Himachal Pradesh
+horseradish,Rabi,Jammu and Kashmir
+horseradish,Rabi,Maharashtra
+horseradish,Rabi,Karnataka
+cabbage,Rabi,West Bengal
+cabbage,Rabi,Odisha
+cabbage,Rabi,Bihar
+cabbage,Rabi,Uttar Pradesh
+cabbage,Rabi,Punjab
+cabbage,Rabi,Haryana
+cabbage,Rabi,Himachal Pradesh
+cabbage,Rabi,Jammu and Kashmir
+cabbage,Rabi,Maharashtra
+cabbage,Rabi,Karnataka
+cabbage,Rabi,Tamil Nadu
+cabbage,Rabi,Gujarat
+red cabbage,Rabi,West Bengal
+red cabbage,Rabi,Odisha
+red cabbage,Rabi,Bihar
+red cabbage,Rabi,Uttar Pradesh
+red cabbage,Rabi,Punjab
+red cabbage,Rabi,Haryana
+red cabbage,Rabi,Himachal Pradesh
+red cabbage,Rabi,Jammu and Kashmir
+red cabbage,Rabi,Maharashtra
+red cabbage,Rabi,Karnataka
+red cabbage,Rabi,Tamil Nadu
+red cabbage,Rabi,Gujarat
+cauliflower,Rabi,West Bengal
+cauliflower,Rabi,Odisha
+cauliflower,Rabi,Bihar
+cauliflower,Rabi,Uttar Pradesh
+cauliflower,Rabi,Punjab
+cauliflower,Rabi,Haryana
+cauliflower,Rabi,Himachal Pradesh
+cauliflower,Rabi,Jammu and Kashmir
+cauliflower,Rabi,Maharashtra
+cauliflower,Rabi,Karnataka
+cauliflower,Rabi,Tamil Nadu
+cauliflower,Rabi,Gujarat
+broccoli,Rabi,West Bengal
+broccoli,Rabi,Odisha
+broccoli,Rabi,Bihar
+broccoli,Rabi,Uttar Pradesh
+broccoli,Rabi,Punjab
+broccoli,Rabi,Haryana
+broccoli,Rabi,Himachal Pradesh
+broccoli,Rabi,Jammu and Kashmir
+broccoli,Rabi,Maharashtra
+broccoli,Rabi,Karnataka
+broccoli,Rabi,Tamil Nadu
+broccoli,Rabi,Gujarat
+brussels sprouts,Rabi,West Bengal
+brussels sprouts,Rabi,Odisha
+brussels sprouts,Rabi,Bihar
+brussels sprouts,Rabi,Uttar Pradesh
+brussels sprouts,Rabi,Punjab
+brussels sprouts,Rabi,Haryana
+brussels sprouts,Rabi,Himachal Pradesh
+brussels sprouts,Rabi,Jammu and Kashmir
+brussels sprouts,Rabi,Maharashtra
+brussels sprouts,Rabi,Karnataka
+brussels sprouts,Rabi,Tamil Nadu
+brussels sprouts,Rabi,Gujarat
+chinese cabbage,Rabi,West Bengal
+chinese cabbage,Rabi,Odisha
+chinese cabbage,Rabi,Bihar
+chinese cabbage,Rabi,Uttar Pradesh
+chinese cabbage,Rabi,Punjab
+chinese cabbage,Rabi,Haryana
+chinese cabbage,Rabi,Himachal Pradesh
+chinese cabbage,Rabi,Jammu and Kashmir
+chinese cabbage,Rabi,Maharashtra
+chinese cabbage,Rabi,Karnataka
+chinese cabbage,Rabi,Tamil Nadu
+chinese cabbage,Rabi,Gujarat
+bok choy,Rabi,West Bengal
+bok choy,Rabi,Odisha
+bok choy,Rabi,Bihar
+bok choy,Rabi,Uttar Pradesh
+bok choy,Rabi,Punjab
+bok choy,Rabi,Haryana
+bok choy,Rabi,Himachal Pradesh
+bok choy,Rabi,Jammu and Kashmir
+bok choy,Rabi,Maharashtra
+bok choy,Rabi,Karnataka
+bok choy,Rabi,Tamil Nadu
+bok choy,Rabi,Gujarat
+kale,Rabi,West Bengal
+kale,Rabi,Odisha
+kale,Rabi,Bihar
+kale,Rabi,Uttar Pradesh
+kale,Rabi,Punjab
+kale,Rabi,Haryana
+kale,Rabi,Himachal Pradesh
+kale,Rabi,Jammu and Kashmir
+kale,Rabi,Maharashtra
+kale,Rabi,Karnataka
+kale,Rabi,Tamil Nadu
+kale,Rabi,Gujarat
+swiss chard,Rabi,West Bengal
+swiss chard,Rabi,Odisha
+swiss chard,Rabi,Bihar
+swiss chard,Rabi,Uttar Pradesh
+swiss chard,Rabi,Punjab
+swiss chard,Rabi,Haryana
+swiss chard,Rabi,Himachal Pradesh
+swiss chard,Rabi,Jammu and Kashmir
+swiss chard,Rabi,Maharashtra
+swiss chard,Rabi,Karnataka
+swiss chard,Rabi,Tamil Nadu
+swiss chard,Rabi,Gujarat
+celery,Rabi,West Bengal
+celery,Rabi,Odisha
+celery,Rabi,Bihar
+celery,Rabi,Uttar Pradesh
+celery,Rabi,Punjab
+celery,Rabi,Haryana
+celery,Rabi,Himachal Pradesh
+celery,Rabi,Jammu and Kashmir
+celery,Rabi,Maharashtra
+celery,Rabi,Karnataka
+celery,Rabi,Tamil Nadu
+celery,Rabi,Gujarat
+parsley,Rabi,West Bengal
+parsley,Rabi,Odisha
+parsley,Rabi,Bihar
+parsley,Rabi,Uttar Pradesh
+parsley,Rabi,Punjab
+parsley,Rabi,Haryana
+parsley,Rabi,Himachal Pradesh
+parsley,Rabi,Jammu and Kashmir
+parsley,Rabi,Maharashtra
+parsley,Rabi,Karnataka
+parsley,Rabi,Tamil Nadu
+parsley,Rabi,Gujarat
+asparagus,Rabi,West Bengal
+asparagus,Rabi,Odisha
+asparagus,Rabi,Bihar
+asparagus,Rabi,Uttar Pradesh
+asparagus,Rabi,Punjab
+asparagus,Rabi,Haryana
+asparagus,Rabi,Himachal Pradesh
+asparagus,Rabi,Jammu and Kashmir
+asparagus,Rabi,Maharashtra
+asparagus,Rabi,Karnataka
+asparagus,Rabi,Tamil Nadu
+asparagus,Rabi,Gujarat
+spinach (palak),Kharif,Uttar Pradesh
+spinach (palak),Kharif,Madhya Pradesh
+spinach (palak),Kharif,Punjab
+spinach (palak),Kharif,Haryana
+spinach (palak),Kharif,Rajasthan
+spinach (palak),Kharif,Bihar
+spinach (palak),Kharif,Gujarat
+spinach (palak),Kharif,Maharashtra
+spinach (palak),Kharif,West Bengal
+spinach (palak),Kharif,Andhra Pradesh
+spinach (palak),Kharif,Telangana
+spinach (palak),Kharif,Karnataka
+spinach (palak),Kharif,Tamil Nadu
+spinach (palak),Kharif,Odisha
+spinach (palak),Kharif,Assam
+spinach (palak),Kharif,Chhattisgarh
+spinach (palak),Kharif,Jharkhand
+spinach (palak),Kharif,Uttarakhand
+spinach (palak),Kharif,Himachal Pradesh
+spinach (palak),Rabi,Uttar Pradesh
+spinach (palak),Rabi,Madhya Pradesh
+spinach (palak),Rabi,Punjab
+spinach (palak),Rabi,Haryana
+spinach (palak),Rabi,Rajasthan
+spinach (palak),Rabi,Bihar
+spinach (palak),Rabi,Gujarat
+spinach (palak),Rabi,Maharashtra
+spinach (palak),Rabi,West Bengal
+spinach (palak),Rabi,Andhra Pradesh
+spinach (palak),Rabi,Telangana
+spinach (palak),Rabi,Karnataka
+spinach (palak),Rabi,Tamil Nadu
+spinach (palak),Rabi,Odisha
+spinach (palak),Rabi,Assam
+spinach (palak),Rabi,Chhattisgarh
+spinach (palak),Rabi,Jharkhand
+spinach (palak),Rabi,Uttarakhand
+spinach (palak),Rabi,Himachal Pradesh
+spinach (palak),Zaid,Uttar Pradesh
+spinach (palak),Zaid,Madhya Pradesh
+spinach (palak),Zaid,Punjab
+spinach (palak),Zaid,Haryana
+spinach (palak),Zaid,Rajasthan
+spinach (palak),Zaid,Bihar
+spinach (palak),Zaid,Gujarat
+spinach (palak),Zaid,Maharashtra
+spinach (palak),Zaid,West Bengal
+spinach (palak),Zaid,Andhra Pradesh
+spinach (palak),Zaid,Telangana
+spinach (palak),Zaid,Karnataka
+spinach (palak),Zaid,Tamil Nadu
+spinach (palak),Zaid,Odisha
+spinach (palak),Zaid,Assam
+spinach (palak),Zaid,Chhattisgarh
+spinach (palak),Zaid,Jharkhand
+spinach (palak),Zaid,Uttarakhand
+spinach (palak),Zaid,Himachal Pradesh
+fenugreek leaves,Kharif,Uttar Pradesh
+fenugreek leaves,Kharif,Madhya Pradesh
+fenugreek leaves,Kharif,Punjab
+fenugreek leaves,Kharif,Haryana
+fenugreek leaves,Kharif,Rajasthan
+fenugreek leaves,Kharif,Bihar
+fenugreek leaves,Kharif,Gujarat
+fenugreek leaves,Kharif,Maharashtra
+fenugreek leaves,Kharif,West Bengal
+fenugreek leaves,Kharif,Andhra Pradesh
+fenugreek leaves,Kharif,Telangana
+fenugreek leaves,Kharif,Karnataka
+fenugreek leaves,Kharif,Tamil Nadu
+fenugreek leaves,Kharif,Odisha
+fenugreek leaves,Kharif,Assam
+fenugreek leaves,Kharif,Chhattisgarh
+fenugreek leaves,Kharif,Jharkhand
+fenugreek leaves,Kharif,Uttarakhand
+fenugreek leaves,Kharif,Himachal Pradesh
+fenugreek leaves,Rabi,Uttar Pradesh
+fenugreek leaves,Rabi,Madhya Pradesh
+fenugreek leaves,Rabi,Punjab
+fenugreek leaves,Rabi,Haryana
+fenugreek leaves,Rabi,Rajasthan
+fenugreek leaves,Rabi,Bihar
+fenugreek leaves,Rabi,Gujarat
+fenugreek leaves,Rabi,Maharashtra
+fenugreek leaves,Rabi,West Bengal
+fenugreek leaves,Rabi,Andhra Pradesh
+fenugreek leaves,Rabi,Telangana
+fenugreek leaves,Rabi,Karnataka
+fenugreek leaves,Rabi,Tamil Nadu
+fenugreek leaves,Rabi,Odisha
+fenugreek leaves,Rabi,Assam
+fenugreek leaves,Rabi,Chhattisgarh
+fenugreek leaves,Rabi,Jharkhand
+fenugreek leaves,Rabi,Uttarakhand
+fenugreek leaves,Rabi,Himachal Pradesh
+fenugreek leaves,Zaid,Uttar Pradesh
+fenugreek leaves,Zaid,Madhya Pradesh
+fenugreek leaves,Zaid,Punjab
+fenugreek leaves,Zaid,Haryana
+fenugreek leaves,Zaid,Rajasthan
+fenugreek leaves,Zaid,Bihar
+fenugreek leaves,Zaid,Gujarat
+fenugreek leaves,Zaid,Maharashtra
+fenugreek leaves,Zaid,West Bengal
+fenugreek leaves,Zaid,Andhra Pradesh
+fenugreek leaves,Zaid,Telangana
+fenugreek leaves,Zaid,Karnataka
+fenugreek leaves,Zaid,Tamil Nadu
+fenugreek leaves,Zaid,Odisha
+fenugreek leaves,Zaid,Assam
+fenugreek leaves,Zaid,Chhattisgarh
+fenugreek leaves,Zaid,Jharkhand
+fenugreek leaves,Zaid,Uttarakhand
+fenugreek leaves,Zaid,Himachal Pradesh
+amaranthus leaves,Kharif,Uttar Pradesh
+amaranthus leaves,Kharif,Madhya Pradesh
+amaranthus leaves,Kharif,Punjab
+amaranthus leaves,Kharif,Haryana
+amaranthus leaves,Kharif,Rajasthan
+amaranthus leaves,Kharif,Bihar
+amaranthus leaves,Kharif,Gujarat
+amaranthus leaves,Kharif,Maharashtra
+amaranthus leaves,Kharif,West Bengal
+amaranthus leaves,Kharif,Andhra Pradesh
+amaranthus leaves,Kharif,Telangana
+amaranthus leaves,Kharif,Karnataka
+amaranthus leaves,Kharif,Tamil Nadu
+amaranthus leaves,Kharif,Odisha
+amaranthus leaves,Kharif,Assam
+amaranthus leaves,Kharif,Chhattisgarh
+amaranthus leaves,Kharif,Jharkhand
+amaranthus leaves,Kharif,Uttarakhand
+amaranthus leaves,Kharif,Himachal Pradesh
+amaranthus leaves,Rabi,Uttar Pradesh
+amaranthus leaves,Rabi,Madhya Pradesh
+amaranthus leaves,Rabi,Punjab
+amaranthus leaves,Rabi,Haryana
+amaranthus leaves,Rabi,Rajasthan
+amaranthus leaves,Rabi,Bihar
+amaranthus leaves,Rabi,Gujarat
+amaranthus leaves,Rabi,Maharashtra
+amaranthus leaves,Rabi,West Bengal
+amaranthus leaves,Rabi,Andhra Pradesh
+amaranthus leaves,Rabi,Telangana
+amaranthus leaves,Rabi,Karnataka
+amaranthus leaves,Rabi,Tamil Nadu
+amaranthus leaves,Rabi,Odisha
+amaranthus leaves,Rabi,Assam
+amaranthus leaves,Rabi,Chhattisgarh
+amaranthus leaves,Rabi,Jharkhand
+amaranthus leaves,Rabi,Uttarakhand
+amaranthus leaves,Rabi,Himachal Pradesh
+amaranthus leaves,Zaid,Uttar Pradesh
+amaranthus leaves,Zaid,Madhya Pradesh
+amaranthus leaves,Zaid,Punjab
+amaranthus leaves,Zaid,Haryana
+amaranthus leaves,Zaid,Rajasthan
+amaranthus leaves,Zaid,Bihar
+amaranthus leaves,Zaid,Gujarat
+amaranthus leaves,Zaid,Maharashtra
+amaranthus leaves,Zaid,West Bengal
+amaranthus leaves,Zaid,Andhra Pradesh
+amaranthus leaves,Zaid,Telangana
+amaranthus leaves,Zaid,Karnataka
+amaranthus leaves,Zaid,Tamil Nadu
+amaranthus leaves,Zaid,Odisha
+amaranthus leaves,Zaid,Assam
+amaranthus leaves,Zaid,Chhattisgarh
+amaranthus leaves,Zaid,Jharkhand
+amaranthus leaves,Zaid,Uttarakhand
+amaranthus leaves,Zaid,Himachal Pradesh
+mustard greens,Kharif,Uttar Pradesh
+mustard greens,Kharif,Madhya Pradesh
+mustard greens,Kharif,Punjab
+mustard greens,Kharif,Haryana
+mustard greens,Kharif,Rajasthan
+mustard greens,Kharif,Bihar
+mustard greens,Kharif,Gujarat
+mustard greens,Kharif,Maharashtra
+mustard greens,Kharif,West Bengal
+mustard greens,Kharif,Andhra Pradesh
+mustard greens,Kharif,Telangana
+mustard greens,Kharif,Karnataka
+mustard greens,Kharif,Tamil Nadu
+mustard greens,Kharif,Odisha
+mustard greens,Kharif,Assam
+mustard greens,Kharif,Chhattisgarh
+mustard greens,Kharif,Jharkhand
+mustard greens,Kharif,Uttarakhand
+mustard greens,Kharif,Himachal Pradesh
+mustard greens,Rabi,Uttar Pradesh
+mustard greens,Rabi,Madhya Pradesh
+mustard greens,Rabi,Punjab
+mustard greens,Rabi,Haryana
+mustard greens,Rabi,Rajasthan
+mustard greens,Rabi,Bihar
+mustard greens,Rabi,Gujarat
+mustard greens,Rabi,Maharashtra
+mustard greens,Rabi,West Bengal
+mustard greens,Rabi,Andhra Pradesh
+mustard greens,Rabi,Telangana
+mustard greens,Rabi,Karnataka
+mustard greens,Rabi,Tamil Nadu
+mustard greens,Rabi,Odisha
+mustard greens,Rabi,Assam
+mustard greens,Rabi,Chhattisgarh
+mustard greens,Rabi,Jharkhand
+mustard greens,Rabi,Uttarakhand
+mustard greens,Rabi,Himachal Pradesh
+mustard greens,Zaid,Uttar Pradesh
+mustard greens,Zaid,Madhya Pradesh
+mustard greens,Zaid,Punjab
+mustard greens,Zaid,Haryana
+mustard greens,Zaid,Rajasthan
+mustard greens,Zaid,Bihar
+mustard greens,Zaid,Gujarat
+mustard greens,Zaid,Maharashtra
+mustard greens,Zaid,West Bengal
+mustard greens,Zaid,Andhra Pradesh
+mustard greens,Zaid,Telangana
+mustard greens,Zaid,Karnataka
+mustard greens,Zaid,Tamil Nadu
+mustard greens,Zaid,Odisha
+mustard greens,Zaid,Assam
+mustard greens,Zaid,Chhattisgarh
+mustard greens,Zaid,Jharkhand
+mustard greens,Zaid,Uttarakhand
+mustard greens,Zaid,Himachal Pradesh
+lettuce,Kharif,Uttar Pradesh
+lettuce,Kharif,Madhya Pradesh
+lettuce,Kharif,Punjab
+lettuce,Kharif,Haryana
+lettuce,Kharif,Rajasthan
+lettuce,Kharif,Bihar
+lettuce,Kharif,Gujarat
+lettuce,Kharif,Maharashtra
+lettuce,Kharif,West Bengal
+lettuce,Kharif,Andhra Pradesh
+lettuce,Kharif,Telangana
+lettuce,Kharif,Karnataka
+lettuce,Kharif,Tamil Nadu
+lettuce,Kharif,Odisha
+lettuce,Kharif,Assam
+lettuce,Kharif,Chhattisgarh
+lettuce,Kharif,Jharkhand
+lettuce,Kharif,Uttarakhand
+lettuce,Kharif,Himachal Pradesh
+lettuce,Rabi,Uttar Pradesh
+lettuce,Rabi,Madhya Pradesh
+lettuce,Rabi,Punjab
+lettuce,Rabi,Haryana
+lettuce,Rabi,Rajasthan
+lettuce,Rabi,Bihar
+lettuce,Rabi,Gujarat
+lettuce,Rabi,Maharashtra
+lettuce,Rabi,West Bengal
+lettuce,Rabi,Andhra Pradesh
+lettuce,Rabi,Telangana
+lettuce,Rabi,Karnataka
+lettuce,Rabi,Tamil Nadu
+lettuce,Rabi,Odisha
+lettuce,Rabi,Assam
+lettuce,Rabi,Chhattisgarh
+lettuce,Rabi,Jharkhand
+lettuce,Rabi,Uttarakhand
+lettuce,Rabi,Himachal Pradesh
+lettuce,Zaid,Uttar Pradesh
+lettuce,Zaid,Madhya Pradesh
+lettuce,Zaid,Punjab
+lettuce,Zaid,Haryana
+lettuce,Zaid,Rajasthan
+lettuce,Zaid,Bihar
+lettuce,Zaid,Gujarat
+lettuce,Zaid,Maharashtra
+lettuce,Zaid,West Bengal
+lettuce,Zaid,Andhra Pradesh
+lettuce,Zaid,Telangana
+lettuce,Zaid,Karnataka
+lettuce,Zaid,Tamil Nadu
+lettuce,Zaid,Odisha
+lettuce,Zaid,Assam
+lettuce,Zaid,Chhattisgarh
+lettuce,Zaid,Jharkhand
+lettuce,Zaid,Uttarakhand
+lettuce,Zaid,Himachal Pradesh
+water spinach,Kharif,Uttar Pradesh
+water spinach,Kharif,Madhya Pradesh
+water spinach,Kharif,Punjab
+water spinach,Kharif,Haryana
+water spinach,Kharif,Rajasthan
+water spinach,Kharif,Bihar
+water spinach,Kharif,Gujarat
+water spinach,Kharif,Maharashtra
+water spinach,Kharif,West Bengal
+water spinach,Kharif,Andhra Pradesh
+water spinach,Kharif,Telangana
+water spinach,Kharif,Karnataka
+water spinach,Kharif,Tamil Nadu
+water spinach,Kharif,Odisha
+water spinach,Kharif,Assam
+water spinach,Kharif,Chhattisgarh
+water spinach,Kharif,Jharkhand
+water spinach,Kharif,Uttarakhand
+water spinach,Kharif,Himachal Pradesh
+water spinach,Rabi,Uttar Pradesh
+water spinach,Rabi,Madhya Pradesh
+water spinach,Rabi,Punjab
+water spinach,Rabi,Haryana
+water spinach,Rabi,Rajasthan
+water spinach,Rabi,Bihar
+water spinach,Rabi,Gujarat
+water spinach,Rabi,Maharashtra
+water spinach,Rabi,West Bengal
+water spinach,Rabi,Andhra Pradesh
+water spinach,Rabi,Telangana
+water spinach,Rabi,Karnataka
+water spinach,Rabi,Tamil Nadu
+water spinach,Rabi,Odisha
+water spinach,Rabi,Assam
+water spinach,Rabi,Chhattisgarh
+water spinach,Rabi,Jharkhand
+water spinach,Rabi,Uttarakhand
+water spinach,Rabi,Himachal Pradesh
+water spinach,Zaid,Uttar Pradesh
+water spinach,Zaid,Madhya Pradesh
+water spinach,Zaid,Punjab
+water spinach,Zaid,Haryana
+water spinach,Zaid,Rajasthan
+water spinach,Zaid,Bihar
+water spinach,Zaid,Gujarat
+water spinach,Zaid,Maharashtra
+water spinach,Zaid,West Bengal
+water spinach,Zaid,Andhra Pradesh
+water spinach,Zaid,Telangana
+water spinach,Zaid,Karnataka
+water spinach,Zaid,Tamil Nadu
+water spinach,Zaid,Odisha
+water spinach,Zaid,Assam
+water spinach,Zaid,Chhattisgarh
+water spinach,Zaid,Jharkhand
+water spinach,Zaid,Uttarakhand
+water spinach,Zaid,Himachal Pradesh
+bathua,Kharif,Uttar Pradesh
+bathua,Kharif,Madhya Pradesh
+bathua,Kharif,Punjab
+bathua,Kharif,Haryana
+bathua,Kharif,Rajasthan
+bathua,Kharif,Bihar
+bathua,Kharif,Gujarat
+bathua,Kharif,Maharashtra
+bathua,Kharif,West Bengal
+bathua,Kharif,Andhra Pradesh
+bathua,Kharif,Telangana
+bathua,Kharif,Karnataka
+bathua,Kharif,Tamil Nadu
+bathua,Kharif,Odisha
+bathua,Kharif,Assam
+bathua,Kharif,Chhattisgarh
+bathua,Kharif,Jharkhand
+bathua,Kharif,Uttarakhand
+bathua,Kharif,Himachal Pradesh
+bathua,Rabi,Uttar Pradesh
+bathua,Rabi,Madhya Pradesh
+bathua,Rabi,Punjab
+bathua,Rabi,Haryana
+bathua,Rabi,Rajasthan
+bathua,Rabi,Bihar
+bathua,Rabi,Gujarat
+bathua,Rabi,Maharashtra
+bathua,Rabi,West Bengal
+bathua,Rabi,Andhra Pradesh
+bathua,Rabi,Telangana
+bathua,Rabi,Karnataka
+bathua,Rabi,Tamil Nadu
+bathua,Rabi,Odisha
+bathua,Rabi,Assam
+bathua,Rabi,Chhattisgarh
+bathua,Rabi,Jharkhand
+bathua,Rabi,Uttarakhand
+bathua,Rabi,Himachal Pradesh
+bathua,Zaid,Uttar Pradesh
+bathua,Zaid,Madhya Pradesh
+bathua,Zaid,Punjab
+bathua,Zaid,Haryana
+bathua,Zaid,Rajasthan
+bathua,Zaid,Bihar
+bathua,Zaid,Gujarat
+bathua,Zaid,Maharashtra
+bathua,Zaid,West Bengal
+bathua,Zaid,Andhra Pradesh
+bathua,Zaid,Telangana
+bathua,Zaid,Karnataka
+bathua,Zaid,Tamil Nadu
+bathua,Zaid,Odisha
+bathua,Zaid,Assam
+bathua,Zaid,Chhattisgarh
+bathua,Zaid,Jharkhand
+bathua,Zaid,Uttarakhand
+bathua,Zaid,Himachal Pradesh
+coriander leaves,Kharif,Uttar Pradesh
+coriander leaves,Kharif,Madhya Pradesh
+coriander leaves,Kharif,Punjab
+coriander leaves,Kharif,Haryana
+coriander leaves,Kharif,Rajasthan
+coriander leaves,Kharif,Bihar
+coriander leaves,Kharif,Gujarat
+coriander leaves,Kharif,Maharashtra
+coriander leaves,Kharif,West Bengal
+coriander leaves,Kharif,Andhra Pradesh
+coriander leaves,Kharif,Telangana
+coriander leaves,Kharif,Karnataka
+coriander leaves,Kharif,Tamil Nadu
+coriander leaves,Kharif,Odisha
+coriander leaves,Kharif,Assam
+coriander leaves,Kharif,Chhattisgarh
+coriander leaves,Kharif,Jharkhand
+coriander leaves,Kharif,Uttarakhand
+coriander leaves,Kharif,Himachal Pradesh
+coriander leaves,Rabi,Uttar Pradesh
+coriander leaves,Rabi,Madhya Pradesh
+coriander leaves,Rabi,Punjab
+coriander leaves,Rabi,Haryana
+coriander leaves,Rabi,Rajasthan
+coriander leaves,Rabi,Bihar
+coriander leaves,Rabi,Gujarat
+coriander leaves,Rabi,Maharashtra
+coriander leaves,Rabi,West Bengal
+coriander leaves,Rabi,Andhra Pradesh
+coriander leaves,Rabi,Telangana
+coriander leaves,Rabi,Karnataka
+coriander leaves,Rabi,Tamil Nadu
+coriander leaves,Rabi,Odisha
+coriander leaves,Rabi,Assam
+coriander leaves,Rabi,Chhattisgarh
+coriander leaves,Rabi,Jharkhand
+coriander leaves,Rabi,Uttarakhand
+coriander leaves,Rabi,Himachal Pradesh
+coriander leaves,Zaid,Uttar Pradesh
+coriander leaves,Zaid,Madhya Pradesh
+coriander leaves,Zaid,Punjab
+coriander leaves,Zaid,Haryana
+coriander leaves,Zaid,Rajasthan
+coriander leaves,Zaid,Bihar
+coriander leaves,Zaid,Gujarat
+coriander leaves,Zaid,Maharashtra
+coriander leaves,Zaid,West Bengal
+coriander leaves,Zaid,Andhra Pradesh
+coriander leaves,Zaid,Telangana
+coriander leaves,Zaid,Karnataka
+coriander leaves,Zaid,Tamil Nadu
+coriander leaves,Zaid,Odisha
+coriander leaves,Zaid,Assam
+coriander leaves,Zaid,Chhattisgarh
+coriander leaves,Zaid,Jharkhand
+coriander leaves,Zaid,Uttarakhand
+coriander leaves,Zaid,Himachal Pradesh
+curry leaves,Kharif,Uttar Pradesh
+curry leaves,Kharif,Madhya Pradesh
+curry leaves,Kharif,Punjab
+curry leaves,Kharif,Haryana
+curry leaves,Kharif,Rajasthan
+curry leaves,Kharif,Bihar
+curry leaves,Kharif,Gujarat
+curry leaves,Kharif,Maharashtra
+curry leaves,Kharif,West Bengal
+curry leaves,Kharif,Andhra Pradesh
+curry leaves,Kharif,Telangana
+curry leaves,Kharif,Karnataka
+curry leaves,Kharif,Tamil Nadu
+curry leaves,Kharif,Odisha
+curry leaves,Kharif,Assam
+curry leaves,Kharif,Chhattisgarh
+curry leaves,Kharif,Jharkhand
+curry leaves,Kharif,Uttarakhand
+curry leaves,Kharif,Himachal Pradesh
+curry leaves,Rabi,Uttar Pradesh
+curry leaves,Rabi,Madhya Pradesh
+curry leaves,Rabi,Punjab
+curry leaves,Rabi,Haryana
+curry leaves,Rabi,Rajasthan
+curry leaves,Rabi,Bihar
+curry leaves,Rabi,Gujarat
+curry leaves,Rabi,Maharashtra
+curry leaves,Rabi,West Bengal
+curry leaves,Rabi,Andhra Pradesh
+curry leaves,Rabi,Telangana
+curry leaves,Rabi,Karnataka
+curry leaves,Rabi,Tamil Nadu
+curry leaves,Rabi,Odisha
+curry leaves,Rabi,Assam
+curry leaves,Rabi,Chhattisgarh
+curry leaves,Rabi,Jharkhand
+curry leaves,Rabi,Uttarakhand
+curry leaves,Rabi,Himachal Pradesh
+curry leaves,Zaid,Uttar Pradesh
+curry leaves,Zaid,Madhya Pradesh
+curry leaves,Zaid,Punjab
+curry leaves,Zaid,Haryana
+curry leaves,Zaid,Rajasthan
+curry leaves,Zaid,Bihar
+curry leaves,Zaid,Gujarat
+curry leaves,Zaid,Maharashtra
+curry leaves,Zaid,West Bengal
+curry leaves,Zaid,Andhra Pradesh
+curry leaves,Zaid,Telangana
+curry leaves,Zaid,Karnataka
+curry leaves,Zaid,Tamil Nadu
+curry leaves,Zaid,Odisha
+curry leaves,Zaid,Assam
+curry leaves,Zaid,Chhattisgarh
+curry leaves,Zaid,Jharkhand
+curry leaves,Zaid,Uttarakhand
+curry leaves,Zaid,Himachal Pradesh
+drumstick leaves,Kharif,Uttar Pradesh
+drumstick leaves,Kharif,Madhya Pradesh
+drumstick leaves,Kharif,Punjab
+drumstick leaves,Kharif,Haryana
+drumstick leaves,Kharif,Rajasthan
+drumstick leaves,Kharif,Bihar
+drumstick leaves,Kharif,Gujarat
+drumstick leaves,Kharif,Maharashtra
+drumstick leaves,Kharif,West Bengal
+drumstick leaves,Kharif,Andhra Pradesh
+drumstick leaves,Kharif,Telangana
+drumstick leaves,Kharif,Karnataka
+drumstick leaves,Kharif,Tamil Nadu
+drumstick leaves,Kharif,Odisha
+drumstick leaves,Kharif,Assam
+drumstick leaves,Kharif,Chhattisgarh
+drumstick leaves,Kharif,Jharkhand
+drumstick leaves,Kharif,Uttarakhand
+drumstick leaves,Kharif,Himachal Pradesh
+drumstick leaves,Rabi,Uttar Pradesh
+drumstick leaves,Rabi,Madhya Pradesh
+drumstick leaves,Rabi,Punjab
+drumstick leaves,Rabi,Haryana
+drumstick leaves,Rabi,Rajasthan
+drumstick leaves,Rabi,Bihar
+drumstick leaves,Rabi,Gujarat
+drumstick leaves,Rabi,Maharashtra
+drumstick leaves,Rabi,West Bengal
+drumstick leaves,Rabi,Andhra Pradesh
+drumstick leaves,Rabi,Telangana
+drumstick leaves,Rabi,Karnataka
+drumstick leaves,Rabi,Tamil Nadu
+drumstick leaves,Rabi,Odisha
+drumstick leaves,Rabi,Assam
+drumstick leaves,Rabi,Chhattisgarh
+drumstick leaves,Rabi,Jharkhand
+drumstick leaves,Rabi,Uttarakhand
+drumstick leaves,Rabi,Himachal Pradesh
+drumstick leaves,Zaid,Uttar Pradesh
+drumstick leaves,Zaid,Madhya Pradesh
+drumstick leaves,Zaid,Punjab
+drumstick leaves,Zaid,Haryana
+drumstick leaves,Zaid,Rajasthan
+drumstick leaves,Zaid,Bihar
+drumstick leaves,Zaid,Gujarat
+drumstick leaves,Zaid,Maharashtra
+drumstick leaves,Zaid,West Bengal
+drumstick leaves,Zaid,Andhra Pradesh
+drumstick leaves,Zaid,Telangana
+drumstick leaves,Zaid,Karnataka
+drumstick leaves,Zaid,Tamil Nadu
+drumstick leaves,Zaid,Odisha
+drumstick leaves,Zaid,Assam
+drumstick leaves,Zaid,Chhattisgarh
+drumstick leaves,Zaid,Jharkhand
+drumstick leaves,Zaid,Uttarakhand
+drumstick leaves,Zaid,Himachal Pradesh
+malabar spinach,Kharif,Uttar Pradesh
+malabar spinach,Kharif,Madhya Pradesh
+malabar spinach,Kharif,Punjab
+malabar spinach,Kharif,Haryana
+malabar spinach,Kharif,Rajasthan
+malabar spinach,Kharif,Bihar
+malabar spinach,Kharif,Gujarat
+malabar spinach,Kharif,Maharashtra
+malabar spinach,Kharif,West Bengal
+malabar spinach,Kharif,Andhra Pradesh
+malabar spinach,Kharif,Telangana
+malabar spinach,Kharif,Karnataka
+malabar spinach,Kharif,Tamil Nadu
+malabar spinach,Kharif,Odisha
+malabar spinach,Kharif,Assam
+malabar spinach,Kharif,Chhattisgarh
+malabar spinach,Kharif,Jharkhand
+malabar spinach,Kharif,Uttarakhand
+malabar spinach,Kharif,Himachal Pradesh
+malabar spinach,Rabi,Uttar Pradesh
+malabar spinach,Rabi,Madhya Pradesh
+malabar spinach,Rabi,Punjab
+malabar spinach,Rabi,Haryana
+malabar spinach,Rabi,Rajasthan
+malabar spinach,Rabi,Bihar
+malabar spinach,Rabi,Gujarat
+malabar spinach,Rabi,Maharashtra
+malabar spinach,Rabi,West Bengal
+malabar spinach,Rabi,Andhra Pradesh
+malabar spinach,Rabi,Telangana
+malabar spinach,Rabi,Karnataka
+malabar spinach,Rabi,Tamil Nadu
+malabar spinach,Rabi,Odisha
+malabar spinach,Rabi,Assam
+malabar spinach,Rabi,Chhattisgarh
+malabar spinach,Rabi,Jharkhand
+malabar spinach,Rabi,Uttarakhand
+malabar spinach,Rabi,Himachal Pradesh
+malabar spinach,Zaid,Uttar Pradesh
+malabar spinach,Zaid,Madhya Pradesh
+malabar spinach,Zaid,Punjab
+malabar spinach,Zaid,Haryana
+malabar spinach,Zaid,Rajasthan
+malabar spinach,Zaid,Bihar
+malabar spinach,Zaid,Gujarat
+malabar spinach,Zaid,Maharashtra
+malabar spinach,Zaid,West Bengal
+malabar spinach,Zaid,Andhra Pradesh
+malabar spinach,Zaid,Telangana
+malabar spinach,Zaid,Karnataka
+malabar spinach,Zaid,Tamil Nadu
+malabar spinach,Zaid,Odisha
+malabar spinach,Zaid,Assam
+malabar spinach,Zaid,Chhattisgarh
+malabar spinach,Zaid,Jharkhand
+malabar spinach,Zaid,Uttarakhand
+malabar spinach,Zaid,Himachal Pradesh
+dill leaves,Kharif,Uttar Pradesh
+dill leaves,Kharif,Madhya Pradesh
+dill leaves,Kharif,Punjab
+dill leaves,Kharif,Haryana
+dill leaves,Kharif,Rajasthan
+dill leaves,Kharif,Bihar
+dill leaves,Kharif,Gujarat
+dill leaves,Kharif,Maharashtra
+dill leaves,Kharif,West Bengal
+dill leaves,Kharif,Andhra Pradesh
+dill leaves,Kharif,Telangana
+dill leaves,Kharif,Karnataka
+dill leaves,Kharif,Tamil Nadu
+dill leaves,Kharif,Odisha
+dill leaves,Kharif,Assam
+dill leaves,Kharif,Chhattisgarh
+dill leaves,Kharif,Jharkhand
+dill leaves,Kharif,Uttarakhand
+dill leaves,Kharif,Himachal Pradesh
+dill leaves,Rabi,Uttar Pradesh
+dill leaves,Rabi,Madhya Pradesh
+dill leaves,Rabi,Punjab
+dill leaves,Rabi,Haryana
+dill leaves,Rabi,Rajasthan
+dill leaves,Rabi,Bihar
+dill leaves,Rabi,Gujarat
+dill leaves,Rabi,Maharashtra
+dill leaves,Rabi,West Bengal
+dill leaves,Rabi,Andhra Pradesh
+dill leaves,Rabi,Telangana
+dill leaves,Rabi,Karnataka
+dill leaves,Rabi,Tamil Nadu
+dill leaves,Rabi,Odisha
+dill leaves,Rabi,Assam
+dill leaves,Rabi,Chhattisgarh
+dill leaves,Rabi,Jharkhand
+dill leaves,Rabi,Uttarakhand
+dill leaves,Rabi,Himachal Pradesh
+dill leaves,Zaid,Uttar Pradesh
+dill leaves,Zaid,Madhya Pradesh
+dill leaves,Zaid,Punjab
+dill leaves,Zaid,Haryana
+dill leaves,Zaid,Rajasthan
+dill leaves,Zaid,Bihar
+dill leaves,Zaid,Gujarat
+dill leaves,Zaid,Maharashtra
+dill leaves,Zaid,West Bengal
+dill leaves,Zaid,Andhra Pradesh
+dill leaves,Zaid,Telangana
+dill leaves,Zaid,Karnataka
+dill leaves,Zaid,Tamil Nadu
+dill leaves,Zaid,Odisha
+dill leaves,Zaid,Assam
+dill leaves,Zaid,Chhattisgarh
+dill leaves,Zaid,Jharkhand
+dill leaves,Zaid,Uttarakhand
+dill leaves,Zaid,Himachal Pradesh
+french beans,Kharif,Himachal Pradesh
+french beans,Kharif,Jammu and Kashmir
+french beans,Kharif,Uttarakhand
+french beans,Rabi,Maharashtra
+french beans,Rabi,Karnataka
+french beans,Rabi,Andhra Pradesh
+french beans,Rabi,Tamil Nadu
+pomegranate,Kharif,Maharashtra
+pomegranate,Kharif,Andhra Pradesh
+pomegranate,Kharif,Telangana
+pomegranate,Kharif,Karnataka
+pomegranate,Kharif,Tamil Nadu
+pomegranate,Kharif,Gujarat
+pomegranate,Kharif,Madhya Pradesh
+pomegranate,Kharif,West Bengal
+pomegranate,Kharif,Bihar
+pomegranate,Kharif,Uttar Pradesh
+pomegranate,Kharif,Punjab
+pomegranate,Kharif,Kerala
+pomegranate,Kharif,Odisha
+pomegranate,Kharif,Assam
+pomegranate,Rabi,Maharashtra
+pomegranate,Rabi,Andhra Pradesh
+pomegranate,Rabi,Telangana
+pomegranate,Rabi,Karnataka
+pomegranate,Rabi,Tamil Nadu
+pomegranate,Rabi,Gujarat
+pomegranate,Rabi,Madhya Pradesh
+pomegranate,Rabi,West Bengal
+pomegranate,Rabi,Bihar
+pomegranate,Rabi,Uttar Pradesh
+pomegranate,Rabi,Punjab
+pomegranate,Rabi,Kerala
+pomegranate,Rabi,Odisha
+pomegranate,Rabi,Assam
+pomegranate,Zaid,Maharashtra
+pomegranate,Zaid,Andhra Pradesh
+pomegranate,Zaid,Telangana
+pomegranate,Zaid,Karnataka
+pomegranate,Zaid,Tamil Nadu
+pomegranate,Zaid,Gujarat
+pomegranate,Zaid,Madhya Pradesh
+pomegranate,Zaid,West Bengal
+pomegranate,Zaid,Bihar
+pomegranate,Zaid,Uttar Pradesh
+pomegranate,Zaid,Punjab
+pomegranate,Zaid,Kerala
+pomegranate,Zaid,Odisha
+pomegranate,Zaid,Assam
+orange,Kharif,Maharashtra
+orange,Kharif,Andhra Pradesh
+orange,Kharif,Telangana
+orange,Kharif,Karnataka
+orange,Kharif,Tamil Nadu
+orange,Kharif,Gujarat
+orange,Kharif,Madhya Pradesh
+orange,Kharif,West Bengal
+orange,Kharif,Bihar
+orange,Kharif,Uttar Pradesh
+orange,Kharif,Punjab
+orange,Kharif,Kerala
+orange,Kharif,Odisha
+orange,Kharif,Assam
+orange,Rabi,Maharashtra
+orange,Rabi,Andhra Pradesh
+orange,Rabi,Telangana
+orange,Rabi,Karnataka
+orange,Rabi,Tamil Nadu
+orange,Rabi,Gujarat
+orange,Rabi,Madhya Pradesh
+orange,Rabi,West Bengal
+orange,Rabi,Bihar
+orange,Rabi,Uttar Pradesh
+orange,Rabi,Punjab
+orange,Rabi,Kerala
+orange,Rabi,Odisha
+orange,Rabi,Assam
+orange,Zaid,Maharashtra
+orange,Zaid,Andhra Pradesh
+orange,Zaid,Telangana
+orange,Zaid,Karnataka
+orange,Zaid,Tamil Nadu
+orange,Zaid,Gujarat
+orange,Zaid,Madhya Pradesh
+orange,Zaid,West Bengal
+orange,Zaid,Bihar
+orange,Zaid,Uttar Pradesh
+orange,Zaid,Punjab
+orange,Zaid,Kerala
+orange,Zaid,Odisha
+orange,Zaid,Assam
+banana,Kharif,Maharashtra
+banana,Kharif,Andhra Pradesh
+banana,Kharif,Telangana
+banana,Kharif,Karnataka
+banana,Kharif,Tamil Nadu
+banana,Kharif,Gujarat
+banana,Kharif,Madhya Pradesh
+banana,Kharif,West Bengal
+banana,Kharif,Bihar
+banana,Kharif,Uttar Pradesh
+banana,Kharif,Punjab
+banana,Kharif,Kerala
+banana,Kharif,Odisha
+banana,Kharif,Assam
+banana,Rabi,Maharashtra
+banana,Rabi,Andhra Pradesh
+banana,Rabi,Telangana
+banana,Rabi,Karnataka
+banana,Rabi,Tamil Nadu
+banana,Rabi,Gujarat
+banana,Rabi,Madhya Pradesh
+banana,Rabi,West Bengal
+banana,Rabi,Bihar
+banana,Rabi,Uttar Pradesh
+banana,Rabi,Punjab
+banana,Rabi,Kerala
+banana,Rabi,Odisha
+banana,Rabi,Assam
+banana,Zaid,Maharashtra
+banana,Zaid,Andhra Pradesh
+banana,Zaid,Telangana
+banana,Zaid,Karnataka
+banana,Zaid,Tamil Nadu
+banana,Zaid,Gujarat
+banana,Zaid,Madhya Pradesh
+banana,Zaid,West Bengal
+banana,Zaid,Bihar
+banana,Zaid,Uttar Pradesh
+banana,Zaid,Punjab
+banana,Zaid,Kerala
+banana,Zaid,Odisha
+banana,Zaid,Assam
+mango,Kharif,Maharashtra
+mango,Kharif,Andhra Pradesh
+mango,Kharif,Telangana
+mango,Kharif,Karnataka
+mango,Kharif,Tamil Nadu
+mango,Kharif,Gujarat
+mango,Kharif,Madhya Pradesh
+mango,Kharif,West Bengal
+mango,Kharif,Bihar
+mango,Kharif,Uttar Pradesh
+mango,Kharif,Punjab
+mango,Kharif,Kerala
+mango,Kharif,Odisha
+mango,Kharif,Assam
+mango,Rabi,Maharashtra
+mango,Rabi,Andhra Pradesh
+mango,Rabi,Telangana
+mango,Rabi,Karnataka
+mango,Rabi,Tamil Nadu
+mango,Rabi,Gujarat
+mango,Rabi,Madhya Pradesh
+mango,Rabi,West Bengal
+mango,Rabi,Bihar
+mango,Rabi,Uttar Pradesh
+mango,Rabi,Punjab
+mango,Rabi,Kerala
+mango,Rabi,Odisha
+mango,Rabi,Assam
+mango,Zaid,Maharashtra
+mango,Zaid,Andhra Pradesh
+mango,Zaid,Telangana
+mango,Zaid,Karnataka
+mango,Zaid,Tamil Nadu
+mango,Zaid,Gujarat
+mango,Zaid,Madhya Pradesh
+mango,Zaid,West Bengal
+mango,Zaid,Bihar
+mango,Zaid,Uttar Pradesh
+mango,Zaid,Punjab
+mango,Zaid,Kerala
+mango,Zaid,Odisha
+mango,Zaid,Assam
+grapes,Kharif,Maharashtra
+grapes,Kharif,Andhra Pradesh
+grapes,Kharif,Telangana
+grapes,Kharif,Karnataka
+grapes,Kharif,Tamil Nadu
+grapes,Kharif,Gujarat
+grapes,Kharif,Madhya Pradesh
+grapes,Kharif,West Bengal
+grapes,Kharif,Bihar
+grapes,Kharif,Uttar Pradesh
+grapes,Kharif,Punjab
+grapes,Kharif,Kerala
+grapes,Kharif,Odisha
+grapes,Kharif,Assam
+grapes,Rabi,Maharashtra
+grapes,Rabi,Andhra Pradesh
+grapes,Rabi,Telangana
+grapes,Rabi,Karnataka
+grapes,Rabi,Tamil Nadu
+grapes,Rabi,Gujarat
+grapes,Rabi,Madhya Pradesh
+grapes,Rabi,West Bengal
+grapes,Rabi,Bihar
+grapes,Rabi,Uttar Pradesh
+grapes,Rabi,Punjab
+grapes,Rabi,Kerala
+grapes,Rabi,Odisha
+grapes,Rabi,Assam
+grapes,Zaid,Maharashtra
+grapes,Zaid,Andhra Pradesh
+grapes,Zaid,Telangana
+grapes,Zaid,Karnataka
+grapes,Zaid,Tamil Nadu
+grapes,Zaid,Gujarat
+grapes,Zaid,Madhya Pradesh
+grapes,Zaid,West Bengal
+grapes,Zaid,Bihar
+grapes,Zaid,Uttar Pradesh
+grapes,Zaid,Punjab
+grapes,Zaid,Kerala
+grapes,Zaid,Odisha
+grapes,Zaid,Assam
+papaya,Kharif,Maharashtra
+papaya,Kharif,Andhra Pradesh
+papaya,Kharif,Telangana
+papaya,Kharif,Karnataka
+papaya,Kharif,Tamil Nadu
+papaya,Kharif,Gujarat
+papaya,Kharif,Madhya Pradesh
+papaya,Kharif,West Bengal
+papaya,Kharif,Bihar
+papaya,Kharif,Uttar Pradesh
+papaya,Kharif,Punjab
+papaya,Kharif,Kerala
+papaya,Kharif,Odisha
+papaya,Kharif,Assam
+papaya,Rabi,Maharashtra
+papaya,Rabi,Andhra Pradesh
+papaya,Rabi,Telangana
+papaya,Rabi,Karnataka
+papaya,Rabi,Tamil Nadu
+papaya,Rabi,Gujarat
+papaya,Rabi,Madhya Pradesh
+papaya,Rabi,West Bengal
+papaya,Rabi,Bihar
+papaya,Rabi,Uttar Pradesh
+papaya,Rabi,Punjab
+papaya,Rabi,Kerala
+papaya,Rabi,Odisha
+papaya,Rabi,Assam
+papaya,Zaid,Maharashtra
+papaya,Zaid,Andhra Pradesh
+papaya,Zaid,Telangana
+papaya,Zaid,Karnataka
+papaya,Zaid,Tamil Nadu
+papaya,Zaid,Gujarat
+papaya,Zaid,Madhya Pradesh
+papaya,Zaid,West Bengal
+papaya,Zaid,Bihar
+papaya,Zaid,Uttar Pradesh
+papaya,Zaid,Punjab
+papaya,Zaid,Kerala
+papaya,Zaid,Odisha
+papaya,Zaid,Assam
+coconut,Kharif,Maharashtra
+coconut,Kharif,Andhra Pradesh
+coconut,Kharif,Telangana
+coconut,Kharif,Karnataka
+coconut,Kharif,Tamil Nadu
+coconut,Kharif,Gujarat
+coconut,Kharif,Madhya Pradesh
+coconut,Kharif,West Bengal
+coconut,Kharif,Bihar
+coconut,Kharif,Uttar Pradesh
+coconut,Kharif,Punjab
+coconut,Kharif,Kerala
+coconut,Kharif,Odisha
+coconut,Kharif,Assam
+coconut,Rabi,Maharashtra
+coconut,Rabi,Andhra Pradesh
+coconut,Rabi,Telangana
+coconut,Rabi,Karnataka
+coconut,Rabi,Tamil Nadu
+coconut,Rabi,Gujarat
+coconut,Rabi,Madhya Pradesh
+coconut,Rabi,West Bengal
+coconut,Rabi,Bihar
+coconut,Rabi,Uttar Pradesh
+coconut,Rabi,Punjab
+coconut,Rabi,Kerala
+coconut,Rabi,Odisha
+coconut,Rabi,Assam
+coconut,Zaid,Maharashtra
+coconut,Zaid,Andhra Pradesh
+coconut,Zaid,Telangana
+coconut,Zaid,Karnataka
+coconut,Zaid,Tamil Nadu
+coconut,Zaid,Gujarat
+coconut,Zaid,Madhya Pradesh
+coconut,Zaid,West Bengal
+coconut,Zaid,Bihar
+coconut,Zaid,Uttar Pradesh
+coconut,Zaid,Punjab
+coconut,Zaid,Kerala
+coconut,Zaid,Odisha
+coconut,Zaid,Assam
+guava,Kharif,Maharashtra
+guava,Kharif,Andhra Pradesh
+guava,Kharif,Telangana
+guava,Kharif,Karnataka
+guava,Kharif,Tamil Nadu
+guava,Kharif,Gujarat
+guava,Kharif,Madhya Pradesh
+guava,Kharif,West Bengal
+guava,Kharif,Bihar
+guava,Kharif,Uttar Pradesh
+guava,Kharif,Punjab
+guava,Kharif,Kerala
+guava,Kharif,Odisha
+guava,Kharif,Assam
+guava,Rabi,Maharashtra
+guava,Rabi,Andhra Pradesh
+guava,Rabi,Telangana
+guava,Rabi,Karnataka
+guava,Rabi,Tamil Nadu
+guava,Rabi,Gujarat
+guava,Rabi,Madhya Pradesh
+guava,Rabi,West Bengal
+guava,Rabi,Bihar
+guava,Rabi,Uttar Pradesh
+guava,Rabi,Punjab
+guava,Rabi,Kerala
+guava,Rabi,Odisha
+guava,Rabi,Assam
+guava,Zaid,Maharashtra
+guava,Zaid,Andhra Pradesh
+guava,Zaid,Telangana
+guava,Zaid,Karnataka
+guava,Zaid,Tamil Nadu
+guava,Zaid,Gujarat
+guava,Zaid,Madhya Pradesh
+guava,Zaid,West Bengal
+guava,Zaid,Bihar
+guava,Zaid,Uttar Pradesh
+guava,Zaid,Punjab
+guava,Zaid,Kerala
+guava,Zaid,Odisha
+guava,Zaid,Assam
+pineapple,Kharif,Maharashtra
+pineapple,Kharif,Andhra Pradesh
+pineapple,Kharif,Telangana
+pineapple,Kharif,Karnataka
+pineapple,Kharif,Tamil Nadu
+pineapple,Kharif,Gujarat
+pineapple,Kharif,Madhya Pradesh
+pineapple,Kharif,West Bengal
+pineapple,Kharif,Bihar
+pineapple,Kharif,Uttar Pradesh
+pineapple,Kharif,Punjab
+pineapple,Kharif,Kerala
+pineapple,Kharif,Odisha
+pineapple,Kharif,Assam
+pineapple,Rabi,Maharashtra
+pineapple,Rabi,Andhra Pradesh
+pineapple,Rabi,Telangana
+pineapple,Rabi,Karnataka
+pineapple,Rabi,Tamil Nadu
+pineapple,Rabi,Gujarat
+pineapple,Rabi,Madhya Pradesh
+pineapple,Rabi,West Bengal
+pineapple,Rabi,Bihar
+pineapple,Rabi,Uttar Pradesh
+pineapple,Rabi,Punjab
+pineapple,Rabi,Kerala
+pineapple,Rabi,Odisha
+pineapple,Rabi,Assam
+pineapple,Zaid,Maharashtra
+pineapple,Zaid,Andhra Pradesh
+pineapple,Zaid,Telangana
+pineapple,Zaid,Karnataka
+pineapple,Zaid,Tamil Nadu
+pineapple,Zaid,Gujarat
+pineapple,Zaid,Madhya Pradesh
+pineapple,Zaid,West Bengal
+pineapple,Zaid,Bihar
+pineapple,Zaid,Uttar Pradesh
+pineapple,Zaid,Punjab
+pineapple,Zaid,Kerala
+pineapple,Zaid,Odisha
+pineapple,Zaid,Assam
+sapota (chiku),Kharif,Maharashtra
+sapota (chiku),Kharif,Andhra Pradesh
+sapota (chiku),Kharif,Telangana
+sapota (chiku),Kharif,Karnataka
+sapota (chiku),Kharif,Tamil Nadu
+sapota (chiku),Kharif,Gujarat
+sapota (chiku),Kharif,Madhya Pradesh
+sapota (chiku),Kharif,West Bengal
+sapota (chiku),Kharif,Bihar
+sapota (chiku),Kharif,Uttar Pradesh
+sapota (chiku),Kharif,Punjab
+sapota (chiku),Kharif,Kerala
+sapota (chiku),Kharif,Odisha
+sapota (chiku),Kharif,Assam
+sapota (chiku),Rabi,Maharashtra
+sapota (chiku),Rabi,Andhra Pradesh
+sapota (chiku),Rabi,Telangana
+sapota (chiku),Rabi,Karnataka
+sapota (chiku),Rabi,Tamil Nadu
+sapota (chiku),Rabi,Gujarat
+sapota (chiku),Rabi,Madhya Pradesh
+sapota (chiku),Rabi,West Bengal
+sapota (chiku),Rabi,Bihar
+sapota (chiku),Rabi,Uttar Pradesh
+sapota (chiku),Rabi,Punjab
+sapota (chiku),Rabi,Kerala
+sapota (chiku),Rabi,Odisha
+sapota (chiku),Rabi,Assam
+sapota (chiku),Zaid,Maharashtra
+sapota (chiku),Zaid,Andhra Pradesh
+sapota (chiku),Zaid,Telangana
+sapota (chiku),Zaid,Karnataka
+sapota (chiku),Zaid,Tamil Nadu
+sapota (chiku),Zaid,Gujarat
+sapota (chiku),Zaid,Madhya Pradesh
+sapota (chiku),Zaid,West Bengal
+sapota (chiku),Zaid,Bihar
+sapota (chiku),Zaid,Uttar Pradesh
+sapota (chiku),Zaid,Punjab
+sapota (chiku),Zaid,Kerala
+sapota (chiku),Zaid,Odisha
+sapota (chiku),Zaid,Assam
+custard apple,Kharif,Maharashtra
+custard apple,Kharif,Andhra Pradesh
+custard apple,Kharif,Telangana
+custard apple,Kharif,Karnataka
+custard apple,Kharif,Tamil Nadu
+custard apple,Kharif,Gujarat
+custard apple,Kharif,Madhya Pradesh
+custard apple,Kharif,West Bengal
+custard apple,Kharif,Bihar
+custard apple,Kharif,Uttar Pradesh
+custard apple,Kharif,Punjab
+custard apple,Kharif,Kerala
+custard apple,Kharif,Odisha
+custard apple,Kharif,Assam
+custard apple,Rabi,Maharashtra
+custard apple,Rabi,Andhra Pradesh
+custard apple,Rabi,Telangana
+custard apple,Rabi,Karnataka
+custard apple,Rabi,Tamil Nadu
+custard apple,Rabi,Gujarat
+custard apple,Rabi,Madhya Pradesh
+custard apple,Rabi,West Bengal
+custard apple,Rabi,Bihar
+custard apple,Rabi,Uttar Pradesh
+custard apple,Rabi,Punjab
+custard apple,Rabi,Kerala
+custard apple,Rabi,Odisha
+custard apple,Rabi,Assam
+custard apple,Zaid,Maharashtra
+custard apple,Zaid,Andhra Pradesh
+custard apple,Zaid,Telangana
+custard apple,Zaid,Karnataka
+custard apple,Zaid,Tamil Nadu
+custard apple,Zaid,Gujarat
+custard apple,Zaid,Madhya Pradesh
+custard apple,Zaid,West Bengal
+custard apple,Zaid,Bihar
+custard apple,Zaid,Uttar Pradesh
+custard apple,Zaid,Punjab
+custard apple,Zaid,Kerala
+custard apple,Zaid,Odisha
+custard apple,Zaid,Assam
+cherimoya,Kharif,Maharashtra
+cherimoya,Kharif,Andhra Pradesh
+cherimoya,Kharif,Telangana
+cherimoya,Kharif,Karnataka
+cherimoya,Kharif,Tamil Nadu
+cherimoya,Kharif,Gujarat
+cherimoya,Kharif,Madhya Pradesh
+cherimoya,Kharif,West Bengal
+cherimoya,Kharif,Bihar
+cherimoya,Kharif,Uttar Pradesh
+cherimoya,Kharif,Punjab
+cherimoya,Kharif,Kerala
+cherimoya,Kharif,Odisha
+cherimoya,Kharif,Assam
+cherimoya,Rabi,Maharashtra
+cherimoya,Rabi,Andhra Pradesh
+cherimoya,Rabi,Telangana
+cherimoya,Rabi,Karnataka
+cherimoya,Rabi,Tamil Nadu
+cherimoya,Rabi,Gujarat
+cherimoya,Rabi,Madhya Pradesh
+cherimoya,Rabi,West Bengal
+cherimoya,Rabi,Bihar
+cherimoya,Rabi,Uttar Pradesh
+cherimoya,Rabi,Punjab
+cherimoya,Rabi,Kerala
+cherimoya,Rabi,Odisha
+cherimoya,Rabi,Assam
+cherimoya,Zaid,Maharashtra
+cherimoya,Zaid,Andhra Pradesh
+cherimoya,Zaid,Telangana
+cherimoya,Zaid,Karnataka
+cherimoya,Zaid,Tamil Nadu
+cherimoya,Zaid,Gujarat
+cherimoya,Zaid,Madhya Pradesh
+cherimoya,Zaid,West Bengal
+cherimoya,Zaid,Bihar
+cherimoya,Zaid,Uttar Pradesh
+cherimoya,Zaid,Punjab
+cherimoya,Zaid,Kerala
+cherimoya,Zaid,Odisha
+cherimoya,Zaid,Assam
+sugar apple,Kharif,Maharashtra
+sugar apple,Kharif,Andhra Pradesh
+sugar apple,Kharif,Telangana
+sugar apple,Kharif,Karnataka
+sugar apple,Kharif,Tamil Nadu
+sugar apple,Kharif,Gujarat
+sugar apple,Kharif,Madhya Pradesh
+sugar apple,Kharif,West Bengal
+sugar apple,Kharif,Bihar
+sugar apple,Kharif,Uttar Pradesh
+sugar apple,Kharif,Punjab
+sugar apple,Kharif,Kerala
+sugar apple,Kharif,Odisha
+sugar apple,Kharif,Assam
+sugar apple,Rabi,Maharashtra
+sugar apple,Rabi,Andhra Pradesh
+sugar apple,Rabi,Telangana
+sugar apple,Rabi,Karnataka
+sugar apple,Rabi,Tamil Nadu
+sugar apple,Rabi,Gujarat
+sugar apple,Rabi,Madhya Pradesh
+sugar apple,Rabi,West Bengal
+sugar apple,Rabi,Bihar
+sugar apple,Rabi,Uttar Pradesh
+sugar apple,Rabi,Punjab
+sugar apple,Rabi,Kerala
+sugar apple,Rabi,Odisha
+sugar apple,Rabi,Assam
+sugar apple,Zaid,Maharashtra
+sugar apple,Zaid,Andhra Pradesh
+sugar apple,Zaid,Telangana
+sugar apple,Zaid,Karnataka
+sugar apple,Zaid,Tamil Nadu
+sugar apple,Zaid,Gujarat
+sugar apple,Zaid,Madhya Pradesh
+sugar apple,Zaid,West Bengal
+sugar apple,Zaid,Bihar
+sugar apple,Zaid,Uttar Pradesh
+sugar apple,Zaid,Punjab
+sugar apple,Zaid,Kerala
+sugar apple,Zaid,Odisha
+sugar apple,Zaid,Assam
+wood apple,Kharif,Maharashtra
+wood apple,Kharif,Andhra Pradesh
+wood apple,Kharif,Telangana
+wood apple,Kharif,Karnataka
+wood apple,Kharif,Tamil Nadu
+wood apple,Kharif,Gujarat
+wood apple,Kharif,Madhya Pradesh
+wood apple,Kharif,West Bengal
+wood apple,Kharif,Bihar
+wood apple,Kharif,Uttar Pradesh
+wood apple,Kharif,Punjab
+wood apple,Kharif,Kerala
+wood apple,Kharif,Odisha
+wood apple,Kharif,Assam
+wood apple,Rabi,Maharashtra
+wood apple,Rabi,Andhra Pradesh
+wood apple,Rabi,Telangana
+wood apple,Rabi,Karnataka
+wood apple,Rabi,Tamil Nadu
+wood apple,Rabi,Gujarat
+wood apple,Rabi,Madhya Pradesh
+wood apple,Rabi,West Bengal
+wood apple,Rabi,Bihar
+wood apple,Rabi,Uttar Pradesh
+wood apple,Rabi,Punjab
+wood apple,Rabi,Kerala
+wood apple,Rabi,Odisha
+wood apple,Rabi,Assam
+wood apple,Zaid,Maharashtra
+wood apple,Zaid,Andhra Pradesh
+wood apple,Zaid,Telangana
+wood apple,Zaid,Karnataka
+wood apple,Zaid,Tamil Nadu
+wood apple,Zaid,Gujarat
+wood apple,Zaid,Madhya Pradesh
+wood apple,Zaid,West Bengal
+wood apple,Zaid,Bihar
+wood apple,Zaid,Uttar Pradesh
+wood apple,Zaid,Punjab
+wood apple,Zaid,Kerala
+wood apple,Zaid,Odisha
+wood apple,Zaid,Assam
+bael,Kharif,Maharashtra
+bael,Kharif,Andhra Pradesh
+bael,Kharif,Telangana
+bael,Kharif,Karnataka
+bael,Kharif,Tamil Nadu
+bael,Kharif,Gujarat
+bael,Kharif,Madhya Pradesh
+bael,Kharif,West Bengal
+bael,Kharif,Bihar
+bael,Kharif,Uttar Pradesh
+bael,Kharif,Punjab
+bael,Kharif,Kerala
+bael,Kharif,Odisha
+bael,Kharif,Assam
+bael,Rabi,Maharashtra
+bael,Rabi,Andhra Pradesh
+bael,Rabi,Telangana
+bael,Rabi,Karnataka
+bael,Rabi,Tamil Nadu
+bael,Rabi,Gujarat
+bael,Rabi,Madhya Pradesh
+bael,Rabi,West Bengal
+bael,Rabi,Bihar
+bael,Rabi,Uttar Pradesh
+bael,Rabi,Punjab
+bael,Rabi,Kerala
+bael,Rabi,Odisha
+bael,Rabi,Assam
+bael,Zaid,Maharashtra
+bael,Zaid,Andhra Pradesh
+bael,Zaid,Telangana
+bael,Zaid,Karnataka
+bael,Zaid,Tamil Nadu
+bael,Zaid,Gujarat
+bael,Zaid,Madhya Pradesh
+bael,Zaid,West Bengal
+bael,Zaid,Bihar
+bael,Zaid,Uttar Pradesh
+bael,Zaid,Punjab
+bael,Zaid,Kerala
+bael,Zaid,Odisha
+bael,Zaid,Assam
+jackfruit,Kharif,Maharashtra
+jackfruit,Kharif,Andhra Pradesh
+jackfruit,Kharif,Telangana
+jackfruit,Kharif,Karnataka
+jackfruit,Kharif,Tamil Nadu
+jackfruit,Kharif,Gujarat
+jackfruit,Kharif,Madhya Pradesh
+jackfruit,Kharif,West Bengal
+jackfruit,Kharif,Bihar
+jackfruit,Kharif,Uttar Pradesh
+jackfruit,Kharif,Punjab
+jackfruit,Kharif,Kerala
+jackfruit,Kharif,Odisha
+jackfruit,Kharif,Assam
+jackfruit,Rabi,Maharashtra
+jackfruit,Rabi,Andhra Pradesh
+jackfruit,Rabi,Telangana
+jackfruit,Rabi,Karnataka
+jackfruit,Rabi,Tamil Nadu
+jackfruit,Rabi,Gujarat
+jackfruit,Rabi,Madhya Pradesh
+jackfruit,Rabi,West Bengal
+jackfruit,Rabi,Bihar
+jackfruit,Rabi,Uttar Pradesh
+jackfruit,Rabi,Punjab
+jackfruit,Rabi,Kerala
+jackfruit,Rabi,Odisha
+jackfruit,Rabi,Assam
+jackfruit,Zaid,Maharashtra
+jackfruit,Zaid,Andhra Pradesh
+jackfruit,Zaid,Telangana
+jackfruit,Zaid,Karnataka
+jackfruit,Zaid,Tamil Nadu
+jackfruit,Zaid,Gujarat
+jackfruit,Zaid,Madhya Pradesh
+jackfruit,Zaid,West Bengal
+jackfruit,Zaid,Bihar
+jackfruit,Zaid,Uttar Pradesh
+jackfruit,Zaid,Punjab
+jackfruit,Zaid,Kerala
+jackfruit,Zaid,Odisha
+jackfruit,Zaid,Assam
+breadfruit,Kharif,Maharashtra
+breadfruit,Kharif,Andhra Pradesh
+breadfruit,Kharif,Telangana
+breadfruit,Kharif,Karnataka
+breadfruit,Kharif,Tamil Nadu
+breadfruit,Kharif,Gujarat
+breadfruit,Kharif,Madhya Pradesh
+breadfruit,Kharif,West Bengal
+breadfruit,Kharif,Bihar
+breadfruit,Kharif,Uttar Pradesh
+breadfruit,Kharif,Punjab
+breadfruit,Kharif,Kerala
+breadfruit,Kharif,Odisha
+breadfruit,Kharif,Assam
+breadfruit,Rabi,Maharashtra
+breadfruit,Rabi,Andhra Pradesh
+breadfruit,Rabi,Telangana
+breadfruit,Rabi,Karnataka
+breadfruit,Rabi,Tamil Nadu
+breadfruit,Rabi,Gujarat
+breadfruit,Rabi,Madhya Pradesh
+breadfruit,Rabi,West Bengal
+breadfruit,Rabi,Bihar
+breadfruit,Rabi,Uttar Pradesh
+breadfruit,Rabi,Punjab
+breadfruit,Rabi,Kerala
+breadfruit,Rabi,Odisha
+breadfruit,Rabi,Assam
+breadfruit,Zaid,Maharashtra
+breadfruit,Zaid,Andhra Pradesh
+breadfruit,Zaid,Telangana
+breadfruit,Zaid,Karnataka
+breadfruit,Zaid,Tamil Nadu
+breadfruit,Zaid,Gujarat
+breadfruit,Zaid,Madhya Pradesh
+breadfruit,Zaid,West Bengal
+breadfruit,Zaid,Bihar
+breadfruit,Zaid,Uttar Pradesh
+breadfruit,Zaid,Punjab
+breadfruit,Zaid,Kerala
+breadfruit,Zaid,Odisha
+breadfruit,Zaid,Assam
+lychee,Kharif,Maharashtra
+lychee,Kharif,Andhra Pradesh
+lychee,Kharif,Telangana
+lychee,Kharif,Karnataka
+lychee,Kharif,Tamil Nadu
+lychee,Kharif,Gujarat
+lychee,Kharif,Madhya Pradesh
+lychee,Kharif,West Bengal
+lychee,Kharif,Bihar
+lychee,Kharif,Uttar Pradesh
+lychee,Kharif,Punjab
+lychee,Kharif,Kerala
+lychee,Kharif,Odisha
+lychee,Kharif,Assam
+lychee,Rabi,Maharashtra
+lychee,Rabi,Andhra Pradesh
+lychee,Rabi,Telangana
+lychee,Rabi,Karnataka
+lychee,Rabi,Tamil Nadu
+lychee,Rabi,Gujarat
+lychee,Rabi,Madhya Pradesh
+lychee,Rabi,West Bengal
+lychee,Rabi,Bihar
+lychee,Rabi,Uttar Pradesh
+lychee,Rabi,Punjab
+lychee,Rabi,Kerala
+lychee,Rabi,Odisha
+lychee,Rabi,Assam
+lychee,Zaid,Maharashtra
+lychee,Zaid,Andhra Pradesh
+lychee,Zaid,Telangana
+lychee,Zaid,Karnataka
+lychee,Zaid,Tamil Nadu
+lychee,Zaid,Gujarat
+lychee,Zaid,Madhya Pradesh
+lychee,Zaid,West Bengal
+lychee,Zaid,Bihar
+lychee,Zaid,Uttar Pradesh
+lychee,Zaid,Punjab
+lychee,Zaid,Kerala
+lychee,Zaid,Odisha
+lychee,Zaid,Assam
+longan,Kharif,Maharashtra
+longan,Kharif,Andhra Pradesh
+longan,Kharif,Telangana
+longan,Kharif,Karnataka
+longan,Kharif,Tamil Nadu
+longan,Kharif,Gujarat
+longan,Kharif,Madhya Pradesh
+longan,Kharif,West Bengal
+longan,Kharif,Bihar
+longan,Kharif,Uttar Pradesh
+longan,Kharif,Punjab
+longan,Kharif,Kerala
+longan,Kharif,Odisha
+longan,Kharif,Assam
+longan,Rabi,Maharashtra
+longan,Rabi,Andhra Pradesh
+longan,Rabi,Telangana
+longan,Rabi,Karnataka
+longan,Rabi,Tamil Nadu
+longan,Rabi,Gujarat
+longan,Rabi,Madhya Pradesh
+longan,Rabi,West Bengal
+longan,Rabi,Bihar
+longan,Rabi,Uttar Pradesh
+longan,Rabi,Punjab
+longan,Rabi,Kerala
+longan,Rabi,Odisha
+longan,Rabi,Assam
+longan,Zaid,Maharashtra
+longan,Zaid,Andhra Pradesh
+longan,Zaid,Telangana
+longan,Zaid,Karnataka
+longan,Zaid,Tamil Nadu
+longan,Zaid,Gujarat
+longan,Zaid,Madhya Pradesh
+longan,Zaid,West Bengal
+longan,Zaid,Bihar
+longan,Zaid,Uttar Pradesh
+longan,Zaid,Punjab
+longan,Zaid,Kerala
+longan,Zaid,Odisha
+longan,Zaid,Assam
+rambutan,Kharif,Maharashtra
+rambutan,Kharif,Andhra Pradesh
+rambutan,Kharif,Telangana
+rambutan,Kharif,Karnataka
+rambutan,Kharif,Tamil Nadu
+rambutan,Kharif,Gujarat
+rambutan,Kharif,Madhya Pradesh
+rambutan,Kharif,West Bengal
+rambutan,Kharif,Bihar
+rambutan,Kharif,Uttar Pradesh
+rambutan,Kharif,Punjab
+rambutan,Kharif,Kerala
+rambutan,Kharif,Odisha
+rambutan,Kharif,Assam
+rambutan,Rabi,Maharashtra
+rambutan,Rabi,Andhra Pradesh
+rambutan,Rabi,Telangana
+rambutan,Rabi,Karnataka
+rambutan,Rabi,Tamil Nadu
+rambutan,Rabi,Gujarat
+rambutan,Rabi,Madhya Pradesh
+rambutan,Rabi,West Bengal
+rambutan,Rabi,Bihar
+rambutan,Rabi,Uttar Pradesh
+rambutan,Rabi,Punjab
+rambutan,Rabi,Kerala
+rambutan,Rabi,Odisha
+rambutan,Rabi,Assam
+rambutan,Zaid,Maharashtra
+rambutan,Zaid,Andhra Pradesh
+rambutan,Zaid,Telangana
+rambutan,Zaid,Karnataka
+rambutan,Zaid,Tamil Nadu
+rambutan,Zaid,Gujarat
+rambutan,Zaid,Madhya Pradesh
+rambutan,Zaid,West Bengal
+rambutan,Zaid,Bihar
+rambutan,Zaid,Uttar Pradesh
+rambutan,Zaid,Punjab
+rambutan,Zaid,Kerala
+rambutan,Zaid,Odisha
+rambutan,Zaid,Assam
+mangosteen,Kharif,Maharashtra
+mangosteen,Kharif,Andhra Pradesh
+mangosteen,Kharif,Telangana
+mangosteen,Kharif,Karnataka
+mangosteen,Kharif,Tamil Nadu
+mangosteen,Kharif,Gujarat
+mangosteen,Kharif,Madhya Pradesh
+mangosteen,Kharif,West Bengal
+mangosteen,Kharif,Bihar
+mangosteen,Kharif,Uttar Pradesh
+mangosteen,Kharif,Punjab
+mangosteen,Kharif,Kerala
+mangosteen,Kharif,Odisha
+mangosteen,Kharif,Assam
+mangosteen,Rabi,Maharashtra
+mangosteen,Rabi,Andhra Pradesh
+mangosteen,Rabi,Telangana
+mangosteen,Rabi,Karnataka
+mangosteen,Rabi,Tamil Nadu
+mangosteen,Rabi,Gujarat
+mangosteen,Rabi,Madhya Pradesh
+mangosteen,Rabi,West Bengal
+mangosteen,Rabi,Bihar
+mangosteen,Rabi,Uttar Pradesh
+mangosteen,Rabi,Punjab
+mangosteen,Rabi,Kerala
+mangosteen,Rabi,Odisha
+mangosteen,Rabi,Assam
+mangosteen,Zaid,Maharashtra
+mangosteen,Zaid,Andhra Pradesh
+mangosteen,Zaid,Telangana
+mangosteen,Zaid,Karnataka
+mangosteen,Zaid,Tamil Nadu
+mangosteen,Zaid,Gujarat
+mangosteen,Zaid,Madhya Pradesh
+mangosteen,Zaid,West Bengal
+mangosteen,Zaid,Bihar
+mangosteen,Zaid,Uttar Pradesh
+mangosteen,Zaid,Punjab
+mangosteen,Zaid,Kerala
+mangosteen,Zaid,Odisha
+mangosteen,Zaid,Assam
+passion fruit,Kharif,Maharashtra
+passion fruit,Kharif,Andhra Pradesh
+passion fruit,Kharif,Telangana
+passion fruit,Kharif,Karnataka
+passion fruit,Kharif,Tamil Nadu
+passion fruit,Kharif,Gujarat
+passion fruit,Kharif,Madhya Pradesh
+passion fruit,Kharif,West Bengal
+passion fruit,Kharif,Bihar
+passion fruit,Kharif,Uttar Pradesh
+passion fruit,Kharif,Punjab
+passion fruit,Kharif,Kerala
+passion fruit,Kharif,Odisha
+passion fruit,Kharif,Assam
+passion fruit,Rabi,Maharashtra
+passion fruit,Rabi,Andhra Pradesh
+passion fruit,Rabi,Telangana
+passion fruit,Rabi,Karnataka
+passion fruit,Rabi,Tamil Nadu
+passion fruit,Rabi,Gujarat
+passion fruit,Rabi,Madhya Pradesh
+passion fruit,Rabi,West Bengal
+passion fruit,Rabi,Bihar
+passion fruit,Rabi,Uttar Pradesh
+passion fruit,Rabi,Punjab
+passion fruit,Rabi,Kerala
+passion fruit,Rabi,Odisha
+passion fruit,Rabi,Assam
+passion fruit,Zaid,Maharashtra
+passion fruit,Zaid,Andhra Pradesh
+passion fruit,Zaid,Telangana
+passion fruit,Zaid,Karnataka
+passion fruit,Zaid,Tamil Nadu
+passion fruit,Zaid,Gujarat
+passion fruit,Zaid,Madhya Pradesh
+passion fruit,Zaid,West Bengal
+passion fruit,Zaid,Bihar
+passion fruit,Zaid,Uttar Pradesh
+passion fruit,Zaid,Punjab
+passion fruit,Zaid,Kerala
+passion fruit,Zaid,Odisha
+passion fruit,Zaid,Assam
+dragon fruit,Kharif,Maharashtra
+dragon fruit,Kharif,Andhra Pradesh
+dragon fruit,Kharif,Telangana
+dragon fruit,Kharif,Karnataka
+dragon fruit,Kharif,Tamil Nadu
+dragon fruit,Kharif,Gujarat
+dragon fruit,Kharif,Madhya Pradesh
+dragon fruit,Kharif,West Bengal
+dragon fruit,Kharif,Bihar
+dragon fruit,Kharif,Uttar Pradesh
+dragon fruit,Kharif,Punjab
+dragon fruit,Kharif,Kerala
+dragon fruit,Kharif,Odisha
+dragon fruit,Kharif,Assam
+dragon fruit,Rabi,Maharashtra
+dragon fruit,Rabi,Andhra Pradesh
+dragon fruit,Rabi,Telangana
+dragon fruit,Rabi,Karnataka
+dragon fruit,Rabi,Tamil Nadu
+dragon fruit,Rabi,Gujarat
+dragon fruit,Rabi,Madhya Pradesh
+dragon fruit,Rabi,West Bengal
+dragon fruit,Rabi,Bihar
+dragon fruit,Rabi,Uttar Pradesh
+dragon fruit,Rabi,Punjab
+dragon fruit,Rabi,Kerala
+dragon fruit,Rabi,Odisha
+dragon fruit,Rabi,Assam
+dragon fruit,Zaid,Maharashtra
+dragon fruit,Zaid,Andhra Pradesh
+dragon fruit,Zaid,Telangana
+dragon fruit,Zaid,Karnataka
+dragon fruit,Zaid,Tamil Nadu
+dragon fruit,Zaid,Gujarat
+dragon fruit,Zaid,Madhya Pradesh
+dragon fruit,Zaid,West Bengal
+dragon fruit,Zaid,Bihar
+dragon fruit,Zaid,Uttar Pradesh
+dragon fruit,Zaid,Punjab
+dragon fruit,Zaid,Kerala
+dragon fruit,Zaid,Odisha
+dragon fruit,Zaid,Assam
+fig,Kharif,Maharashtra
+fig,Kharif,Andhra Pradesh
+fig,Kharif,Telangana
+fig,Kharif,Karnataka
+fig,Kharif,Tamil Nadu
+fig,Kharif,Gujarat
+fig,Kharif,Madhya Pradesh
+fig,Kharif,West Bengal
+fig,Kharif,Bihar
+fig,Kharif,Uttar Pradesh
+fig,Kharif,Punjab
+fig,Kharif,Kerala
+fig,Kharif,Odisha
+fig,Kharif,Assam
+fig,Rabi,Maharashtra
+fig,Rabi,Andhra Pradesh
+fig,Rabi,Telangana
+fig,Rabi,Karnataka
+fig,Rabi,Tamil Nadu
+fig,Rabi,Gujarat
+fig,Rabi,Madhya Pradesh
+fig,Rabi,West Bengal
+fig,Rabi,Bihar
+fig,Rabi,Uttar Pradesh
+fig,Rabi,Punjab
+fig,Rabi,Kerala
+fig,Rabi,Odisha
+fig,Rabi,Assam
+fig,Zaid,Maharashtra
+fig,Zaid,Andhra Pradesh
+fig,Zaid,Telangana
+fig,Zaid,Karnataka
+fig,Zaid,Tamil Nadu
+fig,Zaid,Gujarat
+fig,Zaid,Madhya Pradesh
+fig,Zaid,West Bengal
+fig,Zaid,Bihar
+fig,Zaid,Uttar Pradesh
+fig,Zaid,Punjab
+fig,Zaid,Kerala
+fig,Zaid,Odisha
+fig,Zaid,Assam
+avocado,Kharif,Maharashtra
+avocado,Kharif,Andhra Pradesh
+avocado,Kharif,Telangana
+avocado,Kharif,Karnataka
+avocado,Kharif,Tamil Nadu
+avocado,Kharif,Gujarat
+avocado,Kharif,Madhya Pradesh
+avocado,Kharif,West Bengal
+avocado,Kharif,Bihar
+avocado,Kharif,Uttar Pradesh
+avocado,Kharif,Punjab
+avocado,Kharif,Kerala
+avocado,Kharif,Odisha
+avocado,Kharif,Assam
+avocado,Rabi,Maharashtra
+avocado,Rabi,Andhra Pradesh
+avocado,Rabi,Telangana
+avocado,Rabi,Karnataka
+avocado,Rabi,Tamil Nadu
+avocado,Rabi,Gujarat
+avocado,Rabi,Madhya Pradesh
+avocado,Rabi,West Bengal
+avocado,Rabi,Bihar
+avocado,Rabi,Uttar Pradesh
+avocado,Rabi,Punjab
+avocado,Rabi,Kerala
+avocado,Rabi,Odisha
+avocado,Rabi,Assam
+avocado,Zaid,Maharashtra
+avocado,Zaid,Andhra Pradesh
+avocado,Zaid,Telangana
+avocado,Zaid,Karnataka
+avocado,Zaid,Tamil Nadu
+avocado,Zaid,Gujarat
+avocado,Zaid,Madhya Pradesh
+avocado,Zaid,West Bengal
+avocado,Zaid,Bihar
+avocado,Zaid,Uttar Pradesh
+avocado,Zaid,Punjab
+avocado,Zaid,Kerala
+avocado,Zaid,Odisha
+avocado,Zaid,Assam
+tamarind,Kharif,Maharashtra
+tamarind,Kharif,Andhra Pradesh
+tamarind,Kharif,Telangana
+tamarind,Kharif,Karnataka
+tamarind,Kharif,Tamil Nadu
+tamarind,Kharif,Gujarat
+tamarind,Kharif,Madhya Pradesh
+tamarind,Kharif,West Bengal
+tamarind,Kharif,Bihar
+tamarind,Kharif,Uttar Pradesh
+tamarind,Kharif,Punjab
+tamarind,Kharif,Kerala
+tamarind,Kharif,Odisha
+tamarind,Kharif,Assam
+tamarind,Rabi,Maharashtra
+tamarind,Rabi,Andhra Pradesh
+tamarind,Rabi,Telangana
+tamarind,Rabi,Karnataka
+tamarind,Rabi,Tamil Nadu
+tamarind,Rabi,Gujarat
+tamarind,Rabi,Madhya Pradesh
+tamarind,Rabi,West Bengal
+tamarind,Rabi,Bihar
+tamarind,Rabi,Uttar Pradesh
+tamarind,Rabi,Punjab
+tamarind,Rabi,Kerala
+tamarind,Rabi,Odisha
+tamarind,Rabi,Assam
+tamarind,Zaid,Maharashtra
+tamarind,Zaid,Andhra Pradesh
+tamarind,Zaid,Telangana
+tamarind,Zaid,Karnataka
+tamarind,Zaid,Tamil Nadu
+tamarind,Zaid,Gujarat
+tamarind,Zaid,Madhya Pradesh
+tamarind,Zaid,West Bengal
+tamarind,Zaid,Bihar
+tamarind,Zaid,Uttar Pradesh
+tamarind,Zaid,Punjab
+tamarind,Zaid,Kerala
+tamarind,Zaid,Odisha
+tamarind,Zaid,Assam
+carambola,Kharif,Maharashtra
+carambola,Kharif,Andhra Pradesh
+carambola,Kharif,Telangana
+carambola,Kharif,Karnataka
+carambola,Kharif,Tamil Nadu
+carambola,Kharif,Gujarat
+carambola,Kharif,Madhya Pradesh
+carambola,Kharif,West Bengal
+carambola,Kharif,Bihar
+carambola,Kharif,Uttar Pradesh
+carambola,Kharif,Punjab
+carambola,Kharif,Kerala
+carambola,Kharif,Odisha
+carambola,Kharif,Assam
+carambola,Rabi,Maharashtra
+carambola,Rabi,Andhra Pradesh
+carambola,Rabi,Telangana
+carambola,Rabi,Karnataka
+carambola,Rabi,Tamil Nadu
+carambola,Rabi,Gujarat
+carambola,Rabi,Madhya Pradesh
+carambola,Rabi,West Bengal
+carambola,Rabi,Bihar
+carambola,Rabi,Uttar Pradesh
+carambola,Rabi,Punjab
+carambola,Rabi,Kerala
+carambola,Rabi,Odisha
+carambola,Rabi,Assam
+carambola,Zaid,Maharashtra
+carambola,Zaid,Andhra Pradesh
+carambola,Zaid,Telangana
+carambola,Zaid,Karnataka
+carambola,Zaid,Tamil Nadu
+carambola,Zaid,Gujarat
+carambola,Zaid,Madhya Pradesh
+carambola,Zaid,West Bengal
+carambola,Zaid,Bihar
+carambola,Zaid,Uttar Pradesh
+carambola,Zaid,Punjab
+carambola,Zaid,Kerala
+carambola,Zaid,Odisha
+carambola,Zaid,Assam
+jamun,Kharif,Maharashtra
+jamun,Kharif,Andhra Pradesh
+jamun,Kharif,Telangana
+jamun,Kharif,Karnataka
+jamun,Kharif,Tamil Nadu
+jamun,Kharif,Gujarat
+jamun,Kharif,Madhya Pradesh
+jamun,Kharif,West Bengal
+jamun,Kharif,Bihar
+jamun,Kharif,Uttar Pradesh
+jamun,Kharif,Punjab
+jamun,Kharif,Kerala
+jamun,Kharif,Odisha
+jamun,Kharif,Assam
+jamun,Rabi,Maharashtra
+jamun,Rabi,Andhra Pradesh
+jamun,Rabi,Telangana
+jamun,Rabi,Karnataka
+jamun,Rabi,Tamil Nadu
+jamun,Rabi,Gujarat
+jamun,Rabi,Madhya Pradesh
+jamun,Rabi,West Bengal
+jamun,Rabi,Bihar
+jamun,Rabi,Uttar Pradesh
+jamun,Rabi,Punjab
+jamun,Rabi,Kerala
+jamun,Rabi,Odisha
+jamun,Rabi,Assam
+jamun,Zaid,Maharashtra
+jamun,Zaid,Andhra Pradesh
+jamun,Zaid,Telangana
+jamun,Zaid,Karnataka
+jamun,Zaid,Tamil Nadu
+jamun,Zaid,Gujarat
+jamun,Zaid,Madhya Pradesh
+jamun,Zaid,West Bengal
+jamun,Zaid,Bihar
+jamun,Zaid,Uttar Pradesh
+jamun,Zaid,Punjab
+jamun,Zaid,Kerala
+jamun,Zaid,Odisha
+jamun,Zaid,Assam
+amla,Kharif,Maharashtra
+amla,Kharif,Andhra Pradesh
+amla,Kharif,Telangana
+amla,Kharif,Karnataka
+amla,Kharif,Tamil Nadu
+amla,Kharif,Gujarat
+amla,Kharif,Madhya Pradesh
+amla,Kharif,West Bengal
+amla,Kharif,Bihar
+amla,Kharif,Uttar Pradesh
+amla,Kharif,Punjab
+amla,Kharif,Kerala
+amla,Kharif,Odisha
+amla,Kharif,Assam
+amla,Rabi,Maharashtra
+amla,Rabi,Andhra Pradesh
+amla,Rabi,Telangana
+amla,Rabi,Karnataka
+amla,Rabi,Tamil Nadu
+amla,Rabi,Gujarat
+amla,Rabi,Madhya Pradesh
+amla,Rabi,West Bengal
+amla,Rabi,Bihar
+amla,Rabi,Uttar Pradesh
+amla,Rabi,Punjab
+amla,Rabi,Kerala
+amla,Rabi,Odisha
+amla,Rabi,Assam
+amla,Zaid,Maharashtra
+amla,Zaid,Andhra Pradesh
+amla,Zaid,Telangana
+amla,Zaid,Karnataka
+amla,Zaid,Tamil Nadu
+amla,Zaid,Gujarat
+amla,Zaid,Madhya Pradesh
+amla,Zaid,West Bengal
+amla,Zaid,Bihar
+amla,Zaid,Uttar Pradesh
+amla,Zaid,Punjab
+amla,Zaid,Kerala
+amla,Zaid,Odisha
+amla,Zaid,Assam
+ber (indian jujube),Kharif,Maharashtra
+ber (indian jujube),Kharif,Andhra Pradesh
+ber (indian jujube),Kharif,Telangana
+ber (indian jujube),Kharif,Karnataka
+ber (indian jujube),Kharif,Tamil Nadu
+ber (indian jujube),Kharif,Gujarat
+ber (indian jujube),Kharif,Madhya Pradesh
+ber (indian jujube),Kharif,West Bengal
+ber (indian jujube),Kharif,Bihar
+ber (indian jujube),Kharif,Uttar Pradesh
+ber (indian jujube),Kharif,Punjab
+ber (indian jujube),Kharif,Kerala
+ber (indian jujube),Kharif,Odisha
+ber (indian jujube),Kharif,Assam
+ber (indian jujube),Rabi,Maharashtra
+ber (indian jujube),Rabi,Andhra Pradesh
+ber (indian jujube),Rabi,Telangana
+ber (indian jujube),Rabi,Karnataka
+ber (indian jujube),Rabi,Tamil Nadu
+ber (indian jujube),Rabi,Gujarat
+ber (indian jujube),Rabi,Madhya Pradesh
+ber (indian jujube),Rabi,West Bengal
+ber (indian jujube),Rabi,Bihar
+ber (indian jujube),Rabi,Uttar Pradesh
+ber (indian jujube),Rabi,Punjab
+ber (indian jujube),Rabi,Kerala
+ber (indian jujube),Rabi,Odisha
+ber (indian jujube),Rabi,Assam
+ber (indian jujube),Zaid,Maharashtra
+ber (indian jujube),Zaid,Andhra Pradesh
+ber (indian jujube),Zaid,Telangana
+ber (indian jujube),Zaid,Karnataka
+ber (indian jujube),Zaid,Tamil Nadu
+ber (indian jujube),Zaid,Gujarat
+ber (indian jujube),Zaid,Madhya Pradesh
+ber (indian jujube),Zaid,West Bengal
+ber (indian jujube),Zaid,Bihar
+ber (indian jujube),Zaid,Uttar Pradesh
+ber (indian jujube),Zaid,Punjab
+ber (indian jujube),Zaid,Kerala
+ber (indian jujube),Zaid,Odisha
+ber (indian jujube),Zaid,Assam
+phalsa,Kharif,Maharashtra
+phalsa,Kharif,Andhra Pradesh
+phalsa,Kharif,Telangana
+phalsa,Kharif,Karnataka
+phalsa,Kharif,Tamil Nadu
+phalsa,Kharif,Gujarat
+phalsa,Kharif,Madhya Pradesh
+phalsa,Kharif,West Bengal
+phalsa,Kharif,Bihar
+phalsa,Kharif,Uttar Pradesh
+phalsa,Kharif,Punjab
+phalsa,Kharif,Kerala
+phalsa,Kharif,Odisha
+phalsa,Kharif,Assam
+phalsa,Rabi,Maharashtra
+phalsa,Rabi,Andhra Pradesh
+phalsa,Rabi,Telangana
+phalsa,Rabi,Karnataka
+phalsa,Rabi,Tamil Nadu
+phalsa,Rabi,Gujarat
+phalsa,Rabi,Madhya Pradesh
+phalsa,Rabi,West Bengal
+phalsa,Rabi,Bihar
+phalsa,Rabi,Uttar Pradesh
+phalsa,Rabi,Punjab
+phalsa,Rabi,Kerala
+phalsa,Rabi,Odisha
+phalsa,Rabi,Assam
+phalsa,Zaid,Maharashtra
+phalsa,Zaid,Andhra Pradesh
+phalsa,Zaid,Telangana
+phalsa,Zaid,Karnataka
+phalsa,Zaid,Tamil Nadu
+phalsa,Zaid,Gujarat
+phalsa,Zaid,Madhya Pradesh
+phalsa,Zaid,West Bengal
+phalsa,Zaid,Bihar
+phalsa,Zaid,Uttar Pradesh
+phalsa,Zaid,Punjab
+phalsa,Zaid,Kerala
+phalsa,Zaid,Odisha
+phalsa,Zaid,Assam
+karonda,Kharif,Maharashtra
+karonda,Kharif,Andhra Pradesh
+karonda,Kharif,Telangana
+karonda,Kharif,Karnataka
+karonda,Kharif,Tamil Nadu
+karonda,Kharif,Gujarat
+karonda,Kharif,Madhya Pradesh
+karonda,Kharif,West Bengal
+karonda,Kharif,Bihar
+karonda,Kharif,Uttar Pradesh
+karonda,Kharif,Punjab
+karonda,Kharif,Kerala
+karonda,Kharif,Odisha
+karonda,Kharif,Assam
+karonda,Rabi,Maharashtra
+karonda,Rabi,Andhra Pradesh
+karonda,Rabi,Telangana
+karonda,Rabi,Karnataka
+karonda,Rabi,Tamil Nadu
+karonda,Rabi,Gujarat
+karonda,Rabi,Madhya Pradesh
+karonda,Rabi,West Bengal
+karonda,Rabi,Bihar
+karonda,Rabi,Uttar Pradesh
+karonda,Rabi,Punjab
+karonda,Rabi,Kerala
+karonda,Rabi,Odisha
+karonda,Rabi,Assam
+karonda,Zaid,Maharashtra
+karonda,Zaid,Andhra Pradesh
+karonda,Zaid,Telangana
+karonda,Zaid,Karnataka
+karonda,Zaid,Tamil Nadu
+karonda,Zaid,Gujarat
+karonda,Zaid,Madhya Pradesh
+karonda,Zaid,West Bengal
+karonda,Zaid,Bihar
+karonda,Zaid,Uttar Pradesh
+karonda,Zaid,Punjab
+karonda,Zaid,Kerala
+karonda,Zaid,Odisha
+karonda,Zaid,Assam
+mulberry fruit,Kharif,Maharashtra
+mulberry fruit,Kharif,Andhra Pradesh
+mulberry fruit,Kharif,Telangana
+mulberry fruit,Kharif,Karnataka
+mulberry fruit,Kharif,Tamil Nadu
+mulberry fruit,Kharif,Gujarat
+mulberry fruit,Kharif,Madhya Pradesh
+mulberry fruit,Kharif,West Bengal
+mulberry fruit,Kharif,Bihar
+mulberry fruit,Kharif,Uttar Pradesh
+mulberry fruit,Kharif,Punjab
+mulberry fruit,Kharif,Kerala
+mulberry fruit,Kharif,Odisha
+mulberry fruit,Kharif,Assam
+mulberry fruit,Rabi,Maharashtra
+mulberry fruit,Rabi,Andhra Pradesh
+mulberry fruit,Rabi,Telangana
+mulberry fruit,Rabi,Karnataka
+mulberry fruit,Rabi,Tamil Nadu
+mulberry fruit,Rabi,Gujarat
+mulberry fruit,Rabi,Madhya Pradesh
+mulberry fruit,Rabi,West Bengal
+mulberry fruit,Rabi,Bihar
+mulberry fruit,Rabi,Uttar Pradesh
+mulberry fruit,Rabi,Punjab
+mulberry fruit,Rabi,Kerala
+mulberry fruit,Rabi,Odisha
+mulberry fruit,Rabi,Assam
+mulberry fruit,Zaid,Maharashtra
+mulberry fruit,Zaid,Andhra Pradesh
+mulberry fruit,Zaid,Telangana
+mulberry fruit,Zaid,Karnataka
+mulberry fruit,Zaid,Tamil Nadu
+mulberry fruit,Zaid,Gujarat
+mulberry fruit,Zaid,Madhya Pradesh
+mulberry fruit,Zaid,West Bengal
+mulberry fruit,Zaid,Bihar
+mulberry fruit,Zaid,Uttar Pradesh
+mulberry fruit,Zaid,Punjab
+mulberry fruit,Zaid,Kerala
+mulberry fruit,Zaid,Odisha
+mulberry fruit,Zaid,Assam
+sweet orange (mosambi),Kharif,Maharashtra
+sweet orange (mosambi),Kharif,Andhra Pradesh
+sweet orange (mosambi),Kharif,Telangana
+sweet orange (mosambi),Kharif,Karnataka
+sweet orange (mosambi),Kharif,Tamil Nadu
+sweet orange (mosambi),Kharif,Gujarat
+sweet orange (mosambi),Kharif,Madhya Pradesh
+sweet orange (mosambi),Kharif,West Bengal
+sweet orange (mosambi),Kharif,Bihar
+sweet orange (mosambi),Kharif,Uttar Pradesh
+sweet orange (mosambi),Kharif,Punjab
+sweet orange (mosambi),Kharif,Kerala
+sweet orange (mosambi),Kharif,Odisha
+sweet orange (mosambi),Kharif,Assam
+sweet orange (mosambi),Rabi,Maharashtra
+sweet orange (mosambi),Rabi,Andhra Pradesh
+sweet orange (mosambi),Rabi,Telangana
+sweet orange (mosambi),Rabi,Karnataka
+sweet orange (mosambi),Rabi,Tamil Nadu
+sweet orange (mosambi),Rabi,Gujarat
+sweet orange (mosambi),Rabi,Madhya Pradesh
+sweet orange (mosambi),Rabi,West Bengal
+sweet orange (mosambi),Rabi,Bihar
+sweet orange (mosambi),Rabi,Uttar Pradesh
+sweet orange (mosambi),Rabi,Punjab
+sweet orange (mosambi),Rabi,Kerala
+sweet orange (mosambi),Rabi,Odisha
+sweet orange (mosambi),Rabi,Assam
+sweet orange (mosambi),Zaid,Maharashtra
+sweet orange (mosambi),Zaid,Andhra Pradesh
+sweet orange (mosambi),Zaid,Telangana
+sweet orange (mosambi),Zaid,Karnataka
+sweet orange (mosambi),Zaid,Tamil Nadu
+sweet orange (mosambi),Zaid,Gujarat
+sweet orange (mosambi),Zaid,Madhya Pradesh
+sweet orange (mosambi),Zaid,West Bengal
+sweet orange (mosambi),Zaid,Bihar
+sweet orange (mosambi),Zaid,Uttar Pradesh
+sweet orange (mosambi),Zaid,Punjab
+sweet orange (mosambi),Zaid,Kerala
+sweet orange (mosambi),Zaid,Odisha
+sweet orange (mosambi),Zaid,Assam
+mandarin (santra),Kharif,Maharashtra
+mandarin (santra),Kharif,Andhra Pradesh
+mandarin (santra),Kharif,Telangana
+mandarin (santra),Kharif,Karnataka
+mandarin (santra),Kharif,Tamil Nadu
+mandarin (santra),Kharif,Gujarat
+mandarin (santra),Kharif,Madhya Pradesh
+mandarin (santra),Kharif,West Bengal
+mandarin (santra),Kharif,Bihar
+mandarin (santra),Kharif,Uttar Pradesh
+mandarin (santra),Kharif,Punjab
+mandarin (santra),Kharif,Kerala
+mandarin (santra),Kharif,Odisha
+mandarin (santra),Kharif,Assam
+mandarin (santra),Rabi,Maharashtra
+mandarin (santra),Rabi,Andhra Pradesh
+mandarin (santra),Rabi,Telangana
+mandarin (santra),Rabi,Karnataka
+mandarin (santra),Rabi,Tamil Nadu
+mandarin (santra),Rabi,Gujarat
+mandarin (santra),Rabi,Madhya Pradesh
+mandarin (santra),Rabi,West Bengal
+mandarin (santra),Rabi,Bihar
+mandarin (santra),Rabi,Uttar Pradesh
+mandarin (santra),Rabi,Punjab
+mandarin (santra),Rabi,Kerala
+mandarin (santra),Rabi,Odisha
+mandarin (santra),Rabi,Assam
+mandarin (santra),Zaid,Maharashtra
+mandarin (santra),Zaid,Andhra Pradesh
+mandarin (santra),Zaid,Telangana
+mandarin (santra),Zaid,Karnataka
+mandarin (santra),Zaid,Tamil Nadu
+mandarin (santra),Zaid,Gujarat
+mandarin (santra),Zaid,Madhya Pradesh
+mandarin (santra),Zaid,West Bengal
+mandarin (santra),Zaid,Bihar
+mandarin (santra),Zaid,Uttar Pradesh
+mandarin (santra),Zaid,Punjab
+mandarin (santra),Zaid,Kerala
+mandarin (santra),Zaid,Odisha
+mandarin (santra),Zaid,Assam
+lemon,Kharif,Maharashtra
+lemon,Kharif,Andhra Pradesh
+lemon,Kharif,Telangana
+lemon,Kharif,Karnataka
+lemon,Kharif,Tamil Nadu
+lemon,Kharif,Gujarat
+lemon,Kharif,Madhya Pradesh
+lemon,Kharif,West Bengal
+lemon,Kharif,Bihar
+lemon,Kharif,Uttar Pradesh
+lemon,Kharif,Punjab
+lemon,Kharif,Kerala
+lemon,Kharif,Odisha
+lemon,Kharif,Assam
+lemon,Rabi,Maharashtra
+lemon,Rabi,Andhra Pradesh
+lemon,Rabi,Telangana
+lemon,Rabi,Karnataka
+lemon,Rabi,Tamil Nadu
+lemon,Rabi,Gujarat
+lemon,Rabi,Madhya Pradesh
+lemon,Rabi,West Bengal
+lemon,Rabi,Bihar
+lemon,Rabi,Uttar Pradesh
+lemon,Rabi,Punjab
+lemon,Rabi,Kerala
+lemon,Rabi,Odisha
+lemon,Rabi,Assam
+lemon,Zaid,Maharashtra
+lemon,Zaid,Andhra Pradesh
+lemon,Zaid,Telangana
+lemon,Zaid,Karnataka
+lemon,Zaid,Tamil Nadu
+lemon,Zaid,Gujarat
+lemon,Zaid,Madhya Pradesh
+lemon,Zaid,West Bengal
+lemon,Zaid,Bihar
+lemon,Zaid,Uttar Pradesh
+lemon,Zaid,Punjab
+lemon,Zaid,Kerala
+lemon,Zaid,Odisha
+lemon,Zaid,Assam
+lime,Kharif,Maharashtra
+lime,Kharif,Andhra Pradesh
+lime,Kharif,Telangana
+lime,Kharif,Karnataka
+lime,Kharif,Tamil Nadu
+lime,Kharif,Gujarat
+lime,Kharif,Madhya Pradesh
+lime,Kharif,West Bengal
+lime,Kharif,Bihar
+lime,Kharif,Uttar Pradesh
+lime,Kharif,Punjab
+lime,Kharif,Kerala
+lime,Kharif,Odisha
+lime,Kharif,Assam
+lime,Rabi,Maharashtra
+lime,Rabi,Andhra Pradesh
+lime,Rabi,Telangana
+lime,Rabi,Karnataka
+lime,Rabi,Tamil Nadu
+lime,Rabi,Gujarat
+lime,Rabi,Madhya Pradesh
+lime,Rabi,West Bengal
+lime,Rabi,Bihar
+lime,Rabi,Uttar Pradesh
+lime,Rabi,Punjab
+lime,Rabi,Kerala
+lime,Rabi,Odisha
+lime,Rabi,Assam
+lime,Zaid,Maharashtra
+lime,Zaid,Andhra Pradesh
+lime,Zaid,Telangana
+lime,Zaid,Karnataka
+lime,Zaid,Tamil Nadu
+lime,Zaid,Gujarat
+lime,Zaid,Madhya Pradesh
+lime,Zaid,West Bengal
+lime,Zaid,Bihar
+lime,Zaid,Uttar Pradesh
+lime,Zaid,Punjab
+lime,Zaid,Kerala
+lime,Zaid,Odisha
+lime,Zaid,Assam
+acid lime,Kharif,Maharashtra
+acid lime,Kharif,Andhra Pradesh
+acid lime,Kharif,Telangana
+acid lime,Kharif,Karnataka
+acid lime,Kharif,Tamil Nadu
+acid lime,Kharif,Gujarat
+acid lime,Kharif,Madhya Pradesh
+acid lime,Kharif,West Bengal
+acid lime,Kharif,Bihar
+acid lime,Kharif,Uttar Pradesh
+acid lime,Kharif,Punjab
+acid lime,Kharif,Kerala
+acid lime,Kharif,Odisha
+acid lime,Kharif,Assam
+acid lime,Rabi,Maharashtra
+acid lime,Rabi,Andhra Pradesh
+acid lime,Rabi,Telangana
+acid lime,Rabi,Karnataka
+acid lime,Rabi,Tamil Nadu
+acid lime,Rabi,Gujarat
+acid lime,Rabi,Madhya Pradesh
+acid lime,Rabi,West Bengal
+acid lime,Rabi,Bihar
+acid lime,Rabi,Uttar Pradesh
+acid lime,Rabi,Punjab
+acid lime,Rabi,Kerala
+acid lime,Rabi,Odisha
+acid lime,Rabi,Assam
+acid lime,Zaid,Maharashtra
+acid lime,Zaid,Andhra Pradesh
+acid lime,Zaid,Telangana
+acid lime,Zaid,Karnataka
+acid lime,Zaid,Tamil Nadu
+acid lime,Zaid,Gujarat
+acid lime,Zaid,Madhya Pradesh
+acid lime,Zaid,West Bengal
+acid lime,Zaid,Bihar
+acid lime,Zaid,Uttar Pradesh
+acid lime,Zaid,Punjab
+acid lime,Zaid,Kerala
+acid lime,Zaid,Odisha
+acid lime,Zaid,Assam
+pomelo,Kharif,Maharashtra
+pomelo,Kharif,Andhra Pradesh
+pomelo,Kharif,Telangana
+pomelo,Kharif,Karnataka
+pomelo,Kharif,Tamil Nadu
+pomelo,Kharif,Gujarat
+pomelo,Kharif,Madhya Pradesh
+pomelo,Kharif,West Bengal
+pomelo,Kharif,Bihar
+pomelo,Kharif,Uttar Pradesh
+pomelo,Kharif,Punjab
+pomelo,Kharif,Kerala
+pomelo,Kharif,Odisha
+pomelo,Kharif,Assam
+pomelo,Rabi,Maharashtra
+pomelo,Rabi,Andhra Pradesh
+pomelo,Rabi,Telangana
+pomelo,Rabi,Karnataka
+pomelo,Rabi,Tamil Nadu
+pomelo,Rabi,Gujarat
+pomelo,Rabi,Madhya Pradesh
+pomelo,Rabi,West Bengal
+pomelo,Rabi,Bihar
+pomelo,Rabi,Uttar Pradesh
+pomelo,Rabi,Punjab
+pomelo,Rabi,Kerala
+pomelo,Rabi,Odisha
+pomelo,Rabi,Assam
+pomelo,Zaid,Maharashtra
+pomelo,Zaid,Andhra Pradesh
+pomelo,Zaid,Telangana
+pomelo,Zaid,Karnataka
+pomelo,Zaid,Tamil Nadu
+pomelo,Zaid,Gujarat
+pomelo,Zaid,Madhya Pradesh
+pomelo,Zaid,West Bengal
+pomelo,Zaid,Bihar
+pomelo,Zaid,Uttar Pradesh
+pomelo,Zaid,Punjab
+pomelo,Zaid,Kerala
+pomelo,Zaid,Odisha
+pomelo,Zaid,Assam
+grapefruit,Kharif,Maharashtra
+grapefruit,Kharif,Andhra Pradesh
+grapefruit,Kharif,Telangana
+grapefruit,Kharif,Karnataka
+grapefruit,Kharif,Tamil Nadu
+grapefruit,Kharif,Gujarat
+grapefruit,Kharif,Madhya Pradesh
+grapefruit,Kharif,West Bengal
+grapefruit,Kharif,Bihar
+grapefruit,Kharif,Uttar Pradesh
+grapefruit,Kharif,Punjab
+grapefruit,Kharif,Kerala
+grapefruit,Kharif,Odisha
+grapefruit,Kharif,Assam
+grapefruit,Rabi,Maharashtra
+grapefruit,Rabi,Andhra Pradesh
+grapefruit,Rabi,Telangana
+grapefruit,Rabi,Karnataka
+grapefruit,Rabi,Tamil Nadu
+grapefruit,Rabi,Gujarat
+grapefruit,Rabi,Madhya Pradesh
+grapefruit,Rabi,West Bengal
+grapefruit,Rabi,Bihar
+grapefruit,Rabi,Uttar Pradesh
+grapefruit,Rabi,Punjab
+grapefruit,Rabi,Kerala
+grapefruit,Rabi,Odisha
+grapefruit,Rabi,Assam
+grapefruit,Zaid,Maharashtra
+grapefruit,Zaid,Andhra Pradesh
+grapefruit,Zaid,Telangana
+grapefruit,Zaid,Karnataka
+grapefruit,Zaid,Tamil Nadu
+grapefruit,Zaid,Gujarat
+grapefruit,Zaid,Madhya Pradesh
+grapefruit,Zaid,West Bengal
+grapefruit,Zaid,Bihar
+grapefruit,Zaid,Uttar Pradesh
+grapefruit,Zaid,Punjab
+grapefruit,Zaid,Kerala
+grapefruit,Zaid,Odisha
+grapefruit,Zaid,Assam
+kumquat,Kharif,Maharashtra
+kumquat,Kharif,Andhra Pradesh
+kumquat,Kharif,Telangana
+kumquat,Kharif,Karnataka
+kumquat,Kharif,Tamil Nadu
+kumquat,Kharif,Gujarat
+kumquat,Kharif,Madhya Pradesh
+kumquat,Kharif,West Bengal
+kumquat,Kharif,Bihar
+kumquat,Kharif,Uttar Pradesh
+kumquat,Kharif,Punjab
+kumquat,Kharif,Kerala
+kumquat,Kharif,Odisha
+kumquat,Kharif,Assam
+kumquat,Rabi,Maharashtra
+kumquat,Rabi,Andhra Pradesh
+kumquat,Rabi,Telangana
+kumquat,Rabi,Karnataka
+kumquat,Rabi,Tamil Nadu
+kumquat,Rabi,Gujarat
+kumquat,Rabi,Madhya Pradesh
+kumquat,Rabi,West Bengal
+kumquat,Rabi,Bihar
+kumquat,Rabi,Uttar Pradesh
+kumquat,Rabi,Punjab
+kumquat,Rabi,Kerala
+kumquat,Rabi,Odisha
+kumquat,Rabi,Assam
+kumquat,Zaid,Maharashtra
+kumquat,Zaid,Andhra Pradesh
+kumquat,Zaid,Telangana
+kumquat,Zaid,Karnataka
+kumquat,Zaid,Tamil Nadu
+kumquat,Zaid,Gujarat
+kumquat,Zaid,Madhya Pradesh
+kumquat,Zaid,West Bengal
+kumquat,Zaid,Bihar
+kumquat,Zaid,Uttar Pradesh
+kumquat,Zaid,Punjab
+kumquat,Zaid,Kerala
+kumquat,Zaid,Odisha
+kumquat,Zaid,Assam
+citron,Kharif,Maharashtra
+citron,Kharif,Andhra Pradesh
+citron,Kharif,Telangana
+citron,Kharif,Karnataka
+citron,Kharif,Tamil Nadu
+citron,Kharif,Gujarat
+citron,Kharif,Madhya Pradesh
+citron,Kharif,West Bengal
+citron,Kharif,Bihar
+citron,Kharif,Uttar Pradesh
+citron,Kharif,Punjab
+citron,Kharif,Kerala
+citron,Kharif,Odisha
+citron,Kharif,Assam
+citron,Rabi,Maharashtra
+citron,Rabi,Andhra Pradesh
+citron,Rabi,Telangana
+citron,Rabi,Karnataka
+citron,Rabi,Tamil Nadu
+citron,Rabi,Gujarat
+citron,Rabi,Madhya Pradesh
+citron,Rabi,West Bengal
+citron,Rabi,Bihar
+citron,Rabi,Uttar Pradesh
+citron,Rabi,Punjab
+citron,Rabi,Kerala
+citron,Rabi,Odisha
+citron,Rabi,Assam
+citron,Zaid,Maharashtra
+citron,Zaid,Andhra Pradesh
+citron,Zaid,Telangana
+citron,Zaid,Karnataka
+citron,Zaid,Tamil Nadu
+citron,Zaid,Gujarat
+citron,Zaid,Madhya Pradesh
+citron,Zaid,West Bengal
+citron,Zaid,Bihar
+citron,Zaid,Uttar Pradesh
+citron,Zaid,Punjab
+citron,Zaid,Kerala
+citron,Zaid,Odisha
+citron,Zaid,Assam
+bergamot,Kharif,Maharashtra
+bergamot,Kharif,Andhra Pradesh
+bergamot,Kharif,Telangana
+bergamot,Kharif,Karnataka
+bergamot,Kharif,Tamil Nadu
+bergamot,Kharif,Gujarat
+bergamot,Kharif,Madhya Pradesh
+bergamot,Kharif,West Bengal
+bergamot,Kharif,Bihar
+bergamot,Kharif,Uttar Pradesh
+bergamot,Kharif,Punjab
+bergamot,Kharif,Kerala
+bergamot,Kharif,Odisha
+bergamot,Kharif,Assam
+bergamot,Rabi,Maharashtra
+bergamot,Rabi,Andhra Pradesh
+bergamot,Rabi,Telangana
+bergamot,Rabi,Karnataka
+bergamot,Rabi,Tamil Nadu
+bergamot,Rabi,Gujarat
+bergamot,Rabi,Madhya Pradesh
+bergamot,Rabi,West Bengal
+bergamot,Rabi,Bihar
+bergamot,Rabi,Uttar Pradesh
+bergamot,Rabi,Punjab
+bergamot,Rabi,Kerala
+bergamot,Rabi,Odisha
+bergamot,Rabi,Assam
+bergamot,Zaid,Maharashtra
+bergamot,Zaid,Andhra Pradesh
+bergamot,Zaid,Telangana
+bergamot,Zaid,Karnataka
+bergamot,Zaid,Tamil Nadu
+bergamot,Zaid,Gujarat
+bergamot,Zaid,Madhya Pradesh
+bergamot,Zaid,West Bengal
+bergamot,Zaid,Bihar
+bergamot,Zaid,Uttar Pradesh
+bergamot,Zaid,Punjab
+bergamot,Zaid,Kerala
+bergamot,Zaid,Odisha
+bergamot,Zaid,Assam
+apple,Kharif,Jammu and Kashmir
+apple,Kharif,Himachal Pradesh
+apple,Kharif,Uttarakhand
+apple,Kharif,Ladakh
+apple,Kharif,Arunachal Pradesh
+apple,Kharif,Sikkim
+apple,Rabi,Jammu and Kashmir
+apple,Rabi,Himachal Pradesh
+apple,Rabi,Uttarakhand
+apple,Rabi,Ladakh
+apple,Rabi,Arunachal Pradesh
+apple,Rabi,Sikkim
+pear,Kharif,Jammu and Kashmir
+pear,Kharif,Himachal Pradesh
+pear,Kharif,Uttarakhand
+pear,Kharif,Ladakh
+pear,Kharif,Arunachal Pradesh
+pear,Kharif,Sikkim
+pear,Rabi,Jammu and Kashmir
+pear,Rabi,Himachal Pradesh
+pear,Rabi,Uttarakhand
+pear,Rabi,Ladakh
+pear,Rabi,Arunachal Pradesh
+pear,Rabi,Sikkim
+peach,Kharif,Jammu and Kashmir
+peach,Kharif,Himachal Pradesh
+peach,Kharif,Uttarakhand
+peach,Kharif,Ladakh
+peach,Kharif,Arunachal Pradesh
+peach,Kharif,Sikkim
+peach,Rabi,Jammu and Kashmir
+peach,Rabi,Himachal Pradesh
+peach,Rabi,Uttarakhand
+peach,Rabi,Ladakh
+peach,Rabi,Arunachal Pradesh
+peach,Rabi,Sikkim
+plum,Kharif,Jammu and Kashmir
+plum,Kharif,Himachal Pradesh
+plum,Kharif,Uttarakhand
+plum,Kharif,Ladakh
+plum,Kharif,Arunachal Pradesh
+plum,Kharif,Sikkim
+plum,Rabi,Jammu and Kashmir
+plum,Rabi,Himachal Pradesh
+plum,Rabi,Uttarakhand
+plum,Rabi,Ladakh
+plum,Rabi,Arunachal Pradesh
+plum,Rabi,Sikkim
+apricot,Kharif,Jammu and Kashmir
+apricot,Kharif,Himachal Pradesh
+apricot,Kharif,Uttarakhand
+apricot,Kharif,Ladakh
+apricot,Kharif,Arunachal Pradesh
+apricot,Kharif,Sikkim
+apricot,Rabi,Jammu and Kashmir
+apricot,Rabi,Himachal Pradesh
+apricot,Rabi,Uttarakhand
+apricot,Rabi,Ladakh
+apricot,Rabi,Arunachal Pradesh
+apricot,Rabi,Sikkim
+cherry,Kharif,Jammu and Kashmir
+cherry,Kharif,Himachal Pradesh
+cherry,Kharif,Uttarakhand
+cherry,Kharif,Ladakh
+cherry,Kharif,Arunachal Pradesh
+cherry,Kharif,Sikkim
+cherry,Rabi,Jammu and Kashmir
+cherry,Rabi,Himachal Pradesh
+cherry,Rabi,Uttarakhand
+cherry,Rabi,Ladakh
+cherry,Rabi,Arunachal Pradesh
+cherry,Rabi,Sikkim
+strawberry,Kharif,Jammu and Kashmir
+strawberry,Kharif,Himachal Pradesh
+strawberry,Kharif,Uttarakhand
+strawberry,Kharif,Ladakh
+strawberry,Kharif,Arunachal Pradesh
+strawberry,Kharif,Sikkim
+strawberry,Rabi,Jammu and Kashmir
+strawberry,Rabi,Himachal Pradesh
+strawberry,Rabi,Uttarakhand
+strawberry,Rabi,Ladakh
+strawberry,Rabi,Arunachal Pradesh
+strawberry,Rabi,Sikkim
+blackberry,Kharif,Jammu and Kashmir
+blackberry,Kharif,Himachal Pradesh
+blackberry,Kharif,Uttarakhand
+blackberry,Kharif,Ladakh
+blackberry,Kharif,Arunachal Pradesh
+blackberry,Kharif,Sikkim
+blackberry,Rabi,Jammu and Kashmir
+blackberry,Rabi,Himachal Pradesh
+blackberry,Rabi,Uttarakhand
+blackberry,Rabi,Ladakh
+blackberry,Rabi,Arunachal Pradesh
+blackberry,Rabi,Sikkim
+raspberry,Kharif,Jammu and Kashmir
+raspberry,Kharif,Himachal Pradesh
+raspberry,Kharif,Uttarakhand
+raspberry,Kharif,Ladakh
+raspberry,Kharif,Arunachal Pradesh
+raspberry,Kharif,Sikkim
+raspberry,Rabi,Jammu and Kashmir
+raspberry,Rabi,Himachal Pradesh
+raspberry,Rabi,Uttarakhand
+raspberry,Rabi,Ladakh
+raspberry,Rabi,Arunachal Pradesh
+raspberry,Rabi,Sikkim
+blueberry,Kharif,Jammu and Kashmir
+blueberry,Kharif,Himachal Pradesh
+blueberry,Kharif,Uttarakhand
+blueberry,Kharif,Ladakh
+blueberry,Kharif,Arunachal Pradesh
+blueberry,Kharif,Sikkim
+blueberry,Rabi,Jammu and Kashmir
+blueberry,Rabi,Himachal Pradesh
+blueberry,Rabi,Uttarakhand
+blueberry,Rabi,Ladakh
+blueberry,Rabi,Arunachal Pradesh
+blueberry,Rabi,Sikkim
+kiwi,Kharif,Jammu and Kashmir
+kiwi,Kharif,Himachal Pradesh
+kiwi,Kharif,Uttarakhand
+kiwi,Kharif,Ladakh
+kiwi,Kharif,Arunachal Pradesh
+kiwi,Kharif,Sikkim
+kiwi,Rabi,Jammu and Kashmir
+kiwi,Rabi,Himachal Pradesh
+kiwi,Rabi,Uttarakhand
+kiwi,Rabi,Ladakh
+kiwi,Rabi,Arunachal Pradesh
+kiwi,Rabi,Sikkim
+persimmon,Kharif,Jammu and Kashmir
+persimmon,Kharif,Himachal Pradesh
+persimmon,Kharif,Uttarakhand
+persimmon,Kharif,Ladakh
+persimmon,Kharif,Arunachal Pradesh
+persimmon,Kharif,Sikkim
+persimmon,Rabi,Jammu and Kashmir
+persimmon,Rabi,Himachal Pradesh
+persimmon,Rabi,Uttarakhand
+persimmon,Rabi,Ladakh
+persimmon,Rabi,Arunachal Pradesh
+persimmon,Rabi,Sikkim
+quince,Kharif,Jammu and Kashmir
+quince,Kharif,Himachal Pradesh
+quince,Kharif,Uttarakhand
+quince,Kharif,Ladakh
+quince,Kharif,Arunachal Pradesh
+quince,Kharif,Sikkim
+quince,Rabi,Jammu and Kashmir
+quince,Rabi,Himachal Pradesh
+quince,Rabi,Uttarakhand
+quince,Rabi,Ladakh
+quince,Rabi,Arunachal Pradesh
+quince,Rabi,Sikkim
+walnut,Kharif,Jammu and Kashmir
+walnut,Kharif,Himachal Pradesh
+walnut,Kharif,Uttarakhand
+walnut,Kharif,Ladakh
+walnut,Kharif,Arunachal Pradesh
+walnut,Kharif,Sikkim
+walnut,Rabi,Jammu and Kashmir
+walnut,Rabi,Himachal Pradesh
+walnut,Rabi,Uttarakhand
+walnut,Rabi,Ladakh
+walnut,Rabi,Arunachal Pradesh
+walnut,Rabi,Sikkim
+almond,Kharif,Jammu and Kashmir
+almond,Kharif,Himachal Pradesh
+almond,Kharif,Uttarakhand
+almond,Kharif,Ladakh
+almond,Kharif,Arunachal Pradesh
+almond,Kharif,Sikkim
+almond,Rabi,Jammu and Kashmir
+almond,Rabi,Himachal Pradesh
+almond,Rabi,Uttarakhand
+almond,Rabi,Ladakh
+almond,Rabi,Arunachal Pradesh
+almond,Rabi,Sikkim
+chestnut,Kharif,Jammu and Kashmir
+chestnut,Kharif,Himachal Pradesh
+chestnut,Kharif,Uttarakhand
+chestnut,Kharif,Ladakh
+chestnut,Kharif,Arunachal Pradesh
+chestnut,Kharif,Sikkim
+chestnut,Rabi,Jammu and Kashmir
+chestnut,Rabi,Himachal Pradesh
+chestnut,Rabi,Uttarakhand
+chestnut,Rabi,Ladakh
+chestnut,Rabi,Arunachal Pradesh
+chestnut,Rabi,Sikkim
+pecan nut,Kharif,Jammu and Kashmir
+pecan nut,Kharif,Himachal Pradesh
+pecan nut,Kharif,Uttarakhand
+pecan nut,Kharif,Ladakh
+pecan nut,Kharif,Arunachal Pradesh
+pecan nut,Kharif,Sikkim
+pecan nut,Rabi,Jammu and Kashmir
+pecan nut,Rabi,Himachal Pradesh
+pecan nut,Rabi,Uttarakhand
+pecan nut,Rabi,Ladakh
+pecan nut,Rabi,Arunachal Pradesh
+pecan nut,Rabi,Sikkim
+pistachio,Kharif,Jammu and Kashmir
+pistachio,Kharif,Himachal Pradesh
+pistachio,Kharif,Uttarakhand
+pistachio,Kharif,Ladakh
+pistachio,Kharif,Arunachal Pradesh
+pistachio,Kharif,Sikkim
+pistachio,Rabi,Jammu and Kashmir
+pistachio,Rabi,Himachal Pradesh
+pistachio,Rabi,Uttarakhand
+pistachio,Rabi,Ladakh
+pistachio,Rabi,Arunachal Pradesh
+pistachio,Rabi,Sikkim
+watermelon,Kharif,Uttar Pradesh
+watermelon,Kharif,Punjab
+watermelon,Kharif,Haryana
+watermelon,Kharif,Rajasthan
+watermelon,Kharif,Gujarat
+watermelon,Kharif,Maharashtra
+watermelon,Kharif,Karnataka
+watermelon,Kharif,Andhra Pradesh
+watermelon,Kharif,Tamil Nadu
+watermelon,Zaid,Uttar Pradesh
+watermelon,Zaid,Punjab
+watermelon,Zaid,Haryana
+watermelon,Zaid,Rajasthan
+watermelon,Zaid,Gujarat
+watermelon,Zaid,Maharashtra
+watermelon,Zaid,Karnataka
+watermelon,Zaid,Andhra Pradesh
+watermelon,Zaid,Tamil Nadu
+muskmelon,Kharif,Uttar Pradesh
+muskmelon,Kharif,Punjab
+muskmelon,Kharif,Haryana
+muskmelon,Kharif,Rajasthan
+muskmelon,Kharif,Gujarat
+muskmelon,Kharif,Maharashtra
+muskmelon,Kharif,Karnataka
+muskmelon,Kharif,Andhra Pradesh
+muskmelon,Kharif,Tamil Nadu
+muskmelon,Zaid,Uttar Pradesh
+muskmelon,Zaid,Punjab
+muskmelon,Zaid,Haryana
+muskmelon,Zaid,Rajasthan
+muskmelon,Zaid,Gujarat
+muskmelon,Zaid,Maharashtra
+muskmelon,Zaid,Karnataka
+muskmelon,Zaid,Andhra Pradesh
+muskmelon,Zaid,Tamil Nadu
+date palm,Kharif,Rajasthan
+date palm,Kharif,Gujarat
+date palm,Kharif,Punjab
+date palm,Zaid,Rajasthan
+date palm,Zaid,Gujarat
+date palm,Zaid,Punjab
+black pepper,Kharif,Kerala
+black pepper,Kharif,Karnataka
+black pepper,Kharif,Tamil Nadu
+black pepper,Kharif,Sikkim
+black pepper,Kharif,West Bengal
+black pepper,Kharif,Assam
+black pepper,Kharif,Arunachal Pradesh
+black pepper,Rabi,Kerala
+black pepper,Rabi,Karnataka
+black pepper,Rabi,Tamil Nadu
+black pepper,Rabi,Sikkim
+black pepper,Rabi,West Bengal
+black pepper,Rabi,Assam
+black pepper,Rabi,Arunachal Pradesh
+black pepper,Zaid,Kerala
+black pepper,Zaid,Karnataka
+black pepper,Zaid,Tamil Nadu
+black pepper,Zaid,Sikkim
+black pepper,Zaid,West Bengal
+black pepper,Zaid,Assam
+black pepper,Zaid,Arunachal Pradesh
+cardamom small,Kharif,Kerala
+cardamom small,Kharif,Karnataka
+cardamom small,Kharif,Tamil Nadu
+cardamom small,Kharif,Sikkim
+cardamom small,Kharif,West Bengal
+cardamom small,Kharif,Assam
+cardamom small,Kharif,Arunachal Pradesh
+cardamom small,Rabi,Kerala
+cardamom small,Rabi,Karnataka
+cardamom small,Rabi,Tamil Nadu
+cardamom small,Rabi,Sikkim
+cardamom small,Rabi,West Bengal
+cardamom small,Rabi,Assam
+cardamom small,Rabi,Arunachal Pradesh
+cardamom small,Zaid,Kerala
+cardamom small,Zaid,Karnataka
+cardamom small,Zaid,Tamil Nadu
+cardamom small,Zaid,Sikkim
+cardamom small,Zaid,West Bengal
+cardamom small,Zaid,Assam
+cardamom small,Zaid,Arunachal Pradesh
+cardamom large,Kharif,Kerala
+cardamom large,Kharif,Karnataka
+cardamom large,Kharif,Tamil Nadu
+cardamom large,Kharif,Sikkim
+cardamom large,Kharif,West Bengal
+cardamom large,Kharif,Assam
+cardamom large,Kharif,Arunachal Pradesh
+cardamom large,Rabi,Kerala
+cardamom large,Rabi,Karnataka
+cardamom large,Rabi,Tamil Nadu
+cardamom large,Rabi,Sikkim
+cardamom large,Rabi,West Bengal
+cardamom large,Rabi,Assam
+cardamom large,Rabi,Arunachal Pradesh
+cardamom large,Zaid,Kerala
+cardamom large,Zaid,Karnataka
+cardamom large,Zaid,Tamil Nadu
+cardamom large,Zaid,Sikkim
+cardamom large,Zaid,West Bengal
+cardamom large,Zaid,Assam
+cardamom large,Zaid,Arunachal Pradesh
+nutmeg,Kharif,Kerala
+nutmeg,Kharif,Karnataka
+nutmeg,Kharif,Tamil Nadu
+nutmeg,Kharif,Sikkim
+nutmeg,Kharif,West Bengal
+nutmeg,Kharif,Assam
+nutmeg,Kharif,Arunachal Pradesh
+nutmeg,Rabi,Kerala
+nutmeg,Rabi,Karnataka
+nutmeg,Rabi,Tamil Nadu
+nutmeg,Rabi,Sikkim
+nutmeg,Rabi,West Bengal
+nutmeg,Rabi,Assam
+nutmeg,Rabi,Arunachal Pradesh
+nutmeg,Zaid,Kerala
+nutmeg,Zaid,Karnataka
+nutmeg,Zaid,Tamil Nadu
+nutmeg,Zaid,Sikkim
+nutmeg,Zaid,West Bengal
+nutmeg,Zaid,Assam
+nutmeg,Zaid,Arunachal Pradesh
+mace,Kharif,Kerala
+mace,Kharif,Karnataka
+mace,Kharif,Tamil Nadu
+mace,Kharif,Sikkim
+mace,Kharif,West Bengal
+mace,Kharif,Assam
+mace,Kharif,Arunachal Pradesh
+mace,Rabi,Kerala
+mace,Rabi,Karnataka
+mace,Rabi,Tamil Nadu
+mace,Rabi,Sikkim
+mace,Rabi,West Bengal
+mace,Rabi,Assam
+mace,Rabi,Arunachal Pradesh
+mace,Zaid,Kerala
+mace,Zaid,Karnataka
+mace,Zaid,Tamil Nadu
+mace,Zaid,Sikkim
+mace,Zaid,West Bengal
+mace,Zaid,Assam
+mace,Zaid,Arunachal Pradesh
+clove,Kharif,Kerala
+clove,Kharif,Karnataka
+clove,Kharif,Tamil Nadu
+clove,Kharif,Sikkim
+clove,Kharif,West Bengal
+clove,Kharif,Assam
+clove,Kharif,Arunachal Pradesh
+clove,Rabi,Kerala
+clove,Rabi,Karnataka
+clove,Rabi,Tamil Nadu
+clove,Rabi,Sikkim
+clove,Rabi,West Bengal
+clove,Rabi,Assam
+clove,Rabi,Arunachal Pradesh
+clove,Zaid,Kerala
+clove,Zaid,Karnataka
+clove,Zaid,Tamil Nadu
+clove,Zaid,Sikkim
+clove,Zaid,West Bengal
+clove,Zaid,Assam
+clove,Zaid,Arunachal Pradesh
+cinnamon,Kharif,Kerala
+cinnamon,Kharif,Karnataka
+cinnamon,Kharif,Tamil Nadu
+cinnamon,Kharif,Sikkim
+cinnamon,Kharif,West Bengal
+cinnamon,Kharif,Assam
+cinnamon,Kharif,Arunachal Pradesh
+cinnamon,Rabi,Kerala
+cinnamon,Rabi,Karnataka
+cinnamon,Rabi,Tamil Nadu
+cinnamon,Rabi,Sikkim
+cinnamon,Rabi,West Bengal
+cinnamon,Rabi,Assam
+cinnamon,Rabi,Arunachal Pradesh
+cinnamon,Zaid,Kerala
+cinnamon,Zaid,Karnataka
+cinnamon,Zaid,Tamil Nadu
+cinnamon,Zaid,Sikkim
+cinnamon,Zaid,West Bengal
+cinnamon,Zaid,Assam
+cinnamon,Zaid,Arunachal Pradesh
+cassia,Kharif,Kerala
+cassia,Kharif,Karnataka
+cassia,Kharif,Tamil Nadu
+cassia,Kharif,Sikkim
+cassia,Kharif,West Bengal
+cassia,Kharif,Assam
+cassia,Kharif,Arunachal Pradesh
+cassia,Rabi,Kerala
+cassia,Rabi,Karnataka
+cassia,Rabi,Tamil Nadu
+cassia,Rabi,Sikkim
+cassia,Rabi,West Bengal
+cassia,Rabi,Assam
+cassia,Rabi,Arunachal Pradesh
+cassia,Zaid,Kerala
+cassia,Zaid,Karnataka
+cassia,Zaid,Tamil Nadu
+cassia,Zaid,Sikkim
+cassia,Zaid,West Bengal
+cassia,Zaid,Assam
+cassia,Zaid,Arunachal Pradesh
+allspice,Kharif,Kerala
+allspice,Kharif,Karnataka
+allspice,Kharif,Tamil Nadu
+allspice,Kharif,Sikkim
+allspice,Kharif,West Bengal
+allspice,Kharif,Assam
+allspice,Kharif,Arunachal Pradesh
+allspice,Rabi,Kerala
+allspice,Rabi,Karnataka
+allspice,Rabi,Tamil Nadu
+allspice,Rabi,Sikkim
+allspice,Rabi,West Bengal
+allspice,Rabi,Assam
+allspice,Rabi,Arunachal Pradesh
+allspice,Zaid,Kerala
+allspice,Zaid,Karnataka
+allspice,Zaid,Tamil Nadu
+allspice,Zaid,Sikkim
+allspice,Zaid,West Bengal
+allspice,Zaid,Assam
+allspice,Zaid,Arunachal Pradesh
+star anise,Kharif,Kerala
+star anise,Kharif,Karnataka
+star anise,Kharif,Tamil Nadu
+star anise,Kharif,Sikkim
+star anise,Kharif,West Bengal
+star anise,Kharif,Assam
+star anise,Kharif,Arunachal Pradesh
+star anise,Rabi,Kerala
+star anise,Rabi,Karnataka
+star anise,Rabi,Tamil Nadu
+star anise,Rabi,Sikkim
+star anise,Rabi,West Bengal
+star anise,Rabi,Assam
+star anise,Rabi,Arunachal Pradesh
+star anise,Zaid,Kerala
+star anise,Zaid,Karnataka
+star anise,Zaid,Tamil Nadu
+star anise,Zaid,Sikkim
+star anise,Zaid,West Bengal
+star anise,Zaid,Assam
+star anise,Zaid,Arunachal Pradesh
+vanilla,Kharif,Kerala
+vanilla,Kharif,Karnataka
+vanilla,Kharif,Tamil Nadu
+vanilla,Kharif,Sikkim
+vanilla,Kharif,West Bengal
+vanilla,Kharif,Assam
+vanilla,Kharif,Arunachal Pradesh
+vanilla,Rabi,Kerala
+vanilla,Rabi,Karnataka
+vanilla,Rabi,Tamil Nadu
+vanilla,Rabi,Sikkim
+vanilla,Rabi,West Bengal
+vanilla,Rabi,Assam
+vanilla,Rabi,Arunachal Pradesh
+vanilla,Zaid,Kerala
+vanilla,Zaid,Karnataka
+vanilla,Zaid,Tamil Nadu
+vanilla,Zaid,Sikkim
+vanilla,Zaid,West Bengal
+vanilla,Zaid,Assam
+vanilla,Zaid,Arunachal Pradesh
+kokum (garcinia),Kharif,Kerala
+kokum (garcinia),Kharif,Karnataka
+kokum (garcinia),Kharif,Tamil Nadu
+kokum (garcinia),Kharif,Sikkim
+kokum (garcinia),Kharif,West Bengal
+kokum (garcinia),Kharif,Assam
+kokum (garcinia),Kharif,Arunachal Pradesh
+kokum (garcinia),Rabi,Kerala
+kokum (garcinia),Rabi,Karnataka
+kokum (garcinia),Rabi,Tamil Nadu
+kokum (garcinia),Rabi,Sikkim
+kokum (garcinia),Rabi,West Bengal
+kokum (garcinia),Rabi,Assam
+kokum (garcinia),Rabi,Arunachal Pradesh
+kokum (garcinia),Zaid,Kerala
+kokum (garcinia),Zaid,Karnataka
+kokum (garcinia),Zaid,Tamil Nadu
+kokum (garcinia),Zaid,Sikkim
+kokum (garcinia),Zaid,West Bengal
+kokum (garcinia),Zaid,Assam
+kokum (garcinia),Zaid,Arunachal Pradesh
+bay leaf (tejpatta),Kharif,Kerala
+bay leaf (tejpatta),Kharif,Karnataka
+bay leaf (tejpatta),Kharif,Tamil Nadu
+bay leaf (tejpatta),Kharif,Sikkim
+bay leaf (tejpatta),Kharif,West Bengal
+bay leaf (tejpatta),Kharif,Assam
+bay leaf (tejpatta),Kharif,Arunachal Pradesh
+bay leaf (tejpatta),Rabi,Kerala
+bay leaf (tejpatta),Rabi,Karnataka
+bay leaf (tejpatta),Rabi,Tamil Nadu
+bay leaf (tejpatta),Rabi,Sikkim
+bay leaf (tejpatta),Rabi,West Bengal
+bay leaf (tejpatta),Rabi,Assam
+bay leaf (tejpatta),Rabi,Arunachal Pradesh
+bay leaf (tejpatta),Zaid,Kerala
+bay leaf (tejpatta),Zaid,Karnataka
+bay leaf (tejpatta),Zaid,Tamil Nadu
+bay leaf (tejpatta),Zaid,Sikkim
+bay leaf (tejpatta),Zaid,West Bengal
+bay leaf (tejpatta),Zaid,Assam
+bay leaf (tejpatta),Zaid,Arunachal Pradesh
+dry ginger,Kharif,Kerala
+dry ginger,Kharif,Odisha
+dry ginger,Kharif,Telangana
+dry ginger,Kharif,Andhra Pradesh
+dry ginger,Kharif,Karnataka
+dry ginger,Kharif,Tamil Nadu
+dry ginger,Kharif,West Bengal
+dry ginger,Kharif,Assam
+dry ginger,Kharif,Maharashtra
+dry ginger,Kharif,Madhya Pradesh
+dry ginger,Rabi,Kerala
+dry ginger,Rabi,Andhra Pradesh
+dry ginger,Rabi,Telangana
+dry ginger,Rabi,Tamil Nadu
+dry ginger,Rabi,West Bengal
+turmeric,Kharif,Kerala
+turmeric,Kharif,Odisha
+turmeric,Kharif,Telangana
+turmeric,Kharif,Andhra Pradesh
+turmeric,Kharif,Karnataka
+turmeric,Kharif,Tamil Nadu
+turmeric,Kharif,West Bengal
+turmeric,Kharif,Assam
+turmeric,Kharif,Maharashtra
+turmeric,Kharif,Madhya Pradesh
+turmeric,Rabi,Kerala
+turmeric,Rabi,Andhra Pradesh
+turmeric,Rabi,Telangana
+turmeric,Rabi,Tamil Nadu
+turmeric,Rabi,West Bengal
+cumin (jeera),Rabi,Rajasthan
+cumin (jeera),Rabi,Gujarat
+cumin (jeera),Rabi,Madhya Pradesh
+cumin (jeera),Rabi,Uttar Pradesh
+cumin (jeera),Rabi,Andhra Pradesh
+cumin (jeera),Rabi,Telangana
+cumin (jeera),Rabi,Punjab
+cumin (jeera),Rabi,Haryana
+cumin (jeera),Rabi,Jammu and Kashmir
+coriander seed,Rabi,Rajasthan
+coriander seed,Rabi,Gujarat
+coriander seed,Rabi,Madhya Pradesh
+coriander seed,Rabi,Uttar Pradesh
+coriander seed,Rabi,Andhra Pradesh
+coriander seed,Rabi,Telangana
+coriander seed,Rabi,Punjab
+coriander seed,Rabi,Haryana
+coriander seed,Rabi,Jammu and Kashmir
+fennel (saunf),Rabi,Rajasthan
+fennel (saunf),Rabi,Gujarat
+fennel (saunf),Rabi,Madhya Pradesh
+fennel (saunf),Rabi,Uttar Pradesh
+fennel (saunf),Rabi,Andhra Pradesh
+fennel (saunf),Rabi,Telangana
+fennel (saunf),Rabi,Punjab
+fennel (saunf),Rabi,Haryana
+fennel (saunf),Rabi,Jammu and Kashmir
+fenugreek seed,Rabi,Rajasthan
+fenugreek seed,Rabi,Gujarat
+fenugreek seed,Rabi,Madhya Pradesh
+fenugreek seed,Rabi,Uttar Pradesh
+fenugreek seed,Rabi,Andhra Pradesh
+fenugreek seed,Rabi,Telangana
+fenugreek seed,Rabi,Punjab
+fenugreek seed,Rabi,Haryana
+fenugreek seed,Rabi,Jammu and Kashmir
+carom seed (ajwain),Rabi,Rajasthan
+carom seed (ajwain),Rabi,Gujarat
+carom seed (ajwain),Rabi,Madhya Pradesh
+carom seed (ajwain),Rabi,Uttar Pradesh
+carom seed (ajwain),Rabi,Andhra Pradesh
+carom seed (ajwain),Rabi,Telangana
+carom seed (ajwain),Rabi,Punjab
+carom seed (ajwain),Rabi,Haryana
+carom seed (ajwain),Rabi,Jammu and Kashmir
+aniseed,Rabi,Rajasthan
+aniseed,Rabi,Gujarat
+aniseed,Rabi,Madhya Pradesh
+aniseed,Rabi,Uttar Pradesh
+aniseed,Rabi,Andhra Pradesh
+aniseed,Rabi,Telangana
+aniseed,Rabi,Punjab
+aniseed,Rabi,Haryana
+aniseed,Rabi,Jammu and Kashmir
+nigella seed (kalonji),Rabi,Rajasthan
+nigella seed (kalonji),Rabi,Gujarat
+nigella seed (kalonji),Rabi,Madhya Pradesh
+nigella seed (kalonji),Rabi,Uttar Pradesh
+nigella seed (kalonji),Rabi,Andhra Pradesh
+nigella seed (kalonji),Rabi,Telangana
+nigella seed (kalonji),Rabi,Punjab
+nigella seed (kalonji),Rabi,Haryana
+nigella seed (kalonji),Rabi,Jammu and Kashmir
+dill seed,Rabi,Rajasthan
+dill seed,Rabi,Gujarat
+dill seed,Rabi,Madhya Pradesh
+dill seed,Rabi,Uttar Pradesh
+dill seed,Rabi,Andhra Pradesh
+dill seed,Rabi,Telangana
+dill seed,Rabi,Punjab
+dill seed,Rabi,Haryana
+dill seed,Rabi,Jammu and Kashmir
+asafoetida (hing),Rabi,Rajasthan
+asafoetida (hing),Rabi,Gujarat
+asafoetida (hing),Rabi,Madhya Pradesh
+asafoetida (hing),Rabi,Uttar Pradesh
+asafoetida (hing),Rabi,Andhra Pradesh
+asafoetida (hing),Rabi,Telangana
+asafoetida (hing),Rabi,Punjab
+asafoetida (hing),Rabi,Haryana
+asafoetida (hing),Rabi,Jammu and Kashmir
+saffron,Rabi,Rajasthan
+saffron,Rabi,Gujarat
+saffron,Rabi,Madhya Pradesh
+saffron,Rabi,Uttar Pradesh
+saffron,Rabi,Andhra Pradesh
+saffron,Rabi,Telangana
+saffron,Rabi,Punjab
+saffron,Rabi,Haryana
+saffron,Rabi,Jammu and Kashmir
+ashwagandha,Rabi,Rajasthan
+ashwagandha,Rabi,Gujarat
+ashwagandha,Rabi,Madhya Pradesh
+isabgol,Rabi,Rajasthan
+isabgol,Rabi,Gujarat
+isabgol,Rabi,Madhya Pradesh
+senna,Rabi,Rajasthan
+senna,Rabi,Gujarat
+senna,Rabi,Madhya Pradesh
+aloe vera,Kharif,Uttar Pradesh
+aloe vera,Kharif,Punjab
+aloe vera,Kharif,Haryana
+aloe vera,Kharif,Madhya Pradesh
+aloe vera,Kharif,Rajasthan
+aloe vera,Kharif,Gujarat
+aloe vera,Kharif,Tamil Nadu
+aloe vera,Kharif,Karnataka
+aloe vera,Rabi,Uttar Pradesh
+aloe vera,Rabi,Punjab
+aloe vera,Rabi,Haryana
+aloe vera,Rabi,Madhya Pradesh
+aloe vera,Rabi,Rajasthan
+aloe vera,Rabi,Gujarat
+aloe vera,Rabi,Tamil Nadu
+aloe vera,Rabi,Karnataka
+aloe vera,Zaid,Uttar Pradesh
+aloe vera,Zaid,Punjab
+aloe vera,Zaid,Haryana
+aloe vera,Zaid,Madhya Pradesh
+aloe vera,Zaid,Rajasthan
+aloe vera,Zaid,Gujarat
+aloe vera,Zaid,Tamil Nadu
+aloe vera,Zaid,Karnataka
+lemongrass,Kharif,Uttar Pradesh
+lemongrass,Kharif,Punjab
+lemongrass,Kharif,Haryana
+lemongrass,Kharif,Madhya Pradesh
+lemongrass,Kharif,Rajasthan
+lemongrass,Kharif,Gujarat
+lemongrass,Kharif,Tamil Nadu
+lemongrass,Kharif,Karnataka
+lemongrass,Rabi,Uttar Pradesh
+lemongrass,Rabi,Punjab
+lemongrass,Rabi,Haryana
+lemongrass,Rabi,Madhya Pradesh
+lemongrass,Rabi,Rajasthan
+lemongrass,Rabi,Gujarat
+lemongrass,Rabi,Tamil Nadu
+lemongrass,Rabi,Karnataka
+lemongrass,Zaid,Uttar Pradesh
+lemongrass,Zaid,Punjab
+lemongrass,Zaid,Haryana
+lemongrass,Zaid,Madhya Pradesh
+lemongrass,Zaid,Rajasthan
+lemongrass,Zaid,Gujarat
+lemongrass,Zaid,Tamil Nadu
+lemongrass,Zaid,Karnataka
+palmarosa,Kharif,Uttar Pradesh
+palmarosa,Kharif,Punjab
+palmarosa,Kharif,Haryana
+palmarosa,Kharif,Madhya Pradesh
+palmarosa,Kharif,Rajasthan
+palmarosa,Kharif,Gujarat
+palmarosa,Kharif,Tamil Nadu
+palmarosa,Kharif,Karnataka
+palmarosa,Rabi,Uttar Pradesh
+palmarosa,Rabi,Punjab
+palmarosa,Rabi,Haryana
+palmarosa,Rabi,Madhya Pradesh
+palmarosa,Rabi,Rajasthan
+palmarosa,Rabi,Gujarat
+palmarosa,Rabi,Tamil Nadu
+palmarosa,Rabi,Karnataka
+palmarosa,Zaid,Uttar Pradesh
+palmarosa,Zaid,Punjab
+palmarosa,Zaid,Haryana
+palmarosa,Zaid,Madhya Pradesh
+palmarosa,Zaid,Rajasthan
+palmarosa,Zaid,Gujarat
+palmarosa,Zaid,Tamil Nadu
+palmarosa,Zaid,Karnataka
+citronella,Kharif,Uttar Pradesh
+citronella,Kharif,Punjab
+citronella,Kharif,Haryana
+citronella,Kharif,Madhya Pradesh
+citronella,Kharif,Rajasthan
+citronella,Kharif,Gujarat
+citronella,Kharif,Tamil Nadu
+citronella,Kharif,Karnataka
+citronella,Rabi,Uttar Pradesh
+citronella,Rabi,Punjab
+citronella,Rabi,Haryana
+citronella,Rabi,Madhya Pradesh
+citronella,Rabi,Rajasthan
+citronella,Rabi,Gujarat
+citronella,Rabi,Tamil Nadu
+citronella,Rabi,Karnataka
+citronella,Zaid,Uttar Pradesh
+citronella,Zaid,Punjab
+citronella,Zaid,Haryana
+citronella,Zaid,Madhya Pradesh
+citronella,Zaid,Rajasthan
+citronella,Zaid,Gujarat
+citronella,Zaid,Tamil Nadu
+citronella,Zaid,Karnataka
+vetiver (khus),Kharif,Uttar Pradesh
+vetiver (khus),Kharif,Punjab
+vetiver (khus),Kharif,Haryana
+vetiver (khus),Kharif,Madhya Pradesh
+vetiver (khus),Kharif,Rajasthan
+vetiver (khus),Kharif,Gujarat
+vetiver (khus),Kharif,Tamil Nadu
+vetiver (khus),Kharif,Karnataka
+vetiver (khus),Rabi,Uttar Pradesh
+vetiver (khus),Rabi,Punjab
+vetiver (khus),Rabi,Haryana
+vetiver (khus),Rabi,Madhya Pradesh
+vetiver (khus),Rabi,Rajasthan
+vetiver (khus),Rabi,Gujarat
+vetiver (khus),Rabi,Tamil Nadu
+vetiver (khus),Rabi,Karnataka
+vetiver (khus),Zaid,Uttar Pradesh
+vetiver (khus),Zaid,Punjab
+vetiver (khus),Zaid,Haryana
+vetiver (khus),Zaid,Madhya Pradesh
+vetiver (khus),Zaid,Rajasthan
+vetiver (khus),Zaid,Gujarat
+vetiver (khus),Zaid,Tamil Nadu
+vetiver (khus),Zaid,Karnataka
+pudina (mint),Kharif,Uttar Pradesh
+pudina (mint),Kharif,Punjab
+pudina (mint),Kharif,Haryana
+pudina (mint),Kharif,Madhya Pradesh
+pudina (mint),Kharif,Rajasthan
+pudina (mint),Kharif,Gujarat
+pudina (mint),Kharif,Tamil Nadu
+pudina (mint),Kharif,Karnataka
+pudina (mint),Rabi,Uttar Pradesh
+pudina (mint),Rabi,Punjab
+pudina (mint),Rabi,Haryana
+pudina (mint),Rabi,Madhya Pradesh
+pudina (mint),Rabi,Rajasthan
+pudina (mint),Rabi,Gujarat
+pudina (mint),Rabi,Tamil Nadu
+pudina (mint),Rabi,Karnataka
+pudina (mint),Zaid,Uttar Pradesh
+pudina (mint),Zaid,Punjab
+pudina (mint),Zaid,Haryana
+pudina (mint),Zaid,Madhya Pradesh
+pudina (mint),Zaid,Rajasthan
+pudina (mint),Zaid,Gujarat
+pudina (mint),Zaid,Tamil Nadu
+pudina (mint),Zaid,Karnataka
+mentha,Kharif,Uttar Pradesh
+mentha,Kharif,Punjab
+mentha,Kharif,Haryana
+mentha,Kharif,Madhya Pradesh
+mentha,Kharif,Rajasthan
+mentha,Kharif,Gujarat
+mentha,Kharif,Tamil Nadu
+mentha,Kharif,Karnataka
+mentha,Rabi,Uttar Pradesh
+mentha,Rabi,Punjab
+mentha,Rabi,Haryana
+mentha,Rabi,Madhya Pradesh
+mentha,Rabi,Rajasthan
+mentha,Rabi,Gujarat
+mentha,Rabi,Tamil Nadu
+mentha,Rabi,Karnataka
+mentha,Zaid,Uttar Pradesh
+mentha,Zaid,Punjab
+mentha,Zaid,Haryana
+mentha,Zaid,Madhya Pradesh
+mentha,Zaid,Rajasthan
+mentha,Zaid,Gujarat
+mentha,Zaid,Tamil Nadu
+mentha,Zaid,Karnataka
+tulsi (holy basil),Kharif,Uttar Pradesh
+tulsi (holy basil),Kharif,Punjab
+tulsi (holy basil),Kharif,Haryana
+tulsi (holy basil),Kharif,Madhya Pradesh
+tulsi (holy basil),Kharif,Rajasthan
+tulsi (holy basil),Kharif,Gujarat
+tulsi (holy basil),Kharif,Tamil Nadu
+tulsi (holy basil),Kharif,Karnataka
+tulsi (holy basil),Rabi,Uttar Pradesh
+tulsi (holy basil),Rabi,Punjab
+tulsi (holy basil),Rabi,Haryana
+tulsi (holy basil),Rabi,Madhya Pradesh
+tulsi (holy basil),Rabi,Rajasthan
+tulsi (holy basil),Rabi,Gujarat
+tulsi (holy basil),Rabi,Tamil Nadu
+tulsi (holy basil),Rabi,Karnataka
+tulsi (holy basil),Zaid,Uttar Pradesh
+tulsi (holy basil),Zaid,Punjab
+tulsi (holy basil),Zaid,Haryana
+tulsi (holy basil),Zaid,Madhya Pradesh
+tulsi (holy basil),Zaid,Rajasthan
+tulsi (holy basil),Zaid,Gujarat
+tulsi (holy basil),Zaid,Tamil Nadu
+tulsi (holy basil),Zaid,Karnataka
+sarpagandha,Kharif,Uttar Pradesh
+sarpagandha,Kharif,Punjab
+sarpagandha,Kharif,Haryana
+sarpagandha,Kharif,Madhya Pradesh
+sarpagandha,Kharif,Rajasthan
+sarpagandha,Kharif,Gujarat
+sarpagandha,Kharif,Tamil Nadu
+sarpagandha,Kharif,Karnataka
+sarpagandha,Rabi,Uttar Pradesh
+sarpagandha,Rabi,Punjab
+sarpagandha,Rabi,Haryana
+sarpagandha,Rabi,Madhya Pradesh
+sarpagandha,Rabi,Rajasthan
+sarpagandha,Rabi,Gujarat
+sarpagandha,Rabi,Tamil Nadu
+sarpagandha,Rabi,Karnataka
+sarpagandha,Zaid,Uttar Pradesh
+sarpagandha,Zaid,Punjab
+sarpagandha,Zaid,Haryana
+sarpagandha,Zaid,Madhya Pradesh
+sarpagandha,Zaid,Rajasthan
+sarpagandha,Zaid,Gujarat
+sarpagandha,Zaid,Tamil Nadu
+sarpagandha,Zaid,Karnataka
+kalmegh,Kharif,Uttar Pradesh
+kalmegh,Kharif,Punjab
+kalmegh,Kharif,Haryana
+kalmegh,Kharif,Madhya Pradesh
+kalmegh,Kharif,Rajasthan
+kalmegh,Kharif,Gujarat
+kalmegh,Kharif,Tamil Nadu
+kalmegh,Kharif,Karnataka
+kalmegh,Rabi,Uttar Pradesh
+kalmegh,Rabi,Punjab
+kalmegh,Rabi,Haryana
+kalmegh,Rabi,Madhya Pradesh
+kalmegh,Rabi,Rajasthan
+kalmegh,Rabi,Gujarat
+kalmegh,Rabi,Tamil Nadu
+kalmegh,Rabi,Karnataka
+kalmegh,Zaid,Uttar Pradesh
+kalmegh,Zaid,Punjab
+kalmegh,Zaid,Haryana
+kalmegh,Zaid,Madhya Pradesh
+kalmegh,Zaid,Rajasthan
+kalmegh,Zaid,Gujarat
+kalmegh,Zaid,Tamil Nadu
+kalmegh,Zaid,Karnataka
+safed musli,Kharif,Uttar Pradesh
+safed musli,Kharif,Punjab
+safed musli,Kharif,Haryana
+safed musli,Kharif,Madhya Pradesh
+safed musli,Kharif,Rajasthan
+safed musli,Kharif,Gujarat
+safed musli,Kharif,Tamil Nadu
+safed musli,Kharif,Karnataka
+safed musli,Rabi,Uttar Pradesh
+safed musli,Rabi,Punjab
+safed musli,Rabi,Haryana
+safed musli,Rabi,Madhya Pradesh
+safed musli,Rabi,Rajasthan
+safed musli,Rabi,Gujarat
+safed musli,Rabi,Tamil Nadu
+safed musli,Rabi,Karnataka
+safed musli,Zaid,Uttar Pradesh
+safed musli,Zaid,Punjab
+safed musli,Zaid,Haryana
+safed musli,Zaid,Madhya Pradesh
+safed musli,Zaid,Rajasthan
+safed musli,Zaid,Gujarat
+safed musli,Zaid,Tamil Nadu
+safed musli,Zaid,Karnataka
+artemisia,Kharif,Uttar Pradesh
+artemisia,Kharif,Punjab
+artemisia,Kharif,Haryana
+artemisia,Kharif,Madhya Pradesh
+artemisia,Kharif,Rajasthan
+artemisia,Kharif,Gujarat
+artemisia,Kharif,Tamil Nadu
+artemisia,Kharif,Karnataka
+artemisia,Rabi,Uttar Pradesh
+artemisia,Rabi,Punjab
+artemisia,Rabi,Haryana
+artemisia,Rabi,Madhya Pradesh
+artemisia,Rabi,Rajasthan
+artemisia,Rabi,Gujarat
+artemisia,Rabi,Tamil Nadu
+artemisia,Rabi,Karnataka
+artemisia,Zaid,Uttar Pradesh
+artemisia,Zaid,Punjab
+artemisia,Zaid,Haryana
+artemisia,Zaid,Madhya Pradesh
+artemisia,Zaid,Rajasthan
+artemisia,Zaid,Gujarat
+artemisia,Zaid,Tamil Nadu
+artemisia,Zaid,Karnataka
+shatavari,Kharif,Uttar Pradesh
+shatavari,Kharif,Punjab
+shatavari,Kharif,Haryana
+shatavari,Kharif,Madhya Pradesh
+shatavari,Kharif,Rajasthan
+shatavari,Kharif,Gujarat
+shatavari,Kharif,Tamil Nadu
+shatavari,Kharif,Karnataka
+shatavari,Rabi,Uttar Pradesh
+shatavari,Rabi,Punjab
+shatavari,Rabi,Haryana
+shatavari,Rabi,Madhya Pradesh
+shatavari,Rabi,Rajasthan
+shatavari,Rabi,Gujarat
+shatavari,Rabi,Tamil Nadu
+shatavari,Rabi,Karnataka
+shatavari,Zaid,Uttar Pradesh
+shatavari,Zaid,Punjab
+shatavari,Zaid,Haryana
+shatavari,Zaid,Madhya Pradesh
+shatavari,Zaid,Rajasthan
+shatavari,Zaid,Gujarat
+shatavari,Zaid,Tamil Nadu
+shatavari,Zaid,Karnataka
+brahmi,Kharif,Uttar Pradesh
+brahmi,Kharif,Punjab
+brahmi,Kharif,Haryana
+brahmi,Kharif,Madhya Pradesh
+brahmi,Kharif,Rajasthan
+brahmi,Kharif,Gujarat
+brahmi,Kharif,Tamil Nadu
+brahmi,Kharif,Karnataka
+brahmi,Rabi,Uttar Pradesh
+brahmi,Rabi,Punjab
+brahmi,Rabi,Haryana
+brahmi,Rabi,Madhya Pradesh
+brahmi,Rabi,Rajasthan
+brahmi,Rabi,Gujarat
+brahmi,Rabi,Tamil Nadu
+brahmi,Rabi,Karnataka
+brahmi,Zaid,Uttar Pradesh
+brahmi,Zaid,Punjab
+brahmi,Zaid,Haryana
+brahmi,Zaid,Madhya Pradesh
+brahmi,Zaid,Rajasthan
+brahmi,Zaid,Gujarat
+brahmi,Zaid,Tamil Nadu
+brahmi,Zaid,Karnataka
+giloy,Kharif,Uttar Pradesh
+giloy,Kharif,Punjab
+giloy,Kharif,Haryana
+giloy,Kharif,Madhya Pradesh
+giloy,Kharif,Rajasthan
+giloy,Kharif,Gujarat
+giloy,Kharif,Tamil Nadu
+giloy,Kharif,Karnataka
+giloy,Rabi,Uttar Pradesh
+giloy,Rabi,Punjab
+giloy,Rabi,Haryana
+giloy,Rabi,Madhya Pradesh
+giloy,Rabi,Rajasthan
+giloy,Rabi,Gujarat
+giloy,Rabi,Tamil Nadu
+giloy,Rabi,Karnataka
+giloy,Zaid,Uttar Pradesh
+giloy,Zaid,Punjab
+giloy,Zaid,Haryana
+giloy,Zaid,Madhya Pradesh
+giloy,Zaid,Rajasthan
+giloy,Zaid,Gujarat
+giloy,Zaid,Tamil Nadu
+giloy,Zaid,Karnataka
+chamomile,Kharif,Uttar Pradesh
+chamomile,Kharif,Punjab
+chamomile,Kharif,Haryana
+chamomile,Kharif,Madhya Pradesh
+chamomile,Kharif,Rajasthan
+chamomile,Kharif,Gujarat
+chamomile,Kharif,Tamil Nadu
+chamomile,Kharif,Karnataka
+chamomile,Rabi,Uttar Pradesh
+chamomile,Rabi,Punjab
+chamomile,Rabi,Haryana
+chamomile,Rabi,Madhya Pradesh
+chamomile,Rabi,Rajasthan
+chamomile,Rabi,Gujarat
+chamomile,Rabi,Tamil Nadu
+chamomile,Rabi,Karnataka
+chamomile,Zaid,Uttar Pradesh
+chamomile,Zaid,Punjab
+chamomile,Zaid,Haryana
+chamomile,Zaid,Madhya Pradesh
+chamomile,Zaid,Rajasthan
+chamomile,Zaid,Gujarat
+chamomile,Zaid,Tamil Nadu
+chamomile,Zaid,Karnataka
+lavender,Kharif,Uttar Pradesh
+lavender,Kharif,Punjab
+lavender,Kharif,Haryana
+lavender,Kharif,Madhya Pradesh
+lavender,Kharif,Rajasthan
+lavender,Kharif,Gujarat
+lavender,Kharif,Tamil Nadu
+lavender,Kharif,Karnataka
+lavender,Rabi,Uttar Pradesh
+lavender,Rabi,Punjab
+lavender,Rabi,Haryana
+lavender,Rabi,Madhya Pradesh
+lavender,Rabi,Rajasthan
+lavender,Rabi,Gujarat
+lavender,Rabi,Tamil Nadu
+lavender,Rabi,Karnataka
+lavender,Zaid,Uttar Pradesh
+lavender,Zaid,Punjab
+lavender,Zaid,Haryana
+lavender,Zaid,Madhya Pradesh
+lavender,Zaid,Rajasthan
+lavender,Zaid,Gujarat
+lavender,Zaid,Tamil Nadu
+lavender,Zaid,Karnataka
+marigold,Kharif,Tamil Nadu
+marigold,Kharif,Karnataka
+marigold,Kharif,Andhra Pradesh
+marigold,Kharif,Telangana
+marigold,Kharif,Maharashtra
+marigold,Kharif,West Bengal
+marigold,Kharif,Uttar Pradesh
+marigold,Kharif,Himachal Pradesh
+marigold,Rabi,Tamil Nadu
+marigold,Rabi,Karnataka
+marigold,Rabi,Andhra Pradesh
+marigold,Rabi,Telangana
+marigold,Rabi,Maharashtra
+marigold,Rabi,West Bengal
+marigold,Rabi,Uttar Pradesh
+marigold,Rabi,Himachal Pradesh
+marigold,Zaid,Tamil Nadu
+marigold,Zaid,Karnataka
+marigold,Zaid,Andhra Pradesh
+marigold,Zaid,Telangana
+marigold,Zaid,Maharashtra
+marigold,Zaid,West Bengal
+marigold,Zaid,Uttar Pradesh
+marigold,Zaid,Himachal Pradesh
+rose,Kharif,Tamil Nadu
+rose,Kharif,Karnataka
+rose,Kharif,Andhra Pradesh
+rose,Kharif,Telangana
+rose,Kharif,Maharashtra
+rose,Kharif,West Bengal
+rose,Kharif,Uttar Pradesh
+rose,Kharif,Himachal Pradesh
+rose,Rabi,Tamil Nadu
+rose,Rabi,Karnataka
+rose,Rabi,Andhra Pradesh
+rose,Rabi,Telangana
+rose,Rabi,Maharashtra
+rose,Rabi,West Bengal
+rose,Rabi,Uttar Pradesh
+rose,Rabi,Himachal Pradesh
+rose,Zaid,Tamil Nadu
+rose,Zaid,Karnataka
+rose,Zaid,Andhra Pradesh
+rose,Zaid,Telangana
+rose,Zaid,Maharashtra
+rose,Zaid,West Bengal
+rose,Zaid,Uttar Pradesh
+rose,Zaid,Himachal Pradesh
+jasmine,Kharif,Tamil Nadu
+jasmine,Kharif,Karnataka
+jasmine,Kharif,Andhra Pradesh
+jasmine,Kharif,Telangana
+jasmine,Kharif,Maharashtra
+jasmine,Kharif,West Bengal
+jasmine,Kharif,Uttar Pradesh
+jasmine,Kharif,Himachal Pradesh
+jasmine,Rabi,Tamil Nadu
+jasmine,Rabi,Karnataka
+jasmine,Rabi,Andhra Pradesh
+jasmine,Rabi,Telangana
+jasmine,Rabi,Maharashtra
+jasmine,Rabi,West Bengal
+jasmine,Rabi,Uttar Pradesh
+jasmine,Rabi,Himachal Pradesh
+jasmine,Zaid,Tamil Nadu
+jasmine,Zaid,Karnataka
+jasmine,Zaid,Andhra Pradesh
+jasmine,Zaid,Telangana
+jasmine,Zaid,Maharashtra
+jasmine,Zaid,West Bengal
+jasmine,Zaid,Uttar Pradesh
+jasmine,Zaid,Himachal Pradesh
+tuberose,Kharif,Tamil Nadu
+tuberose,Kharif,Karnataka
+tuberose,Kharif,Andhra Pradesh
+tuberose,Kharif,Telangana
+tuberose,Kharif,Maharashtra
+tuberose,Kharif,West Bengal
+tuberose,Kharif,Uttar Pradesh
+tuberose,Kharif,Himachal Pradesh
+tuberose,Rabi,Tamil Nadu
+tuberose,Rabi,Karnataka
+tuberose,Rabi,Andhra Pradesh
+tuberose,Rabi,Telangana
+tuberose,Rabi,Maharashtra
+tuberose,Rabi,West Bengal
+tuberose,Rabi,Uttar Pradesh
+tuberose,Rabi,Himachal Pradesh
+tuberose,Zaid,Tamil Nadu
+tuberose,Zaid,Karnataka
+tuberose,Zaid,Andhra Pradesh
+tuberose,Zaid,Telangana
+tuberose,Zaid,Maharashtra
+tuberose,Zaid,West Bengal
+tuberose,Zaid,Uttar Pradesh
+tuberose,Zaid,Himachal Pradesh
+gladiolus,Kharif,Tamil Nadu
+gladiolus,Kharif,Karnataka
+gladiolus,Kharif,Andhra Pradesh
+gladiolus,Kharif,Telangana
+gladiolus,Kharif,Maharashtra
+gladiolus,Kharif,West Bengal
+gladiolus,Kharif,Uttar Pradesh
+gladiolus,Kharif,Himachal Pradesh
+gladiolus,Rabi,Tamil Nadu
+gladiolus,Rabi,Karnataka
+gladiolus,Rabi,Andhra Pradesh
+gladiolus,Rabi,Telangana
+gladiolus,Rabi,Maharashtra
+gladiolus,Rabi,West Bengal
+gladiolus,Rabi,Uttar Pradesh
+gladiolus,Rabi,Himachal Pradesh
+gladiolus,Zaid,Tamil Nadu
+gladiolus,Zaid,Karnataka
+gladiolus,Zaid,Andhra Pradesh
+gladiolus,Zaid,Telangana
+gladiolus,Zaid,Maharashtra
+gladiolus,Zaid,West Bengal
+gladiolus,Zaid,Uttar Pradesh
+gladiolus,Zaid,Himachal Pradesh
+carnation,Kharif,Tamil Nadu
+carnation,Kharif,Karnataka
+carnation,Kharif,Andhra Pradesh
+carnation,Kharif,Telangana
+carnation,Kharif,Maharashtra
+carnation,Kharif,West Bengal
+carnation,Kharif,Uttar Pradesh
+carnation,Kharif,Himachal Pradesh
+carnation,Rabi,Tamil Nadu
+carnation,Rabi,Karnataka
+carnation,Rabi,Andhra Pradesh
+carnation,Rabi,Telangana
+carnation,Rabi,Maharashtra
+carnation,Rabi,West Bengal
+carnation,Rabi,Uttar Pradesh
+carnation,Rabi,Himachal Pradesh
+carnation,Zaid,Tamil Nadu
+carnation,Zaid,Karnataka
+carnation,Zaid,Andhra Pradesh
+carnation,Zaid,Telangana
+carnation,Zaid,Maharashtra
+carnation,Zaid,West Bengal
+carnation,Zaid,Uttar Pradesh
+carnation,Zaid,Himachal Pradesh
+gerbera,Kharif,Tamil Nadu
+gerbera,Kharif,Karnataka
+gerbera,Kharif,Andhra Pradesh
+gerbera,Kharif,Telangana
+gerbera,Kharif,Maharashtra
+gerbera,Kharif,West Bengal
+gerbera,Kharif,Uttar Pradesh
+gerbera,Kharif,Himachal Pradesh
+gerbera,Rabi,Tamil Nadu
+gerbera,Rabi,Karnataka
+gerbera,Rabi,Andhra Pradesh
+gerbera,Rabi,Telangana
+gerbera,Rabi,Maharashtra
+gerbera,Rabi,West Bengal
+gerbera,Rabi,Uttar Pradesh
+gerbera,Rabi,Himachal Pradesh
+gerbera,Zaid,Tamil Nadu
+gerbera,Zaid,Karnataka
+gerbera,Zaid,Andhra Pradesh
+gerbera,Zaid,Telangana
+gerbera,Zaid,Maharashtra
+gerbera,Zaid,West Bengal
+gerbera,Zaid,Uttar Pradesh
+gerbera,Zaid,Himachal Pradesh
+chrysanthemum,Kharif,Tamil Nadu
+chrysanthemum,Kharif,Karnataka
+chrysanthemum,Kharif,Andhra Pradesh
+chrysanthemum,Kharif,Telangana
+chrysanthemum,Kharif,Maharashtra
+chrysanthemum,Kharif,West Bengal
+chrysanthemum,Kharif,Uttar Pradesh
+chrysanthemum,Kharif,Himachal Pradesh
+chrysanthemum,Rabi,Tamil Nadu
+chrysanthemum,Rabi,Karnataka
+chrysanthemum,Rabi,Andhra Pradesh
+chrysanthemum,Rabi,Telangana
+chrysanthemum,Rabi,Maharashtra
+chrysanthemum,Rabi,West Bengal
+chrysanthemum,Rabi,Uttar Pradesh
+chrysanthemum,Rabi,Himachal Pradesh
+chrysanthemum,Zaid,Tamil Nadu
+chrysanthemum,Zaid,Karnataka
+chrysanthemum,Zaid,Andhra Pradesh
+chrysanthemum,Zaid,Telangana
+chrysanthemum,Zaid,Maharashtra
+chrysanthemum,Zaid,West Bengal
+chrysanthemum,Zaid,Uttar Pradesh
+chrysanthemum,Zaid,Himachal Pradesh
+orchid,Kharif,Tamil Nadu
+orchid,Kharif,Karnataka
+orchid,Kharif,Andhra Pradesh
+orchid,Kharif,Telangana
+orchid,Kharif,Maharashtra
+orchid,Kharif,West Bengal
+orchid,Kharif,Uttar Pradesh
+orchid,Kharif,Himachal Pradesh
+orchid,Rabi,Tamil Nadu
+orchid,Rabi,Karnataka
+orchid,Rabi,Andhra Pradesh
+orchid,Rabi,Telangana
+orchid,Rabi,Maharashtra
+orchid,Rabi,West Bengal
+orchid,Rabi,Uttar Pradesh
+orchid,Rabi,Himachal Pradesh
+orchid,Zaid,Tamil Nadu
+orchid,Zaid,Karnataka
+orchid,Zaid,Andhra Pradesh
+orchid,Zaid,Telangana
+orchid,Zaid,Maharashtra
+orchid,Zaid,West Bengal
+orchid,Zaid,Uttar Pradesh
+orchid,Zaid,Himachal Pradesh
+hybrid napier grass,Kharif,Punjab
+hybrid napier grass,Kharif,Haryana
+hybrid napier grass,Kharif,Rajasthan
+hybrid napier grass,Kharif,Gujarat
+hybrid napier grass,Kharif,Maharashtra
+hybrid napier grass,Kharif,Karnataka
+hybrid napier grass,Kharif,Tamil Nadu
+hybrid napier grass,Kharif,Uttar Pradesh
+hybrid napier grass,Rabi,Punjab
+hybrid napier grass,Rabi,Haryana
+hybrid napier grass,Rabi,Rajasthan
+hybrid napier grass,Rabi,Gujarat
+hybrid napier grass,Rabi,Maharashtra
+hybrid napier grass,Rabi,Karnataka
+hybrid napier grass,Rabi,Tamil Nadu
+hybrid napier grass,Rabi,Uttar Pradesh
+hybrid napier grass,Zaid,Punjab
+hybrid napier grass,Zaid,Haryana
+hybrid napier grass,Zaid,Rajasthan
+hybrid napier grass,Zaid,Gujarat
+hybrid napier grass,Zaid,Maharashtra
+hybrid napier grass,Zaid,Karnataka
+hybrid napier grass,Zaid,Tamil Nadu
+hybrid napier grass,Zaid,Uttar Pradesh
+sorghum fodder,Kharif,Punjab
+sorghum fodder,Kharif,Haryana
+sorghum fodder,Kharif,Rajasthan
+sorghum fodder,Kharif,Gujarat
+sorghum fodder,Kharif,Maharashtra
+sorghum fodder,Kharif,Karnataka
+sorghum fodder,Kharif,Tamil Nadu
+sorghum fodder,Kharif,Uttar Pradesh
+sorghum fodder,Rabi,Punjab
+sorghum fodder,Rabi,Haryana
+sorghum fodder,Rabi,Rajasthan
+sorghum fodder,Rabi,Gujarat
+sorghum fodder,Rabi,Maharashtra
+sorghum fodder,Rabi,Karnataka
+sorghum fodder,Rabi,Tamil Nadu
+sorghum fodder,Rabi,Uttar Pradesh
+sorghum fodder,Zaid,Punjab
+sorghum fodder,Zaid,Haryana
+sorghum fodder,Zaid,Rajasthan
+sorghum fodder,Zaid,Gujarat
+sorghum fodder,Zaid,Maharashtra
+sorghum fodder,Zaid,Karnataka
+sorghum fodder,Zaid,Tamil Nadu
+sorghum fodder,Zaid,Uttar Pradesh
+subabul,Kharif,Punjab
+subabul,Kharif,Haryana
+subabul,Kharif,Rajasthan
+subabul,Kharif,Gujarat
+subabul,Kharif,Maharashtra
+subabul,Kharif,Karnataka
+subabul,Kharif,Tamil Nadu
+subabul,Kharif,Uttar Pradesh
+subabul,Rabi,Punjab
+subabul,Rabi,Haryana
+subabul,Rabi,Rajasthan
+subabul,Rabi,Gujarat
+subabul,Rabi,Maharashtra
+subabul,Rabi,Karnataka
+subabul,Rabi,Tamil Nadu
+subabul,Rabi,Uttar Pradesh
+subabul,Zaid,Punjab
+subabul,Zaid,Haryana
+subabul,Zaid,Rajasthan
+subabul,Zaid,Gujarat
+subabul,Zaid,Maharashtra
+subabul,Zaid,Karnataka
+subabul,Zaid,Tamil Nadu
+subabul,Zaid,Uttar Pradesh
+berseem,Rabi,Punjab
+berseem,Rabi,Haryana
+berseem,Rabi,Uttar Pradesh
+berseem,Rabi,Rajasthan
+berseem,Rabi,Gujarat
+berseem,Rabi,Madhya Pradesh
+berseem,Rabi,Bihar
+lucerne (alfalfa),Rabi,Punjab
+lucerne (alfalfa),Rabi,Haryana
+lucerne (alfalfa),Rabi,Uttar Pradesh
+lucerne (alfalfa),Rabi,Rajasthan
+lucerne (alfalfa),Rabi,Gujarat
+lucerne (alfalfa),Rabi,Madhya Pradesh
+lucerne (alfalfa),Rabi,Bihar
