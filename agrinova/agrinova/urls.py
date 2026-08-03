@@ -8,6 +8,7 @@ urlpatterns = [
     path('api/auth/', include('authenticate.urls')),
     path('api/', include('farms.urls')),
     path('api/recommendation/', include('recommendation.urls')),
+    path('api/market-forecast/', include('market_forecast.urls')),
 ]
 
 if settings.DEBUG:

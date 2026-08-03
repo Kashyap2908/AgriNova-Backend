@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'authenticate',
     'farms',
     'recommendation',
+    'market_forecast',
 ]
 
 MIDDLEWARE = [
