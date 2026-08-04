@@ -17,7 +17,3 @@ db.sqlite3
 *.sqlite3
 
 # ML datasets and models that shouldn't be pushed
-ml/PlantDiseaseImages/
-ml/models/*.keras
-ml/models/*.pkl
-ml/temp_external/
