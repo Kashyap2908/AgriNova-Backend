@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'farms',
     'recommendation',
     'market_forecast',
+    'disease_detection',
 ]
 
 MIDDLEWARE = [

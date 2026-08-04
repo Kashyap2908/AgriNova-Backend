@@ -1,0 +1,40 @@
+                                  precision    recall  f1-score   support
+
+                 Apple___Healthy       0.00      0.00      0.00         0
+                    Apple___Scab       0.00      0.00      0.00         0
+             Blueberry___Healthy       0.00      0.00      0.00         0
+          Capsicum___Anthracnose       0.00      0.00      0.00         0
+              Capsicum___Healthy       0.00      0.00      0.00         0
+                Cherry___Healthy       0.00      0.00      0.00         0
+         Cherry___Powdery_Mildew       0.00      0.00      0.00         0
+            Grapes___Anthracnose       0.00      0.00      0.00         0
+           Grapes___Downy_Mildew       0.00      0.00      0.00         0
+                Grapes___Healthy       0.00      0.00      0.00         0
+         Grapes___Powdery_Mildew       0.00      0.00      0.00         0
+             Maize___Common_Rust       0.00      0.00      0.00         0
+          Maize___Gray_Leaf_Spot       0.00      0.00      0.00         0
+                 Maize___Healthy       0.00      0.00      0.00         0
+    Maize___Turcicum_Leaf_Blight       0.00      0.00      0.00         0
+ Orange___Greening_Huanglongbing       0.00      0.00      0.00         0
+                 Peach___Healthy       0.00      0.00      0.00         0
+               Peach___Leaf_Spot       0.00      0.00      0.00         0
+           Potato___Early_Blight       0.00      0.00      0.00         0
+                Potato___Healthy       0.00      0.00      0.00         0
+            Potato___Late_Blight       0.00      0.00      0.00         0
+             Raspberry___Healthy       0.00      0.00      0.00         0
+              Soybeans___Healthy       0.00      0.00      0.00         0
+         Squash___Powdery_Mildew       0.00      0.00      0.00         0
+            Strawberry___Healthy       0.00      0.00      0.00         0
+        Strawberry___Leaf_Scorch       0.00      0.00      0.00         0
+         Tomato___Bacterial_Wilt       0.00      0.00      0.00         0
+           Tomato___Early_Blight       0.67      0.60      0.63        40
+                Tomato___Healthy       0.93      0.26      0.41        50
+            Tomato___Late_Blight       0.83      0.68      0.75        50
+        Tomato___Leaf_Curl_Virus       1.00      0.34      0.51        50
+     Tomato___Septoria_Leaf_Spot       0.83      0.50      0.62        50
+            Tomato___Target_Spot       0.89      0.82      0.85        50
+Tomato___Two_Spotted_Spider_Mite       0.84      0.92      0.88        50
+
+                        accuracy                           0.59       340
+                       macro avg       0.18      0.12      0.14       340
+                    weighted avg       0.86      0.59      0.66       340

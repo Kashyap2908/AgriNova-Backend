@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+
+# Django stuff
+db.sqlite3
+*.sqlite3
+
+# ML datasets and models that shouldn't be pushed
+ml/PlantDiseaseImages/
+ml/models/*.keras
+ml/models/*.pkl
+ml/temp_external/

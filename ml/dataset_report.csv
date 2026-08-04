@@ -1,0 +1,35 @@
+Crop_Name,Disease_Name,ML_Class_Name,Folder_Exists,Image_Count,Duplicate_Count,Status,Folder_Path
+maize,Healthy,Maize___Healthy,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Maize___Healthy
+maize,Turcicum Leaf Blight,Maize___Turcicum_Leaf_Blight,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Maize___Turcicum_Leaf_Blight
+maize,Common Rust,Maize___Common_Rust,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Maize___Common_Rust
+maize,Gray Leaf Spot,Maize___Gray_Leaf_Spot,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Maize___Gray_Leaf_Spot
+tomato,Healthy,Tomato___Healthy,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Tomato___Healthy
+tomato,Early Blight,Tomato___Early_Blight,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Tomato___Early_Blight
+tomato,Late Blight,Tomato___Late_Blight,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Tomato___Late_Blight
+tomato,Leaf Curl Virus,Tomato___Leaf_Curl_Virus,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Tomato___Leaf_Curl_Virus
+tomato,Bacterial Wilt,Tomato___Bacterial_Wilt,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Tomato___Bacterial_Wilt
+tomato,Septoria Leaf Spot,Tomato___Septoria_Leaf_Spot,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Tomato___Septoria_Leaf_Spot
+tomato,Target Spot,Tomato___Target_Spot,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Tomato___Target_Spot
+tomato,Two-Spotted Spider Mite,Tomato___Two_Spotted_Spider_Mite,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Tomato___Two_Spotted_Spider_Mite
+potato,Healthy,Potato___Healthy,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Potato___Healthy
+potato,Late Blight,Potato___Late_Blight,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Potato___Late_Blight
+potato,Early Blight,Potato___Early_Blight,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Potato___Early_Blight
+soybeans,Healthy,Soybeans___Healthy,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Soybeans___Healthy
+grapes,Healthy,Grapes___Healthy,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Grapes___Healthy
+grapes,Downy Mildew,Grapes___Downy_Mildew,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Grapes___Downy_Mildew
+grapes,Powdery Mildew,Grapes___Powdery_Mildew,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Grapes___Powdery_Mildew
+grapes,Anthracnose,Grapes___Anthracnose,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Grapes___Anthracnose
+apple,Healthy,Apple___Healthy,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Apple___Healthy
+apple,Scab,Apple___Scab,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Apple___Scab
+strawberry,Healthy,Strawberry___Healthy,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Strawberry___Healthy
+strawberry,Leaf Scorch,Strawberry___Leaf_Scorch,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Strawberry___Leaf_Scorch
+capsicum,Healthy,Capsicum___Healthy,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Capsicum___Healthy
+capsicum,Anthracnose,Capsicum___Anthracnose,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Capsicum___Anthracnose
+orange,Greening (Huanglongbing),Orange___Greening_Huanglongbing,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Orange___Greening_Huanglongbing
+squash,Powdery Mildew,Squash___Powdery_Mildew,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Squash___Powdery_Mildew
+blueberry,Healthy,Blueberry___Healthy,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Blueberry___Healthy
+cherry,Healthy,Cherry___Healthy,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Cherry___Healthy
+cherry,Powdery Mildew,Cherry___Powdery_Mildew,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Cherry___Powdery_Mildew
+peach,Healthy,Peach___Healthy,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Peach___Healthy
+peach,Leaf Spot,Peach___Leaf_Spot,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Peach___Leaf_Spot
+raspberry,Healthy,Raspberry___Healthy,YES,50,0,OK,D:\Agrinova\AgriNova-Backend\ml\PlantDiseaseImages\Raspberry___Healthy
