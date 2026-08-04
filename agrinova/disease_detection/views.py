@@ -38,7 +38,9 @@ class PredictDiseaseView(APIView):
             # 4. Predict
             result = app_config.predictor.predict_disease(temp_path)
             
-            # 5. Return success
+            # 5. Return success or error based on result
+            if "error" in result:
+                return Response(result, status=status.HTTP_400_BAD_REQUEST)
             return Response(result, status=status.HTTP_200_OK)
             
         except Exception as e:

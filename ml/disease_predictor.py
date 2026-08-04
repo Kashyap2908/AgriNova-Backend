@@ -70,6 +70,13 @@ class DiseasePredictor:
         
         predicted_ml_class = self.class_indices.get(int(predicted_class_idx))
         
+        # Threshold Check for Invalid/Non-Leaf Images
+        if confidence < 40.0:
+            return {
+                "error": "Invalid Image Detected",
+                "message": f"The AI confidence is too low ({confidence:.2f}%). Please ensure you are uploading a clear, focused photo of a plant leaf."
+            }
+        
         # Look up in database
         db_info = self.disease_db.get(predicted_ml_class, {})
         

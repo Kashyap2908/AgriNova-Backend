@@ -13,3 +13,4 @@ tensorflow==2.21.0
 matplotlib==3.9.2
 seaborn==0.13.2
 opencv-python
+google-genai

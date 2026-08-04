@@ -10,6 +10,8 @@ urlpatterns = [
     path('api/recommendation/', include('recommendation.urls')),
     path('api/market-forecast/', include('market_forecast.urls')),
     path('api/disease/', include('disease_detection.urls')),
+    path('api/assistant/', include('assistant.urls')),
+    path('api/weather/', include('weather.urls')),
 ]
 
 if settings.DEBUG:
