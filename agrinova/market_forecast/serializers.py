@@ -20,3 +20,17 @@ class MarketForecastHistorySerializer(serializers.ModelSerializer):
 
 class MarketPredictRequestSerializer(serializers.Serializer):
     farm_id = serializers.IntegerField(required=True)
+    crop = serializers.CharField(required=False, allow_blank=True)
+
+
+from .models import MarketCache
+
+class MarketCacheSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = MarketCache
+        fields = [
+            'id', 'crop', 'state', 'district', 'market',
+            'current_price', 'weekly_price_history', 'monthly_price_history',
+            'yearly_price_history', 'last_updated', 'api_provider'
+        ]
+

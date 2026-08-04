@@ -48,3 +48,35 @@ class MarketForecastHistory(models.Model):
 
     def __str__(self):
         return f"{self.crop} - {self.best_market} for {self.user.username}"
+
+
+class MarketCache(models.Model):
+    """
+    Stores market data cache for unique Crop + State + District + Market combination.
+    Follows strict cache policy and automatic rolling history rotation:
+    - current_price: updated daily when requested
+    - weekly_price_history: latest 7 days
+    - monthly_price_history: latest 30 days
+    - yearly_price_history: latest 365 days
+    """
+    crop = models.CharField(max_length=100)
+    state = models.CharField(max_length=100)
+    district = models.CharField(max_length=100)
+    market = models.CharField(max_length=100)
+
+    current_price = models.JSONField(default=dict, blank=True)
+    weekly_price_history = models.JSONField(default=list, blank=True)
+    monthly_price_history = models.JSONField(default=list, blank=True)
+    yearly_price_history = models.JSONField(default=list, blank=True)
+
+    last_updated = models.DateTimeField(auto_now=True)
+    api_provider = models.CharField(max_length=50, default="data.gov.in")
+
+    class Meta:
+        unique_together = ('crop', 'state', 'district', 'market')
+        verbose_name = "Market Cache"
+        verbose_name_plural = "Market Caches"
+
+    def __str__(self):
+        return f"{self.crop} | {self.market}, {self.district}, {self.state}"
+
