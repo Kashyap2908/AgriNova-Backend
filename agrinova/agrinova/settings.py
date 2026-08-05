@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'weather',
     'ai_assistant',
     'notifications',
+    'fertilizer_recommendation',
     'profit_analysis',
 ]
 

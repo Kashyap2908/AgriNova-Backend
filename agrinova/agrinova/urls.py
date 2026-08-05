@@ -14,6 +14,7 @@ urlpatterns = [
     path('api/assistant/', include('ai_assistant.urls')),
     path('api/notifications/', include('notifications.urls')),
     path('api/profit-analysis/', include('profit_analysis.urls')),
+    path('api/fertilizer/', include('fertilizer_recommendation.urls')),
 ]
 
 if settings.DEBUG:
