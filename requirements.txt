@@ -14,3 +14,4 @@ matplotlib==3.9.2
 seaborn==0.13.2
 opencv-python
 google-genai
+groq==1.6.0

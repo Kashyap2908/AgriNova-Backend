@@ -11,6 +11,8 @@ urlpatterns = [
     path('api/market-forecast/', include('market_forecast.urls')),
     path('api/disease/', include('disease_detection.urls')),
     path('api/weather/', include('weather.urls')),
+    path('api/assistant/', include('ai_assistant.urls')),
+    path('api/notifications/', include('notifications.urls')),
 ]
 
 if settings.DEBUG:

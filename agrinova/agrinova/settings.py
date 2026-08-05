@@ -53,6 +53,8 @@ INSTALLED_APPS = [
     'market_forecast',
     'disease_detection',
     'weather',
+    'ai_assistant',
+    'notifications',
 ]
 
 MIDDLEWARE = [
