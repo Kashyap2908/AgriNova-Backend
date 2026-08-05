@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'weather',
     'ai_assistant',
     'notifications',
+    'profit_analysis',
 ]
 
 MIDDLEWARE = [
@@ -95,6 +96,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
+        'OPTIONS': {
+            'timeout': 30,
+        }
     }
 }
 

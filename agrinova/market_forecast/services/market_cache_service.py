@@ -3,6 +3,7 @@ from datetime import datetime, timedelta
 from django.utils import timezone
 from django.db import transaction
 
+# pyrefly: ignore [missing-import]
 from ..models import MarketCache
 from .market_service import MarketService
 from .historical_service import HistoricalMarketService
@@ -33,74 +34,72 @@ class MarketCacheService:
 
         today_str = timezone.now().strftime("%Y-%m-%d")
 
-        with transaction.atomic():
-            cache, created = MarketCache.objects.select_for_update().get_or_create(
-                crop=crop_clean,
-                state=state_clean,
-                district=district_clean,
-                market=market_clean
+        cache, created = MarketCache.objects.get_or_create(
+            crop=crop_clean,
+            state=state_clean,
+            district=district_clean,
+            market=market_clean
+        )
+
+        # Check if today's current price is already cached
+        today_price_exists = False
+        if not created and cache.current_price:
+            last_updated_date = cache.current_price.get("last_updated") or (
+                cache.last_updated.strftime("%Y-%m-%d") if cache.last_updated else None
             )
+            if last_updated_date == today_str:
+                today_price_exists = True
 
-            # Check if today's current price is already cached
-            today_price_exists = False
-            if not created and cache.current_price:
-                last_updated_date = cache.current_price.get("last_updated") or (
-                    cache.last_updated.strftime("%Y-%m-%d") if cache.last_updated else None
-                )
-                if last_updated_date == today_str:
-                    today_price_exists = True
+        new_history_added = False
 
-            new_history_added = False
+        # If today's price does not exist or history is empty, fetch live market data
+        if not today_price_exists or not cache.weekly_price_history:
+            live_records = MarketService.get_market_data(crop_clean, state_clean, district_clean)
+            
+            # Find matching market or use top market
+            target_record = None
+            for rec in live_records:
+                if rec.get("market", "").lower() == market_clean.lower():
+                    target_record = rec
+                    break
+            if not target_record and live_records:
+                target_record = live_records[0]
+                if target_record.get("market"):
+                    market_clean = target_record.get("market")
 
-            # If today's price does not exist or history is empty, fetch live market data
-            if not today_price_exists or not cache.weekly_price_history:
-                live_records = MarketService.get_market_data(crop_clean, state_clean, district_clean)
-                
-                # Find matching market or use top market
-                target_record = None
-                for rec in live_records:
-                    if rec.get("market", "").lower() == market_clean.lower():
-                        target_record = rec
-                        break
-                if not target_record and live_records:
-                    target_record = live_records[0]
-                    # Keep market_clean aligned with available market name
-                    if target_record.get("market"):
-                        market_clean = target_record.get("market")
+            if target_record:
+                modal_price = float(target_record.get("modal_price", 0))
+                min_price = float(target_record.get("minimum_price", modal_price * 0.95))
+                max_price = float(target_record.get("maximum_price", modal_price * 1.05))
 
-                if target_record:
-                    modal_price = float(target_record.get("modal_price", 0))
-                    min_price = float(target_record.get("minimum_price", modal_price * 0.95))
-                    max_price = float(target_record.get("maximum_price", modal_price * 1.05))
+                cache.current_price = {
+                    "crop": crop_clean,
+                    "state": state_clean,
+                    "district": district_clean,
+                    "market": market_clean,
+                    "minimum_price": min_price,
+                    "modal_price": modal_price,
+                    "maximum_price": max_price,
+                    "arrival_quantity": target_record.get("arrival_quantity", 100.0),
+                    "last_updated": today_str
+                }
 
-                    cache.current_price = {
-                        "crop": crop_clean,
-                        "state": state_clean,
-                        "district": district_clean,
-                        "market": market_clean,
-                        "minimum_price": min_price,
-                        "modal_price": modal_price,
-                        "maximum_price": max_price,
-                        "arrival_quantity": target_record.get("arrival_quantity", 100.0),
-                        "last_updated": today_str
-                    }
+                # Populate initial historical data if history is empty
+                if not cache.weekly_price_history or not cache.monthly_price_history or not cache.yearly_price_history:
+                    new_history_added = MarketCacheService._initialize_historical_cache(cache, crop_clean, state_clean, district_clean)
 
-                    # Populate initial historical data if history is empty
-                    if not cache.weekly_price_history or not cache.monthly_price_history or not cache.yearly_price_history:
-                        new_history_added = MarketCacheService._initialize_historical_cache(cache, crop_clean, state_clean, district_clean)
+                # Update history records with today's price if not present today
+                new_history_added = MarketCacheService._append_today_price_and_rotate(
+                    cache, today_str, min_price, modal_price, max_price
+                ) or new_history_added
 
-                    # Update history records with today's price if not present today
-                    new_history_added = MarketCacheService._append_today_price_and_rotate(
-                        cache, today_str, min_price, modal_price, max_price
-                    ) or new_history_added
+                cache.save()
 
-                    cache.save()
+        # Trigger ML model update if new historical data was added
+        if new_history_added:
+            MarketCacheService._notify_model_retrain()
 
-            # Trigger ML model update if new historical data was added
-            if new_history_added:
-                MarketCacheService._notify_model_retrain()
-
-            return cache
+        return cache
 
     @staticmethod
     def _initialize_historical_cache(cache: MarketCache, crop: str, state: str, district: str) -> bool:
@@ -108,6 +107,8 @@ class MarketCacheService:
         hist_records = HistoricalMarketService.get_historical_data(crop, state, district, days=365)
         if not hist_records:
             return False
+
+        is_mock = any(r.get("is_mock", False) for r in hist_records)
 
         # Sort chronologically by date
         sorted_records = sorted(hist_records, key=lambda x: x.get("date", ""))
@@ -126,7 +127,9 @@ class MarketCacheService:
         cache.yearly_price_history = yearly_list[-365:]
         cache.monthly_price_history = yearly_list[-30:]
         cache.weekly_price_history = yearly_list[-7:]
-        return True
+
+        # Retrain model ONLY if REAL (non-mock) historical data was fetched
+        return not is_mock
 
     @staticmethod
     def _append_today_price_and_rotate(cache: MarketCache, today_str: str, min_p: float, modal_p: float, max_p: float) -> bool:

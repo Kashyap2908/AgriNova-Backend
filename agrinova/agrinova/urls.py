@@ -13,6 +13,7 @@ urlpatterns = [
     path('api/weather/', include('weather.urls')),
     path('api/assistant/', include('ai_assistant.urls')),
     path('api/notifications/', include('notifications.urls')),
+    path('api/profit-analysis/', include('profit_analysis.urls')),
 ]
 
 if settings.DEBUG:

@@ -16,79 +16,74 @@ class WeatherCacheService:
         Main entry point. Returns the unified JSON object for the frontend.
         Automatically handles lazy midnight rotation, cache invalidations, and fallback logic.
         """
-        with transaction.atomic():
-            # Lock the row to prevent race conditions during updates
-            cache, created = WeatherCache.objects.select_for_update().get_or_create(farm_id=farm_id)
-            farm = cache.farm
+        cache, created = WeatherCache.objects.get_or_create(farm_id=farm_id)
+        farm = cache.farm
 
-            now = timezone.now()
+        now = timezone.now()
 
-            # 1. Lazy Midnight Rotation
-            WeatherCacheService._check_and_perform_midnight_rotation(cache, now)
+        # 1. Lazy Midnight Rotation
+        WeatherCacheService._check_and_perform_midnight_rotation(cache, now)
 
-            # 2. Determine what needs fetching
-            needs_today = False
-            needs_weekly_daily = False
+        # 2. Determine what needs fetching
+        needs_today = False
+        needs_weekly_daily = False
 
-            if not cache.today_updated_at or (now - cache.today_updated_at) > timedelta(hours=6):
-                needs_today = True
+        if not cache.today_updated_at or (now - cache.today_updated_at) > timedelta(hours=6):
+            needs_today = True
 
-            if not cache.daily_updated_at or (now - cache.daily_updated_at) > timedelta(hours=24):
-                needs_weekly_daily = True
+        if not cache.daily_updated_at or (now - cache.daily_updated_at) > timedelta(hours=24):
+            needs_weekly_daily = True
 
-            # 3. Always attempt to fetch current weather
-            fetch_current = True
+        # 3. Always attempt to fetch current weather
+        fetch_current = True
+        
+        # Fetch from API outside long DB transaction
+        try:
+            fetch_hourly = needs_today or needs_weekly_daily
             
-            # Fetch from API
-            try:
-                # We need hourly if needs_today OR needs_weekly_daily (since weekly is just hourly future days)
-                fetch_hourly = needs_today or needs_weekly_daily
-                
-                api_data = fetch_weather_from_api(
-                    lat=farm.latitude or 23.2599, 
-                    lon=farm.longitude or 77.4126,
-                    fetch_current=fetch_current,
-                    fetch_hourly=fetch_hourly,
-                    fetch_daily=needs_weekly_daily
-                )
-                
-                # Update Current
-                if "current" in api_data:
-                    cache.current_weather = WeatherCacheService._parse_current(api_data["current"])
-                    cache.current_updated_at = now
-                
-                # Update Hourly (Today & Weekly)
-                if "hourly" in api_data:
-                    hourly = api_data["hourly"]
-                    if needs_today:
-                        cache.today_hourly_forecast = WeatherCacheService._parse_today_hourly(hourly, now)
-                        cache.today_updated_at = now
-                    if needs_weekly_daily:
-                        cache.weekly_hourly_forecast = WeatherCacheService._parse_weekly_hourly(hourly, now)
-                
-                # Update Daily
-                if "daily" in api_data and needs_weekly_daily:
-                    cache.daily_forecast = WeatherCacheService._parse_daily(api_data["daily"])
-                    cache.daily_updated_at = now
-                    cache.weekly_updated_at = now # Sync weekly marker
-
-            except Exception as e:
-                logger.error(f"Weather API Error: {e}")
-                # Fallback Logic for Current Weather
-                if not cache.current_weather or (now - cache.current_updated_at) > timedelta(hours=1):
-                    # Estimate from today's hourly
-                    cache.current_weather = WeatherCacheService._estimate_current_from_hourly(cache.today_hourly_forecast, now)
-                    # Don't update current_updated_at so it keeps trying to fetch real data next time
-
-            cache.save()
+            api_data = fetch_weather_from_api(
+                lat=farm.latitude or 23.2599, 
+                lon=farm.longitude or 77.4126,
+                fetch_current=fetch_current,
+                fetch_hourly=fetch_hourly,
+                fetch_daily=needs_weekly_daily
+            )
             
-            return {
-                "current_weather": cache.current_weather,
-                "yesterday_hourly_forecast": cache.yesterday_hourly_forecast,
-                "today_hourly_forecast": cache.today_hourly_forecast,
-                "weekly_hourly_forecast": cache.weekly_hourly_forecast,
-                "daily_forecast": cache.daily_forecast,
-            }
+            # Update Current
+            if "current" in api_data:
+                cache.current_weather = WeatherCacheService._parse_current(api_data["current"])
+                cache.current_updated_at = now
+            
+            # Update Hourly (Today & Weekly)
+            if "hourly" in api_data:
+                hourly = api_data["hourly"]
+                if needs_today:
+                    cache.today_hourly_forecast = WeatherCacheService._parse_today_hourly(hourly, now)
+                    cache.today_updated_at = now
+                if needs_weekly_daily:
+                    cache.weekly_hourly_forecast = WeatherCacheService._parse_weekly_hourly(hourly, now)
+            
+            # Update Daily
+            if "daily" in api_data and needs_weekly_daily:
+                cache.daily_forecast = WeatherCacheService._parse_daily(api_data["daily"])
+                cache.daily_updated_at = now
+                cache.weekly_updated_at = now # Sync weekly marker
+
+        except Exception as e:
+            logger.error(f"Weather API Error: {e}")
+            # Fallback Logic for Current Weather
+            if not cache.current_weather or (now - cache.current_updated_at) > timedelta(hours=1):
+                cache.current_weather = WeatherCacheService._estimate_current_from_hourly(cache.today_hourly_forecast, now)
+
+        cache.save()
+        
+        return {
+            "current_weather": cache.current_weather,
+            "yesterday_hourly_forecast": cache.yesterday_hourly_forecast,
+            "today_hourly_forecast": cache.today_hourly_forecast,
+            "weekly_hourly_forecast": cache.weekly_hourly_forecast,
+            "daily_forecast": cache.daily_forecast,
+        }
 
     @staticmethod
     def _check_and_perform_midnight_rotation(cache: WeatherCache, now):

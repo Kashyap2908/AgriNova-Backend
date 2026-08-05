@@ -1,9 +1,9 @@
 {
     "model_type": "Ridge Regression Time-Series",
-    "training_timestamp": 1785914470.4551463,
-    "training_date": "2026-08-05 12:51:10",
-    "training_samples_count": 1820,
-    "validation_mae": 112.94,
-    "validation_r2": 0.2655,
+    "training_timestamp": 1785937575.7485461,
+    "training_date": "2026-08-05 19:16:15",
+    "training_samples_count": 2548,
+    "validation_mae": 103.1,
+    "validation_r2": 0.2868,
     "dataset_source": "MarketCache DB Records"
 }

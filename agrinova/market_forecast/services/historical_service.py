@@ -114,9 +114,10 @@ class HistoricalMarketService:
                     "market": m,
                     "commodity": crop,
                     "modal_price": modal,
-                    "minimum_price": round(modal - random.uniform(100, 300), 2),
-                    "maximum_price": round(modal + random.uniform(100, 300), 2),
-                    "arrival_quantity": round(random.uniform(50, 500), 2)
+                    "minimum_price": round(modal * 0.95, 2),
+                    "maximum_price": round(modal * 1.05, 2),
+                    "arrival_quantity": round(random.uniform(50, 300), 2),
+                    "is_mock": True
                 })
         return mock_records
 

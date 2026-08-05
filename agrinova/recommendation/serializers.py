@@ -5,6 +5,7 @@ class RecommendationHistorySerializer(serializers.ModelResourceSerializer if has
     farm_name = serializers.CharField(source='farm.farm_name', read_only=True)
     farm_state = serializers.CharField(source='farm.state', read_only=True)
     farm_location = serializers.SerializerMethodField()
+    season = serializers.SerializerMethodField()
 
     class Meta:
         model = RecommendationHistory
@@ -33,3 +34,10 @@ class RecommendationHistorySerializer(serializers.ModelResourceSerializer if has
         if obj.farm:
             return f"{obj.farm.village}, {obj.farm.district}, {obj.farm.state}"
         return ""
+
+    def get_season(self, obj):
+        if obj.results_payload and isinstance(obj.results_payload, dict):
+            return obj.results_payload.get('season', 'Kharif')
+        from recommendation.season.season_service import determine_season
+        return determine_season()
+
