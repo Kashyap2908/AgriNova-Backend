@@ -2,6 +2,26 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+# Standard conversion map to convert land area units to Acres for internal calculations
+AREA_TO_ACRE_FACTORS = {
+    'acre': 1.0,
+    'acres': 1.0,
+    'hectare': 2.47105,
+    'hectares': 2.47105,
+    'ha': 2.47105,
+    'bigha': 0.40,
+    'bighas': 0.40,
+    'guntha': 0.025,
+    'gunthas': 0.025,
+    'gunthe': 0.025,
+    'ground': 0.055,
+    'grounds': 0.055,
+    'kanal': 0.125,
+    'kanals': 0.125,
+    'marla': 0.00625,
+    'marlas': 0.00625,
+}
+
 class FertilizerRuleEngine:
     """
     Intelligent Agricultural Rule Engine for Fertilizer Application.
@@ -9,8 +29,39 @@ class FertilizerRuleEngine:
     - Weather intelligence (rainfall, wind speed, temperature)
     - Soil pH correction (Acidic Lime vs Alkaline Gypsum)
     - Crop growth stage (Basal, Vegetative, Flowering)
+    - Land area unit preservation (Acre, Hectare, Bigha, Guntha, Ground)
     - Safety and environmental hazards
     """
+
+    @staticmethod
+    def convert_area_to_acres(area_val: float, unit: str) -> float:
+        """Converts farm area value in farmer's original unit to Acres for internal calculation."""
+        try:
+            val = float(area_val or 1.0)
+        except (ValueError, TypeError):
+            val = 1.0
+
+        unit_clean = str(unit or 'Acres').strip().lower()
+        factor = AREA_TO_ACRE_FACTORS.get(unit_clean, 1.0)
+        return max(0.01, val * factor)
+
+    @staticmethod
+    def format_unit_dosage(total_kg: float, farm_area: float, unit: str) -> dict:
+        """Formats dosage and total quantity respecting farmer's original unit."""
+        try:
+            area_num = float(farm_area or 1.0)
+        except (ValueError, TypeError):
+            area_num = 1.0
+
+        unit_str = str(unit or 'Acres').strip()
+        dosage_per_unit = round(total_kg / max(0.01, area_num), 1)
+
+        return {
+            "dosage_per_unit": dosage_per_unit,
+            "dosage_per_unit_text": f"{dosage_per_unit} kg/{unit_str}",
+            "total_quantity_text": f"{round(total_kg, 1)} kg for {area_num} {unit_str}",
+            "area_unit": unit_str
+        }
 
     @staticmethod
     def evaluate_weather_rules(weather_data: dict) -> dict:
@@ -93,3 +144,4 @@ class FertilizerRuleEngine:
         warnings.append("Storage: Keep fertilizers in a cool, dry place away from direct sunlight, children, and cattle.")
 
         return warnings
+
