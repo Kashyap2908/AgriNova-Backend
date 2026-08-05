@@ -63,7 +63,6 @@ class FarmerProfileSerializer(serializers.ModelSerializer):
         return attrs
 
     def create(self, validated_data):
-        # Remove alias write-only keys if present
         validated_data.pop('fullName', None)
         validated_data.pop('phone', None)
         validated_data.pop('language', None)
@@ -83,7 +82,7 @@ class FarmerProfileSerializer(serializers.ModelSerializer):
 class FarmSerializer(serializers.ModelSerializer):
     """
     Serializer for Farm model with validation, frontend alias mapping,
-    and automatic OpenStreetMap Nominatim geocoding.
+    and automatic geocoding.
     """
     name = serializers.CharField(write_only=True, required=False)
     area = serializers.DecimalField(max_digits=10, decimal_places=2, write_only=True, required=False)
@@ -159,6 +158,24 @@ class FarmSerializer(serializers.ModelSerializer):
         if 'waterAvailability' in mutable_data and not mutable_data.get('water_availability'):
             mutable_data['water_availability'] = mutable_data['waterAvailability']
 
+        # Clean empty string "" -> None for numeric & optional fields
+        nullable_numeric_fields = ['nitrogen', 'phosphorus', 'potassium', 'soil_ph', 'organic_carbon', 'electrical_conductivity']
+        for field in nullable_numeric_fields:
+            if field in mutable_data and (mutable_data[field] == '' or mutable_data[field] is None):
+                mutable_data[field] = None
+
+        if 'last_soil_test_date' in mutable_data and not mutable_data['last_soil_test_date']:
+            mutable_data['last_soil_test_date'] = None
+
+        # Fallback values from existing instance for required text fields if partial update missing them
+        if self.instance:
+            if 'taluka' not in mutable_data or not mutable_data['taluka']:
+                mutable_data['taluka'] = self.instance.taluka or self.instance.district or 'Central'
+            if 'irrigation_type' not in mutable_data or not mutable_data['irrigation_type']:
+                mutable_data['irrigation_type'] = self.instance.irrigation_type or 'Drip'
+            if 'water_availability' not in mutable_data or not mutable_data['water_availability']:
+                mutable_data['water_availability'] = self.instance.water_availability or 'Good'
+
         return super().to_internal_value(mutable_data)
 
     def validate_farm_area(self, value):
@@ -191,7 +208,6 @@ class FarmSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         self.clean_alias_fields(validated_data)
         
-        # Geocode coordinates via OpenStreetMap Nominatim
         village = validated_data.get('village', '')
         taluka = validated_data.get('taluka', '')
         district = validated_data.get('district', '')
@@ -211,7 +227,6 @@ class FarmSerializer(serializers.ModelSerializer):
         district = validated_data.get('district', instance.district)
         state = validated_data.get('state', instance.state)
 
-        # Geocode if location fields changed
         if (village != instance.village or district != instance.district or state != instance.state):
             lat, lon = fetch_coordinates_nominatim(village, taluka, district, state)
             validated_data['latitude'] = lat

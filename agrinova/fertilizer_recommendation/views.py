@@ -16,6 +16,7 @@ class FertilizerRecommendView(APIView):
     - farm_id (required)
     - growth_stage (optional)
     - soil_overrides (optional N, P, K, pH)
+    - crop (optional)
     Automatically branches to Soil-Based or Estimated decision paths.
     """
     permission_classes = [IsAuthenticated]
@@ -24,6 +25,7 @@ class FertilizerRecommendView(APIView):
         farm_id = request.data.get('farm_id')
         growth_stage = request.data.get('growth_stage')
         soil_overrides = request.data.get('soil_overrides')
+        crop = request.data.get('crop')
 
         if not farm_id:
             return Response({"success": False, "message": "farm_id is required."}, status=status.HTTP_400_BAD_REQUEST)
@@ -33,7 +35,8 @@ class FertilizerRecommendView(APIView):
                 farm_id=int(farm_id),
                 user=request.user,
                 growth_stage=growth_stage,
-                soil_overrides=soil_overrides
+                soil_overrides=soil_overrides,
+                crop=crop
             )
             return Response({"success": True, "data": result}, status=status.HTTP_200_OK)
         except Farm.DoesNotExist:

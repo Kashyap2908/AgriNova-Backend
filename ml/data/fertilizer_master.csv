@@ -1,0 +1,53 @@
+Fertilizer_Name,Fertilizer_Type,N_pct,P_pct,K_pct,Price_per_kg,Application_Method,Physical_Form,Source
+Urea,Nitrogenous,46.0,0.0,0.0,5.5,Basal Soil Incorporation / Top Dressing,Granular,Govt Subsidy Standard (FCO)
+Neem Coated Urea,Nitrogenous,46.0,0.0,0.0,6.0,Basal / Top Dressing,Granular,Govt Mandated Standard
+Ammonium Sulphate,Nitrogenous & Sulphur,20.6,0.0,0.0,14.0,Top Dressing / Basal,Crystalline,IFFCO / GSFC Standard
+Ammonium Nitrate,Nitrogenous,33.5,0.0,0.0,22.0,Top Dressing / Fertigation,Prilled,General Commercial
+Calcium Ammonium Nitrate (CAN),Nitrogenous,25.0,0.0,0.0,18.0,Basal / Top Dressing,Granular,National Fertilizers Limited (NFL)
+Ammonium Chloride,Nitrogenous,25.0,0.0,0.0,15.0,Basal / Top Dressing,Crystalline,General Commercial
+DAP (Di-Ammonium Phosphate),Phosphatic & Nitrogenous,18.0,46.0,0.0,27.0,Basal Application,Granular,IFFCO / KRIBHCO Standard
+MAP (Mono-Ammonium Phosphate 11-52-0),Phosphatic & Nitrogenous,11.0,52.0,0.0,35.0,Basal Soil Incorporation,Granular,Coromandel International
+Single Super Phosphate (SSP),Phosphatic,0.0,16.0,0.0,9.0,Basal Soil Incorporation,Granular / Powder,General FCO Standard
+Triple Super Phosphate (TSP),Phosphatic,0.0,46.0,0.0,28.0,Basal Soil Incorporation,Granular,Imported Standard
+Rock Phosphate,Phosphatic Amendment,0.0,20.0,0.0,7.5,Soil Application (Acidic Soil),Powder,RSMM Rajasthan Standard
+MOP (Muriate of Potash),Potassic,0.0,0.0,60.0,34.0,Basal / Top Dressing,Crystalline,Indian Potash Limited (IPL)
+Sulphate of Potash (SOP 0-0-50),Potassic & Sulphur,0.0,0.0,50.0,85.0,Foliar Spray / Fertigation,Water Soluble Powder,IPL / Haifa Standard
+Potassium Magnesium Sulphate (Schoenite),Potassic & Magnesium,0.0,0.0,23.0,42.0,Soil Application,Granular / Powder,General FCO Standard
+NPK 19-19-19,Complex / Soluble,19.0,19.0,19.0,140.0,Foliar Spray / Fertigation,Water Soluble Powder,General Commercial
+NPK 12-32-16,Complex,12.0,32.0,16.0,24.0,Basal Soil Incorporation,Granular,Gromor / IFFCO
+NPK 10-26-26,Complex,10.0,26.0,26.0,25.0,Basal Soil Incorporation,Granular,Gromor / Mahadhan
+NPK 20-20-0-13,Complex with Sulphur,20.0,20.0,0.0,21.0,Basal Application,Granular,Factamfos / Gromor
+NPK 14-35-14,Complex,14.0,35.0,14.0,26.0,Basal Soil Incorporation,Granular,IFFCO Complex
+NPK 17-17-17,Complex,17.0,17.0,17.0,25.0,Basal Application,Granular,Madras Fertilizers (MFL)
+NPK 15-15-15,Complex,15.0,15.0,15.0,23.0,Basal Soil Incorporation,Granular,RCF Suphala
+NPK 28-28-0,Complex High Nitrogen,28.0,28.0,0.0,27.0,Basal Application / Top Dressing,Granular,Gromor 28-28-0
+NPK 16-20-0-13,Complex,16.0,20.0,0.0,20.0,Basal Application,Granular,Coromandel Gromor
+WSF NPK 13-40-13,Water Soluble Complex,13.0,40.0,13.0,165.0,Foliar Spray / Fertigation,Water Soluble Powder,Haifa / Mahadhan
+WSF NPK 12-61-0 (MAP WSF),Water Soluble Phosphatic,12.0,61.0,0.0,175.0,Foliar Spray / Drip,Water Soluble Powder,IFFCO Urban Gardens
+WSF NPK 0-52-34 (MKP),Water Soluble Phospho-Potassic,0.0,52.0,34.0,190.0,Foliar Spray / Fertigation,Water Soluble Powder,General FCO Standard
+WSF NPK 13-0-45 (Potassium Nitrate),Water Soluble Potassic,13.0,0.0,45.0,180.0,Foliar Spray / Fertigation,Water Soluble Powder,SQM / IPL Standard
+Calcium Nitrate,Secondary Nutrient,15.5,0.0,0.0,95.0,Foliar Spray / Fertigation,Granular Prilled,YaraLiva / Haifa
+Calcium Nitrate with Boron,Secondary & Micronutrient,15.5,0.0,0.0,110.0,Foliar Spray / Fertigation,Granular Prilled,Mahadhan Special
+Zinc Sulphate Heptahydrate (Zn 21%),Micronutrient,0.0,0.0,0.0,45.0,Soil Application / Foliar,Crystalline,FCO Standard
+Zinc Sulphate Monohydrate (Zn 33%),Micronutrient,0.0,0.0,0.0,65.0,Soil Application,Powder,General Commercial
+Chelated Zinc (EDTA Zn 12%),Micronutrient,0.0,0.0,0.0,320.0,Foliar Spray,Water Soluble Powder,Yara / Aries Agro
+Ferrous Sulphate (Fe 19%),Micronutrient,0.0,0.0,0.0,30.0,Soil Application / Foliar,Crystalline,Aries Agro Standard
+Copper Sulphate (Cu 24%),Micronutrient,0.0,0.0,0.0,220.0,Soil / Foliar Spray,Crystalline,General Commercial
+Borax / Disodium Octaborate (B 20%),Micronutrient,0.0,0.0,0.0,180.0,Soil / Foliar Spray,Water Soluble Powder,Borax Morarji Standard
+Magnesium Sulphate (Epsom Salt),Secondary Nutrient,0.0,0.0,0.0,25.0,Fertigation / Foliar Spray,Crystalline,General FCO Standard
+Bentonite Sulphur (S 90%),Secondary Nutrient,0.0,0.0,0.0,40.0,Soil Application,Pastilles / Granular,Mahadhan / Deepak Fert
+Agricultural Lime,Soil Conditioner,0.0,0.0,0.0,8.0,Soil Incorporation (Acidic Soil),Powder,ICAR Recommendation
+Dolomite Powder,Soil Conditioner,0.0,0.0,0.0,7.0,Soil Incorporation (Acidic Soil),Powder,ICAR Recommendation
+Agricultural Gypsum,Soil Conditioner,0.0,0.0,0.0,5.0,Soil Incorporation (Alkaline Soil),Powder,ICAR Recommendation
+Vermicompost (Organic),Organic Manure,1.5,1.0,1.5,10.0,Soil Incorporation,Organic Bulk,Organic Standard
+City Compost / Organic Manure,Organic Manure,1.0,0.5,1.0,6.0,Soil Incorporation,Organic Granular,Govt City Compost Scheme
+Pressmud Compost,Organic Manure,1.8,1.5,1.2,5.0,Soil Incorporation,Organic Bulk,Sugar Mill Co-product
+Neem Cake Powder,Organic Bio-Pesticide & Manure,5.0,1.0,1.5,28.0,Soil Incorporation,Powder / Cake,Neem Foundation Standard
+Mustard Oil Cake,Organic Manure,4.8,1.8,1.2,22.0,Soil Incorporation / Liquid Wash,Cake Powder,Traditional Farm Standard
+PROM (Phosphate Rich Organic Manure),Organic Phosphatic,0.4,10.4,0.4,14.0,Soil Application,Granular,Govt Approved PROM FCO
+Azotobacter Biofertilizer,Biofertilizer (N-Fixing),0.0,0.0,0.0,80.0,Seed Treatment / Soil Application,Carrier Powder / Liquid,KVIC / ICAR Approved
+PSB (Phosphate Solubilizing Bacteria),Biofertilizer (P-Solubilizer),0.0,0.0,0.0,80.0,Seed Treatment / Soil Application,Carrier Powder / Liquid,KVIC / ICAR Approved
+KMB (Potassium Mobilizing Bacteria),Biofertilizer (K-Mobilizer),0.0,0.0,0.0,85.0,Soil Application / Drenching,Carrier Powder / Liquid,ICAR Approved
+Mycorrhiza VAM,Bio-Stimulant,0.0,0.0,0.0,250.0,Root Zone Drenching / Soil,Granular / Powder,Sumitomo / Dhanuka
+Seaweed Extract (Ascophyllum nodosum),Organic Bio-Stimulant,0.0,0.0,0.0,350.0,Foliar Spray,Liquid / Flakes,Biostadt / Tata Rallis
+Humic Acid 98%,Soil Conditioner / Bio-Stimulant,0.0,0.0,0.0,280.0,Foliar / Soil Drench,Water Soluble Flakes,General Commercial
