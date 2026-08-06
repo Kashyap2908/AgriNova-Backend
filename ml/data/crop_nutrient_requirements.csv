@@ -203,9 +203,6 @@ chestnut,Flowering & Fruiting,16.0,20.0,40.0,6.5,ICAR General Agronomy Standard
 chia,Basal / Sowing,28.0,40.0,24.0,6.5,ICAR General Agronomy Standard
 chia,Vegetative / Active Growth,40.0,8.0,16.0,6.5,ICAR General Agronomy Standard
 chia,Flowering & Fruiting,16.0,20.0,40.0,6.5,ICAR General Agronomy Standard
-chickpea,Basal / Sowing,14.0,50.0,12.0,6.8,ICAR Indian Institute of Pulses Research
-chickpea,Vegetative / Active Growth,20.0,10.0,8.0,6.8,ICAR Indian Institute of Pulses Research
-chickpea,Flowering & Fruiting,8.0,25.0,20.0,6.8,ICAR Indian Institute of Pulses Research
 chicory,Basal / Sowing,28.0,40.0,24.0,6.5,ICAR General Agronomy Standard
 chicory,Vegetative / Active Growth,40.0,8.0,16.0,6.5,ICAR General Agronomy Standard
 chicory,Flowering & Fruiting,16.0,20.0,40.0,6.5,ICAR General Agronomy Standard
@@ -251,9 +248,6 @@ coriander leaves,Flowering & Fruiting,20.0,25.0,60.0,6.5,ICAR Indian Institute o
 coriander seed,Basal / Sowing,35.0,50.0,36.0,6.5,ICAR Indian Institute of Spices & Plantation Crops
 coriander seed,Vegetative / Active Growth,50.0,10.0,24.0,6.5,ICAR Indian Institute of Spices & Plantation Crops
 coriander seed,Flowering & Fruiting,20.0,25.0,60.0,6.5,ICAR Indian Institute of Spices & Plantation Crops
-cotton,Basal / Sowing,35.0,50.0,36.0,6.5,ICAR Indian Institute of Spices & Plantation Crops
-cotton,Vegetative / Active Growth,50.0,10.0,24.0,6.5,ICAR Indian Institute of Spices & Plantation Crops
-cotton,Flowering & Fruiting,20.0,25.0,60.0,6.5,ICAR Indian Institute of Spices & Plantation Crops
 cottonseed,Basal / Sowing,35.0,50.0,36.0,6.5,ICAR Indian Institute of Spices & Plantation Crops
 cottonseed,Vegetative / Active Growth,50.0,10.0,24.0,6.5,ICAR Indian Institute of Spices & Plantation Crops
 cottonseed,Flowering & Fruiting,20.0,25.0,60.0,6.5,ICAR Indian Institute of Spices & Plantation Crops
@@ -356,9 +350,6 @@ grass pea (khesari),Flowering & Fruiting,8.0,25.0,20.0,6.8,ICAR Indian Institute
 green chili,Basal / Sowing,31.5,60.0,30.0,6.5,ICAR Indian Institute of Horticultural Research
 green chili,Vegetative / Active Growth,45.0,12.0,20.0,6.5,ICAR Indian Institute of Horticultural Research
 green chili,Flowering & Fruiting,18.0,30.0,50.0,6.5,ICAR Indian Institute of Horticultural Research
-groundnut,Basal / Sowing,24.5,45.0,18.0,6.8,ICAR Directorate of Oilseeds Research
-groundnut,Vegetative / Active Growth,35.0,9.0,12.0,6.8,ICAR Directorate of Oilseeds Research
-groundnut,Flowering & Fruiting,14.0,22.5,30.0,6.8,ICAR Directorate of Oilseeds Research
 guava,Basal / Sowing,42.0,40.0,48.0,6.5,ICAR National Research Centre for Fruit Crops
 guava,Vegetative / Active Growth,60.0,8.0,32.0,6.5,ICAR National Research Centre for Fruit Crops
 guava,Flowering & Fruiting,24.0,20.0,80.0,6.5,ICAR National Research Centre for Fruit Crops
@@ -488,9 +479,6 @@ mace,Flowering & Fruiting,16.0,20.0,40.0,6.5,ICAR General Agronomy Standard
 mahua,Basal / Sowing,28.0,40.0,24.0,6.5,ICAR General Agronomy Standard
 mahua,Vegetative / Active Growth,40.0,8.0,16.0,6.5,ICAR General Agronomy Standard
 mahua,Flowering & Fruiting,16.0,20.0,40.0,6.5,ICAR General Agronomy Standard
-maize,Basal / Sowing,28.0,50.0,18.0,6.5,ICAR Cereals & Millets Directorate
-maize,Vegetative / Active Growth,40.0,10.0,12.0,6.5,ICAR Cereals & Millets Directorate
-maize,Flowering & Fruiting,16.0,25.0,30.0,6.5,ICAR Cereals & Millets Directorate
 malabar spinach,Basal / Sowing,31.5,60.0,30.0,6.5,ICAR Indian Institute of Horticultural Research
 malabar spinach,Vegetative / Active Growth,45.0,12.0,20.0,6.5,ICAR Indian Institute of Horticultural Research
 malabar spinach,Flowering & Fruiting,18.0,30.0,50.0,6.5,ICAR Indian Institute of Horticultural Research
@@ -560,9 +548,6 @@ oil palm,Flowering & Fruiting,14.0,22.5,30.0,6.8,ICAR Directorate of Oilseeds Re
 okra,Basal / Sowing,31.5,60.0,30.0,6.5,ICAR Indian Institute of Horticultural Research
 okra,Vegetative / Active Growth,45.0,12.0,20.0,6.5,ICAR Indian Institute of Horticultural Research
 okra,Flowering & Fruiting,18.0,30.0,50.0,6.5,ICAR Indian Institute of Horticultural Research
-onion,Basal / Sowing,31.5,60.0,30.0,6.5,ICAR Indian Institute of Horticultural Research
-onion,Vegetative / Active Growth,45.0,12.0,20.0,6.5,ICAR Indian Institute of Horticultural Research
-onion,Flowering & Fruiting,18.0,30.0,50.0,6.5,ICAR Indian Institute of Horticultural Research
 opium poppy,Basal / Sowing,28.0,40.0,24.0,6.5,ICAR General Agronomy Standard
 opium poppy,Vegetative / Active Growth,40.0,8.0,16.0,6.5,ICAR General Agronomy Standard
 opium poppy,Flowering & Fruiting,16.0,20.0,40.0,6.5,ICAR General Agronomy Standard
@@ -629,9 +614,6 @@ pomegranate,Flowering & Fruiting,24.0,20.0,80.0,6.5,ICAR National Research Centr
 pomelo,Basal / Sowing,28.0,40.0,24.0,6.5,ICAR General Agronomy Standard
 pomelo,Vegetative / Active Growth,40.0,8.0,16.0,6.5,ICAR General Agronomy Standard
 pomelo,Flowering & Fruiting,16.0,20.0,40.0,6.5,ICAR General Agronomy Standard
-potato,Basal / Sowing,31.5,60.0,30.0,6.5,ICAR Indian Institute of Horticultural Research
-potato,Vegetative / Active Growth,45.0,12.0,20.0,6.5,ICAR Indian Institute of Horticultural Research
-potato,Flowering & Fruiting,18.0,30.0,50.0,6.5,ICAR Indian Institute of Horticultural Research
 proso millet,Basal / Sowing,28.0,50.0,18.0,6.5,ICAR Cereals & Millets Directorate
 proso millet,Vegetative / Active Growth,40.0,10.0,12.0,6.5,ICAR Cereals & Millets Directorate
 proso millet,Flowering & Fruiting,16.0,25.0,30.0,6.5,ICAR Cereals & Millets Directorate
@@ -668,9 +650,6 @@ red chili,Flowering & Fruiting,18.0,30.0,50.0,6.5,ICAR Indian Institute of Horti
 red onion,Basal / Sowing,31.5,60.0,30.0,6.5,ICAR Indian Institute of Horticultural Research
 red onion,Vegetative / Active Growth,45.0,12.0,20.0,6.5,ICAR Indian Institute of Horticultural Research
 red onion,Flowering & Fruiting,18.0,30.0,50.0,6.5,ICAR Indian Institute of Horticultural Research
-rice,Basal / Sowing,28.0,50.0,18.0,6.5,ICAR Cereals & Millets Directorate
-rice,Vegetative / Active Growth,40.0,10.0,12.0,6.5,ICAR Cereals & Millets Directorate
-rice,Flowering & Fruiting,16.0,25.0,30.0,6.5,ICAR Cereals & Millets Directorate
 ricebean,Basal / Sowing,28.0,50.0,18.0,6.5,ICAR Cereals & Millets Directorate
 ricebean,Vegetative / Active Growth,40.0,10.0,12.0,6.5,ICAR Cereals & Millets Directorate
 ricebean,Flowering & Fruiting,16.0,25.0,30.0,6.5,ICAR Cereals & Millets Directorate
@@ -764,9 +743,6 @@ sugar apple,Flowering & Fruiting,24.0,20.0,80.0,6.5,ICAR National Research Centr
 sugarbeet,Basal / Sowing,28.0,40.0,24.0,6.5,ICAR General Agronomy Standard
 sugarbeet,Vegetative / Active Growth,40.0,8.0,16.0,6.5,ICAR General Agronomy Standard
 sugarbeet,Flowering & Fruiting,16.0,20.0,40.0,6.5,ICAR General Agronomy Standard
-sugarcane,Basal / Sowing,35.0,50.0,36.0,6.5,ICAR Indian Institute of Spices & Plantation Crops
-sugarcane,Vegetative / Active Growth,50.0,10.0,24.0,6.5,ICAR Indian Institute of Spices & Plantation Crops
-sugarcane,Flowering & Fruiting,20.0,25.0,60.0,6.5,ICAR Indian Institute of Spices & Plantation Crops
 sunflower,Basal / Sowing,24.5,45.0,18.0,6.8,ICAR Directorate of Oilseeds Research
 sunflower,Vegetative / Active Growth,35.0,9.0,12.0,6.8,ICAR Directorate of Oilseeds Research
 sunflower,Flowering & Fruiting,14.0,22.5,30.0,6.8,ICAR Directorate of Oilseeds Research
@@ -812,9 +788,6 @@ tepary bean,Flowering & Fruiting,8.0,25.0,20.0,6.8,ICAR Indian Institute of Puls
 tobacco,Basal / Sowing,35.0,50.0,36.0,6.5,ICAR Indian Institute of Spices & Plantation Crops
 tobacco,Vegetative / Active Growth,50.0,10.0,24.0,6.5,ICAR Indian Institute of Spices & Plantation Crops
 tobacco,Flowering & Fruiting,20.0,25.0,60.0,6.5,ICAR Indian Institute of Spices & Plantation Crops
-tomato,Basal / Sowing,31.5,60.0,30.0,6.5,ICAR Indian Institute of Horticultural Research
-tomato,Vegetative / Active Growth,45.0,12.0,20.0,6.5,ICAR Indian Institute of Horticultural Research
-tomato,Flowering & Fruiting,18.0,30.0,50.0,6.5,ICAR Indian Institute of Horticultural Research
 triticale,Basal / Sowing,28.0,50.0,18.0,6.5,ICAR Cereals & Millets Directorate
 triticale,Vegetative / Active Growth,40.0,10.0,12.0,6.5,ICAR Cereals & Millets Directorate
 triticale,Flowering & Fruiting,16.0,25.0,30.0,6.5,ICAR Cereals & Millets Directorate
@@ -857,9 +830,6 @@ watermelon,Flowering & Fruiting,18.0,30.0,50.0,6.5,ICAR Indian Institute of Hort
 wax gourd,Basal / Sowing,31.5,60.0,30.0,6.5,ICAR Indian Institute of Horticultural Research
 wax gourd,Vegetative / Active Growth,45.0,12.0,20.0,6.5,ICAR Indian Institute of Horticultural Research
 wax gourd,Flowering & Fruiting,18.0,30.0,50.0,6.5,ICAR Indian Institute of Horticultural Research
-wheat,Basal / Sowing,28.0,50.0,18.0,6.5,ICAR Cereals & Millets Directorate
-wheat,Vegetative / Active Growth,40.0,10.0,12.0,6.5,ICAR Cereals & Millets Directorate
-wheat,Flowering & Fruiting,16.0,25.0,30.0,6.5,ICAR Cereals & Millets Directorate
 white onion,Basal / Sowing,31.5,60.0,30.0,6.5,ICAR Indian Institute of Horticultural Research
 white onion,Vegetative / Active Growth,45.0,12.0,20.0,6.5,ICAR Indian Institute of Horticultural Research
 white onion,Flowering & Fruiting,18.0,30.0,50.0,6.5,ICAR Indian Institute of Horticultural Research
@@ -879,3 +849,35 @@ zucchini,Basal / Sowing,31.5,60.0,30.0,6.5,ICAR Indian Institute of Horticultura
 zucchini,Vegetative / Active Growth,45.0,12.0,20.0,6.5,ICAR Indian Institute of Horticultural Research
 zucchini,Flowering & Fruiting,18.0,30.0,50.0,6.5,ICAR Indian Institute of Horticultural Research
 Default,All Stages,40.0,40.0,40.0,6.5,ICAR General Recommendation
+wheat,Basal / Sowing,60.0,60.0,40.0,6.5,ICAR Wheat Agronomy Standard
+wheat,CRI (Crown Root Initiation),30.0,0.0,0.0,6.5,ICAR Wheat Agronomy Standard
+wheat,Booting / Jointing Stage,30.0,0.0,0.0,6.5,ICAR Wheat Agronomy Standard
+rice,Basal / Sowing,50.0,50.0,25.0,6.5,ICAR Rice Agronomy Standard
+rice,Active Tillering,25.0,0.0,0.0,6.5,ICAR Rice Agronomy Standard
+rice,Panicle Initiation,25.0,0.0,25.0,6.5,ICAR Rice Agronomy Standard
+paddy,Basal / Sowing,50.0,50.0,25.0,6.5,ICAR Rice Agronomy Standard
+paddy,Active Tillering,25.0,0.0,0.0,6.5,ICAR Rice Agronomy Standard
+paddy,Panicle Initiation,25.0,0.0,25.0,6.5,ICAR Rice Agronomy Standard
+maize,Basal / Sowing,45.0,62.5,50.0,6.8,ICAR Maize Agronomy Standard
+maize,Knee High Stage,45.0,0.0,0.0,6.8,ICAR Maize Agronomy Standard
+maize,Tasseling / Silking,45.0,0.0,0.0,6.8,ICAR Maize Agronomy Standard
+sugarcane,Basal / Planting,75.0,115.0,40.0,6.8,ICAR Sugarcane Research Institute
+sugarcane,Tillering Stage,100.0,0.0,35.0,6.8,ICAR Sugarcane Research Institute
+sugarcane,Grand Growth Phase,75.0,0.0,40.0,6.8,ICAR Sugarcane Research Institute
+cotton,Basal / Sowing,37.5,60.0,45.0,7.0,ICAR Central Institute for Cotton Research
+cotton,Square Formation,75.0,0.0,0.0,7.0,ICAR Central Institute for Cotton Research
+cotton,Peak Flowering / Boll Dev,37.5,0.0,45.0,7.0,ICAR Central Institute for Cotton Research
+potato,Basal / Planting,90.0,100.0,60.0,5.8,ICAR Central Potato Research Institute
+potato,Earthing Up / Tuber Dev,90.0,0.0,60.0,5.8,ICAR Central Potato Research Institute
+chickpea,Basal / Sowing,20.0,50.0,20.0,6.8,ICAR Indian Institute of Pulses Research
+soybean,Basal / Sowing,30.0,80.0,40.0,6.5,ICAR Indian Institute of Soybean Research
+groundnut,Basal / Sowing,25.0,50.0,75.0,6.5,ICAR Directorate of Groundnut Research
+mustard,Basal / Sowing,40.0,40.0,40.0,6.5,ICAR Directorate of Mustard Research
+mustard,Flowering Stage,40.0,0.0,0.0,6.5,ICAR Directorate of Mustard Research
+tomato,Basal / Transplanting,75.0,100.0,50.0,6.5,ICAR Indian Institute of Horticultural Research
+tomato,Fruit Development,75.0,0.0,50.0,6.5,ICAR Indian Institute of Horticultural Research
+onion,Basal / Transplanting,50.0,50.0,50.0,6.5,ICAR Directorate of Onion & Garlic Research
+onion,Bulb Development,50.0,0.0,50.0,6.5,ICAR Directorate of Onion & Garlic Research
+chilli,Basal / Transplanting,40.0,60.0,20.0,6.5,ICAR IIHR Standards
+chilli,Flowering & Fruiting,40.0,0.0,20.0,6.5,ICAR IIHR Standards
+chilli,Fruit Picking Stage,40.0,0.0,20.0,6.5,ICAR IIHR Standards

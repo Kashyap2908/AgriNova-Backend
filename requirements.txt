@@ -16,3 +16,4 @@ opencv-python
 google-genai
 groq==1.6.0
 faiss-cpu==1.15.0
+reportlab==4.1.0

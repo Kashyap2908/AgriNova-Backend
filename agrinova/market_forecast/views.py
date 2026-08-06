@@ -4,11 +4,13 @@ from rest_framework import status, generics
 from rest_framework.permissions import IsAuthenticated
 from django.utils import timezone
 from datetime import timedelta
+from django.http import HttpResponse
 
 from .models import MarketForecastHistory, MarketCache
 from .serializers import MarketForecastHistorySerializer, MarketCacheSerializer
 from .services.market_service import MarketService
 from .services.market_cache_service import MarketCacheService
+from .services.report_service import ReportService
 from .engine.market_engine import MarketEngine
 
 from farms.models import Farm
@@ -89,25 +91,23 @@ class MarketIntelligenceView(APIView):
         }
 
         # Save record to MarketForecastHistory for logging/history list backward compatibility
-        history_rec, _ = MarketForecastHistory.objects.get_or_create(
+        history_rec = MarketForecastHistory.objects.create(
             user=request.user,
             farm=farm,
             crop=crop,
-            defaults={
-                'state': state,
-                'district': district,
-                'best_market': best_market,
-                'best_modal_price': best_modal_price,
-                'markets_data': markets_data,
-                'forecast_price': forecast_engine_output.get('forecast_price'),
-                'price_difference': forecast_engine_output.get('price_difference'),
-                'trend': forecast_engine_output.get('trend'),
-                'recommendation': forecast_engine_output.get('recommendation'),
-                'forecast_source': 'MarketML_Engine_V2',
-                'api_source': 'data.gov.in',
-                'api_timestamp': timezone.now(),
-                'analytics_data': analytics_data
-            }
+            state=state,
+            district=district,
+            best_market=best_market,
+            best_modal_price=best_modal_price,
+            markets_data=markets_data,
+            forecast_price=forecast_engine_output.get('forecast_price'),
+            price_difference=forecast_engine_output.get('price_difference'),
+            trend=forecast_engine_output.get('trend'),
+            recommendation=forecast_engine_output.get('recommendation'),
+            forecast_source='MarketML_Engine_V2',
+            api_source='data.gov.in',
+            api_timestamp=timezone.now(),
+            analytics_data=analytics_data
         )
 
         response_payload = {
@@ -133,6 +133,47 @@ class MarketIntelligenceView(APIView):
             "data": response_payload,
             "cached": True
         }, status=status.HTTP_200_OK)
+
+
+class MarketIntelligenceReportView(APIView):
+    """
+    Generates a professional PDF report for Market Intelligence.
+    Reuses the data gathering logic from MarketIntelligenceView.
+    """
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        farm_id = request.query_params.get('farm_id')
+        
+        # 1. Reuse the intelligence logic to get the exact same data
+        intelligence_view = MarketIntelligenceView()
+        intelligence_response = intelligence_view.get(request)
+        
+        if intelligence_response.status_code != 200:
+            return intelligence_response
+            
+        data = intelligence_response.data.get('data', {})
+        
+        # 2. Fetch User and Farm details for the report metadata
+        try:
+            farm = Farm.objects.get(id=farm_id, user=request.user)
+            farm_details = {'farm_name': farm.farm_name}
+        except Farm.DoesNotExist:
+            farm_details = {'farm_name': 'Unknown Farm'}
+            
+        user_details = {
+            'name': f"{request.user.first_name} {request.user.last_name}".strip() or request.user.username
+        }
+        
+        # 3. Generate PDF Report using ReportService
+        pdf_buffer = ReportService.generate_market_report(data, farm_details, user_details)
+        
+        # 4. Return as downloadable file
+        filename = f"Market_Intelligence_Report_{timezone.now().strftime('%Y-%m-%d')}.pdf"
+        response = HttpResponse(pdf_buffer.getvalue(), content_type='application/pdf')
+        response['Content-Disposition'] = f'attachment; filename="{filename}"'
+        
+        return response
 
 
 class CropMarketPriceView(APIView):

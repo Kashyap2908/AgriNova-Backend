@@ -36,10 +36,14 @@ class MarketService:
         
         # We'll construct a mock fallback response if the API key is missing or fails
         # so that development can continue smoothly even without the real API key configured yet.
+        # Make the mock data deterministic but different per crop
+        seed = sum(ord(c) for c in str(crop))
+        base_price = 1500.0 + ((seed * 37) % 8000)
+        
         fallback_data = [
-            {"market": f"{district} APMC", "modal_price": 7650.0, "minimum_price": 7300.0, "maximum_price": 7800.0},
-            {"market": f"Nearby {district} Market", "modal_price": 7580.0, "minimum_price": 7350.0, "maximum_price": 7700.0},
-            {"market": f"{state} Central Mandi", "modal_price": 7450.0, "minimum_price": 7200.0, "maximum_price": 7600.0},
+            {"market": f"{district} APMC", "modal_price": round(base_price, 2), "minimum_price": round(base_price * 0.92, 2), "maximum_price": round(base_price * 1.08, 2)},
+            {"market": f"Nearby {district} Market", "modal_price": round(base_price - 120, 2), "minimum_price": round((base_price - 120) * 0.93, 2), "maximum_price": round((base_price - 120) * 1.05, 2)},
+            {"market": f"{state} Central Mandi", "modal_price": round(base_price - 250, 2), "minimum_price": round((base_price - 250) * 0.9, 2), "maximum_price": round((base_price - 250) * 1.1, 2)},
         ]
         
         if not api_key:
