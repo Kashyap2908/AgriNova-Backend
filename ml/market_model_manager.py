@@ -34,6 +34,9 @@ class MarketModelManager:
         - If force is True (e.g. new data added to MarketCache) -> Retrain
         - Otherwise -> Load existing model into memory
         """
+        if self._predictor is not None and not force:
+            return
+
         model_path = get_model_path('market_prediction_model.pkl')
         metadata_path = get_model_path('market_model_metadata.json')
 

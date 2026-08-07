@@ -1,4 +1,5 @@
 import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import json
 import csv
 import numpy as np
@@ -90,15 +91,6 @@ class DiseasePredictor:
         predictions = self.model.predict(img_array, verbose=0)[0]
         predicted_class_idx = np.argmax(predictions)
         confidence = float(predictions[predicted_class_idx]) * 100
-        
-        # Log Top-5 predictions for debugging
-        top_5_indices = np.argsort(predictions)[-5:][::-1]
-        print("\n--- Top 5 Predictions ---")
-        for idx in top_5_indices:
-            cls_name = self.class_indices.get(int(idx), "Unknown")
-            prob = float(predictions[idx]) * 100
-            print(f"Class: {cls_name:<35} | Confidence: {prob:.2f}%")
-        print("-------------------------\n")
         
         predicted_ml_class = self.class_indices.get(int(predicted_class_idx))
         
