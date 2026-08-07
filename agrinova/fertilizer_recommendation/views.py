@@ -1,134 +1,187 @@
-"""
-Fertilizer Recommendation API Views
-Exposes REST endpoints for generating smart dynamic fertilizer recommendations and history retrieval.
-"""
-
+import logging
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from rest_framework import status, generics
-from rest_framework.permissions import IsAuthenticated
+from rest_framework import status, generics, permissions
+from farms.models import Farm
 from .models import FertilizerRecommendationHistory
 from .serializers import FertilizerRecommendationHistorySerializer
-from .services.recommendation_engine import SmartFertilizerEngine
-from farms.models import Farm
+from .services.planner import CropNutritionPlanner
+from .services.data_loader import load_fertilizer_master, load_crop_list
+
+logger = logging.getLogger(__name__)
+
+
+class CropNutritionPlanView(APIView):
+    """
+    POST /api/fertilizer/plan/
+    Generates a complete Smart Crop Nutrition & Protection Plan.
+    Accepts either farm_id (loads farm details) OR custom parameters.
+    """
+    permission_classes = [permissions.IsAuthenticated]
+
+    def post(self, request):
+        try:
+            data = request.data or {}
+            farm_id = data.get('farm_id')
+
+            farm = None
+            if farm_id:
+                try:
+                    farm = Farm.objects.get(id=farm_id, user=request.user)
+                except Farm.DoesNotExist:
+                    return Response(
+                        {"success": False, "message": f"Farm with ID {farm_id} not found or access denied."},
+                        status=status.HTTP_404_NOT_FOUND
+                    )
+
+            # Helper function to get value from request data or farm model
+            def _get_val(key, farm_attr=None):
+                if data.get(key) is not None and str(data.get(key)).strip() != '':
+                    return data.get(key)
+                if farm and farm_attr:
+                    return getattr(farm, farm_attr, None)
+                return None
+
+            if farm:
+                crop = data.get('crop') or getattr(farm, 'current_crop', 'Wheat') or 'Wheat'
+                farm_area = float(data.get('farm_area') or farm.farm_area or 1.0)
+                area_unit = data.get('area_unit') or getattr(farm, 'area_unit', 'Acres') or 'Acres'
+                soil_type = data.get('soil_type') or farm.soil_type or 'Loamy'
+                state = data.get('state') or farm.state or 'Punjab'
+                season = data.get('season') or 'Kharif'
+                previous_crop = data.get('previous_crop', '')
+            else:
+                crop = data.get('crop', 'Wheat')
+                farm_area = float(data.get('farm_area', 1.0) or 1.0)
+                area_unit = data.get('area_unit', 'Acres')
+                soil_type = data.get('soil_type', 'Loamy')
+                state = data.get('state', 'Punjab')
+                season = data.get('season', 'Kharif')
+                previous_crop = data.get('previous_crop', '')
+
+            nitrogen = _get_val('nitrogen', 'nitrogen')
+            phosphorus = _get_val('phosphorus', 'phosphorus')
+            potassium = _get_val('potassium', 'potassium')
+            soil_ph = _get_val('soil_ph', 'soil_ph') or _get_val('soilPh', 'soil_ph')
+            sulphur = _get_val('sulphur', 'sulphur')
+            calcium = _get_val('calcium', 'calcium')
+            magnesium = _get_val('magnesium', 'magnesium')
+            zinc = _get_val('zinc', 'zinc')
+            boron = _get_val('boron', 'boron')
+            iron = _get_val('iron', 'iron')
+            manganese = _get_val('manganese', 'manganese')
+            copper = _get_val('copper', 'copper')
+            organic_carbon = _get_val('organic_carbon', 'organic_carbon') or _get_val('organicCarbon', 'organic_carbon')
+            electrical_conductivity = _get_val('electrical_conductivity', 'electrical_conductivity') or _get_val('electricalConductivity', 'electrical_conductivity')
+            soil_moisture = _get_val('soil_moisture', 'soil_moisture') or _get_val('soilMoisture', 'soil_moisture')
+
+            # Generate full plan via CropNutritionPlanner
+            plan = CropNutritionPlanner.generate_plan(
+                crop=crop,
+                farm_area=farm_area,
+                area_unit=area_unit,
+                soil_type=soil_type,
+                state=state,
+                season=season,
+                previous_crop=previous_crop,
+                farm_id=farm.id if farm else None,
+                nitrogen=nitrogen,
+                phosphorus=phosphorus,
+                potassium=potassium,
+                soil_ph=soil_ph,
+                sulphur=sulphur,
+                calcium=calcium,
+                magnesium=magnesium,
+                zinc=zinc,
+                boron=boron,
+                iron=iron,
+                manganese=manganese,
+                copper=copper,
+                organic_carbon=organic_carbon,
+                electrical_conductivity=electrical_conductivity,
+                soil_moisture=soil_moisture
+            )
+
+            # Persist to history database
+            primary_plan = plan['top_fertilizer_plans'][0] if plan['top_fertilizer_plans'] else {}
+            first_item = primary_plan.get('items', [{}])[0] if primary_plan.get('items') else {}
+            item_total_kg = first_item.get('total_quantity_kg') or first_item.get('total_kg', 0.0)
+
+            rec_history = FertilizerRecommendationHistory.objects.create(
+                user=request.user,
+                farm=farm,
+                crop=crop,
+                growth_stage='Basal / Sowing',
+                recommendation_type=plan['soil_summary']['mode'],
+                confidence_score=primary_plan.get('score', 92.5),
+                recommended_fertilizer=first_item.get('name', 'NPK Complex'),
+                dosage_per_acre_kg=first_item.get('dose_per_ha', 0.0) * 0.4047,
+                total_quantity_kg=item_total_kg,
+                estimated_cost_inr=plan['cost_summary']['grand_total'],
+                price_per_kg_inr=first_item.get('cost_per_kg', 0.0),
+                nitrogen=nitrogen,
+                phosphorus=phosphorus,
+                potassium=potassium,
+                soil_ph=soil_ph,
+                soil_type=soil_type,
+                nutrient_analysis=plan['soil_summary'],
+                nutrient_requirement=plan['nutrient_requirement'],
+                nutrient_gap=plan['nutrient_gap'],
+                application_schedule=plan['selected_plan_schedule'],
+                alternative_fertilizers=plan['top_fertilizer_plans'],
+                protection_plan=plan['protection_plan'],
+                weather_snapshot=plan['weather_advisory'],
+                cost_summary=plan['cost_summary'],
+                safety_warnings=[
+                    "Wear protective gloves and mask during fertilizer and pesticide application.",
+                    "Do not mix phosphatic fertilizers directly with zinc sulphate in the same spray tank.",
+                    "Apply nitrogenous fertilizers when soil has adequate moisture to prevent volatilization.",
+                    "Keep all agrochemicals out of reach of children and farm animals."
+                ],
+                ai_explanation=plan['ai_explanation']['full_explanation']
+            )
+
+            return Response({
+                "success": True,
+                "data": plan,
+                "history_id": rec_history.id,
+                "message": "Smart Crop Nutrition & Protection Plan generated successfully."
+            }, status=status.HTTP_200_OK)
+
+        except Exception as e:
+            logger.exception(f"Error in CropNutritionPlanView: {e}")
+            return Response(
+                {"success": False, "message": f"An error occurred while generating plan: {str(e)}"},
+                status=status.HTTP_500_INTERNAL_SERVER_ERROR
+            )
 
 
 class FertilizerRecommendView(APIView):
     """
     POST /api/fertilizer/recommend/
-    Primary endpoint for generating smart fertilizer recommendations.
-    Accepts farm_id OR custom payload (crop, nitrogen, phosphorus, potassium, ph, soil_type, state, season, farm_area, previous_crop).
+    Backward-compatible endpoint delegating to CropNutritionPlanView logic.
     """
-    permission_classes = [IsAuthenticated]
+    permission_classes = [permissions.IsAuthenticated]
 
     def post(self, request):
-        data = request.data or {}
-        farm_id = data.get('farm_id')
-        
-        crop = data.get('crop')
-        nitrogen = data.get('nitrogen')
-        phosphorus = data.get('phosphorus')
-        potassium = data.get('potassium')
-        ph = data.get('ph')
-        soil_type = data.get('soil_type')
-        state_param = data.get('state')
-        season = data.get('season')
-        farm_area = data.get('farm_area')
-        previous_crop = data.get('previous_crop', '')
-        force_mode = data.get('force_mode') or data.get('mode')
-
-        farm_obj = None
-        if farm_id:
-            try:
-                farm_obj = Farm.objects.get(id=farm_id, user=request.user)
-                # Auto-populate fields from farm profile safely if omitted
-                crop = crop or getattr(farm_obj, 'current_crop', None) or getattr(farm_obj, 'crop', None) or 'Wheat'
-                soil_type = soil_type or getattr(farm_obj, 'soil_type', None) or 'Loamy'
-                state_param = state_param or getattr(farm_obj, 'state', None) or 'Punjab'
-                season_param = season or getattr(farm_obj, 'season', None) or 'Kharif'
-                farm_area = farm_area or getattr(farm_obj, 'farm_area', None) or getattr(farm_obj, 'area_acres', None) or 1.0
-
-                # Extract soil NPK from farm profile if available and not overridden
-                if nitrogen is None:
-                    nitrogen = getattr(farm_obj, 'nitrogen', None)
-                if phosphorus is None:
-                    phosphorus = getattr(farm_obj, 'phosphorus', None)
-                if potassium is None:
-                    potassium = getattr(farm_obj, 'potassium', None)
-                if ph is None:
-                    ph = getattr(farm_obj, 'soil_ph', None) or getattr(farm_obj, 'ph_level', None)
-
-            except Farm.DoesNotExist:
-                return Response({"success": False, "message": "Farm not found or access denied."}, status=status.HTTP_404_NOT_FOUND)
-
-        # Instantiate engine
-        engine = SmartFertilizerEngine()
-
-        try:
-            res = engine.generate_recommendation(
-                farm_id=int(farm_id) if farm_id else None,
-                crop=crop or 'Wheat',
-                nitrogen=nitrogen,
-                phosphorus=phosphorus,
-                potassium=potassium,
-                ph=ph,
-                soil_type=soil_type or 'Loamy',
-                state=state_param or 'Punjab',
-                season=season or 'Kharif',
-                farm_area=float(farm_area or 1.0),
-                previous_crop=previous_crop or '',
-                force_mode=force_mode
-            )
-
-            # Record history if farm exists
-            if farm_obj and res.get('primary_recommendation'):
-                primary = res['primary_recommendation']
-                items = primary.get('items', [])
-                first_item = items[0] if items else {}
-                
-                rec_history = FertilizerRecommendationHistory.objects.create(
-                    user=request.user,
-                    farm=farm_obj,
-                    crop=crop or 'Wheat',
-                    growth_stage='Basal / Split Schedule',
-                    recommendation_type='SOIL_BASED' if res.get('mode') == 'PRECISION' else 'ESTIMATED',
-                    confidence_score=primary.get('score', 90.0),
-                    recommended_fertilizer=primary.get('title', 'Fertilizer Combo'),
-                    dosage_per_acre_kg=first_item.get('dose_per_acre_kg', 0.0),
-                    total_quantity_kg=first_item.get('total_quantity_kg', 0.0),
-                    estimated_cost_inr=primary.get('total_cost_inr', 0.0),
-                    price_per_kg_inr=first_item.get('price_per_kg', 0.0),
-                    nitrogen=float(nitrogen) if nitrogen is not None else None,
-                    phosphorus=float(phosphorus) if phosphorus is not None else None,
-                    potassium=float(potassium) if potassium is not None else None,
-                    soil_ph=float(ph) if ph is not None else None,
-                    soil_type=soil_type or 'Loamy',
-                    nutrient_analysis={},
-                    application_schedule=res.get('application_schedule', []),
-                    alternative_fertilizers=res.get('alternative_options', []),
-                    weather_snapshot={'advice': res.get('ai_explanation', {}).get('weather_advice', [])},
-                    safety_warnings=res.get('agronomic_advice', {}).get('precautions', []),
-                    ai_explanation=res['ai_explanation'].get('overview', '')
-                )
-                res['recommendation_id'] = rec_history.id
-
-            return Response({"success": True, "data": res}, status=status.HTTP_200_OK)
-
-        except Exception as e:
-            return Response({"success": False, "message": f"Recommendation failed: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+        planner_view = CropNutritionPlanView()
+        planner_view.request = request
+        planner_view.format_kw = self.format_kw
+        return planner_view.post(request)
 
 
 class FertilizerHistoryListView(generics.ListAPIView):
     """
     GET /api/fertilizer/history/
-    Lists past recommendation records for the user.
+    Lists previous recommendation plans for the logged-in user.
+    Optional query parameter: ?farm_id=123
     """
-    permission_classes = [IsAuthenticated]
     serializer_class = FertilizerRecommendationHistorySerializer
+    permission_classes = [permissions.IsAuthenticated]
 
     def get_queryset(self):
-        farm_id = self.request.query_params.get('farm_id')
         qs = FertilizerRecommendationHistory.objects.filter(user=self.request.user)
+        farm_id = self.request.query_params.get('farm_id')
         if farm_id:
             qs = qs.filter(farm_id=farm_id)
         return qs.order_by('-created_at')
@@ -136,17 +189,41 @@ class FertilizerHistoryListView(generics.ListAPIView):
     def list(self, request, *args, **kwargs):
         queryset = self.get_queryset()
         serializer = self.get_serializer(queryset, many=True)
-        return Response({"success": True, "data": serializer.data}, status=status.HTTP_200_OK)
+        return Response({
+            "success": True,
+            "count": queryset.count(),
+            "data": serializer.data
+        })
 
 
 class FertilizerMasterListView(APIView):
     """
     GET /api/fertilizer/master/
-    Returns reference catalog of official Indian fertilizers.
+    Returns the complete master catalog of fertilizers.
     """
-    permission_classes = [IsAuthenticated]
+    permission_classes = [permissions.IsAuthenticated]
 
     def get(self, request):
-        from .services.fertilizer_catalog import FertilizerCatalog
-        catalog = FertilizerCatalog.get_all_fertilizers()
-        return Response({"success": True, "data": catalog}, status=status.HTTP_200_OK)
+        catalog = load_fertilizer_master()
+        return Response({
+            "success": True,
+            "count": len(catalog),
+            "data": catalog
+        })
+
+
+class CropListView(APIView):
+    """
+    GET /api/fertilizer/crops/
+    Returns list of all supported crops from dataset.
+    """
+    permission_classes = [permissions.IsAuthenticated]
+
+    def get(self, request):
+        crops = load_crop_list()
+        return Response({
+            "success": True,
+            "count": len(crops),
+            "data": crops
+        })
+

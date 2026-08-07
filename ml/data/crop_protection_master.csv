@@ -1,0 +1,160 @@
+Crop,Category,Growth_Stage,Problem,Recommended_Product,Active_Ingredient,Application_Method,Dose_Per_Acre,Cost_Per_Unit_INR,Unit,Preventive,Weather_Trigger,Remarks
+Rice,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Rice,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Rice,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Wheat,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Wheat,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Wheat,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Maize,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Maize,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Maize,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Cotton,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Cotton,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Cotton,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Groundnut,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Groundnut,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Groundnut,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Sugarcane,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Sugarcane,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Sugarcane,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Potato,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Potato,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Potato,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Chickpea,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Chickpea,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Chickpea,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Mustard,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Mustard,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Mustard,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Soybean,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Soybean,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Soybean,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Tomato,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Tomato,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Tomato,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Onion,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Onion,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Onion,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Chilli,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Chilli,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Chilli,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Brinjal,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Brinjal,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Brinjal,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Cabbage,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Cabbage,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Cabbage,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Cauliflower,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Cauliflower,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Cauliflower,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Banana,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Banana,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Banana,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Sunflower,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Sunflower,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Sunflower,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Tur (Pigeonpea),Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Tur (Pigeonpea),Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Tur (Pigeonpea),Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Green Gram (Moong),Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Green Gram (Moong),Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Green Gram (Moong),Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Black Gram (Urad),Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Black Gram (Urad),Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Black Gram (Urad),Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Lentil (Masoor),Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Lentil (Masoor),Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Lentil (Masoor),Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Bajra,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Bajra,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Bajra,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Jowar,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Jowar,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Jowar,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Garlic,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Garlic,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Garlic,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Okra,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Okra,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Okra,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Cucumber,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Cucumber,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Cucumber,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Pumpkin,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Pumpkin,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Pumpkin,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Bottle Gourd,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Bottle Gourd,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Bottle Gourd,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Watermelon,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Watermelon,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Watermelon,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Muskmelon,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Muskmelon,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Muskmelon,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Papaya,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Papaya,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Papaya,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Mango,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Mango,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Mango,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Guava,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Guava,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Guava,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Pomegranate,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Pomegranate,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Pomegranate,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Sesame,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Sesame,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Sesame,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Pea,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Pea,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Pea,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Coriander,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Coriander,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Coriander,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Fenugreek,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Fenugreek,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Fenugreek,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Cumin,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Cumin,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Cumin,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Fennel,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Fennel,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Fennel,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Castor,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Castor,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Castor,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Tobacco,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Tobacco,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Tobacco,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Tea,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Tea,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Tea,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Coffee,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Coffee,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Coffee,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Turmeric,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Turmeric,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Turmeric,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Ginger,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Ginger,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Ginger,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Ragi,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Ragi,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Ragi,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Apple,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Apple,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Apple,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Grapes,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Grapes,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Grapes,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Citrus,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Citrus,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Citrus,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Cardamom,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Cardamom,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Cardamom,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.
+Black Pepper,Weed Control,Basal / Pre-emergence,Broadleaf & Grass Weeds,Pendimethalin 30% EC,Pendimethalin,Foliar Spray,1.0 Litre,450,Litre,Yes,High Moisture,Spray within 48 hours of sowing.
+Black Pepper,Pest Management,Vegetative,Sucking Pests & Caterpillars,Imidacloprid 17.8% SL,Imidacloprid,Foliar Spray,100 ml,350,Pack,No,High Humidity,Spray on initial appearance of pests.
+Black Pepper,Disease Prevention,Flowering,Fungal Blight & Leaf Spot,Mancozeb 75% WP,Mancozeb,Foliar Spray,500 g,300,Pack,Yes,Rainfall,Apply preventively during overcast humid weather.

@@ -1,0 +1,160 @@
+Crop,Season,Growth_Stage,N_kg_ha,P_kg_ha,K_kg_ha,S_kg_ha,Zn_kg_ha,B_kg_ha,Ideal_pH_Min,Ideal_pH_Max,Source
+Rice,Kharif,Basal,50,60,30,0,5,0,5.5,7.0,ICAR-IIRR Hyderabad
+Rice,Kharif,Vegetative,35,0,0,0,0,0,5.5,7.0,ICAR-IIRR Hyderabad
+Rice,Kharif,Flowering,35,0,30,0,0,0,5.5,7.0,ICAR-IIRR Hyderabad
+Wheat,Rabi,Basal,60,60,40,15,5,0,6.0,7.5,ICAR-IARI New Delhi
+Wheat,Rabi,Vegetative,35,0,0,0,0,0,6.0,7.5,ICAR-IARI New Delhi
+Wheat,Rabi,Flowering,35,0,20,0,0,0,6.0,7.5,ICAR-IARI New Delhi
+Maize,Kharif,Basal,45,60,40,15,5,0,5.5,7.5,ICAR-IIMR Ludhiana
+Maize,Kharif,Vegetative,50,0,0,0,0,0,5.5,7.5,ICAR-IIMR Ludhiana
+Maize,Kharif,Flowering,35,0,20,0,0,0,5.5,7.5,ICAR-IIMR Ludhiana
+Cotton,Kharif,Basal,35,60,30,15,5,0,6.0,8.0,ICAR-CICR Nagpur
+Cotton,Kharif,Vegetative,65,0,0,0,0,0,6.0,8.0,ICAR-CICR Nagpur
+Cotton,Kharif,Flowering,40,0,40,0,0,0,6.0,8.0,ICAR-CICR Nagpur
+Groundnut,Kharif,Basal,12.5,40,25,20,5,1,5.5,7.0,ICAR-DGR Junagadh
+Groundnut,Kharif,Vegetative,5,0,0,0,0,0,5.5,7.0,ICAR-DGR Junagadh
+Groundnut,Kharif,Flowering,7.5,10,25,0,0,0,5.5,7.0,ICAR-DGR Junagadh
+Sugarcane,All,Basal,90,80,60,20,5,0,6.0,7.5,ICAR-SBI Coimbatore
+Sugarcane,All,Vegetative,90,0,0,0,0,0,6.0,7.5,ICAR-SBI Coimbatore
+Sugarcane,All,Flowering,70,0,60,0,0,0,6.0,7.5,ICAR-SBI Coimbatore
+Potato,Rabi,Basal,60,80,60,15,5,1,5.5,6.5,ICAR-CPRI Shimla
+Potato,Rabi,Vegetative,50,0,0,0,0,0,5.5,6.5,ICAR-CPRI Shimla
+Potato,Rabi,Flowering,30,0,60,0,0,0,5.5,6.5,ICAR-CPRI Shimla
+Chickpea,Rabi,Basal,12,40,20,20,0,1,6.0,7.5,ICAR-IIPR Kanpur
+Chickpea,Rabi,Vegetative,5,0,0,0,0,0,6.0,7.5,ICAR-IIPR Kanpur
+Chickpea,Rabi,Flowering,5,10,10,0,0,0,6.0,7.5,ICAR-IIPR Kanpur
+Mustard,Rabi,Basal,45,40,20,25,5,1.5,6.0,7.5,ICAR-DRMR Bharatpur
+Mustard,Rabi,Vegetative,35,0,0,0,0,0,6.0,7.5,ICAR-DRMR Bharatpur
+Mustard,Rabi,Flowering,15,0,20,0,0,0,6.0,7.5,ICAR-DRMR Bharatpur
+Soybean,Kharif,Basal,12.5,40,20,20,5,0,6.0,7.0,ICAR-IISR Indore
+Soybean,Kharif,Vegetative,5,0,0,0,0,0,6.0,7.0,ICAR-IISR Indore
+Soybean,Kharif,Flowering,7.5,10,20,0,0,0,6.0,7.0,ICAR-IISR Indore
+Tomato,All,Basal,45,60,40,15,5,1,6.0,7.0,ICAR-IIHR Bengaluru
+Tomato,All,Vegetative,45,0,0,0,0,0,6.0,7.0,ICAR-IIHR Bengaluru
+Tomato,All,Flowering,40,20,50,0,0,0,6.0,7.0,ICAR-IIHR Bengaluru
+Onion,Rabi,Basal,35,50,35,25,5,0,6.0,7.0,ICAR-DOGR Pune
+Onion,Rabi,Vegetative,40,0,0,0,0,0,6.0,7.0,ICAR-DOGR Pune
+Onion,Rabi,Flowering,35,10,35,0,0,0,6.0,7.0,ICAR-DOGR Pune
+Chilli,All,Basal,35,50,35,15,5,1,6.0,7.0,ICAR-IIHR Bengaluru
+Chilli,All,Vegetative,35,0,0,0,0,0,6.0,7.0,ICAR-IIHR Bengaluru
+Chilli,All,Flowering,40,20,40,0,0,0,6.0,7.0,ICAR-IIHR Bengaluru
+Brinjal,All,Basal,35,40,30,15,5,1,5.5,6.5,ICAR-IIHR Bengaluru
+Brinjal,All,Vegetative,35,0,0,0,0,0,5.5,6.5,ICAR-IIHR Bengaluru
+Brinjal,All,Flowering,30,20,30,0,0,0,5.5,6.5,ICAR-IIHR Bengaluru
+Cabbage,Rabi,Basal,45,50,35,15,5,1.5,6.0,7.0,ICAR-IIHR Bengaluru
+Cabbage,Rabi,Vegetative,45,0,0,0,0,0,6.0,7.0,ICAR-IIHR Bengaluru
+Cabbage,Rabi,Flowering,20,15,25,0,0,0,6.0,7.0,ICAR-IIHR Bengaluru
+Cauliflower,Rabi,Basal,45,50,35,15,5,2.0,6.0,7.0,ICAR-IIHR Bengaluru
+Cauliflower,Rabi,Vegetative,45,0,0,0,0,0,6.0,7.0,ICAR-IIHR Bengaluru
+Cauliflower,Rabi,Flowering,20,15,25,0,0,0,6.0,7.0,ICAR-IIHR Bengaluru
+Banana,All,Basal,60,60,60,20,5,1,6.0,7.5,ICAR-NRCB Trichy
+Banana,All,Vegetative,80,0,0,0,0,0,6.0,7.5,ICAR-NRCB Trichy
+Banana,All,Flowering,60,20,120,0,0,0,6.0,7.5,ICAR-NRCB Trichy
+Sunflower,Kharif,Basal,30,40,20,20,0,2,6.0,7.5,ICAR-DOR Hyderabad
+Sunflower,Kharif,Vegetative,30,0,0,0,0,0,6.0,7.5,ICAR-DOR Hyderabad
+Sunflower,Kharif,Flowering,10,10,20,0,0,0,6.0,7.5,ICAR-DOR Hyderabad
+Tur (Pigeonpea),Kharif,Basal,12,40,20,20,0,1,5.5,7.5,ICAR-IIPR Kanpur
+Tur (Pigeonpea),Kharif,Vegetative,5,0,0,0,0,0,5.5,7.5,ICAR-IIPR Kanpur
+Tur (Pigeonpea),Kharif,Flowering,5,10,10,0,0,0,5.5,7.5,ICAR-IIPR Kanpur
+Green Gram (Moong),Kharif,Basal,10,35,15,15,0,0,6.0,7.5,ICAR-IIPR Kanpur
+Green Gram (Moong),Kharif,Vegetative,5,0,0,0,0,0,6.0,7.5,ICAR-IIPR Kanpur
+Green Gram (Moong),Kharif,Flowering,5,5,10,0,0,0,6.0,7.5,ICAR-IIPR Kanpur
+Black Gram (Urad),Kharif,Basal,10,35,15,15,0,0,6.0,7.5,ICAR-IIPR Kanpur
+Black Gram (Urad),Kharif,Vegetative,5,0,0,0,0,0,6.0,7.5,ICAR-IIPR Kanpur
+Black Gram (Urad),Kharif,Flowering,5,5,10,0,0,0,6.0,7.5,ICAR-IIPR Kanpur
+Lentil (Masoor),Rabi,Basal,10,35,15,20,0,0,6.0,7.5,ICAR-IIPR Kanpur
+Lentil (Masoor),Rabi,Vegetative,5,0,0,0,0,0,6.0,7.5,ICAR-IIPR Kanpur
+Lentil (Masoor),Rabi,Flowering,5,5,10,0,0,0,6.0,7.5,ICAR-IIPR Kanpur
+Bajra,Kharif,Basal,30,40,20,10,3,0,6.0,8.0,ICAR-ICRISAT Hyderabad
+Bajra,Kharif,Vegetative,30,0,0,0,0,0,6.0,8.0,ICAR-ICRISAT Hyderabad
+Bajra,Kharif,Flowering,20,0,10,0,0,0,6.0,8.0,ICAR-ICRISAT Hyderabad
+Jowar,Kharif,Basal,35,40,25,12,3,0,6.0,8.0,ICAR-IIMR Hyderabad
+Jowar,Kharif,Vegetative,35,0,0,0,0,0,6.0,8.0,ICAR-IIMR Hyderabad
+Jowar,Kharif,Flowering,20,0,15,0,0,0,6.0,8.0,ICAR-IIMR Hyderabad
+Garlic,Rabi,Basal,30,40,30,20,4,0,6.0,7.0,ICAR-DOGR Pune
+Garlic,Rabi,Vegetative,35,0,0,0,0,0,6.0,7.0,ICAR-DOGR Pune
+Garlic,Rabi,Flowering,30,10,30,0,0,0,6.0,7.0,ICAR-DOGR Pune
+Okra,Kharif,Basal,30,40,30,10,3,0,6.0,7.5,ICAR-IIHR Bengaluru
+Okra,Kharif,Vegetative,30,0,0,0,0,0,6.0,7.5,ICAR-IIHR Bengaluru
+Okra,Kharif,Flowering,20,10,20,0,0,0,6.0,7.5,ICAR-IIHR Bengaluru
+Cucumber,Zaid,Basal,25,35,25,10,2,0,6.0,7.0,ICAR-IIVR Varanasi
+Cucumber,Zaid,Vegetative,25,0,0,0,0,0,6.0,7.0,ICAR-IIVR Varanasi
+Cucumber,Zaid,Flowering,20,10,15,0,0,0,6.0,7.0,ICAR-IIVR Varanasi
+Pumpkin,Zaid,Basal,25,35,30,10,2,0,6.0,7.5,ICAR-IIVR Varanasi
+Pumpkin,Zaid,Vegetative,25,0,0,0,0,0,6.0,7.5,ICAR-IIVR Varanasi
+Pumpkin,Zaid,Flowering,20,10,20,0,0,0,6.0,7.5,ICAR-IIVR Varanasi
+Bottle Gourd,Zaid,Basal,25,35,30,10,2,0,6.0,7.5,ICAR-IIVR Varanasi
+Bottle Gourd,Zaid,Vegetative,25,0,0,0,0,0,6.0,7.5,ICAR-IIVR Varanasi
+Bottle Gourd,Zaid,Flowering,20,10,20,0,0,0,6.0,7.5,ICAR-IIVR Varanasi
+Watermelon,Zaid,Basal,30,40,40,10,3,0,6.0,7.0,ICAR-CIAH Bikaner
+Watermelon,Zaid,Vegetative,30,0,0,0,0,0,6.0,7.0,ICAR-CIAH Bikaner
+Watermelon,Zaid,Flowering,25,10,30,0,0,0,6.0,7.0,ICAR-CIAH Bikaner
+Muskmelon,Zaid,Basal,30,40,40,10,3,0,6.0,7.0,ICAR-CIAH Bikaner
+Muskmelon,Zaid,Vegetative,30,0,0,0,0,0,6.0,7.0,ICAR-CIAH Bikaner
+Muskmelon,Zaid,Flowering,25,10,30,0,0,0,6.0,7.0,ICAR-CIAH Bikaner
+Papaya,All,Basal,50,50,50,15,4,1,6.0,7.5,ICAR-IIHR Bengaluru
+Papaya,All,Vegetative,60,0,0,0,0,0,6.0,7.5,ICAR-IIHR Bengaluru
+Papaya,All,Flowering,40,20,50,0,0,0,6.0,7.5,ICAR-IIHR Bengaluru
+Mango,All,Basal,50,40,60,15,5,1,5.5,7.5,ICAR-CISH Lucknow
+Mango,All,Vegetative,40,0,0,0,0,0,5.5,7.5,ICAR-CISH Lucknow
+Mango,All,Flowering,40,20,60,0,0,0,5.5,7.5,ICAR-CISH Lucknow
+Guava,All,Basal,40,30,40,10,3,0.5,5.5,7.5,ICAR-CISH Lucknow
+Guava,All,Vegetative,40,0,0,0,0,0,5.5,7.5,ICAR-CISH Lucknow
+Guava,All,Flowering,30,10,40,0,0,0,5.5,7.5,ICAR-CISH Lucknow
+Pomegranate,All,Basal,40,40,50,15,4,1,6.5,8.0,ICAR-NRCP Solapur
+Pomegranate,All,Vegetative,50,0,0,0,0,0,6.5,8.0,ICAR-NRCP Solapur
+Pomegranate,All,Flowering,40,20,50,0,0,0,6.5,8.0,ICAR-NRCP Solapur
+Sesame,Kharif,Basal,15,25,15,10,2,0,6.0,7.5,ICAR-IIOR Hyderabad
+Sesame,Kharif,Vegetative,15,0,0,0,0,0,6.0,7.5,ICAR-IIOR Hyderabad
+Sesame,Kharif,Flowering,10,0,10,0,0,0,6.0,7.5,ICAR-IIOR Hyderabad
+Pea,Rabi,Basal,15,35,20,15,2,0.5,6.0,7.5,ICAR-IIVR Varanasi
+Pea,Rabi,Vegetative,10,0,0,0,0,0,6.0,7.5,ICAR-IIVR Varanasi
+Pea,Rabi,Flowering,10,5,10,0,0,0,6.0,7.5,ICAR-IIVR Varanasi
+Coriander,Rabi,Basal,15,25,15,10,2,0,6.0,7.5,ICAR-NRCSS Ajmer
+Coriander,Rabi,Vegetative,15,0,0,0,0,0,6.0,7.5,ICAR-NRCSS Ajmer
+Coriander,Rabi,Flowering,10,0,10,0,0,0,6.0,7.5,ICAR-NRCSS Ajmer
+Fenugreek,Rabi,Basal,12,25,15,10,2,0,6.0,7.5,ICAR-NRCSS Ajmer
+Fenugreek,Rabi,Vegetative,12,0,0,0,0,0,6.0,7.5,ICAR-NRCSS Ajmer
+Fenugreek,Rabi,Flowering,10,0,10,0,0,0,6.0,7.5,ICAR-NRCSS Ajmer
+Cumin,Rabi,Basal,15,20,15,10,2,0,6.5,8.0,ICAR-NRCSS Ajmer
+Cumin,Rabi,Vegetative,15,0,0,0,0,0,6.5,8.0,ICAR-NRCSS Ajmer
+Cumin,Rabi,Flowering,10,0,10,0,0,0,6.5,8.0,ICAR-NRCSS Ajmer
+Fennel,Rabi,Basal,20,25,20,10,2,0,6.5,8.0,ICAR-NRCSS Ajmer
+Fennel,Rabi,Vegetative,20,0,0,0,0,0,6.5,8.0,ICAR-NRCSS Ajmer
+Fennel,Rabi,Flowering,15,0,10,0,0,0,6.5,8.0,ICAR-NRCSS Ajmer
+Castor,Kharif,Basal,25,35,20,15,3,0,6.0,7.5,ICAR-IIOR Hyderabad
+Castor,Kharif,Vegetative,25,0,0,0,0,0,6.0,7.5,ICAR-IIOR Hyderabad
+Castor,Kharif,Flowering,20,0,15,0,0,0,6.0,7.5,ICAR-IIOR Hyderabad
+Tobacco,Rabi,Basal,30,40,50,15,3,0,5.5,7.0,ICAR-CTRI Rajahmundry
+Tobacco,Rabi,Vegetative,30,0,0,0,0,0,5.5,7.0,ICAR-CTRI Rajahmundry
+Tobacco,Rabi,Flowering,25,0,30,0,0,0,5.5,7.0,ICAR-CTRI Rajahmundry
+Tea,All,Basal,40,30,40,15,3,0,4.5,5.5,UPASI Tea Research Institute
+Tea,All,Vegetative,40,0,0,0,0,0,4.5,5.5,UPASI Tea Research Institute
+Tea,All,Flowering,30,0,30,0,0,0,4.5,5.5,UPASI Tea Research Institute
+Coffee,All,Basal,40,30,40,15,3,0,5.5,6.5,Central Coffee Research Institute
+Coffee,All,Vegetative,40,0,0,0,0,0,5.5,6.5,Central Coffee Research Institute
+Coffee,All,Flowering,30,0,30,0,0,0,5.5,6.5,Central Coffee Research Institute
+Turmeric,Kharif,Basal,40,50,60,20,4,1,5.5,7.0,ICAR-IISR Kozhikode
+Turmeric,Kharif,Vegetative,40,0,0,0,0,0,5.5,7.0,ICAR-IISR Kozhikode
+Turmeric,Kharif,Flowering,40,20,60,0,0,0,5.5,7.0,ICAR-IISR Kozhikode
+Ginger,Kharif,Basal,35,45,50,15,4,1,5.5,7.0,ICAR-IISR Kozhikode
+Ginger,Kharif,Vegetative,35,0,0,0,0,0,5.5,7.0,ICAR-IISR Kozhikode
+Ginger,Kharif,Flowering,35,15,50,0,0,0,5.5,7.0,ICAR-IISR Kozhikode
+Ragi,Kharif,Basal,25,30,20,10,2,0,5.5,7.5,ICAR-IIMR Hyderabad
+Ragi,Kharif,Vegetative,25,0,0,0,0,0,5.5,7.5,ICAR-IIMR Hyderabad
+Ragi,Kharif,Flowering,15,0,10,0,0,0,5.5,7.5,ICAR-IIMR Hyderabad
+Apple,All,Basal,40,30,50,15,3,1,6.0,7.0,ICAR-CITH Srinagar
+Apple,All,Vegetative,40,0,0,0,0,0,6.0,7.0,ICAR-CITH Srinagar
+Apple,All,Flowering,30,10,40,0,0,0,6.0,7.0,ICAR-CITH Srinagar
+Grapes,All,Basal,50,40,70,15,5,1,6.5,7.5,ICAR-NRCG Pune
+Grapes,All,Vegetative,50,0,0,0,0,0,6.5,7.5,ICAR-NRCG Pune
+Grapes,All,Flowering,40,20,70,0,0,0,6.5,7.5,ICAR-NRCG Pune
+Citrus,All,Basal,40,35,45,15,4,1,6.0,7.5,ICAR-CCRI Nagpur
+Citrus,All,Vegetative,40,0,0,0,0,0,6.0,7.5,ICAR-CCRI Nagpur
+Citrus,All,Flowering,30,15,45,0,0,0,6.0,7.5,ICAR-CCRI Nagpur
+Cardamom,All,Basal,30,30,40,10,2,0.5,5.5,6.5,ICAR-IISR Kozhikode
+Cardamom,All,Vegetative,30,0,0,0,0,0,5.5,6.5,ICAR-IISR Kozhikode
+Cardamom,All,Flowering,20,10,30,0,0,0,5.5,6.5,ICAR-IISR Kozhikode
+Black Pepper,All,Basal,30,30,40,10,2,0.5,5.5,6.5,ICAR-IISR Kozhikode
+Black Pepper,All,Vegetative,30,0,0,0,0,0,5.5,6.5,ICAR-IISR Kozhikode
+Black Pepper,All,Flowering,20,10,30,0,0,0,5.5,6.5,ICAR-IISR Kozhikode

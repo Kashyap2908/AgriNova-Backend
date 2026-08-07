@@ -117,8 +117,17 @@ class FarmSerializer(serializers.ModelSerializer):
             'phosphorus',
             'potassium',
             'soil_ph',
+            'sulphur',
+            'calcium',
+            'magnesium',
+            'zinc',
+            'boron',
+            'iron',
+            'manganese',
+            'copper',
             'organic_carbon',
             'electrical_conductivity',
+            'soil_moisture',
             'last_soil_test_date',
             'created_at',
             'updated_at',
@@ -157,9 +166,22 @@ class FarmSerializer(serializers.ModelSerializer):
             mutable_data['irrigation_type'] = mutable_data['irrigation']
         if 'waterAvailability' in mutable_data and not mutable_data.get('water_availability'):
             mutable_data['water_availability'] = mutable_data['waterAvailability']
+        if 'organicCarbon' in mutable_data and not mutable_data.get('organic_carbon'):
+            mutable_data['organic_carbon'] = mutable_data['organicCarbon']
+        if 'electricalConductivity' in mutable_data and not mutable_data.get('electrical_conductivity'):
+            mutable_data['electrical_conductivity'] = mutable_data['electricalConductivity']
+        if 'soilMoisture' in mutable_data and not mutable_data.get('soil_moisture'):
+            mutable_data['soil_moisture'] = mutable_data['soilMoisture']
+        if 'soilPh' in mutable_data and not mutable_data.get('soil_ph'):
+            mutable_data['soil_ph'] = mutable_data['soilPh']
 
         # Clean empty string "" -> None for numeric & optional fields
-        nullable_numeric_fields = ['nitrogen', 'phosphorus', 'potassium', 'soil_ph', 'organic_carbon', 'electrical_conductivity']
+        nullable_numeric_fields = [
+            'nitrogen', 'phosphorus', 'potassium', 'soil_ph',
+            'sulphur', 'calcium', 'magnesium', 'zinc', 'boron',
+            'iron', 'manganese', 'copper', 'organic_carbon',
+            'electrical_conductivity', 'soil_moisture'
+        ]
         for field in nullable_numeric_fields:
             if field in mutable_data and (mutable_data[field] == '' or mutable_data[field] is None):
                 mutable_data[field] = None

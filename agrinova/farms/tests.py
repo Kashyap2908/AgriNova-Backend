@@ -115,3 +115,39 @@ class FarmsBackendAPITestCase(TestCase):
         self.assertEqual(response.data['data']['total_farms'], 1)
         self.assertTrue(response.data['data']['profile_completed'])
         self.assertEqual(response.data['data']['selected_farm']['farm_name'], "Sunset Plot")
+
+    def test_advanced_soil_fields(self):
+        farm_payload = {
+            "name": "Advanced Soil Farm",
+            "area": "10.0",
+            "areaUnit": "Acres",
+            "state": "Gujarat",
+            "district": "Junagadh",
+            "taluka": "Visavadar",
+            "village": "Malia",
+            "soilType": "Black Soil",
+            "irrigationType": "Drip Irrigation",
+            "waterAvailability": "Abundant",
+            "nitrogen": 245.0,
+            "phosphorus": 18.0,
+            "potassium": 280.0,
+            "sulphur": 12.5,
+            "calcium": 450.0,
+            "magnesium": 180.0,
+            "zinc": 0.8,
+            "boron": 0.5,
+            "iron": 5.5,
+            "manganese": 3.5,
+            "copper": 0.5,
+            "organic_carbon": 0.55,
+            "electrical_conductivity": 0.4,
+            "soil_moisture": 22.0,
+            "soil_ph": 7.2
+        }
+        response = self.client.post('/api/farms/', farm_payload, format='json')
+        self.assertEqual(response.status_code, status.HTTP_201_CREATED)
+        data = response.data['data']
+        self.assertEqual(data['nitrogen'], 245.0)
+        self.assertEqual(data['sulphur'], 12.5)
+        self.assertEqual(data['zinc'], 0.8)
+        self.assertEqual(data['soil_moisture'], 22.0)

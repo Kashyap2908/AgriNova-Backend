@@ -41,20 +41,20 @@ class Farm(models.Model):
     water_availability = models.CharField(max_length=100)
     is_active = models.BooleanField(default=False)
     
-    # Soil testing properties
+    # Primary Nutrients (kg/ha)
     nitrogen = models.FloatField(
         null=True, blank=True, 
-        validators=[MinValueValidator(0.0), MaxValueValidator(200.0)],
+        validators=[MinValueValidator(0.0), MaxValueValidator(1000.0)],
         help_text="Nitrogen (N) content in kg/ha"
     )
     phosphorus = models.FloatField(
         null=True, blank=True,
-        validators=[MinValueValidator(0.0), MaxValueValidator(200.0)],
+        validators=[MinValueValidator(0.0), MaxValueValidator(1000.0)],
         help_text="Phosphorus (P) content in kg/ha"
     )
     potassium = models.FloatField(
         null=True, blank=True,
-        validators=[MinValueValidator(0.0), MaxValueValidator(300.0)],
+        validators=[MinValueValidator(0.0), MaxValueValidator(1000.0)],
         help_text="Potassium (K) content in kg/ha"
     )
     soil_ph = models.FloatField(
@@ -62,6 +62,52 @@ class Farm(models.Model):
         validators=[MinValueValidator(0.0), MaxValueValidator(14.0)],
         help_text="Soil pH value"
     )
+
+    # Secondary Nutrients (kg/ha or ppm)
+    sulphur = models.FloatField(
+        null=True, blank=True,
+        validators=[MinValueValidator(0.0), MaxValueValidator(500.0)],
+        help_text="Sulphur (S) content in kg/ha"
+    )
+    calcium = models.FloatField(
+        null=True, blank=True,
+        validators=[MinValueValidator(0.0), MaxValueValidator(2000.0)],
+        help_text="Calcium (Ca) content in kg/ha"
+    )
+    magnesium = models.FloatField(
+        null=True, blank=True,
+        validators=[MinValueValidator(0.0), MaxValueValidator(1000.0)],
+        help_text="Magnesium (Mg) content in kg/ha"
+    )
+
+    # Micronutrients (ppm)
+    zinc = models.FloatField(
+        null=True, blank=True,
+        validators=[MinValueValidator(0.0), MaxValueValidator(100.0)],
+        help_text="Zinc (Zn) content in ppm"
+    )
+    boron = models.FloatField(
+        null=True, blank=True,
+        validators=[MinValueValidator(0.0), MaxValueValidator(100.0)],
+        help_text="Boron (B) content in ppm"
+    )
+    iron = models.FloatField(
+        null=True, blank=True,
+        validators=[MinValueValidator(0.0), MaxValueValidator(200.0)],
+        help_text="Iron (Fe) content in ppm"
+    )
+    manganese = models.FloatField(
+        null=True, blank=True,
+        validators=[MinValueValidator(0.0), MaxValueValidator(200.0)],
+        help_text="Manganese (Mn) content in ppm"
+    )
+    copper = models.FloatField(
+        null=True, blank=True,
+        validators=[MinValueValidator(0.0), MaxValueValidator(100.0)],
+        help_text="Copper (Cu) content in ppm"
+    )
+
+    # Other Soil Properties
     organic_carbon = models.FloatField(
         null=True, blank=True,
         help_text="Organic Carbon percentage"
@@ -69,6 +115,10 @@ class Farm(models.Model):
     electrical_conductivity = models.FloatField(
         null=True, blank=True,
         help_text="Electrical Conductivity in dS/m"
+    )
+    soil_moisture = models.FloatField(
+        null=True, blank=True,
+        help_text="Soil Moisture percentage"
     )
     last_soil_test_date = models.DateField(null=True, blank=True)
 

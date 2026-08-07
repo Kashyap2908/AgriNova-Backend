@@ -1,53 +1,33 @@
-Fertilizer_Name,Fertilizer_Type,N_pct,P_pct,K_pct,Price_per_kg,Application_Method,Physical_Form,Source
-Urea,Nitrogenous,46.0,0.0,0.0,5.5,Basal Soil Incorporation / Top Dressing,Granular,Govt Subsidy Standard (FCO)
-Neem Coated Urea,Nitrogenous,46.0,0.0,0.0,6.0,Basal / Top Dressing,Granular,Govt Mandated Standard
-Ammonium Sulphate,Nitrogenous & Sulphur,20.6,0.0,0.0,14.0,Top Dressing / Basal,Crystalline,IFFCO / GSFC Standard
-Ammonium Nitrate,Nitrogenous,33.5,0.0,0.0,22.0,Top Dressing / Fertigation,Prilled,General Commercial
-Calcium Ammonium Nitrate (CAN),Nitrogenous,25.0,0.0,0.0,18.0,Basal / Top Dressing,Granular,National Fertilizers Limited (NFL)
-Ammonium Chloride,Nitrogenous,25.0,0.0,0.0,15.0,Basal / Top Dressing,Crystalline,General Commercial
-DAP (Di-Ammonium Phosphate),Phosphatic & Nitrogenous,18.0,46.0,0.0,27.0,Basal Application,Granular,IFFCO / KRIBHCO Standard
-MAP (Mono-Ammonium Phosphate 11-52-0),Phosphatic & Nitrogenous,11.0,52.0,0.0,35.0,Basal Soil Incorporation,Granular,Coromandel International
-Single Super Phosphate (SSP),Phosphatic,0.0,16.0,0.0,9.0,Basal Soil Incorporation,Granular / Powder,General FCO Standard
-Triple Super Phosphate (TSP),Phosphatic,0.0,46.0,0.0,28.0,Basal Soil Incorporation,Granular,Imported Standard
-Rock Phosphate,Phosphatic Amendment,0.0,20.0,0.0,7.5,Soil Application (Acidic Soil),Powder,RSMM Rajasthan Standard
-MOP (Muriate of Potash),Potassic,0.0,0.0,60.0,34.0,Basal / Top Dressing,Crystalline,Indian Potash Limited (IPL)
-Sulphate of Potash (SOP 0-0-50),Potassic & Sulphur,0.0,0.0,50.0,85.0,Foliar Spray / Fertigation,Water Soluble Powder,IPL / Haifa Standard
-Potassium Magnesium Sulphate (Schoenite),Potassic & Magnesium,0.0,0.0,23.0,42.0,Soil Application,Granular / Powder,General FCO Standard
-NPK 19-19-19,Complex / Soluble,19.0,19.0,19.0,140.0,Foliar Spray / Fertigation,Water Soluble Powder,General Commercial
-NPK 12-32-16,Complex,12.0,32.0,16.0,24.0,Basal Soil Incorporation,Granular,Gromor / IFFCO
-NPK 10-26-26,Complex,10.0,26.0,26.0,25.0,Basal Soil Incorporation,Granular,Gromor / Mahadhan
-NPK 20-20-0-13,Complex with Sulphur,20.0,20.0,0.0,21.0,Basal Application,Granular,Factamfos / Gromor
-NPK 14-35-14,Complex,14.0,35.0,14.0,26.0,Basal Soil Incorporation,Granular,IFFCO Complex
-NPK 17-17-17,Complex,17.0,17.0,17.0,25.0,Basal Application,Granular,Madras Fertilizers (MFL)
-NPK 15-15-15,Complex,15.0,15.0,15.0,23.0,Basal Soil Incorporation,Granular,RCF Suphala
-NPK 28-28-0,Complex High Nitrogen,28.0,28.0,0.0,27.0,Basal Application / Top Dressing,Granular,Gromor 28-28-0
-NPK 16-20-0-13,Complex,16.0,20.0,0.0,20.0,Basal Application,Granular,Coromandel Gromor
-WSF NPK 13-40-13,Water Soluble Complex,13.0,40.0,13.0,165.0,Foliar Spray / Fertigation,Water Soluble Powder,Haifa / Mahadhan
-WSF NPK 12-61-0 (MAP WSF),Water Soluble Phosphatic,12.0,61.0,0.0,175.0,Foliar Spray / Drip,Water Soluble Powder,IFFCO Urban Gardens
-WSF NPK 0-52-34 (MKP),Water Soluble Phospho-Potassic,0.0,52.0,34.0,190.0,Foliar Spray / Fertigation,Water Soluble Powder,General FCO Standard
-WSF NPK 13-0-45 (Potassium Nitrate),Water Soluble Potassic,13.0,0.0,45.0,180.0,Foliar Spray / Fertigation,Water Soluble Powder,SQM / IPL Standard
-Calcium Nitrate,Secondary Nutrient,15.5,0.0,0.0,95.0,Foliar Spray / Fertigation,Granular Prilled,YaraLiva / Haifa
-Calcium Nitrate with Boron,Secondary & Micronutrient,15.5,0.0,0.0,110.0,Foliar Spray / Fertigation,Granular Prilled,Mahadhan Special
-Zinc Sulphate Heptahydrate (Zn 21%),Micronutrient,0.0,0.0,0.0,45.0,Soil Application / Foliar,Crystalline,FCO Standard
-Zinc Sulphate Monohydrate (Zn 33%),Micronutrient,0.0,0.0,0.0,65.0,Soil Application,Powder,General Commercial
-Chelated Zinc (EDTA Zn 12%),Micronutrient,0.0,0.0,0.0,320.0,Foliar Spray,Water Soluble Powder,Yara / Aries Agro
-Ferrous Sulphate (Fe 19%),Micronutrient,0.0,0.0,0.0,30.0,Soil Application / Foliar,Crystalline,Aries Agro Standard
-Copper Sulphate (Cu 24%),Micronutrient,0.0,0.0,0.0,220.0,Soil / Foliar Spray,Crystalline,General Commercial
-Borax / Disodium Octaborate (B 20%),Micronutrient,0.0,0.0,0.0,180.0,Soil / Foliar Spray,Water Soluble Powder,Borax Morarji Standard
-Magnesium Sulphate (Epsom Salt),Secondary Nutrient,0.0,0.0,0.0,25.0,Fertigation / Foliar Spray,Crystalline,General FCO Standard
-Bentonite Sulphur (S 90%),Secondary Nutrient,0.0,0.0,0.0,40.0,Soil Application,Pastilles / Granular,Mahadhan / Deepak Fert
-Agricultural Lime,Soil Conditioner,0.0,0.0,0.0,8.0,Soil Incorporation (Acidic Soil),Powder,ICAR Recommendation
-Dolomite Powder,Soil Conditioner,0.0,0.0,0.0,7.0,Soil Incorporation (Acidic Soil),Powder,ICAR Recommendation
-Agricultural Gypsum,Soil Conditioner,0.0,0.0,0.0,5.0,Soil Incorporation (Alkaline Soil),Powder,ICAR Recommendation
-Vermicompost (Organic),Organic Manure,1.5,1.0,1.5,10.0,Soil Incorporation,Organic Bulk,Organic Standard
-City Compost / Organic Manure,Organic Manure,1.0,0.5,1.0,6.0,Soil Incorporation,Organic Granular,Govt City Compost Scheme
-Pressmud Compost,Organic Manure,1.8,1.5,1.2,5.0,Soil Incorporation,Organic Bulk,Sugar Mill Co-product
-Neem Cake Powder,Organic Bio-Pesticide & Manure,5.0,1.0,1.5,28.0,Soil Incorporation,Powder / Cake,Neem Foundation Standard
-Mustard Oil Cake,Organic Manure,4.8,1.8,1.2,22.0,Soil Incorporation / Liquid Wash,Cake Powder,Traditional Farm Standard
-PROM (Phosphate Rich Organic Manure),Organic Phosphatic,0.4,10.4,0.4,14.0,Soil Application,Granular,Govt Approved PROM FCO
-Azotobacter Biofertilizer,Biofertilizer (N-Fixing),0.0,0.0,0.0,80.0,Seed Treatment / Soil Application,Carrier Powder / Liquid,KVIC / ICAR Approved
-PSB (Phosphate Solubilizing Bacteria),Biofertilizer (P-Solubilizer),0.0,0.0,0.0,80.0,Seed Treatment / Soil Application,Carrier Powder / Liquid,KVIC / ICAR Approved
-KMB (Potassium Mobilizing Bacteria),Biofertilizer (K-Mobilizer),0.0,0.0,0.0,85.0,Soil Application / Drenching,Carrier Powder / Liquid,ICAR Approved
-Mycorrhiza VAM,Bio-Stimulant,0.0,0.0,0.0,250.0,Root Zone Drenching / Soil,Granular / Powder,Sumitomo / Dhanuka
-Seaweed Extract (Ascophyllum nodosum),Organic Bio-Stimulant,0.0,0.0,0.0,350.0,Foliar Spray,Liquid / Flakes,Biostadt / Tata Rallis
-Humic Acid 98%,Soil Conditioner / Bio-Stimulant,0.0,0.0,0.0,280.0,Foliar / Soil Drench,Water Soluble Flakes,General Commercial
+Fertilizer_Name,Fertilizer_Type,Brand,N_pct,P_pct,K_pct,S_pct,Zn_pct,B_pct,Ca_pct,Mg_pct,Organic_Carbon_pct,Other_Micronutrients,Application_Method,Suitable_Crops,Suitable_Soil_Types,Suitable_Seasons,Water_Compatibility,Bag_Size_Kg,Price_Per_Bag_INR,Cost_Per_Kg_INR,Unit,Availability,Last_Updated,Remarks
+Neem Coated Urea,Nitrogenous,IFFCO / NFL,46.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,Basal / Top Dressing,All,All,All,Both,45,267,5.93,kg,High,2026-08-01,Govt subsidized mandatory neem-coated nitrogen source; slows release by 10-15%
+Urea,Nitrogenous,Govt FCO Standard,46.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,Basal / Top Dressing / Broadcasting,All,All,All,Both,45,267,5.93,kg,High,2026-08-01,Standard Nitrogen fertilizer; apply in splits to minimize leaching/volatilization
+DAP (Di-Ammonium Phosphate),Phosphatic + Nitrogenous,IFFCO / KRIBHCO,18.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,Basal Application,All,All,All,Both,50,1350,27.0,kg,High,2026-08-01,Most popular high-P starter fertilizer in India; apply at sowing near seed zone
+Single Super Phosphate (SSP),Phosphatic + Sulphur,FCO Standard,0.0,16.0,0.0,11.0,0.0,0.0,19.0,0.0,0.0,,Basal Application,Oilseeds;Pulses;Cereals,All,All,Both,50,450,9.0,kg,High,2026-08-01,Cheapest source of Phosphorus + supplies 11% Sulphur and 19% Calcium; ideal for groundnut & mustard
+MOP (Muriate of Potash),Potassic,IPL Standard,0.0,0.0,60.0,0.0,0.0,0.0,0.0,0.0,0.0,,Basal / Top Dressing,Cereals;Oilseeds;Fibres,All,All,Both,50,1700,34.0,kg,High,2026-08-01,Primary Potash source (60% K₂O); improves stalk strength and drought/disease resistance
+NPK 12-32-16,Complex,IFFCO / Gromor,12.0,32.0,16.0,0.0,0.0,0.0,0.0,0.0,0.0,,Basal Application,Cereals;Oilseeds;Pulses,All,All,Both,50,1470,29.4,kg,High,2026-08-01,High-P balanced starter grade; ideal basal application for P-demanding crops
+NPK 10-26-26,Complex,Gromor / Mahadhan,10.0,26.0,26.0,0.0,0.0,0.0,0.0,0.0,0.0,,Basal Application,Vegetables;Tubers;Fruits,All,All,Both,50,1470,29.4,kg,High,2026-08-01,High PK complex fertilizer; preferred for potato, onion, tomato, and groundnut
+NPK 20-20-0-13,Complex + Sulphur,Factamfos / Gromor,20.0,20.0,0.0,13.0,0.0,0.0,0.0,0.0,0.0,,Basal Application,Cereals;Oilseeds,Black;Alluvial;Loamy,Kharif;Rabi,Both,50,1200,24.0,kg,High,2026-08-01,NP + Sulphur starter complex; excellent for wheat, paddy, mustard, and soybean
+NPK 14-35-14,Complex,IFFCO Complex,14.0,35.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,,Basal Application,Cereals;Vegetables,All,All,Both,50,1450,29.0,kg,Medium,2026-08-01,High P starter grade; excellent for transplanted paddy and commercial vegetables
+NPK 17-17-17,Complex,MFL Chennai,17.0,17.0,17.0,0.0,0.0,0.0,0.0,0.0,0.0,,Basal / Top Dressing,All,All,All,Both,50,1400,28.0,kg,Medium,2026-08-01,Perfectly balanced NPK starter grade for all crops
+Ammonium Sulphate,Nitrogenous + Sulphur,GSFC / IFFCO,20.6,0.0,0.0,24.0,0.0,0.0,0.0,0.0,0.0,,Basal / Top Dressing,Oilseeds;Pulses;Cereals,All,All,Both,50,950,19.0,kg,High,2026-08-01,Supplies 20.6% N + 24% Sulphur; preferred top-dressing for oilseeds (groundnut, mustard)
+Calcium Ammonium Nitrate (CAN),Nitrogenous + Secondary,NFL / RCF,25.0,0.0,0.0,0.0,0.0,0.0,8.0,0.0,0.0,,Basal / Top Dressing,Cereals;Vegetables;Fruits,Acidic;Loamy;Alluvial,All,Both,50,900,18.0,kg,Medium,2026-08-01,Neutral fertilizer supplying N + Calcium; ideal for acidic soils
+MAP (Mono-Ammonium Phosphate),Phosphatic + Nitrogenous,Coromandel,11.0,52.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,Basal Application,All,All,All,Both,50,1750,35.0,kg,Medium,2026-08-01,Concentrated P source (52% P₂O₅) for rapid early root establishment
+Sulphate of Potash (SOP),Potassic + Sulphur,IPL / Haifa,0.0,0.0,50.0,18.0,0.0,0.0,0.0,0.0,0.0,,Foliar / Fertigation / Basal,Vegetables;Fruits;Oilseeds,All,All,Both,50,4250,85.0,kg,Medium,2026-08-01,Chloride-free K source (50% K₂O + 18% S); premium choice for quality fruits/vegetables
+Agricultural Gypsum (CaSO4),Secondary Nutrient + Soil Amendment,ICAR Recommended,0.0,0.0,0.0,18.6,0.0,0.0,23.3,0.0,0.0,,Soil Application / Pegging Stage,Groundnut;Oilseeds;Pulses,Alkaline;Sodic;Black;All,All,Both,50,250,5.0,kg,High,2026-08-01,Essential for Groundnut pegging phase (23% Ca + 18.6% S); ensures proper pod filling & oil %
+Zinc Sulphate Heptahydrate (ZnSO4·7H2O),Micronutrient,FCO Standard,0.0,0.0,0.0,15.0,21.0,0.0,0.0,0.0,0.0,,Soil Application / Foliar Spray,Cereals;Vegetables;Fruits;Cotton,All,All,Both,10,600,60.0,kg,High,2026-08-01,Essential Zn source (21% Zn + 15% S); corrects zinc chlorosis in paddy, wheat, maize, cotton
+Zinc Sulphate Monohydrate (ZnSO4·H2O),Micronutrient,General Commercial,0.0,0.0,0.0,17.5,33.0,0.0,0.0,0.0,0.0,,Soil Application,Cereals;Vegetables;Cotton,All,All,Both,10,800,80.0,kg,Medium,2026-08-01,High-concentration Zn source (33% Zn + 17.5% S); economical soil application
+Chelated Zinc EDTA (Zn 12%),Micronutrient,Aries Agro / Yara,0.0,0.0,0.0,0.0,12.0,0.0,0.0,0.0,0.0,,Foliar Spray,Vegetables;Fruits;Cereals;Cotton,All,All,Both,1,360,360.0,kg,High,2026-08-01,Premium chelated foliar zinc (12% Zn); 100% water soluble with high plant uptake
+Borax 11% B,Micronutrient,Borax Morarji,0.0,0.0,0.0,0.0,0.0,11.0,0.0,0.0,0.0,,Soil Application / Foliar Spray,Oilseeds;Vegetables;Pulses;Cotton,All,All,Both,5,900,180.0,kg,High,2026-08-01,Essential Boron source (11% B); critical for flowering, pollen germination, and square drop prevention
+Ferrous Sulphate (FeSO4),Micronutrient,Aries Agro,0.0,0.0,0.0,12.0,0.0,0.0,0.0,0.0,0.0,Fe 19%,Soil Application / Foliar Spray,Cereals;Fruits;Vegetables,Alkaline;Black;Calcareous,All,Both,10,350,35.0,kg,High,2026-08-01,Supplies 19% Iron; corrects iron chlorosis in high pH and calcareous soils
+Bentonite Sulphur (S 90%),Secondary Nutrient,Mahadhan / Deepak,0.0,0.0,0.0,90.0,0.0,0.0,0.0,0.0,0.0,,Soil Application,Oilseeds;Pulses;Cereals;Groundnut,Alkaline;Black;Alluvial,All,Both,25,1150,46.0,kg,High,2026-08-01,Elemental Sulphur (90% S); essential for oil synthesis in groundnut, mustard, soybean
+Magnesium Sulphate (Epsom Salt),Secondary Nutrient,FCO Standard,0.0,0.0,0.0,13.0,0.0,0.0,0.0,9.6,0.0,,Fertigation / Foliar Spray,Vegetables;Fruits;Cotton,Sandy;Red;Laterite,All,Both,25,750,30.0,kg,High,2026-08-01,Supplies 9.6% Mg + 13% S; prevents interveinal chlorosis and reddish leaf in cotton
+NPK 19-19-19 (WSF),Water Soluble Complex,Haifa / Mahadhan,19.0,19.0,19.0,0.0,0.0,0.0,0.0,0.0,0.0,,Foliar Spray / Fertigation,Vegetables;Fruits;Flowers;Cotton,All,All,Irrigated,1,140,140.0,kg,High,2026-08-01,100% water soluble NPK grade for foliar spray during active vegetative/flowering phase
+WSF 0-52-34 (MKP),Water Soluble PK,FCO Standard,0.0,52.0,34.0,0.0,0.0,0.0,0.0,0.0,0.0,,Foliar Spray / Fertigation,Vegetables;Fruits;Cotton;Wheat,All,All,Irrigated,1,190,190.0,kg,High,2026-08-01,Mono Potassium Phosphate; promotes rapid flowering, fruit set, and stress tolerance
+WSF 13-0-45 (KNO3),Water Soluble NK,SQM / IPL,13.0,0.0,45.0,0.0,0.0,0.0,0.0,0.0,0.0,,Foliar Spray / Fertigation,Vegetables;Fruits;Cotton,All,All,Irrigated,1,180,180.0,kg,High,2026-08-01,Potassium Nitrate; premium foliar spray for boll development, fruit sizing, and yield quality
+Calcium Nitrate,Secondary + Nitrogenous,YaraLiva / Haifa,15.5,0.0,0.0,0.0,0.0,0.0,19.0,0.0,0.0,,Foliar Spray / Fertigation,Vegetables;Fruits;Cotton,Acidic;Sandy;Loamy,All,Irrigated,25,2375,95.0,kg,Medium,2026-08-01,Supplies 15.5% N + 19% Ca; prevents blossom end rot and improves pod/fruit firmness
+PROM (Phosphate Rich Organic Manure),Organic Phosphatic,Govt PROM FCO,0.4,10.4,0.4,0.0,0.0,0.0,8.0,0.0,12.0,,Soil Application,Cereals;Pulses;Oilseeds,All,All,Both,50,700,14.0,kg,Medium,2026-08-01,Bio-organic P source approved by Govt FCO; enriches soil organic carbon
+Rhizobium Biofertilizer,Biofertilizer (N-Fixing),KVIC / ICAR,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Biological N fixation 20-30 kg/ha,Seed Treatment / Soil Application,Groundnut;Chickpea;Soybean;Pulses,All,All,Both,1,80,80.0,kg,High,2026-08-01,Legume inoculant; fixes atmospheric Nitrogen in root nodules of groundnut, soybean, gram
+PSB (Phosphate Solubilizing Bacteria),Biofertilizer (P-Solubilizer),KVIC / ICAR,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Solubilizes fixed P 15-20 kg/ha,Seed Treatment / Soil Application,All,All,All,Both,1,80,80.0,kg,High,2026-08-01,Converts insoluble soil P into plant-available orthophosphate form
+Vermicompost,Organic Manure,Organic Standard,1.5,1.0,1.5,0.0,0.0,0.0,2.0,0.5,15.0,Fe; Mn; Cu; Zn traces,Soil Incorporation,All,All,All,Both,50,400,8.0,kg,High,2026-08-01,Rich organic manure; improves soil structure, water holding capacity, and microbial activity
+Seaweed Extract (Bio-Stimulant),Organic Bio-Stimulant,Biostadt / Rallis,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Cytokinins; Auxins; Amino acids,Foliar Spray,Vegetables;Fruits;Cotton;Cereals,All,All,Both,1,350,350.0,L,High,2026-08-01,Natural growth promoter; enhances root expansion, flowering set, and abiotic stress resistance
+Multi-Micronutrient Grade II,Micronutrient Mixture,FCO Standard,0.0,0.0,0.0,0.0,3.0,0.5,0.0,1.5,0.0,Fe 5%; Mn 2%; Cu 0.5%,Soil Application / Foliar,All,All,All,Both,10,1200,120.0,kg,High,2026-08-01,Complete balanced micronutrient blend compliant with state FCO norms

@@ -1,0 +1,160 @@
+Crop,Stage,Stage_Order,Days_After_Sowing,N_Split_Pct,P_Split_Pct,K_Split_Pct,Application_Method,Instructions
+Rice,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Rice,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Rice,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Wheat,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Wheat,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Wheat,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Maize,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Maize,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Maize,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Cotton,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Cotton,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Cotton,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Groundnut,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Groundnut,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Groundnut,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Sugarcane,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Sugarcane,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Sugarcane,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Potato,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Potato,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Potato,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Chickpea,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Chickpea,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Chickpea,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Mustard,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Mustard,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Mustard,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Soybean,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Soybean,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Soybean,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Tomato,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Tomato,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Tomato,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Onion,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Onion,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Onion,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Chilli,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Chilli,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Chilli,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Brinjal,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Brinjal,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Brinjal,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Cabbage,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Cabbage,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Cabbage,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Cauliflower,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Cauliflower,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Cauliflower,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Banana,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Banana,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Banana,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Sunflower,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Sunflower,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Sunflower,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Tur (Pigeonpea),Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Tur (Pigeonpea),Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Tur (Pigeonpea),Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Green Gram (Moong),Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Green Gram (Moong),Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Green Gram (Moong),Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Black Gram (Urad),Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Black Gram (Urad),Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Black Gram (Urad),Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Lentil (Masoor),Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Lentil (Masoor),Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Lentil (Masoor),Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Bajra,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Bajra,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Bajra,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Jowar,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Jowar,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Jowar,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Garlic,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Garlic,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Garlic,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Okra,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Okra,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Okra,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Cucumber,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Cucumber,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Cucumber,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Pumpkin,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Pumpkin,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Pumpkin,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Bottle Gourd,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Bottle Gourd,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Bottle Gourd,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Watermelon,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Watermelon,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Watermelon,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Muskmelon,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Muskmelon,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Muskmelon,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Papaya,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Papaya,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Papaya,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Mango,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Mango,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Mango,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Guava,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Guava,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Guava,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Pomegranate,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Pomegranate,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Pomegranate,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Sesame,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Sesame,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Sesame,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Pea,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Pea,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Pea,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Coriander,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Coriander,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Coriander,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Fenugreek,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Fenugreek,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Fenugreek,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Cumin,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Cumin,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Cumin,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Fennel,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Fennel,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Fennel,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Castor,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Castor,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Castor,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Tobacco,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Tobacco,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Tobacco,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Tea,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Tea,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Tea,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Coffee,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Coffee,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Coffee,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Turmeric,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Turmeric,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Turmeric,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Ginger,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Ginger,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Ginger,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Ragi,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Ragi,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Ragi,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Apple,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Apple,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Apple,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Grapes,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Grapes,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Grapes,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Citrus,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Citrus,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Citrus,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Cardamom,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Cardamom,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Cardamom,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
+Black Pepper,Basal / At Sowing,1,0,40,100,50,Soil Application,Apply at the time of land preparation / sowing.
+Black Pepper,Active Vegetative,2,30,35,0,25,Top Dressing / Fertigation,Broadcast when crop completes early vegetative stage.
+Black Pepper,Flowering & Grain Formation,3,60,25,0,25,Foliar Spray / Top Dressing,Apply during panicle initiation or flowering phase.
