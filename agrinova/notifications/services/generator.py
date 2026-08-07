@@ -26,26 +26,26 @@ def create_notification(user, farm, title, message, notif_type, hash_key):
         )
         logger.info(f"Created notification for {user.username}: {title}")
         return True
-    logger.info(f"Skipped duplicate notification for {user.username}: {title} (Hash: {unique_hash})")
+    logger.debug(f"Skipped duplicate notification for {user.username}: {title}")
     return False
 
 def generate_smart_notifications(user):
-    logger.info(f"--- Starting smart notification generation for {user.username} ---")
+    logger.debug(f"--- Starting smart notification generation for {user.username} ---")
     count = 0
     try:
         farms = Farm.objects.filter(user=user)
         
         if not farms.exists():
-            logger.warning(f"No farms found for user {user.username}")
+            logger.debug(f"No farms found for user {user.username}")
         
         for farm in farms:
             farm_label = getattr(farm, 'farm_name', getattr(farm, 'name', 'Farm'))
-            logger.info(f"Processing farm: {farm_label}")
+            logger.debug(f"Processing farm: {farm_label}")
             
             # 1. Weather Notifications
             try:
                 weather = WeatherCache.objects.get(farm=farm)
-                logger.info(f"Weather data found for {farm_label}")
+                logger.debug(f"Weather data found for {farm_label}")
                 if weather.current_weather:
                     cw = weather.current_weather
                     temp = float(cw.get('temperature') or cw.get('temp_c') or 0)
@@ -54,7 +54,7 @@ def generate_smart_notifications(user):
                     wind = float(cw.get('wind_speed') or cw.get('wind_kph') or 0)
                     w_code = int(cw.get('weather_code') or 0)
                     
-                    logger.info(f"Weather checks -> Temp: {temp}, Precip: {precip}, Wind: {wind}")
+                    logger.debug(f"Weather checks -> Temp: {temp}, Precip: {precip}, Wind: {wind}")
 
                     if precip > 5 or (61 <= w_code <= 67) or (80 <= w_code <= 82) or (95 <= w_code <= 99):
                         count += create_notification(
@@ -129,7 +129,7 @@ def generate_smart_notifications(user):
     except Exception as e:
         logger.error(f"Error in generate_smart_notifications: {e}")
 
-    logger.info(f"--- Finished smart notification generation. Generated: {count} ---")
+    logger.debug(f"--- Finished smart notification generation. Generated: {count} ---")
     return count
 
 def generate_test_notification(user):

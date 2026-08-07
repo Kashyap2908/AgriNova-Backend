@@ -195,6 +195,34 @@ class FertilizerHistoryListView(generics.ListAPIView):
             "data": serializer.data
         })
 
+    def delete(self, request, *args, **kwargs):
+        history_id = request.query_params.get('id') or request.data.get('id')
+        if not history_id:
+            return Response({"success": False, "error": "History ID is required."}, status=status.HTTP_400_BAD_REQUEST)
+        try:
+            item = FertilizerRecommendationHistory.objects.get(pk=history_id, user=request.user)
+            item.delete()
+            return Response({"success": True, "message": "Recommendation history entry deleted successfully."})
+        except FertilizerRecommendationHistory.DoesNotExist:
+            return Response({"success": False, "error": "History record not found."}, status=status.HTTP_404_NOT_FOUND)
+
+
+class FertilizerHistoryDetailView(APIView):
+    """
+    DELETE /api/fertilizer/history/<pk>/
+    Deletes a specific fertilizer recommendation history record for the logged-in user.
+    """
+    permission_classes = [permissions.IsAuthenticated]
+
+    def delete(self, request, pk):
+        try:
+            item = FertilizerRecommendationHistory.objects.get(pk=pk, user=request.user)
+            item.delete()
+            return Response({"success": True, "message": "Recommendation history entry deleted successfully."})
+        except FertilizerRecommendationHistory.DoesNotExist:
+            return Response({"success": False, "error": "History record not found."}, status=status.HTTP_404_NOT_FOUND)
+
+
 
 class FertilizerMasterListView(APIView):
     """

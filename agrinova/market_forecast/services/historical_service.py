@@ -21,10 +21,10 @@ class HistoricalMarketService:
         
         cached_data = cache.get(cache_key)
         if cached_data is not None:
-            logger.info(f"Historical Cache hit for {cache_key}")
+            logger.debug(f"Historical Cache hit for {cache_key}")
             return cached_data
             
-        logger.info(f"Historical Cache miss for {cache_key}. Fetching from API.")
+        logger.debug(f"Historical Cache miss for {cache_key}. Fetching from API.")
         
         api_key = os.getenv('DATA_GOV_IN_API_KEY')
         if not api_key:

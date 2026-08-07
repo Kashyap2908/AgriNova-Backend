@@ -26,10 +26,10 @@ class MarketService:
         # 1. Check Cache
         cached_data = cache.get(cache_key)
         if cached_data:
-            logger.info(f"Cache hit for {cache_key}")
+            logger.debug(f"Cache hit for {cache_key}")
             return cached_data
             
-        logger.info(f"Cache miss for {cache_key}. Fetching from live API.")
+        logger.debug(f"Cache miss for {cache_key}. Fetching from live API.")
         
         # 2. Call data.gov.in API
         api_key = os.getenv('DATA_GOV_IN_API_KEY')
