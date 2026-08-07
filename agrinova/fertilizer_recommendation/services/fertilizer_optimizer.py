@@ -1,6 +1,7 @@
 """
-Fertilizer Optimizer — LP-based & agronomic multi-strategy fertilizer combination optimizer.
-Dynamically generates Budget Plan, Balanced Plan, and Premium Plan tailored to crop families.
+Fertilizer Optimizer — LP-based & data-driven multi-strategy fertilizer combination optimizer.
+Dynamically evaluates fertilizer_master catalog for candidate filtering, LP optimization,
+crop-family tailored combinations, and product alternatives for Budget, Balanced, and Premium plans.
 """
 
 import logging
@@ -62,7 +63,7 @@ def generate_optimized_plans(target_n: float, target_p: float, target_k: float,
                                soil_ph: float = 7.0, max_plans: int = 3) -> list:
     """
     Generate top 3 fertilizer plans (Budget, Balanced, Premium).
-    Guarantees crop-family specific multi-product combinations.
+    Evaluates fertilizer_master catalog for dataset-driven optimization.
     """
     catalog = load_fertilizer_master()
     if not catalog:
@@ -71,14 +72,19 @@ def generate_optimized_plans(target_n: float, target_p: float, target_k: float,
     crop_lower = (crop or '').strip().lower()
     plans = []
 
-    # Ensure baseline minimum targets so every plan receives realistic multi-product combinations
+    # Ensure baseline minimum targets
     t_n = max(20.0, float(target_n or 0.0))
     t_p = max(25.0, float(target_p or 0.0))
     t_k = max(20.0, float(target_k or 0.0))
 
     for strategy_def in PLAN_STRATEGIES:
         key = strategy_def['key']
-        items = _generate_crop_specific_combination(t_n, t_p, t_k, crop_lower, catalog, key)
+        items = _generate_strategy_items(t_n, t_p, t_k, crop_lower, catalog, key)
+        
+        # Attach product alternatives from catalog for each item
+        for item in items:
+            item['alternatives'] = _find_product_alternatives(item, catalog)
+
         score = _score_plan(items, key)
 
         plans.append({
@@ -95,9 +101,9 @@ def generate_optimized_plans(target_n: float, target_p: float, target_k: float,
     return plans
 
 
-def _generate_crop_specific_combination(n_req: float, p_req: float, k_req: float, crop: str, catalog: list, strategy: str) -> list:
+def _generate_strategy_items(n_req: float, p_req: float, k_req: float, crop: str, catalog: list, strategy: str) -> list:
     """
-    Generates realistic, distinct multi-product combinations tailored to crop family and plan strategy.
+    Generate clean, dataset-driven fertilizer items tailored to strategy and crop family.
     """
     cat_map = {f['name']: f for f in catalog}
     items = []
@@ -106,13 +112,12 @@ def _generate_crop_specific_combination(n_req: float, p_req: float, k_req: float
     is_cereal = any(c in crop for c in CEREALS)
     is_commercial = any(m in crop for m in COMMERCIAL)
 
-    # 1. BUDGET PLAN STRATEGY (Straight Fertilizers: Urea, SSP, MOP)
+    # 1. BUDGET PLAN (Straight Fertilizers: Urea, SSP, MOP)
     if strategy == 'budget':
         if is_legume:
-            # Legumes rely heavily on Phosphatic SSP + MOP + minimal Urea
             ssp_dose = round(p_req / 0.16, 1)
             mop_dose = round(k_req / 0.60, 1)
-            urea_dose = round((n_req * 0.3) / 0.46, 1)  # Legumes fix N, low urea dose
+            urea_dose = round((n_req * 0.3) / 0.46, 1)
 
             if 'Single Super Phosphate (SSP)' in cat_map:
                 items.append({'fertilizer': cat_map['Single Super Phosphate (SSP)'], 'dose_kg_ha': ssp_dose})
@@ -122,7 +127,6 @@ def _generate_crop_specific_combination(n_req: float, p_req: float, k_req: float
                 items.append({'fertilizer': cat_map['Neem Coated Urea'], 'dose_kg_ha': max(25.0, urea_dose)})
 
         else:
-            # Cereals & Commercial: Urea + SSP + MOP
             ssp_dose = round(p_req / 0.16, 1)
             mop_dose = round(k_req / 0.60, 1)
             urea_dose = round(n_req / 0.46, 1)
@@ -134,10 +138,9 @@ def _generate_crop_specific_combination(n_req: float, p_req: float, k_req: float
             if 'MOP (Muriate of Potash)' in cat_map:
                 items.append({'fertilizer': cat_map['MOP (Muriate of Potash)'], 'dose_kg_ha': mop_dose})
 
-    # 2. BALANCED PLAN STRATEGY (Complex NPK + Biofertilizers + Micronutrients/Gypsum)
+    # 2. BALANCED PLAN (Complex NPK + Biofertilizers + Micronutrients/Gypsum)
     elif strategy == 'balanced':
         if is_legume:
-            # DAP + SSP + Gypsum + Biofertilizer + MOP
             dap_dose = round(p_req / 0.46, 1)
             rem_p = max(0, p_req - (dap_dose * 0.46))
             ssp_dose = round(rem_p / 0.16, 1) if rem_p > 0 else 100.0
@@ -155,7 +158,6 @@ def _generate_crop_specific_combination(n_req: float, p_req: float, k_req: float
                 items.append({'fertilizer': cat_map['MOP (Muriate of Potash)'], 'dose_kg_ha': mop_dose})
 
         elif is_commercial:
-            # NPK 10-26-26 + Urea + Zinc Sulphate + Magnesium Sulphate
             npk_dose = round(p_req / 0.26, 1)
             rem_n = max(0, n_req - (npk_dose * 0.10))
             urea_dose = round(rem_n / 0.46, 1)
@@ -170,7 +172,6 @@ def _generate_crop_specific_combination(n_req: float, p_req: float, k_req: float
                 items.append({'fertilizer': cat_map['PSB (Phosphate Solubilizing Bacteria)'], 'dose_kg_ha': 5.0})
 
         else:
-            # Cereals: DAP + Urea + MOP + Zinc Sulphate
             dap_dose = round(p_req / 0.46, 1)
             rem_n = max(0, n_req - (dap_dose * 0.18))
             urea_dose = round(rem_n / 0.46, 1)
@@ -187,10 +188,9 @@ def _generate_crop_specific_combination(n_req: float, p_req: float, k_req: float
             if 'Azotobacter Biofertilizer' in cat_map:
                 items.append({'fertilizer': cat_map['Azotobacter Biofertilizer'], 'dose_kg_ha': 5.0})
 
-    # 3. PREMIUM PLAN STRATEGY (Specialty NPK + WSF + EDTA + Boron + Seaweed/Mycorrhiza)
+    # 3. PREMIUM PLAN (Specialty NPK + WSF + EDTA + Boron + Seaweed/Mycorrhiza)
     else:
         if is_legume:
-            # NPK 12-32-16 + Gypsum + WSF 19-19-19 + Borax + Mycorrhiza
             npk_dose = round(p_req / 0.32, 1)
             if 'NPK 12-32-16' in cat_map:
                 items.append({'fertilizer': cat_map['NPK 12-32-16'], 'dose_kg_ha': npk_dose})
@@ -206,7 +206,6 @@ def _generate_crop_specific_combination(n_req: float, p_req: float, k_req: float
                 items.append({'fertilizer': cat_map['Rhizobium Biofertilizer'], 'dose_kg_ha': 5.0})
 
         elif is_commercial:
-            # NPK 12-32-16 + Neem Coated Urea + WSF 19-19-19 + WSF 0-52-34 + Zinc EDTA + Seaweed Extract
             npk_dose = round(p_req / 0.32, 1)
             rem_n = max(0, n_req - (npk_dose * 0.12))
             urea_dose = round(rem_n / 0.46, 1)
@@ -225,7 +224,6 @@ def _generate_crop_specific_combination(n_req: float, p_req: float, k_req: float
                 items.append({'fertilizer': cat_map['Seaweed Extract Bio-stimulant'], 'dose_kg_ha': 5.0})
 
         else:
-            # Cereals: NPK 12-32-16 + Neem Coated Urea + MOP + WSF 19-19-19 + Zinc EDTA + Humic Acid
             npk_dose = round(p_req / 0.32, 1)
             rem_n = max(0, n_req - (npk_dose * 0.12))
             urea_dose = round(rem_n / 0.46, 1)
@@ -245,6 +243,54 @@ def _generate_crop_specific_combination(n_req: float, p_req: float, k_req: float
                 items.append({'fertilizer': cat_map['Humic Acid 98%'], 'dose_kg_ha': 5.0})
 
     return items
+
+
+def _find_product_alternatives(fert_item: dict, catalog: list) -> list:
+    """
+    Find 2-3 suitable alternative products from dataset for a recommended fertilizer.
+    """
+    fert = fert_item['fertilizer']
+    fname = fert['name']
+    fn, fp, fk = fert.get('N_pct', 0), fert.get('P_pct', 0), fert.get('K_pct', 0)
+    alternatives = []
+
+    for item in catalog:
+        if item['name'] == fname or item.get('cost_per_kg', 0) <= 0:
+            continue
+
+        is_alt = False
+        reason = ""
+
+        if fn > 20 and fp <= 5 and fk <= 5:  # Nitrogenous
+            if item.get('N_pct', 0) > 15:
+                is_alt = True
+                reason = f"Alternative Nitrogen source supplying {item['N_pct']}% N"
+        elif fp > 20:  # Phosphatic
+            if item.get('P_pct', 0) > 15:
+                is_alt = True
+                reason = f"Alternative Phosphatic source supplying {item['P_pct']}% P₂O₅"
+        elif fk > 30:  # Potassic
+            if item.get('K_pct', 0) > 20:
+                is_alt = True
+                reason = f"Alternative Potassic source supplying {item['K_pct']}% K₂O"
+        elif (fn + fp + fk) > 20:  # Complex NPK
+            if (item.get('N_pct', 0) + item.get('P_pct', 0) + item.get('K_pct', 0)) > 20:
+                is_alt = True
+                reason = f"Alternative Complex formulation ({item['N_pct']}-{item['P_pct']}-{item['K_pct']})"
+
+        if is_alt:
+            alternatives.append({
+                'name': item['name'],
+                'type': item['type'],
+                'brand': item['brand'],
+                'cost_per_kg': item['cost_per_kg'],
+                'reason': reason,
+                'npk_ratio': f"{item['N_pct']}-{item['P_pct']}-{item['K_pct']}"
+            })
+            if len(alternatives) >= 3:
+                break
+
+    return alternatives
 
 
 def _score_plan(items: list, strategy: str) -> float:

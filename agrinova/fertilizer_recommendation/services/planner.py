@@ -2,6 +2,7 @@
 Crop Nutrition Planner — Master orchestrator for the Smart Crop Nutrition & Protection Planner.
 Combines Soil Analysis, Crop Nutrient Gap, LP Optimizer (Budget, Balanced, Premium Plans),
 Crop Protection Planner, Weather Advisory, Split Schedule, Cost Engine, and AI Explanation into a unified plan object.
+Ensures every fertilizer plan strategy carries its own independent cost summary, schedule, and AI explanation.
 """
 
 import logging
@@ -27,6 +28,7 @@ class CropNutritionPlanner:
     def generate_plan(cls, crop: str, farm_area: float = 1.0, area_unit: str = 'Acres',
                       soil_type: str = 'Loamy', state: str = 'Punjab', season: str = 'Kharif',
                       previous_crop: str = '', farm_id: int = None,
+                      selected_strategy: str = 'balanced',
                       nitrogen: float = None, phosphorus: float = None, potassium: float = None,
                       soil_ph: float = None, sulphur: float = None, calcium: float = None,
                       magnesium: float = None, zinc: float = None, boron: float = None,
@@ -34,7 +36,7 @@ class CropNutritionPlanner:
                       organic_carbon: float = None, electrical_conductivity: float = None,
                       soil_moisture: float = None) -> dict:
         """
-        Main entry point. Computes complete nutrition & protection plan.
+        Main entry point. Computes complete nutrition & protection plan for all strategies.
         """
         farm_area = max(0.1, float(farm_area or 1.0))
         area_unit = (area_unit or 'Acres').strip()
@@ -97,7 +99,6 @@ class CropNutritionPlanner:
             status = gap_dict.get('status', 'Adequate') if gap_dict else 'Adequate'
             deficit = gap_dict.get('deficit', 0.0) if gap_dict else 0.0
             
-            # Action recommendation logic
             if deficit > 0:
                 action = f"Apply {deficit} {unit} to satisfy crop requirement"
             elif status == 'Excess':
@@ -124,7 +125,11 @@ class CropNutritionPlanner:
             weather_data = get_weather_for_farm(farm_id)
         weather_advisory = generate_weather_advisory(weather_data)
 
-        # 4. Generate Top Optimized Plans (Budget, Balanced, Premium)
+        # 4. Crop Protection Plan & Protection Costs
+        protection_plan = generate_protection_plan(crop_clean, weather_data)
+        protection_cost = calculate_protection_cost(protection_plan, farm_area, area_unit)
+
+        # 5. Generate Top Optimized Plans (Budget, Balanced, Premium)
         raw_plans = generate_optimized_plans(
             target_n=n_def,
             target_p=p_def,
@@ -136,11 +141,20 @@ class CropNutritionPlanner:
             max_plans=3
         )
 
-        # Process each multi-plan with costs & schedules
+        # Process each strategy plan with its own independent cost summary, schedule, and AI explanation
         processed_plans = []
         for p in raw_plans:
             cost_info = calculate_plan_cost(p['items'], farm_area, area_unit)
             schedule = generate_split_schedule(crop_clean, p['items'], farm_area, area_unit)
+            plan_cost_summary = calculate_grand_total(cost_info, protection_cost, farm_area, area_unit)
+            plan_ai_explanation = generate_ai_explanation(
+                crop=crop_clean,
+                soil_summary=soil_analysis,
+                nutrient_gap=nutrient_gap,
+                selected_plan=p,
+                protection_plan=protection_plan,
+                weather_advisory=weather_advisory
+            )
 
             processed_plans.append({
                 'title': p['title'],
@@ -153,29 +167,15 @@ class CropNutritionPlanner:
                 'cost': cost_info,
                 'items': cost_info.get('items', []),
                 'split_schedule': schedule,
+                'cost_summary': plan_cost_summary,
+                'ai_explanation': plan_ai_explanation,
             })
 
-        # Primary (Selected) Plan
-        selected_plan = processed_plans[1] if len(processed_plans) > 1 else (processed_plans[0] if processed_plans else {})
-        selected_raw_plan = raw_plans[1] if len(raw_plans) > 1 else (raw_plans[0] if raw_plans else {'items': []})
-
-        # 5. Crop Protection Plan
-        protection_plan = generate_protection_plan(crop_clean, weather_data)
-
-        # 6. Complete Cost Summary Breakdown
-        nutrition_cost = selected_plan.get('cost', {'total_cost': 0.0})
-        protection_cost = calculate_protection_cost(protection_plan, farm_area, area_unit)
-        cost_summary = calculate_grand_total(nutrition_cost, protection_cost, farm_area, area_unit)
-
-        # 7. AI Explanation
-        ai_explanation = generate_ai_explanation(
-            crop=crop_clean,
-            soil_summary=soil_analysis,
-            nutrient_gap=nutrient_gap,
-            selected_plan=selected_raw_plan,
-            protection_plan=protection_plan,
-            weather_advisory=weather_advisory
-        )
+        # Match strategy or default to selected_strategy / index
+        strat_key = (selected_strategy or 'balanced').strip().lower()
+        selected_plan = next((p for p in processed_plans if p['strategy'] == strat_key), None)
+        if not selected_plan:
+            selected_plan = processed_plans[1] if len(processed_plans) > 1 else (processed_plans[0] if processed_plans else {})
 
         return {
             'crop_summary': {
@@ -194,11 +194,14 @@ class CropNutritionPlanner:
             'nutrient_requirement': crop_req,
             'nutrient_gap': nutrient_gap,
             'top_fertilizer_plans': processed_plans,
+            'selected_strategy': selected_plan.get('strategy', 'balanced'),
+            'selected_plan_title': selected_plan.get('title', 'Balanced Plan'),
+            'selected_plan_items': selected_plan.get('items', []),
             'selected_plan_schedule': selected_plan.get('split_schedule', []),
             'protection_plan': protection_plan,
             'weather_advisory': weather_advisory,
-            'cost_summary': cost_summary,
-            'ai_explanation': ai_explanation,
+            'cost_summary': selected_plan.get('cost_summary', calculate_grand_total(selected_plan.get('cost', {}), protection_cost, farm_area, area_unit)),
+            'ai_explanation': selected_plan.get('ai_explanation', {}),
             'important_precautions': [
                 "Wear protective gloves, eye goggles, and a mask while mixing and spraying agrochemicals.",
                 "Maintain a Pre-Harvest Interval (PHI) of at least 14 days after chemical spray before harvesting crops.",

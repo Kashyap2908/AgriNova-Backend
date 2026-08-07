@@ -1,7 +1,7 @@
 """
-Protection Planner — Generates crop protection recommendations for weeds, diseases, pests, micronutrients, and growth promoters.
-Reads from crop_protection_master.csv via data_loader. Applies weather-based triggers.
-Ensures every category has realistic recommendations or explicit "Not required under current conditions" statements.
+Protection Planner — Generates crop-specific, weather-integrated protection recommendations.
+Tailors Weed Control, Disease Prevention, Pest Management, Micronutrient Sprays, and Growth Promoters.
+Ensures every crop receives a distinct, realistic protection advisory or explicit 'Not Required' reason.
 """
 
 import logging
@@ -9,38 +9,18 @@ from .data_loader import load_protection_master
 
 logger = logging.getLogger(__name__)
 
-LEGUMES = ['groundnut', 'peanut', 'soybean', 'chickpea', 'gram', 'moong', 'urad', 'pigeonpea', 'arhar', 'tur', 'pea', 'lentil']
-CEREALS = ['wheat', 'rice', 'paddy', 'maize', 'corn', 'jowar', 'sorghum', 'bajra', 'ragi']
-COMMERCIAL = ['cotton', 'sugarcane', 'potato', 'onion', 'garlic', 'tomato', 'chilli', 'brinjal', 'banana', 'papaya', 'mango', 'turmeric', 'ginger']
-
 
 def generate_protection_plan(crop: str, weather_data: dict = None) -> dict:
     """
-    Generate a complete protection plan for the given crop.
+    Generate a complete, crop-specific protection plan for the given crop.
     Includes: weed management, disease prevention, pest management, micronutrient spray, growth promoter.
-    Ensures NO empty categories.
     """
-    protection_db = load_protection_master()
     crop_clean = (crop or '').strip().lower()
-
-    # Find matching entries
-    entries = protection_db.get(crop_clean, [])
-
-    # Try partial match if no exact match
-    if not entries:
-        for c_key, items in protection_db.items():
-            if c_key in crop_clean or crop_clean in c_key:
-                entries = items
-                break
-
-    # Fallback to default crop-family recommendations if DB entries incomplete
-    if not entries:
-        entries = _generate_default_protection_entries(crop_clean)
-
-    # Parse weather conditions
     weather_conditions = _parse_weather_conditions(weather_data)
 
-    # Categorize entries
+    # Generate crop-specific protection entries
+    entries = _get_crop_specific_protection_entries(crop_clean, weather_conditions)
+
     weed_plan = []
     disease_plan = []
     pest_plan = []
@@ -51,18 +31,7 @@ def generate_protection_plan(crop: str, weather_data: dict = None) -> dict:
     for entry in entries:
         item = _format_protection_item(entry, weather_conditions)
 
-        # Calculate approximate cost per acre
-        try:
-            dose_val = float(entry['dose_per_acre']) if str(entry['dose_per_acre']).replace('.', '').isdigit() else 1.0
-            unit_clean = entry.get('unit', '').lower().strip()
-            if unit_clean in ('ml', 'g'):
-                qty_in_standard_unit = dose_val / 1000.0
-            else:
-                qty_in_standard_unit = dose_val
-            item_cost = qty_in_standard_unit * float(entry.get('cost_per_unit', 350))
-        except (ValueError, TypeError):
-            item_cost = float(entry.get('cost_per_unit', 350))
-
+        item_cost = float(entry.get('cost_per_acre', 350.0))
         item['estimated_cost_per_acre'] = round(item_cost, 2)
         item['cost_display'] = f"₹{round(item_cost, 0):,.0f}/acre"
         total_protection_cost += item_cost
@@ -79,7 +48,7 @@ def generate_protection_plan(crop: str, weather_data: dict = None) -> dict:
         elif 'growth' in category or 'regulator' in category or 'promoter' in category:
             growth_plan.append(item)
 
-    # Ensure NO EMPTY CATEGORIES — attach explicit "Not required under current conditions" entry if empty
+    # Ensure NO EMPTY CATEGORIES — attach explicit "Not Required under current conditions" if empty
     if not weed_plan:
         weed_plan.append(_create_not_required_item("Weed Control", "Clean seedbed & low weed seedbank under present soil moisture"))
     if not disease_plan:
@@ -103,14 +72,14 @@ def generate_protection_plan(crop: str, weather_data: dict = None) -> dict:
 
 
 def _create_not_required_item(category_title: str, reason: str) -> dict:
-    """Creates a clear 'Not required under current conditions' report item."""
+    """Creates a clear 'Not Required under current conditions' report item."""
     return {
         'problem': 'None / Low Risk',
         'growth_stage': 'All Stages',
         'category': category_title,
-        'recommended_product': 'Not required under current conditions',
+        'recommended_product': 'Not Required under current conditions',
         'active_ingredient': 'N/A',
-        'application_method': 'Standard Monitoring',
+        'application_method': 'Standard Field Monitoring',
         'dose_per_acre': 'N/A',
         'preventive': True,
         'weather_relevant': False,
@@ -121,102 +90,216 @@ def _create_not_required_item(category_title: str, reason: str) -> dict:
     }
 
 
-def _generate_default_protection_entries(crop: str) -> list:
-    """Generate realistic default crop protection entries tailored to crop family."""
-    is_legume = any(l in crop for l in LEGUMES)
-    is_cereal = any(c in crop for c in CEREALS)
-
-    if is_legume:
+def _get_crop_specific_protection_entries(crop: str, weather_conditions: dict) -> list:
+    """Returns highly accurate, crop-specific protection entries for major crop families."""
+    
+    if any(k in crop for k in ['groundnut', 'peanut', 'soybean', 'chickpea', 'gram', 'moong', 'urad']):
         return [
             {
-                'category': 'Weed Control', 'growth_stage': 'Basal / Pre-emergence',
-                'problem': 'Broadleaf & Grass Weeds', 'recommended_product': 'Pendimethalin 30% EC',
-                'active_ingredient': 'Pendimethalin', 'application_method': 'Foliar Spray (Pre-emergence)',
-                'dose_per_acre': '1.0', 'unit': 'Litre', 'cost_per_unit': 450, 'preventive': True,
-                'weather_trigger': 'High_Humidity', 'remarks': 'Spray within 48 hours of sowing on moist soil.'
+                'category': 'Weed Control', 'growth_stage': 'Pre-emergence (0-2 DAS)',
+                'problem': 'Broadleaf & Annual Grass Weeds', 'recommended_product': 'Imazethapyr 10% SL + Pendimethalin',
+                'active_ingredient': 'Imazethapyr + Pendimethalin', 'application_method': 'Soil Spray',
+                'dose_per_acre': '400 ml', 'cost_per_acre': 480.0, 'preventive': True,
+                'weather_trigger': 'Heavy_Rain', 'remarks': 'Spray on moist soil within 48 hours of sowing.'
             },
             {
-                'category': 'Disease Prevention', 'growth_stage': 'Flowering & Pegging',
-                'problem': 'Tikka Leaf Spot & Rust', 'recommended_product': 'Tebuconazole 25.9% EC',
+                'category': 'Disease Prevention', 'growth_stage': 'Flowering & Pegging (35-45 DAS)',
+                'problem': 'Tikka Leaf Spot (Cercospora) & Rust', 'recommended_product': 'Tebuconazole 25.9% EC',
                 'active_ingredient': 'Tebuconazole', 'application_method': 'Foliar Spray',
-                'dose_per_acre': '250', 'unit': 'ml', 'cost_per_unit': 550, 'preventive': True,
-                'weather_trigger': 'High_Humidity', 'remarks': 'Apply at first sign of leaf spot or during humid weather.'
+                'dose_per_acre': '250 ml', 'cost_per_acre': 550.0, 'preventive': True,
+                'weather_trigger': 'High_Humidity', 'remarks': 'Apply at first sign of leaf spot or during humid cloudy weather.'
             },
             {
-                'category': 'Pest Management', 'growth_stage': 'Vegetative',
-                'problem': 'Aphids, Thrips & Spodoptera', 'recommended_product': 'Emamectin Benzoate 5% SG',
+                'category': 'Pest Management', 'growth_stage': 'Vegetative & Pegging',
+                'problem': 'Tobacco Caterpillar (Spodoptera) & Thrips', 'recommended_product': 'Emamectin Benzoate 5% SG',
                 'active_ingredient': 'Emamectin Benzoate', 'application_method': 'Foliar Spray',
-                'dose_per_acre': '100', 'unit': 'g', 'cost_per_unit': 380, 'preventive': False,
-                'weather_trigger': 'High_Temp', 'remarks': 'Spray in evening hours when pest threshold exceeds ETL.'
+                'dose_per_acre': '100 g', 'cost_per_acre': 380.0, 'preventive': False,
+                'weather_trigger': 'High_Temp', 'remarks': 'Spray during early morning or late evening when pest population crosses ETL.'
             },
             {
-                'category': 'Micronutrient Spray', 'growth_stage': 'Flowering',
+                'category': 'Micronutrient Spray', 'growth_stage': 'Flowering (30 DAS)',
                 'problem': 'Boron Deficiency & Flower Drop', 'recommended_product': 'Solubor / Borax 20%',
                 'active_ingredient': 'Disodium Octaborate', 'application_method': 'Foliar Spray',
-                'dose_per_acre': '250', 'unit': 'g', 'cost_per_unit': 220, 'preventive': True,
-                'weather_trigger': 'None', 'remarks': 'Spray 1g/L water during flowering for seed setting & pod fill.'
+                'dose_per_acre': '250 g', 'cost_per_acre': 220.0, 'preventive': True,
+                'weather_trigger': 'None', 'remarks': 'Essential for flower retention and peg penetration.'
             },
             {
-                'category': 'Growth Regulator', 'growth_stage': 'Pegging',
-                'problem': 'Excess Vegetative Canopy', 'recommended_product': 'Chlormequat Chloride (Lihocin)',
+                'category': 'Growth Regulator', 'growth_stage': 'Pegging (45 DAS)',
+                'problem': 'Excess Vegetative Canopy Growth', 'recommended_product': 'Chlormequat Chloride 50% SL (Lihocin)',
                 'active_ingredient': 'Chlormequat Chloride', 'application_method': 'Foliar Spray',
-                'dose_per_acre': '150', 'unit': 'ml', 'cost_per_unit': 280, 'preventive': True,
-                'weather_trigger': 'None', 'remarks': 'Diverts energy from foliage to underground pod development.'
+                'dose_per_acre': '150 ml', 'cost_per_acre': 290.0, 'preventive': True,
+                'weather_trigger': 'None', 'remarks': 'Diverts photosynthates to underground pod development.'
             }
         ]
-    elif is_cereal:
+
+    elif any(k in crop for k in ['rice', 'paddy']):
+        return [
+            {
+                'category': 'Weed Control', 'growth_stage': 'Transplanting / Pre-emergence',
+                'problem': 'Barnyard Grass (Echinochloa) & Sedges', 'recommended_product': 'Pretilachlor 50% EC + Safener',
+                'active_ingredient': 'Pretilachlor', 'application_method': 'Standing Water Broadcast',
+                'dose_per_acre': '600 ml', 'cost_per_acre': 420.0, 'preventive': True,
+                'weather_trigger': 'Heavy_Rain', 'remarks': 'Apply 3-5 days after transplanting in 2-3 cm standing water.'
+            },
+            {
+                'category': 'Pest Management', 'growth_stage': 'Tillering & Panicle Initiation',
+                'problem': 'Yellow Stem Borer & Leaf Folder', 'recommended_product': 'Chlorantraniliprole 0.4% GR (Ferterra)',
+                'active_ingredient': 'Chlorantraniliprole', 'application_method': 'Soil Granular Broadcast',
+                'dose_per_acre': '4.0 kg', 'cost_per_acre': 620.0, 'preventive': True,
+                'weather_trigger': 'High_Humidity', 'remarks': 'Broadcast with sand at 25-30 days after transplanting.'
+            },
+            {
+                'category': 'Disease Prevention', 'growth_stage': 'Heading & Panicle (60 DAS)',
+                'problem': 'Blast (Pyricularia) & Sheath Blight', 'recommended_product': 'Azoxystrobin 18.2% + Difenoconazole 11.4%',
+                'active_ingredient': 'Azoxystrobin + Difenoconazole', 'application_method': 'Foliar Spray',
+                'dose_per_acre': '200 ml', 'cost_per_acre': 750.0, 'preventive': True,
+                'weather_trigger': 'High_Humidity', 'remarks': 'Spray at boot leaf stage to protect panicles.'
+            },
+            {
+                'category': 'Micronutrient Spray', 'growth_stage': 'Active Tillering (25 DAS)',
+                'problem': 'Khaira Disease (Zinc Deficiency)', 'recommended_product': 'Zinc EDTA 12%',
+                'active_ingredient': 'Zinc EDTA', 'application_method': 'Foliar Spray',
+                'dose_per_acre': '150 g', 'cost_per_acre': 240.0, 'preventive': True,
+                'weather_trigger': 'None', 'remarks': 'Prevents rusty leaf spots caused by iron/zinc imbalance.'
+            }
+        ]
+
+    elif any(k in crop for k in ['wheat']):
         return [
             {
                 'category': 'Weed Control', 'growth_stage': '20-25 Days After Sowing',
-                'problem': 'Phalaris minor & Broadleaf Weeds', 'recommended_product': 'Sulfosulfuron 75% WG',
-                'active_ingredient': 'Sulfosulfuron', 'application_method': 'Post-emergence Spray',
-                'dose_per_acre': '13.5', 'unit': 'g', 'cost_per_unit': 420, 'preventive': True,
-                'weather_trigger': 'None', 'remarks': 'Apply 20-25 DAS after first irrigation.'
+                'problem': 'Phalaris minor (Mandusi) & Wild Oat', 'recommended_product': 'Sulfosulfuron 75% WG + Metsulfuron',
+                'active_ingredient': 'Sulfosulfuron + Metsulfuron', 'application_method': 'Post-emergence Spray',
+                'dose_per_acre': '13.5 g', 'cost_per_acre': 440.0, 'preventive': True,
+                'weather_trigger': 'None', 'remarks': 'Spray after 1st irrigation when weeds are at 2-4 leaf stage.'
             },
             {
-                'category': 'Disease Prevention', 'growth_stage': 'Heading / Panicle',
-                'problem': 'Yellow Rust & Blast', 'recommended_product': 'Propiconazole 25% EC',
+                'category': 'Disease Prevention', 'growth_stage': 'Jointing & Flag Leaf (50 DAS)',
+                'problem': 'Yellow Rust (Puccinia) & Karnal Bunt', 'recommended_product': 'Propiconazole 25% EC (Tilt)',
                 'active_ingredient': 'Propiconazole', 'application_method': 'Foliar Spray',
-                'dose_per_acre': '200', 'unit': 'ml', 'cost_per_unit': 480, 'preventive': True,
-                'weather_trigger': 'High_Humidity', 'remarks': 'Apply at flag leaf emergence or humid cloudy weather.'
+                'dose_per_acre': '200 ml', 'cost_per_acre': 490.0, 'preventive': True,
+                'weather_trigger': 'High_Humidity', 'remarks': 'Apply at flag leaf emergence or cloudy cool weather.'
             },
             {
-                'category': 'Pest Management', 'growth_stage': 'Vegetative',
-                'problem': 'Stem Borer & Aphids', 'recommended_product': 'Chlorantraniliprole 18.5% SC',
-                'active_ingredient': 'Chlorantraniliprole', 'application_method': 'Foliar Spray',
-                'dose_per_acre': '60', 'unit': 'ml', 'cost_per_unit': 650, 'preventive': False,
-                'weather_trigger': 'High_Temp', 'remarks': 'Protects against stem borer and leaf folder larvae.'
-            },
-            {
-                'category': 'Micronutrient Spray', 'growth_stage': 'Tillering',
-                'problem': 'Zinc & Iron Chlorosis', 'recommended_product': 'Chelated Zinc EDTA 12%',
-                'active_ingredient': 'Zinc EDTA', 'application_method': 'Foliar Spray',
-                'dose_per_acre': '100', 'unit': 'g', 'cost_per_unit': 250, 'preventive': True,
-                'weather_trigger': 'None', 'remarks': 'Foliar spray during active tillering phase.'
+                'category': 'Pest Management', 'growth_stage': 'Earhead Emergence (70 DAS)',
+                'problem': 'Wheat Aphids & Armyworm', 'recommended_product': 'Thiamethoxam 25% WG',
+                'active_ingredient': 'Thiamethoxam', 'application_method': 'Foliar Spray',
+                'dose_per_acre': '40 g', 'cost_per_acre': 320.0, 'preventive': False,
+                'weather_trigger': 'High_Temp', 'remarks': 'Spray when aphid count exceeds 5 per earhead.'
             }
         ]
-    else:
+
+    elif any(k in crop for k in ['cotton']):
         return [
             {
-                'category': 'Weed Control', 'growth_stage': 'Pre-emergence',
-                'problem': 'Annual Grasses & Sedge Weeds', 'recommended_product': 'Oxyfluorfen 23.5% EC',
-                'active_ingredient': 'Oxyfluorfen', 'application_method': 'Soil Spray',
-                'dose_per_acre': '200', 'unit': 'ml', 'cost_per_unit': 480, 'preventive': True,
-                'weather_trigger': 'None', 'remarks': 'Apply immediately post-sowing on moist soil.'
+                'category': 'Weed Control', 'growth_stage': 'Pre-emergence (0-2 DAS)',
+                'problem': 'Broadleaf & Sedge Weeds', 'recommended_product': 'Pyrithiobac Sodium 10% EC',
+                'active_ingredient': 'Pyrithiobac Sodium', 'application_method': 'Post-emergence Spray',
+                'dose_per_acre': '250 ml', 'cost_per_acre': 520.0, 'preventive': True,
+                'weather_trigger': 'None', 'remarks': 'Apply at 20-25 days after sowing on young weeds.'
             },
             {
-                'category': 'Disease Prevention', 'growth_stage': 'Flowering & Fruiting',
-                'problem': 'Powdery Mildew & Fruit Rot', 'recommended_product': 'Azoxystrobin 11% + Tebuconazole 18.3%',
-                'active_ingredient': 'Azoxystrobin + Tebuconazole', 'application_method': 'Foliar Spray',
-                'dose_per_acre': '200', 'unit': 'ml', 'cost_per_unit': 720, 'preventive': True,
-                'weather_trigger': 'High_Humidity', 'remarks': 'Dual systemic action for high yield security.'
-            },
-            {
-                'category': 'Pest Management', 'growth_stage': 'Vegetative & Fruiting',
-                'problem': 'Fruit/Boll Borer & Whitefly', 'recommended_product': 'Spinetoram 11.7% SC',
+                'category': 'Pest Management', 'growth_stage': 'Square & Boll Formation (60-90 DAS)',
+                'problem': 'Pink Bollworm & Whitefly', 'recommended_product': 'Spinetoram 11.7% SC (Delegate)',
                 'active_ingredient': 'Spinetoram', 'application_method': 'Foliar Spray',
-                'dose_per_acre': '180', 'unit': 'ml', 'cost_per_unit': 780, 'preventive': False,
-                'weather_trigger': 'High_Temp', 'remarks': 'Controls resistant caterpillars and sucking pests.'
+                'dose_per_acre': '180 ml', 'cost_per_acre': 780.0, 'preventive': False,
+                'weather_trigger': 'High_Temp', 'remarks': 'Controls resistant caterpillars and sucking pest complex.'
+            },
+            {
+                'category': 'Disease Prevention', 'growth_stage': 'Bolling Phase (80 DAS)',
+                'problem': 'Bacterial Blight & Alternaria Leaf Spot', 'recommended_product': 'Copper Oxychloride 50% WP + Streptocycline',
+                'active_ingredient': 'Copper Oxychloride + Streptomycin', 'application_method': 'Foliar Spray',
+                'dose_per_acre': '500 g', 'cost_per_acre': 450.0, 'preventive': True,
+                'weather_trigger': 'High_Humidity', 'remarks': 'Spray during overcast rainy periods.'
+            },
+            {
+                'category': 'Growth Regulator', 'growth_stage': 'Peak Bolling (90 DAS)',
+                'problem': 'Square Drop & Excessive Vegetative Height', 'recommended_product': 'Mepiquat Chloride 5% AS (Chamatkar)',
+                'active_ingredient': 'Mepiquat Chloride', 'application_method': 'Foliar Spray',
+                'dose_per_acre': '200 ml', 'cost_per_acre': 340.0, 'preventive': True,
+                'weather_trigger': 'None', 'remarks': 'Prevents boll shedding and controls canopy height.'
+            }
+        ]
+
+    elif any(k in crop for k in ['maize', 'corn', 'bajra', 'jowar', 'sorghum', 'ragi']):
+        return [
+            {
+                'category': 'Weed Control', 'growth_stage': 'Pre-emergence (0-2 DAS)',
+                'problem': 'Broadleaf & Grass Weeds', 'recommended_product': 'Atrazine 50% WP',
+                'active_ingredient': 'Atrazine', 'application_method': 'Soil Spray',
+                'dose_per_acre': '500 g', 'cost_per_acre': 360.0, 'preventive': True,
+                'weather_trigger': 'Heavy_Rain', 'remarks': 'Apply immediately post-sowing on moist seedbed.'
+            },
+            {
+                'category': 'Pest Management', 'growth_stage': 'Whorl Stage (15-25 DAS)',
+                'problem': 'Fall Armyworm (FAW) & Shoot Fly', 'recommended_product': 'Emamectin Benzoate 5% SG / Chlorantraniliprole',
+                'active_ingredient': 'Emamectin Benzoate', 'application_method': 'Whorl Application',
+                'dose_per_acre': '80 g', 'cost_per_acre': 420.0, 'preventive': False,
+                'weather_trigger': 'High_Temp', 'remarks': 'Direct spray into central whorl at first sign of pinhole damage.'
+            },
+            {
+                'category': 'Disease Prevention', 'growth_stage': 'Tasseling & Silking (45 DAS)',
+                'problem': 'Turcicum Leaf Blight & Downy Mildew', 'recommended_product': 'Metalaxyl 8% + Mancozeb 64% WP (Ridomil Gold)',
+                'active_ingredient': 'Metalaxyl + Mancozeb', 'application_method': 'Foliar Spray',
+                'dose_per_acre': '500 g', 'cost_per_acre': 580.0, 'preventive': True,
+                'weather_trigger': 'High_Humidity', 'remarks': 'Apply preventively during humid warm weather.'
+            }
+        ]
+
+    elif any(k in crop for k in ['sugarcane']):
+        return [
+            {
+                'category': 'Weed Control', 'growth_stage': 'Pre-emergence (0-30 DAS)',
+                'problem': 'Cyperus rotundus & Broadleaf Weeds', 'recommended_product': 'Atrazine 50% WP + 2,4-D Sodium Salt',
+                'active_ingredient': 'Atrazine + 2,4-D', 'application_method': 'Soil & Foliar Spray',
+                'dose_per_acre': '1.0 kg', 'cost_per_acre': 480.0, 'preventive': True,
+                'weather_trigger': 'None', 'remarks': 'Apply post-planting before cane canopy closure.'
+            },
+            {
+                'category': 'Pest Management', 'growth_stage': 'Early Shoot Phase (45 DAS)',
+                'problem': 'Early Shoot Borer & Root Borer', 'recommended_product': 'Fipronil 0.3% GR (Regent)',
+                'active_ingredient': 'Fipronil', 'application_method': 'Soil Granular Broadcast',
+                'dose_per_acre': '7.5 kg', 'cost_per_acre': 680.0, 'preventive': True,
+                'weather_trigger': 'High_Temp', 'remarks': 'Incorporate into furrow soil followed by light irrigation.'
+            },
+            {
+                'category': 'Disease Prevention', 'growth_stage': 'Grand Growth Phase (120 DAS)',
+                'problem': 'Red Rot (Colletotrichum) & Smut', 'recommended_product': 'Carbendazim 50% WP (Bavistin)',
+                'active_ingredient': 'Carbendazim', 'application_method': 'Set Drenching / Spray',
+                'dose_per_acre': '300 g', 'cost_per_acre': 390.0, 'preventive': True,
+                'weather_trigger': 'High_Humidity', 'remarks': 'Drench cane roots or setts before planting.'
+            }
+        ]
+
+    else:  # Vegetables & Horticultural Crops (Tomato, Potato, Onion, Chilli, Brinjal, etc.)
+        return [
+            {
+                'category': 'Weed Control', 'growth_stage': 'Pre-transplanting (0 DAS)',
+                'problem': 'Annual Grasses & Broadleaf Weeds', 'recommended_product': 'Oxyfluorfen 23.5% EC (Goal)',
+                'active_ingredient': 'Oxyfluorfen', 'application_method': 'Soil Spray',
+                'dose_per_acre': '200 ml', 'cost_per_acre': 460.0, 'preventive': True,
+                'weather_trigger': 'None', 'remarks': 'Apply 3 days before transplanting on prepared beds.'
+            },
+            {
+                'category': 'Pest Management', 'growth_stage': 'Vegetative & Flowering (30-50 DAS)',
+                'problem': 'Thrips, Whitefly & Fruit Borer', 'recommended_product': 'Spinetoram 11.7% SC / Abamectin 1.9% EC',
+                'active_ingredient': 'Spinetoram', 'application_method': 'Foliar Spray',
+                'dose_per_acre': '160 ml', 'cost_per_acre': 720.0, 'preventive': False,
+                'weather_trigger': 'High_Temp', 'remarks': 'Alternate chemical classes to manage vector thrips/whitefly.'
+            },
+            {
+                'category': 'Disease Prevention', 'growth_stage': 'Fruiting Phase (60 DAS)',
+                'problem': 'Early/Late Blight & Powdery Mildew', 'recommended_product': 'Azoxystrobin 11% + Tebuconazole 18.3% (Custodia)',
+                'active_ingredient': 'Azoxystrobin + Tebuconazole', 'application_method': 'Foliar Spray',
+                'dose_per_acre': '200 ml', 'cost_per_acre': 750.0, 'preventive': True,
+                'weather_trigger': 'High_Humidity', 'remarks': 'Dual systemic protection for fruit quality and skin finish.'
+            },
+            {
+                'category': 'Micronutrient Spray', 'growth_stage': 'Flowering & Fruit Set (40 DAS)',
+                'problem': 'Calcium & Boron Deficiency (Blossom End Rot)', 'recommended_product': 'Chelated Calcium + Borax 20%',
+                'active_ingredient': 'Calcium EDTA + Boron', 'application_method': 'Foliar Spray',
+                'dose_per_acre': '250 g', 'cost_per_acre': 320.0, 'preventive': True,
+                'weather_trigger': 'None', 'remarks': 'Prevents blossom end rot and fruit cracking.'
             }
         ]
 
@@ -266,7 +349,7 @@ def _format_protection_item(entry: dict, weather_conditions: dict) -> dict:
         'recommended_product': entry['recommended_product'],
         'active_ingredient': entry['active_ingredient'],
         'application_method': entry['application_method'],
-        'dose_per_acre': f"{entry['dose_per_acre']} {entry.get('unit', 'ml/acre')}",
+        'dose_per_acre': entry['dose_per_acre'],
         'preventive': entry['preventive'],
         'weather_relevant': weather_relevant,
         'weather_note': weather_note,
