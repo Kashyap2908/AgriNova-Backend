@@ -67,74 +67,74 @@ HEAVY_FEEDERS = [
 
 def classify_nutrient(nutrient_key: str, value: float) -> str:
     """
-    Classify nutrient value into Indian standard categories:
-    Very Low, Low, Medium, High, Very High.
+    Classify nutrient value into Indian standard agronomic categories:
+    Very Low, Low, Adequate, High, Very High.
     """
     val = float(value or 0.0)
     key = nutrient_key.upper()
 
     if key == 'N':  # kg/ha
-        if val < 140: return 'Very Low'
-        elif val < 280: return 'Low'
-        elif val < 450: return 'Medium'
-        elif val < 600: return 'High'
+        if val < 120: return 'Very Low'
+        elif val < 200: return 'Low'
+        elif val < 350: return 'Adequate'
+        elif val < 500: return 'High'
         else: return 'Very High'
 
     elif key in ('P', 'P2O5'):  # kg/ha
-        if val < 10: return 'Very Low'
-        elif val < 23: return 'Low'
-        elif val < 56: return 'Medium'
-        elif val < 80: return 'High'
+        if val < 8: return 'Very Low'
+        elif val < 15: return 'Low'
+        elif val < 30: return 'Adequate'
+        elif val < 50: return 'High'
         else: return 'Very High'
 
     elif key in ('K', 'K2O'):  # kg/ha
-        if val < 110: return 'Very Low'
-        elif val < 280: return 'Low'
-        elif val < 400: return 'Medium'
-        elif val < 550: return 'High'
+        if val < 90: return 'Very Low'
+        elif val < 150: return 'Low'
+        elif val < 300: return 'Adequate'
+        elif val < 450: return 'High'
         else: return 'Very High'
 
     elif key == 'S':  # kg/ha
-        if val < 10: return 'Very Low'
-        elif val < 15: return 'Low'
-        elif val < 30: return 'Medium'
-        elif val < 45: return 'High'
+        if val < 8: return 'Very Low'
+        elif val < 12: return 'Low'
+        elif val < 25: return 'Adequate'
+        elif val < 40: return 'High'
         else: return 'Very High'
 
     elif key == 'ZN':  # ppm
-        if val < 0.6: return 'Very Low'
-        elif val < 1.2: return 'Low'
-        elif val < 2.5: return 'Medium'
-        elif val < 4.0: return 'High'
+        if val < 0.4: return 'Very Low'
+        elif val < 0.8: return 'Low'
+        elif val < 1.8: return 'Adequate'
+        elif val < 3.5: return 'High'
         else: return 'Very High'
 
     elif key == 'B':  # ppm
-        if val < 0.5: return 'Very Low'
-        elif val < 0.7: return 'Low'
-        elif val < 1.5: return 'Medium'
-        elif val < 2.5: return 'High'
+        if val < 0.3: return 'Very Low'
+        elif val < 0.5: return 'Low'
+        elif val < 1.2: return 'Adequate'
+        elif val < 2.0: return 'High'
         else: return 'Very High'
 
     elif key == 'FE':  # ppm
-        if val < 4.5: return 'Low'
-        elif val < 10.0: return 'Medium'
+        if val < 4.0: return 'Low'
+        elif val < 12.0: return 'Adequate'
         else: return 'High'
 
     elif key == 'MN':  # ppm
         if val < 2.0: return 'Low'
-        elif val < 5.0: return 'Medium'
+        elif val < 6.0: return 'Adequate'
         else: return 'High'
 
     elif key == 'CU':  # ppm
         if val < 0.2: return 'Low'
-        elif val < 0.8: return 'Medium'
+        elif val < 0.8: return 'Adequate'
         else: return 'High'
 
     elif key in ('OC', 'ORGANIC_CARBON'):  # %
-        if val < 0.50: return 'Very Low'
-        elif val < 0.75: return 'Low'
-        elif val < 1.00: return 'Medium'
-        elif val < 1.50: return 'High'
+        if val < 0.35: return 'Very Low'
+        elif val < 0.50: return 'Low'
+        elif val < 0.80: return 'Adequate'
+        elif val < 1.20: return 'High'
         else: return 'Very High'
 
     elif key in ('EC', 'ELECTRICAL_CONDUCTIVITY'):  # dS/m

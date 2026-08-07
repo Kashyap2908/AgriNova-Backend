@@ -199,4 +199,11 @@ class CropNutritionPlanner:
             'weather_advisory': weather_advisory,
             'cost_summary': cost_summary,
             'ai_explanation': ai_explanation,
+            'important_precautions': [
+                "Wear protective gloves, eye goggles, and a mask while mixing and spraying agrochemicals.",
+                "Maintain a Pre-Harvest Interval (PHI) of at least 14 days after chemical spray before harvesting crops.",
+                "Never mix organophosphate insecticides with alkaline fertilizers (such as Lime or Calcium Nitrate).",
+                "Ensure adequate soil moisture before broadcasting granular fertilizers (Urea/DAP/MOP) to prevent root scorching.",
+                "Store remaining fertilizers and pesticides in a cool, dry, locked shed away from children and animals."
+            ]
         }
